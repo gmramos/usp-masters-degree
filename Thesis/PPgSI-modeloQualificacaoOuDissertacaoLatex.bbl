@@ -1,0 +1,180 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Anand et al. 2013]{Anand2013}
+\abntrefinfo{Anand et al.}{ANAND et al.}{2013}
+{ANAND, S. et al. An orchestrated survey of methodologies for automated
+  software test case generation.
+\emph{J. Syst. Softw.}, Elsevier Science Inc., New York, NY, USA, v.~86, n.~8,
+  p. 1978--2001, ago. 2013.
+ISSN 0164-1212.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jss.2013.02.061}.}
+
+\bibitem[Bashir e Banuri 2008]{bashir2008test}
+\abntrefinfo{Bashir e Banuri}{BASHIR; BANURI}{2008}
+{BASHIR, M.~F.; BANURI, S. H.~K. Automated model based software test data
+  generation system. In:  \emph{Emerging Technologies, 2008. ICET 2008. 4th
+  International Conference on}. [S.l.: s.n.], 2008. p. 275--279.}
+
+\bibitem[Binder 1994]{binder1994test}
+\abntrefinfo{Binder}{BINDER}{1994}
+{BINDER, R.~V. Design for testability in object-oriented systems.
+\emph{Commun. ACM}, ACM, New York, NY, USA, v.~37, n.~9, p. 87--101, set. 1994.
+ISSN 0001-0782.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/182987.184077}.}
+
+\bibitem[Bruntink e Deursen 2004]{bruntink04}
+\abntrefinfo{Bruntink e Deursen}{BRUNTINK; DEURSEN}{2004}
+{BRUNTINK, M.; DEURSEN, A. van. Predicting class testability using
+  object-oriented metrics. In:  \emph{Source Code Analysis and Manipulation,
+  Fourth IEEE International Workshop on}. [S.l.: s.n.], 2004. p. 136--145.}
+
+\bibitem[Davis 1995]{Davis1995}
+\abntrefinfo{Davis}{DAVIS}{1995}
+{DAVIS, M.~J. Process and product: Dichotomy or duality?
+\emph{SIGSOFT Softw. Eng. Notes}, ACM, New York, NY, USA, v.~20, n.~2, p.
+  17--18, abr. 1995.
+ISSN 0163-5948.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/224155.565634}.}
+
+\bibitem[Goodenough e Gerhart 1975]{gerhart1975}
+\abntrefinfo{Goodenough e Gerhart}{GOODENOUGH; GERHART}{1975}
+{GOODENOUGH, J.~B.; GERHART, S.~L. Toward a theory of test data selection.
+\emph{IEEE Transactions on Software Engineering}, SE-1, n.~2, p. 156--173, June
+  1975.
+ISSN 0098-5589.}
+
+\bibitem[Graham, Veenendaal e Evans 2008]{graham2008foundations}
+\abntrefinfo{Graham, Veenendaal e Evans}{GRAHAM; VEENENDAAL; EVANS}{2008}
+{GRAHAM, D.; VEENENDAAL, E. V.; EVANS, I. \emph{Foundations of Software
+  Testing: ISTQB Certification}. Cengage Learning, 2008.
+ISBN 9781844809899. Dispon{\'\i}vel em:
+  \url{https://books.google.ie/books?id=Ss62LSqCa1MC}.}
+
+\bibitem[Hilburn e Towhidnejad 2002]{hilburn2002software}
+\abntrefinfo{Hilburn e Towhidnejad}{HILBURN; TOWHIDNEJAD}{2002}
+{HILBURN, Y.; TOWHIDNEJAD, M. Software quality across the curriculum. In:
+  IEEE. \emph{Frontiers in Education, 2002. FIE 2002. 32nd Annual}. [S.l.],
+  2002. v.~3, p. S1G--18.}
+
+\bibitem[Kan 1995]{kan95}
+\abntrefinfo{Kan}{KAN}{1995}
+{KAN, S.~H. \emph{Metrics and Models in Software Quality Engineering}. Reading,
+  MA: Addison Wesley, 1995.}
+
+\bibitem[King 1976]{King1976}
+\abntrefinfo{King}{KING}{1976}
+{KING, J.~C. Symbolic execution and program testing.
+\emph{Commun. ACM}, ACM, New York, NY, USA, v.~19, n.~7, p. 385--394, jul.
+  1976.
+ISSN 0001-0782.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/360248.360252}.}
+
+\bibitem[Korel 1990]{Korel1990}
+\abntrefinfo{Korel}{KOREL}{1990}
+{KOREL, B. Automated software test data generation.
+\emph{IEEE Trans. Softw. Eng.}, IEEE Press, Piscataway, NJ, USA, v.~16, n.~8,
+  p. 870--879, ago. 1990.
+ISSN 0098-5589.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/32.57624}.}
+
+\bibitem[Malaiya 1995]{malaiya1995}
+\abntrefinfo{Malaiya}{MALAIYA}{1995}
+{MALAIYA, Y.~K. Antirandom testing: Getting the most out of black-box testing.
+  In:  IEEE. \emph{Software Reliability Engineering, 1995. Proceedings., Sixth
+  International Symposium on}. [S.l.], 1995. p. 86--95.}
+
+\bibitem[Northrop 2006]{linda2006quality}
+\abntrefinfo{Northrop}{NORTHROP}{2006}
+{NORTHROP, L.~M. Let's teach architecting high quality software. In:
+  \emph{19th Conference on Software Engineering Education and Training
+  (CSEE{\&}T 2006), 19-21 April 2006, Turtle Bay, Hawaii, {USA}}. [s.n.], 2006.
+  p.~5. Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/CSEET.2006.23}.}
+
+\bibitem[Pfleeger e Atlee 2010]{pfleeger2010}
+\abntrefinfo{Pfleeger e Atlee}{PFLEEGER; ATLEE}{2010}
+{PFLEEGER, S.; ATLEE, J. \emph{Software Engineering: Theory and Practice}.
+  Prentice Hall, 2010.
+ISBN 9780136061694. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=7zbSZ54JG1wC}.}
+
+\bibitem[Pressman 2009]{pressman2009engenharia}
+\abntrefinfo{Pressman}{PRESSMAN}{2009}
+{PRESSMAN, R. \emph{Engenharia de Software - 7.ed.:}. McGraw Hill Brasil, 2009.
+ISBN 9788580550443. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=y0rH9wuXe68C}.}
+
+\bibitem[Repasi 2009]{repasi2009}
+\abntrefinfo{Repasi}{REPASI}{2009}
+{REPASI, T. Software testing - state of the art and current research
+  challanges. In:  \emph{2009 5th International Symposium on Applied
+  Computational Intelligence and Informatics}. [S.l.: s.n.], 2009. p. 47--50.}
+
+\bibitem[Sheppard e Kaufman 2001]{sheppard2011test}
+\abntrefinfo{Sheppard e Kaufman}{SHEPPARD; KAUFMAN}{2001}
+{SHEPPARD, J.~W.; KAUFMAN, M. Formal specification of testability metrics in
+  ieee p1522. In:  \emph{AUTOTESTCON Proceedings, 2001. IEEE Systems Readiness
+  Technology Conference}. [S.l.: s.n.], 2001. p. 71--82.
+ISSN 1080-7225.}
+
+\bibitem[Slaughter, Harter e Krishnan 1998]{slaughter1998}
+\abntrefinfo{Slaughter, Harter e Krishnan}{SLAUGHTER; HARTER; KRISHNAN}{1998}
+{SLAUGHTER, S.~A.; HARTER, D.~E.; KRISHNAN, M.~S. Evaluating the cost of
+  software quality.
+\emph{Commun. ACM}, ACM, New York, NY, USA, v.~41, n.~8, p. 67--73, ago. 1998.
+ISSN 0001-0782.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/280324.280335}.}
+
+\bibitem[Sommerville 2010]{Sommerville2010}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2010}
+{SOMMERVILLE, I. \emph{Software Engineering}. 9th. ed. USA: Addison-Wesley
+  Publishing Company, 2010.
+ISBN 0137035152, 9780137035151.}
+
+\bibitem[Sommerville et al. 2008]{sommerville2008engenharia}
+\abntrefinfo{Sommerville et al.}{SOMMERVILLE et al.}{2008}
+{SOMMERVILLE, I. et al. \emph{Engenharia de software}. ADDISON WESLEY BRA,
+  2008.
+ISBN 9788588639287. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=ifIYOgAACAAJ}.}
+
+\bibitem[Srivastava e Kumar 2013]{srivastava2013}
+\abntrefinfo{Srivastava e Kumar}{SRIVASTAVA; KUMAR}{2013}
+{SRIVASTAVA, S.; KUMAR, R. Indirect method to measure software quality using
+  ck-oo suite. In:  \emph{2013 International Conference on Intelligent Systems
+  and Signal Processing (ISSP)}. [S.l.: s.n.], 2013. p. 47--51.}
+
+\bibitem[Tahir, MacDonell e Buchan 2014]{tahir2014test}
+\abntrefinfo{Tahir, MacDonell e Buchan}{TAHIR; MACDONELL; BUCHAN}{2014}
+{TAHIR, A.; MACDONELL, S.~G.; BUCHAN, J. Understanding class-level testability
+  through dynamic analysis. In:  \emph{Evaluation of Novel Approaches to
+  Software Engineering (ENASE), 2014 International Conference on}. [S.l.:
+  s.n.], 2014. p. 1--10.}
+
+\bibitem[Wagner e Seifert 2005]{wagner2005}
+\abntrefinfo{Wagner e Seifert}{WAGNER; SEIFERT}{2005}
+{WAGNER, S.; SEIFERT, T. Software quality economics for defect-detection
+  techniques using failure prediction.
+\emph{SIGSOFT Softw. Eng. Notes}, ACM, New York, NY, USA, v.~30, n.~4, p.~1--6,
+  maio 2005.
+ISSN 0163-5948.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1082983.1083296}.}
+
+\bibitem[Watson, Mccabe e Wallace 1996]{watson96}
+\abntrefinfo{Watson, Mccabe e Wallace}{WATSON; MCCABE; WALLACE}{1996}
+{WATSON, A.~H.; MCCABE, T.~J.; WALLACE, D.~R. Special publication 500-235,
+  structured testing: A software testing methodology using the cyclomatic
+  complexity metric. In:  \emph{U.S. Department of Commerce/National Institute
+  of Standards and Technology}. [S.l.: s.n.], 1996.}
+
+\bibitem[Zeiss et al. 2007]{Zeiss2007}
+\abntrefinfo{Zeiss et al.}{ZEISS et al.}{2007}
+{ZEISS, B. et al. Applying the iso 9126 quality model to test specifications -
+  exemplified for ttcn-3 test specifications. In:  \emph{Software Engineering}.
+  [S.l.: s.n.], 2007.}
+
+\end{thebibliography}
