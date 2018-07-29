@@ -64,6 +64,15 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/224155.565634}.}
   (Ed.). \emph{FME '93: Industrial-Strength Formal Methods}. Berlin,
   Heidelberg: Springer Berlin Heidelberg, 1993. p. 268--284.}
 
+\bibitem[Fraser e Arcuri 2011]{Fraser2011}
+\abntrefinfo{Fraser e Arcuri}{FRASER; ARCURI}{2011}
+{FRASER, G.; ARCURI, A. Evosuite: Automatic test suite generation for
+  object-oriented software. In:  \emph{Proceedings of the 19th ACM SIGSOFT
+  Symposium and the 13th European Conference on Foundations of Software
+  Engineering}. New York, NY, USA: ACM, 2011.  (ESEC/FSE '11), p. 416--419.
+ISBN 978-1-4503-0443-6. Dispon{\'\i}vel em:
+  \url{http://doi.acm.org/10.1145/2025113.2025179}.}
+
 \bibitem[Godefroid, Klarlund e Sen 2005]{Godefroid2005}
 \abntrefinfo{Godefroid, Klarlund e Sen}{GODEFROID; KLARLUND; SEN}{2005}
 {GODEFROID, P.; KLARLUND, N.; SEN, K. Dart: Directed automated random testing.
@@ -226,6 +235,23 @@ ISBN 9788588639287. Dispon{\'\i}vel em:
   through dynamic analysis. In:  \emph{Evaluation of Novel Approaches to
   Software Engineering (ENASE), 2014 International Conference on}. [S.l.:
   s.n.], 2014. p. 1--10.}
+
+\bibitem[Tillmann e Halleux 2008]{Tillmann2008}
+\abntrefinfo{Tillmann e Halleux}{TILLMANN; HALLEUX}{2008}
+{TILLMANN, N.; HALLEUX, J. de. Pex--white box test generation for .net. In:
+  BECKERT, B.; H{\"A}HNLE, R. (Ed.). \emph{Tests and Proofs}. Berlin,
+  Heidelberg: Springer Berlin Heidelberg, 2008. p. 134--153.
+ISBN 978-3-540-79124-9.}
+
+\bibitem[Visser, Pǎsǎreanu e Khurshid 2004]{Visser2004}
+\abntrefinfo{Visser, Pǎsǎreanu e Khurshid}{VISSER; PǎSǎREANU;
+  KHURSHID}{2004}
+{VISSER, W.; PǎSǎREANU, C.~S.; KHURSHID, S. Test input generation with java
+  pathfinder.
+\emph{SIGSOFT Softw. Eng. Notes}, ACM, New York, NY, USA, v.~29, n.~4, p.
+  97--107, jul. 2004.
+ISSN 0163-5948.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1013886.1007526}.}
 
 \bibitem[Wagner e Seifert 2005]{wagner2005}
 \abntrefinfo{Wagner e Seifert}{WAGNER; SEIFERT}{2005}
