@@ -122,7 +122,7 @@
 % Ele deve ser idêntico ao da versão original.
 %
 %-------------------------------------------------------------------------
-\titulo{Seleção de técnicas de geração automática de dados de teste por meio de aprendizado de máquina}
+\titulo{Seleção entre estratégias de geração automática de dados de teste por meio de métricas estáticas de softwares orientados a objetos}
 
 %-------------------------------------------------------------------------
 % Comentário adicional do PPgSI - Informações sobre o ``autor'':
@@ -157,7 +157,7 @@
 % Não incluir o dia, nem o mês.
 % Sem ponto final.
 %-------------------------------------------------------------------------
-\data{2017}
+\data{2018}
 
 %-------------------------------------------------------------------------
 % Comentário adicional do PPgSI - Informações sobre o ``Orientador'':
@@ -574,9 +574,16 @@ Instituição: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 %
 %-------------------------------------------------------------------------
 \chapter{Introdução}
-Produtos de software de diferentes tamanhos e complexidades são utilizados todos os dias em atividades profissionais ou de entretenimento. Em qualquer circunstância, entretanto, a falta de qualidade dos produtos pode caracterizar uma situação preocupante para seus produtores \cite{hilburn2002software}  \cite{binder1994test}, uma vez que cada vez mais os níveis aceitáveis de qualidade de um software estão aumentando, tanto no que se refere ao seu comportamento observável externamente quanto ao seu processo de desenvolvimento e estrutura interna \cite{linda2006quality} \cite{bashir2008test} \cite{graham2008foundations}.
-O teste de software \cite{tahir2014test} é a maneira mais popular de verificar se um software atende às especificações descritas e cumpre o papel desejado pelos interessados \cite{sommerville2008engenharia}. Testes são costumeiramente vistos durante o processo como atividades dispendiosas no ciclo de vida de software [8], requisitando tempo, esforço, planejamento e execução \cite{tahir2014test}, além de recursos financeiros, como demonstrado pelo estudo de impacto econômico dos testes efetuado pelo NIST (National Institute of Standards and Technology), onde o custo nos Estados Unidos para infraestrutura de testes no ano de 2002 é estimado em um valor entre 22 e 59 bilhões de dólares. Aliados aos altos custos, a complexidade e a criticidade de sistemas orientados a objetos são ampliadas \cite{binder1994test}, ou seja, os sistemas tornam-se maiores e mais complexos ao passo que os métodos convencionais de validação levam mais tempo e ficam mais caros \cite{tahir2014test} \cite{binder1994test}. 
-Com o aumento da complexidade e do tamanho do software, ficou mais evidente a necessidade de que os projetos de software devam possuir características que os tornem mais fáceis de serem testados \cite{sheppard2011test}, já que compreender e reduzir o esforço de testes são elementos principais de interesse tanto no ramo acadêmico quanto industrial \cite{tahir2014test}.
+Produtos de software de diferentes tamanhos e complexidades são utilizados todos os dias em atividades profissionais ou de entretenimento. Em qualquer circunstância, entretanto, a falta de qualidade em produtos pode caracterizar uma situação preocupante para seus produtores \cite{hilburn2002software}  \cite{binder1994test}, uma vez que cada vez mais os níveis aceitáveis de qualidade de um software estão aumentando, tanto no que se refere ao seu comportamento observável externamente quanto ao seu processo de desenvolvimento e estrutura interna \cite{linda2006quality} \cite{bashir2008test} \cite{graham2008foundations}.
+
+
+O teste de software \cite{tahir2014test} é a maneira mais popular de verificar se um software atende às especificações descritas e cumpre o papel desejado pelos interessados \cite{sommerville2008engenharia}. Ela consiste na execução do programa sob teste para revelar seus defeitos. Para isso, casos de teste são gerados de maneira que satisfaçam a diversos critérios, em geral baseados na especificação e na implementação do software \cite{pezze2008software}. 
+
+Entretanto, gerar casos de teste para testar o software nos mais diversos contextos e dados de entrada é uma das atividades mais custosas no ciclo de vida de software, requisitando muito tempo e esforço para o seu planejamento, execução e manutenção. \cite{tahir2014test}. Consequentemente, pesquisadores e profissionais da área passaram então a desenvolver  abordagens para gerar casos de teste automaticamente e assim reduzir o custo e a complexidade desta tarefa. Diversas técnicas já foram utilizadas com teste objetivo: geração de testes randômicos \cite{Pacheco2007}; execução simbólica \cite{Cadar2013}; teste baseado em modelos \cite{dick93}; e teste baseado em buscas \cite{McMinn2004, Harman2012}. Diversas ferramentas já foram desenvolvidas utilizando uma ou mais dessas técnicas, como, por exemplo, Randoop \cite{Pacheco2007}, DART \cite{Godefroid2005}, CUTE \cite{Sen2005}, JCute \cite{Sen2006}, Klee \cite{Cadar2008}
+
+
+
+
 
 \chapter{Teste de software: Aspectos conceituais e econômicos}
 No presente capítulo será apresentado uma síntese dos conceitos base com o objetivo de fundamentação teórica dos capítulos seguintes e auxílio na estrutura do presente documento.
@@ -641,8 +648,6 @@ O processo de desenvolvimento de um software flui entre os diversos ciclos, e po
   \source{\cite{wagner2005}}
 \end{figure}
 
-
-\section{ISO 9126}
 
 
 
