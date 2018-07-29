@@ -49,6 +49,14 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/182987.184077}.}
 ISSN 0001-0782.
 Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2408776.2408795}.}
 
+\bibitem[Campos et al. 2017]{Campos2017}
+\abntrefinfo{Campos et al.}{CAMPOS et al.}{2017}
+{CAMPOS, J. et al. An empirical evaluation of evolutionary algorithms for test
+  suite generation. In:  MENZIES, T.; PETKE, J. (Ed.). \emph{Search Based
+  Software Engineering}. Cham: Springer International Publishing, 2017. p.
+  33--48.
+ISBN 978-3-319-66299-2.}
+
 \bibitem[Davis 1995]{Davis1995}
 \abntrefinfo{Davis}{DAVIS}{1995}
 {DAVIS, M.~J. Process and product: Dichotomy or duality?

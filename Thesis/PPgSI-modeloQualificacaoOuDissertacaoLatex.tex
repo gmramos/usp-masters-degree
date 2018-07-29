@@ -70,7 +70,7 @@
 \usepackage{algorithm}			%para ilustrações do tipo algoritmo
 \usepackage{mdwlist}			%para itens com espaço padrão da abnt
 \usepackage[noend]{algpseudocode}			%para ilustrações do tipo algoritmo
-
+\usepackage[T1]{fontenc}
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
@@ -583,7 +583,38 @@ Entretanto, gerar casos de teste para testar o software nos mais diversos contex
 
 Em particular, a técnica de teste baseado em busca tem sido amplamente utilizada para a geração de casos de teste. Neste contexto, destaca-se a ferramenta EvoSuite que é capaz de gerar conjuntos de casos de teste para programas escritos em Java automaticamente. Ela utiliza um algoritmo genético para selecionar os melhores dados de teste e produzir os conjuntos de casos de teste que atingem altos níveis de cobertura estrutural e escore de mutação \cite{Fraser2011}. Esta ferramenta já foi extensivamente avaliada no que se refere à eficácia e escalabilidade \cite{Fraser2013, Rojas2017, Fraser2015, Fraser2014}, e recentemente foi a ferramenta que obteve a maior pontuação na competição de ferramentas de geração de teste unitários promovida anualmente pelo Workshop on Search-Based Software Testing \cite{Fraser2017}.
 
+Recentemente, novos algoritmos evolutivos foram adicionados à ferramenta EvoSuite como alternativa ao algoritmo genético padrão para a geração de casos de teste \cite{Campos2017}:  algoritmo genético monotônico, algoritmo genético de regime permanente (do inglês, steady state), 1 + ($\lambda$,$\lambda$), $\mu$ + $\lambda$, MOSA (Many-Objective Sorting Algorithm) e DynaMOSA (dynamic MOSA); além da geração randômica já implementada anteriormente. Um estudo comparativo utilizando 346 classes selecionadas randomicamente de um conjunto de 117 projetos de código aberto mostrou que a escolha do algoritmo utilizado na geração de casos de teste influencia os resultados, e que diferentes configurações podem favorecer diferentes algoritmos.
 
+\section{Problema de pesquisa}
+
+O estudo realizado para comparar a eficácia dos algoritmos na geração de casos de teste implementados na ferramenta EvoSuite mostrou que a escolha do algoritmo importa. Entretanto, nenhuma análise mais criteriosa foi realizada para identificar em que situações ou para que tipo de classe um algoritmo é melhor do que outro. Portanto, as seguintes questões de pesquisa emergem neste contexto:
+
+\begin{itemize}
+  \item Quais são as características das classes sob teste que podem influenciar a eficiência e a eficácia dos algoritmos evolutivos utilizados na geração de casos de teste?
+  \item Existem padrões de características para os quais um algoritmo específico geralmente vai obter melhor resultado?
+\end{itemize}
+
+\section{Objetivos}
+
+Neste contexto, o objetivo geral deste projeto de pesquisa  é definir uma hiper-heurística para escolher o melhor algoritmo evolutivo na geração de casos de teste de acordo com o problema em mãos. Desta forma, ao invés de utilizar um único algoritmo para gerar todos os casos de teste de um projeto, os casos de teste de cada classe podem ser gerados por diferentes algoritmos dependendo das suas características.
+
+Os objetivos específicos deste projeto de pesquisa são os seguintes:
+
+\begin{enumerate}
+	\item Mapear sistematicamente as métricas de software mais utilizadas para estimar a testabilidade de um software.
+	\item Selecionar métricas de testabilidade que tem maior probabilidade de influenciar os resultados dos algoritmos na geração de casos de teste. Essa seleção será realizada utilizando-se a correlação entre as métricas e os resultados obtidos pelos algoritmos evolutivos em termos de cobertura de código dos casos de teste gerados por eles.
+	\item Utilizar um algoritmo de reconhecimento de padrões para analisar as métricas de testabilidade de uma classe e classificá-la de acordo com o algoritmo de geração de testes mais adequado.
+	\item Implementar uma hiper-heurística em uma ferramenta de geração de casos de teste para selecionar o melhor algoritmo evolutivo de acordo com a classe a ser testada.
+\end{enumerate}
+
+\section{Justificativa}
+Os diversos algoritmos e abordagens de geração de casos de teste encontrados no ambiente acadˆemico e industrial possuem pontos fracos e fortes. Em especial, a técnica de teste baseado em busca tem sido amplamente utilizada para gerar casos de teste, e muitos dos alguns dos seus algoritmos conseguem convergir para resultados  ótimos mais rapidamente do que os outros, mas n não conseguem tratar de situações mais complexas, por exemplo. Portanto, utilizar o algoritmo que consegue obter os melhores resultados e convergir mais rapidamente para cada classe do projeto a ser testado irá aumentar consideravelmente a eficiência e a eficácia de ferramentas de geração de casos de teste como a EvoSuite, por exemplo. Além disso, os resultados obtidos podem encorajar a implementaçã de algoritmos evolutivos que são utilizados em outras áreas mas que ainda não utilizados na geração de casos teste.
+
+\section{Método de pesquisa}
+Este projeto será, conduzido usando um método indutivo com objetivos de caráter exploratório, descritivo e experimental. Mais detalhes dos materiais e métodos de pesquisa utilizados neste projeto de pesquisa estã apresentados no Capítulo 5.
+
+\section{Organização do documento}
+Esta proposta de pequisa está organizada da seguinte forma. No Capítulo 2 são apresentados os conceitos mais importantes que embasam este projeto.
 
 \chapter{Teste de software: Aspectos conceituais e econômicos}
 No presente capítulo será apresentado uma síntese dos conceitos base com o objetivo de fundamentação teórica dos capítulos seguintes e auxílio na estrutura do presente documento.
