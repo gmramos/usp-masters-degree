@@ -73,6 +73,40 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/224155.565634}.}
 ISBN 978-1-4503-0443-6. Dispon{\'\i}vel em:
   \url{http://doi.acm.org/10.1145/2025113.2025179}.}
 
+\bibitem[Fraser e Arcuri 2013]{Fraser2013}
+\abntrefinfo{Fraser e Arcuri}{FRASER; ARCURI}{2013}
+{FRASER, G.; ARCURI, A. Whole test suite generation.
+\emph{IEEE Trans. Softw. Eng.}, IEEE Press, Piscataway, NJ, USA, v.~39, n.~2,
+  p. 276--291, fev. 2013.
+ISSN 0098-5589.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/TSE.2012.14}.}
+
+\bibitem[Fraser e Arcuri 2014]{Fraser2014}
+\abntrefinfo{Fraser e Arcuri}{FRASER; ARCURI}{2014}
+{FRASER, G.; ARCURI, A. A large-scale evaluation of automated unit test
+  generation using evosuite.
+\emph{ACM Trans. Softw. Eng. Methodol.}, ACM, New York, NY, USA, v.~24, n.~2,
+  p. 8:1--8:42, dez. 2014.
+ISSN 1049-331X.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2685612}.}
+
+\bibitem[Fraser et al. 2017]{Fraser2017}
+\abntrefinfo{Fraser et al.}{FRASER et al.}{2017}
+{FRASER, G. et al. Evosuite at the sbst 2017 tool competition. In:
+  \emph{Proceedings of the 10th International Workshop on Search-Based Software
+  Testing}. Piscataway, NJ, USA: IEEE Press, 2017.  (SBST '17), p. 39--41.
+ISBN 978-1-5386-2789-1. Dispon{\'\i}vel em:
+  \url{https://doi.org/10.1109/SBST.2017..6}.}
+
+\bibitem[Fraser et al. 2015]{Fraser2015}
+\abntrefinfo{Fraser et al.}{FRASER et al.}{2015}
+{FRASER, G. et al. Does automated unit test generation really help software
+  testers? a controlled empirical study.
+\emph{ACM Trans. Softw. Eng. Methodol.}, ACM, New York, NY, USA, v.~24, n.~4,
+  p. 23:1--23:49, set. 2015.
+ISSN 1049-331X.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2699688}.}
+
 \bibitem[Godefroid, Klarlund e Sen 2005]{Godefroid2005}
 \abntrefinfo{Godefroid, Klarlund e Sen}{GODEFROID; KLARLUND; SEN}{2005}
 {GODEFROID, P.; KLARLUND, N.; SEN, K. Dart: Directed automated random testing.
@@ -185,6 +219,13 @@ ISBN 9788580550443. Dispon{\'\i}vel em:
 {REPASI, T. Software testing - state of the art and current research
   challanges. In:  \emph{2009 5th International Symposium on Applied
   Computational Intelligence and Informatics}. [S.l.: s.n.], 2009. p. 47--50.}
+
+\bibitem[Rojas et al. 2017]{Rojas2017}
+\abntrefinfo{Rojas et al.}{ROJAS et al.}{2017}
+{ROJAS, J.~M. et al. A detailed investigation of the effectiveness of whole
+  test suite generation.
+\emph{Empirical Software Engineering}, v.~22, n.~2, p. 852--893, Apr 2017.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1007/s10664-015-9424-2}.}
 
 \bibitem[Sen e Agha 2006]{Sen2006}
 \abntrefinfo{Sen e Agha}{SEN; AGHA}{2006}

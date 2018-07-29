@@ -8,42 +8,42 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{10}{chapter.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}Teste de software: Aspectos conceituais e econ\IeC {\^o}micos}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Teste de software}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Qualidade de software e aspectos econ\IeC {\^o}micos}{12}{section.2.2}
+\contentsline {chapter}{\chapternumberline {2}Teste de software: Aspectos conceituais e econ\IeC {\^o}micos}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Teste de software}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Qualidade de software e aspectos econ\IeC {\^o}micos}{13}{section.2.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}Gera\IeC {\c c}\IeC {\~a}o autom\IeC {\'a}tica de dados de teste}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}\textit {Symbolic Execution}}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Funcionamento do Algoritmo de \textit {Symbolic Execution}}{16}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}\textit {Path explosion}}{16}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}\textit {Path divergence}}{17}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}\textit {Complex constrains}}{17}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}\textit {Model-Based Testing}}{18}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}\textit {Axiomatic approaches}}{18}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}\textit {Finite state machines}}{18}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}\textit {Combinatorial texting}}{19}{section.3.3}
-\contentsline {section}{\numberline {3.4}\textit {Adaptive random testing}}{20}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}\textit {Selection of the best candidate}}{21}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}\textit {Exclusion}}{21}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}\textit {Partitioning}}{21}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}\textit {Test profiles}}{22}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}\textit {Metric-driven}}{22}{subsection.3.4.5}
+\contentsline {chapter}{\chapternumberline {3}Gera\IeC {\c c}\IeC {\~a}o autom\IeC {\'a}tica de dados de teste}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}\textit {Symbolic Execution}}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Funcionamento do Algoritmo de \textit {Symbolic Execution}}{17}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}\textit {Path explosion}}{17}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}\textit {Path divergence}}{18}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}\textit {Complex constrains}}{18}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}\textit {Model-Based Testing}}{19}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\textit {Axiomatic approaches}}{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\textit {Finite state machines}}{19}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}\textit {Combinatorial texting}}{20}{section.3.3}
+\contentsline {section}{\numberline {3.4}\textit {Adaptive random testing}}{21}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}\textit {Selection of the best candidate}}{22}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}\textit {Exclusion}}{22}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}\textit {Partitioning}}{22}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}\textit {Test profiles}}{23}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}\textit {Metric-driven}}{23}{subsection.3.4.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}M\IeC {\'e}tricas de Software orientados a objeto}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Medidas diretas}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Medidas indiretas}{24}{section.4.2}
-\contentsline {section}{\numberline {4.3}O conjunto de m\IeC {\'e}tricas CK}{24}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}\textit {Weighted methods per class (WMC)}}{24}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}\textit {Depth of inheritance tree (DIT)}}{25}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}\textit {Number of children of a class (NOC)}}{26}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}\textit {Coupling between object classes (CBO)}}{26}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}\textit {Response for a class (RFC)}}{26}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{27}{subsection.4.3.6}
-\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas de Lorenz e regras de ouro}{27}{section.4.4}
-\contentsline {section}{\numberline {4.5}Modelo proposto por Srivastava e Kumar}{27}{section.4.5}
+\contentsline {chapter}{\chapternumberline {4}M\IeC {\'e}tricas de Software orientados a objeto}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Medidas diretas}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Medidas indiretas}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}O conjunto de m\IeC {\'e}tricas CK}{25}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\textit {Weighted methods per class (WMC)}}{25}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}\textit {Depth of inheritance tree (DIT)}}{26}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}\textit {Number of children of a class (NOC)}}{27}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}\textit {Coupling between object classes (CBO)}}{27}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}\textit {Response for a class (RFC)}}{27}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{28}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas de Lorenz e regras de ouro}{28}{section.4.4}
+\contentsline {section}{\numberline {4.5}Modelo proposto por Srivastava e Kumar}{28}{section.4.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Proposta de projeto}{29}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}Proposta de projeto}{30}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{30}{chapter*.7}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{31}{chapter*.7}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
