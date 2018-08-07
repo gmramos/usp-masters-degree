@@ -5,15 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Anand et al. 2013]{Anand2013}
-\abntrefinfo{Anand et al.}{ANAND et al.}{2013}
-{ANAND, S. et al. An orchestrated survey of methodologies for automated
-  software test case generation.
-\emph{J. Syst. Softw.}, Elsevier Science Inc., New York, NY, USA, v.~86, n.~8,
-  p. 1978--2001, ago. 2013.
-ISSN 0164-1212.
-Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jss.2013.02.061}.}
-
 \bibitem[Bashir e Banuri 2008]{bashir2008test}
 \abntrefinfo{Bashir e Banuri}{BASHIR; BANURI}{2008}
 {BASHIR, M.~F.; BANURI, S. H.~K. Automated model based software test data
@@ -56,6 +47,12 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2408776.2408795}.}
   Software Engineering}. Cham: Springer International Publishing, 2017. p.
   33--48.
 ISBN 978-3-319-66299-2.}
+
+\bibitem[Dave e Agrawal 2015]{dave2015}
+\abntrefinfo{Dave e Agrawal}{DAVE; AGRAWAL}{2015}
+{DAVE, M.; AGRAWAL, R. Search based techniques and mutation analysis in
+  automatic test case generation: A survey. In:  \emph{2015 IEEE International
+  Advance Computing Conference (IACC)}. [S.l.: s.n.], 2015. p. 795--799.}
 
 \bibitem[Davis 1995]{Davis1995}
 \abntrefinfo{Davis}{DAVIS}{1995}
@@ -152,18 +149,24 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2379776.2379787}.}
   IEEE. \emph{Frontiers in Education, 2002. FIE 2002. 32nd Annual}. [S.l.],
   2002. v.~3, p. S1G--18.}
 
+\bibitem[Jacob e Prasanna 2016]{Jacob2016}
+\abntrefinfo{Jacob e Prasanna}{JACOB; PRASANNA}{2016}
+{JACOB, P.~M.; PRASANNA, M. A comparative analysis on black box testing
+  strategies. In:  \emph{2016 International Conference on Information Science
+  (ICIS)}. [S.l.: s.n.], 2016. p.~1--6.}
+
 \bibitem[Kan 1995]{kan95}
 \abntrefinfo{Kan}{KAN}{1995}
 {KAN, S.~H. \emph{Metrics and Models in Software Quality Engineering}. Reading,
   MA: Addison Wesley, 1995.}
 
-\bibitem[King 1976]{King1976}
-\abntrefinfo{King}{KING}{1976}
-{KING, J.~C. Symbolic execution and program testing.
-\emph{Commun. ACM}, ACM, New York, NY, USA, v.~19, n.~7, p. 385--394, jul.
-  1976.
-ISSN 0001-0782.
-Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/360248.360252}.}
+\bibitem[Karnopp 1963]{Karnopp63}
+\abntrefinfo{Karnopp}{KARNOPP}{1963}
+{KARNOPP, D.~C. Random search techniques for optimization problems.
+\emph{Automatica}, Pergamon Press, Inc., Tarrytown, NY, USA, v.~1, n.~2-3, p.
+  111--121, ago. 1963.
+ISSN 0005-1098.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/0005-1098(63)90018-9}.}
 
 \bibitem[Korel 1990]{Korel1990}
 \abntrefinfo{Korel}{KOREL}{1990}
@@ -172,12 +175,6 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/360248.360252}.}
   p. 870--879, ago. 1990.
 ISSN 0098-5589.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/32.57624}.}
-
-\bibitem[Malaiya 1995]{malaiya1995}
-\abntrefinfo{Malaiya}{MALAIYA}{1995}
-{MALAIYA, Y.~K. Antirandom testing: Getting the most out of black-box testing.
-  In:  IEEE. \emph{Software Reliability Engineering, 1995. Proceedings., Sixth
-  International Symposium on}. [S.l.], 1995. p. 86--95.}
 
 \bibitem[McMinn 2004]{McMinn2004}
 \abntrefinfo{McMinn}{MCMINN}{2004}
@@ -228,6 +225,12 @@ ISBN 9788580550443. Dispon{\'\i}vel em:
   challanges. In:  \emph{2009 5th International Symposium on Applied
   Computational Intelligence and Informatics}. [S.l.: s.n.], 2009. p. 47--50.}
 
+\bibitem[Rojas e Fraser 2017]{rojas2017b}
+\abntrefinfo{Rojas e Fraser}{ROJAS; FRASER}{2017}
+{ROJAS, J.~M.; FRASER, G. Is search-based unit test generation research stuck
+  in a local optimum? In:  \emph{2017 IEEE ACM 10th International Workshop on
+  Search-Based Software Testing (SBST)}. [S.l.: s.n.], 2017. p. 51--52.}
+
 \bibitem[Rojas et al. 2017]{Rojas2017}
 \abntrefinfo{Rojas et al.}{ROJAS et al.}{2017}
 {ROJAS, J.~M. et al. A detailed investigation of the effectiveness of whole
@@ -250,6 +253,28 @@ ISBN 978-3-540-37411-4.}
   263--272, set. 2005.
 ISSN 0163-5948.
 Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1095430.1081750}.}
+
+\bibitem[Shamshiri et al. 2018]{shamshiri2018}
+\abntrefinfo{Shamshiri et al.}{SHAMSHIRI et al.}{2018}
+{SHAMSHIRI, S. et al. How do automatically generated unit tests influence
+  software maintenance? In:  \emph{2018 IEEE 11th International Conference on
+  Software Testing, Verification and Validation (ICST)}. [S.l.: s.n.], 2018. p.
+  250--261.}
+
+\bibitem[Shamshiri et al.]{shamriski20151115}
+\abntrefinfo{Shamshiri et al.}{SHAMSHIRI et al.}{}
+{SHAMSHIRI, S. et al. Random or evolutionary search for object-oriented test
+  suite generation?
+\emph{Software Testing, Verification and Reliability}, v.~28, n.~4, p. e1660.
+E1660 stvr.1660.
+Dispon{\'\i}vel em:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/stvr.1660}.}
+
+\bibitem[Singh 2014]{Singh2014}
+\abntrefinfo{Singh}{SINGH}{2014}
+{SINGH, R. Test case generation for object-oriented systems: A review. In:
+  \emph{2014 Fourth International Conference on Communication Systems and
+  Network Technologies}. [S.l.: s.n.], 2014. p. 981--989.}
 
 \bibitem[Slaughter, Harter e Krishnan 1998]{slaughter1998}
 \abntrefinfo{Slaughter, Harter e Krishnan}{SLAUGHTER; HARTER; KRISHNAN}{1998}

@@ -616,21 +616,11 @@ Este projeto será, conduzido usando um método indutivo com objetivos de carát
 \section{Organização do documento}
 Esta proposta de pequisa está organizada da seguinte forma. No Capítulo 2 são apresentados os conceitos mais importantes que embasam este projeto.
 
-\chapter{Teste de software: Aspectos conceituais e econômicos}
+\chapter{Aspectos conceituais e econômicos}
 No presente capítulo será apresentado uma síntese dos conceitos base com o objetivo de fundamentação teórica dos capítulos seguintes e auxílio na estrutura do presente documento.
 
 \section{Teste de software}
 O teste de software é uma subárea da engenharia de software que compreende as atividades capazes de determinar se um software em análise contém erros \cite{gerhart1975} com objetivo encontrar falhas e não de provar a corretitude de software, estes não são capazes de demonstrar se um software em análise está livre de defeitos ou que irá se comportar como esperado em todas as circunstâncias, ou seja, testes são responsáveis somente por evidenciar a presença de possíveis erros e não a falta destes \cite{pfleeger2010}. A partir destes é possível validar se o software cumpre o propósito de desenvolvimento e por fim eliminar possíveis defeitos e assim garantir maior qualidade de software \cite{Sommerville2010}. 
-
-Para executar testes de software, é necessário simular sua execução e validar, a partir dos resultados extraídos da execução, possíveis anomalias e erros, ou seja, testes de software são executados com dados artificiais \cite{Sommerville2010}.
-
-\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
-	\centering
- 	  \caption{Modelo de teste de software}
-		\includegraphics{modelo-teste.png}
-	\label{fig:tipos-custo-arvore}
-  \source{\cite{Sommerville2010}}
-\end{figure}
 
 De acrodo com \cite{pressman2009engenharia} e \cite{Davis1995} são notórios os princípios de teste: 
 
@@ -641,6 +631,22 @@ De acrodo com \cite{pressman2009engenharia} e \cite{Davis1995} são notórios os
 \item Testes devem começar as menores unidades afim de atingir partes maiores de software;
 \item Testes exaustivos não são possíveis.
 \end{enumerate}
+
+
+O fluxo de testes  é composto por modelar o requisito em formato de casos de teste,
+contendo os detalhes de execução, dados de entradas e estadado esperado do SUT. Após a criação do caso de teste, este pode ser utilizado para execução, para executar um caso de teste,  é necessário simular sua execução e validar, a partir dos resultados extraídos da execução, possíveis anomalias e erros, ou seja, testes de software são executados com dados artificais \cite{Sommerville2010}. Com os dados de saída  é possível verificar se o estado encontrado é o mesmo esperado, este modelo é demonstrado na figura 1.
+
+
+\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
+	\centering
+ 	  \caption{Modelo de teste de software}
+		\includegraphics{modelo-teste.png}
+	\label{fig:tipos-custo-arvore}
+  \source{\cite{Sommerville2010}}
+\end{figure}
+
+\subsection{Caso de teste}
+Um caso de teste  é um conjunto de posséveis entradas, condições de execução e resultados esperados de acordo com seus objetivos, estes quando compilados compõe uma instância única de execução em termos de entrada, execução e resultados esperados, estas saídas quando analisadas em relação aos dados esperados após execução determinam se o estado encontrado pela aplicação  é esperado \cite{Singh2014}. Os casos de teste são projetados para cenários particulares de teste aos quais é desejado comparar estados e resultados coletados a partir do resultado de sua execução com requisitos funcionais anteriormente definidos \cite{Jacob2016}.
 
 
 \section{Qualidade de software e aspectos econômicos}
@@ -683,162 +689,69 @@ O processo de desenvolvimento de um software flui entre os diversos ciclos, e po
 
 
 \chapter{Geração automática de dados de teste}
+A manutenção de softwares é usualmente vista não somente como uma tarefa difícil mas cara visto que as atividades ligadas à esta somam por volta de 60\% do investimento total de um software \cite{shamshiri2018}, concomitantemente os profissional de desenvolvimento de software necessitam testar o SUT utilizando-se de casos de teste que revelem falhas, aumentando a cobertura de caminhos e minimizando de custo e tempo simultaneamente. \cite{dave2015}.
 
-\section{\textit{Symbolic Execution}}
-A execução simbólica (\textit{Symbolic Execution}) é um tipo de técnica estrutural para geração de dados de teste que trabalha com base na análise de fluxo de um software para então automaticamente gerar dados de teste \cite{Anand2013}, o ponto diferencial da \textit{Symbolic Execution} para outras técnicas de geração automática de dados de teste é utilizar valores simbólicos ao invés de valores concretos \cite{King1976} nas entradas do software em análise para que estas possam percorrer seu do fluxo de software e asserções lógicas com a finalidade de geração dos conjuntos de dados de entrada.
-Valores simbólicos são representações dos valores concretos de variáveis através de expressões simbólicas \cite{Anand2013}
-	 
+O alto custo presente em testes de mutação e geração de mutantes pode ser reduzido pela geração automática de dados de teste \cite{dave2015}, a geração automática de testes poupa o tempo investido por desenvolvedores na escrita de testes unitários \cite{shamshiri2018}.
 
-Porém a técnica possui alguns problemas fundamentais as quais limitam sua efetividade em casos práticos de desenvolvimento.
+A geração automática de dados de teste consiste em uma tarefa importante no processo de testes de software, ela possui o objetivo de melhorar a qualidade de um determinado software under test (SUT) com o intuito de aumentar a qualidade do software e diminuir o custo investido.\cite{shamriski20151115}. A geração automática de dados de teste possui também um papel importante no processo de desenvolcimento de software visto que esta pode afetar diretamente a qualidade final de um produto de software \cite{dave2015}.
 
-Em qualquer passo de execução simbólica, o estado de execução é formado pelos seguintes atributos: \textit{Symbolic Values}, \textit{Path Constraint} e  \textit{Program Counter}; \textit{Symbolic Values} representam os valores simbólicos e possíveis de serem atribuídos no passo de execução, o \textit{Path Constraint} é uma relação matemática booleana a qual é o resultado da composição de todas as restrições de entradas dos valores percorridos afim de atingir o determinado passo em análise do software;  \textit{Program Counter} é o contador do programa e sempre será responsável por identificar qual será a próxima execução .
-
-A cada passo de análise, o \textit{Path Constraint} é atualizado de maneira que se o seu valor booleano tornar-se infatisfatório, automaticamente o software em análise possui um caminho inatingível, o que torna o fim da análise já que a \textit{Symbolic Execution} não possui caminho para continuar.
-Se o caminho em análise possuir um \textit{Path Constraint} satisfatório, quaisquer valores que satisfaçam a condição para que o \textit{Path Constraint} são conjuntos possíveis de dados que podem ser utilizados como entrada para validação e atingir o passo em questão.
-
-Uma \textit{Symbolic Execution Tree} é uma representação compacta de todos os possíveis caminhos descobertos por uma análise simbólica durante a execução simbólica de um programa.
-
-Na \textit{Symbolic Execution Tree} os nós representam os estados do software com seus respectivos \textit{Program Counters}, enquanto as arestas representam as transições entre estes estados
-
-Apesar de ser de execução simbólica ser concebida nos anos 70 por \cite{King1976}, a técnica tem recebido muita atenção nos últimos anos por dois motivos específicos: 
-Durante a última década, diversas ferramentas de \textit{Constraint solvers} foram desenvolvidos e o uso destes tornou possível a utilização de  \textit{Symbolic Execution} em um conjunto mais amplo de softwares.
-
-Um outro ponto é que a \textit{Symbolic Execution} possui um consumo computacional muito maior que todas as outras análises, e por conta das limitações computacionais do \textit{hardware} disponível nos anos 80, ela tornou-se inviável em diversos contextos. Porém no contexto atual, o poder computacional é consideravelmente maior do que o hardware da época, o que atraiu diversos pesquisadores para a utilização desta técnica através de \textit{hardwares} mais poderosos.
-
-Porém a \textit{Symbolic Execution} ainda é uma técnica limita por três problemas distintos: \textit{Path explosion}, \textit{Path divergence} e \textit{Complex constrains}. 
-
-\subsection{Funcionamento do Algoritmo de \textit{Symbolic Execution}}
-
-\begin{algorithm}[htbp]
-\caption{Exemplo de algoritmo demonstrado por King}
-\label{alg:algoritmo-exemplo1}
-\begin{algorithmic}[1]
-\Procedure{Procedure SUM}{}
-\State $SUM: PROCEDURE (A,B,C); $
-\State $	X = A + B; $
-\State $	Y = B + C; $
-\State $	Z = X + Y - B$
-\State $	RETURN(Z);$
-\State $END$
-\EndProcedure
-\end{algorithmic}
-\source{James C. King, 1976}
-\end{algorithm}
-
-\subsection{\textit{Path explosion}}
-É difícil de executar simbolicamente todos os subconjuntos de caminhos de uma \textit{Symbolic Execution Tree} pela ação conjunta de dois fatores: Muitos dos softwares de mercado possuem subconjuntos muito grandes de caminhos a serem testados e a execução simbólica de cada software pode demandar em um uso computacional além do disponível. Sendo assim, somente um subconjunto limitado de caminhos, muitas vezes um subconjunto não representativo para o teste por completo, pode ser aplicado para execução.
-Este é um problema com um grau alto de complexidade e necessidade de resolução visto que a razão do número de caminhos inatingíveis em relação aos caminhos atingíveis é alta. 
-
-\subsection{\textit{Path divergence}}
-Softwares construídos no mundo real possuem diversas implementações em diferentes linguagens, por fim compiladas em um único binário, nestes casos, calcular precisamente as condições requisitam um enorme esforço de desenvolvimento e arquiteturais. Estes casos resultam em divergência de caminhos, ou seja, o caminho que a análise simbólica percorre pode divergir do caminho onde os testes são gerados \cite{Anand2013}. Isto é dado pelo fato de que cada linguagem possui sua própria semântica de descrição que descrevem como os objetos que representam dados possam ser representados \cite{King1976}.
-
-Por conta deste problema, uma execução simbólica de um sistema pode falhar em descobrir um número considerável de caminhos intatingíveis, ou se demandar os modelos pelo usuário, deixar de ser um processo completamente automático.
-
-\subsection{\textit{Complex constrains}}
-Resolver todos os \textit{path constraint} pode não ser possível ou trivial, nestes casos o analisador simbólico não consiga resolver conjuntos de \textit{path constraint} que se tornem muito complexos, \cite{Anand2013} afirma que isso é pelo fato de \textit{path constraint} possuírem operações lineares como multiplicações, divisões e funções matemáticas como seno e log que se tornam muito complexas para os atuais \textit{Constraint solvers} disponíveis. Por fim, a habilidade de resolver os caminhos diminui e afeta o resultado final.
+Os testes gerados podem ser incluídos nos repositórios de código do SUT como qualquer outro artefato de software \cite{shamshiri2018}, porém conjuntos de testes volumosos podem levar mais tempo para serem executadas e precisam ser avaliados antes de serem incluídos em uma suíte de testes \cite{shamriski20151115}. A maneira mais fácil de avaliar conjuntos de testes automaticamente gerados é avaliar sua capacidade de expor falhas. \cite{shamshiri2018}, sendo assim, as avaliações de conjuntos de testes automaticamente gerados ocorre por meio de métricas como cobertura de linhas de código ou estimativas da habilidade de detecção de falhas, sendo um exemplo deste o score de mutação. \cite{shamshiri2018}
 
 
-Estes três problemas devem ser solucionados para que a técnica possa ser usada amplamente em casos de geração de dados de teste e projetos de desenvolvimento reais.
+\section{Algoritmos baseados em busca}
+Algoritmos baseados em busca têm se mostrado efetivos na geração de dados de teste quando otimizados para cobertura de código de diferentes tipos de software \cite{Campos2017} também mostraram-se eficazes quando aplicada para geração de suítes de testes unitários otimizados para cobertura de código em classes de softwares orientados a objetos\cite{Campos2017}
 
-Apesar de de possuir problemas ainda não resolvidos, a técnica de \textit{Symbolic Execution} vem sendo muito usada para geração de dados de teste, porém seu maior uso atualmente é gerar dados de teste para avaliar cobertura de código e expor possíveis falhas nestes.
+Novas técnicas de busca foram desenvolvidas nos últimos anos \cite{rojas2017b}, algoritmos de busca estão entre as técnicas mais bem sucedidas para automaticamente gerar dados de teste e testes unitários. \cite{rojas2017b}
 
-A técnica de \textit{Symbolic Execution} pode ser efetivamente utilizada em projetos reais desde que estes possuam duas características: eficiência e automação.
+Técnicas como buscas randômicas, buscas locais, simulated annealing e algoritmos genéticos são algumas das técnicas mais utilizadas. \cite{rojas2017b}
 
-Inicialmente a maioria das aplicações atuais utilizam desta técnica para descobrir possíveis caminhos inatingíveis na \textit{Symbolic Execution Tree} e consequentemente, possíveis instruções que nunca serão executadas e por fim, o esforço manual para aplicação da \textit{Symbolic Execution} deve ser aceitável pelo usuário.
+Uma abordagem popular é o uso de algoritmos evolutivos no qual os indivíduos utilizados ma população são testes os quais  após gerados compõe suítes de testes completas, a construção destas suítes ocorre com objetivo de encontrar suítes de teste os quais atingem a cobertura de código máxima a partir de técnicas baseadas em evolução natural \cite{Campos2017}
 
-A técnica de \textit{Symbolic Execution} difere de outras técnicas por usar valores simbólicos no lugar de valores concretos em variáveis, porém pode ser usada em combinação com outras técnicas de geração.
+\section{Algoritmo baseado em busca aleatória}
 
+O algoritmo de busca randômica, ou random search,  é um algoritmo o qual o mecanismo deve ser estabelecido para escolher os candidados em um espaço X, o processo randômico pode ser definido como a função de densidade de probabilidade P(x) a qual expressa a probabilidade de qualquer candidato presente em um espaço X de possíveis soluções \cite{Karnopp63}. Apesar de estudos na área, existe um número de técnicas padrão, técnicas como estas geralmente baseiam-se em um gerador randômico entre 0 e 1, o qual a saída pode ser utilizada para produzir uma aproximação da distribuição desejada. \cite{Karnopp63}
 
+O algoritmo de busca randômica é um algoritmo o qual não utiliza operações de crossover, mutações ou selecões, ao contrário dos algoritmos genéticos seu funcionamento baseia-se puramente em estratégias de substituição \cite{Campos2017}. O algoritmo de busca randômica consiste em repetidamente gerar amostras de candidatos presentes em um espaço de busca de soluções possíveis para o problema a qual o candidato já presente na solução parcial é substituído se a aptidão do indivíduo gerado supera a aptidão do indivíduo já presente na resolução do problema em análise. \cite{Campos2017}
 
+O Algoritmo de Random testing, é uma variação dos algoritmo baseado em busca aleatória o qual utiliza random search como base para construir suítes de testes de maneira incremental \cite{Campos2017} , esta diferencia-se das outras por gerar sequencias aleatórias de casos de teste juntamente aos dados de entrada também  aleatoriamente gerados \cite{shamriski20151115}, se um novo caso de teste gerado cobre um novo ramo do SUT o qual não foi coberto nas iterações anteriores, o novo caso de teste é adicionado ao conjunto  \cite{shamriski20151115}, os casos de testes são tradados como amostras individuais, se uma amostra gerada aumenta a cobertura de código, a amostra recém gerada é então inserida na suíte de testes, caso contrário é descartada. \cite{Campos2017}
 
-
-Symbolic execution tree
-A \textit{Symbolic Execution Tree} caracteriza os caminhos de execução encontrados durante uma execução simbólica.
-
-
-\section{\textit{Model-Based Testing}}
-O \textit{Model-Based Testing}(MBT) é um método formal que utiliza como insumo para geração de dados de teste. os modelos apresentados no software em análise.
-Diferente de outras técnicas que procuram fazer a verificação contra modelos formais, o MBT procura reunir conhecimento da corretitude de um software através de abordagens de teste incompletas.
-
-É possível identificar três linhas primárias de estudo em MBT:
+Segundo \cite{Karnopp63} técnicas de busca randômicas possuem alguns vantagens de utilização como:
 
 \begin{itemize}
-	\item \textit{Axiomatic approaches} (AP);
-	\item \textit{Finite state machines} (FSM);
-	\item \textit{Labeled transition systems} (LTS).
+	\item Facilidade de desenvolvimento: Por sua facilidade de programação do algoritmo, bons resultados podem ser obtidos com pouco esforço de desenvolvimento e algoritmos generalistas para resoluções de problemas de busca.
+	\item Baixo custo: Os valores randômicoss utilizadas em buscas randômicas podem ser gerados com pouco custo computacional, muitos dos métodos necessitam meios de armazenamento e operações de comparação mutalmente simples.
+	\item Eficiência: Em muitos casos, um algoritmo altamente de busca altamente randômico será muito mais eficiente se comparado a um algoritmo altamente determinístico, isto ocorre pois o tempo gasto em decidir a próxima estratégia de um algoritmo determinístico é investido em explorar e avaliar uma quantidade maior do universo de possíveis soluções.
+	\item Flexibilidade: Algoritmos de busca randômicos possuem a flexibilidade de variar entre algoritmos puramente randômicos e altamente determinísticos de acordo com o problema em análise e o estágio de busca.
+	\item Informação provida e utilizada: Algoritmos de busca randômicos podem coletar informações sobre a função de busca em execução e utilizar esta informação para guiar a busca, apesar destar informações serem do tipo local, podem ser utilizadas para otimização.
 \end{itemize}
 
-\subsection{\textit{Axiomatic approaches}}
-As \textit{Axiomatic approaches} de MBT são bases lógicas para cálculo
 
-\subsection{\textit{Finite state machines}}
-A abordagem FSM aplicada em MBT inicialmente foi aplicada para resolver problemas funcionais ocorridos em testes de circuitos de hardware, esta foi depois adaptada para trabalhar com protocolos de comunicação.
-Na FSM o modelo é formalizado por um tipo específico de máquina de estados chamado \textit{Mealy machine} onde as entradas e saídas formam tuplas em cada transição. A seleção de testes ocorre pela derivação da sequência de nós percorridos de acordo com o critério de cobertura. A maioria das estratégias de FSM trabalham somente com máquinas de estado determinísticas que é considerada uma restrição já que esta limita trabalhar com casos onde os sistemas são reativos ou pouco especificados.
-
-A seleção de testes em FSM é um assunto vastamente pesquisado nos últimos tempos.
-
-Diversas ferramentas de MBT baseadas em FSM não atingem a completamente a cobertura dos testes, eles utilizam critérios de cobertura como cobertura de transições, cobertura de estados e caminhos.
-
-FSM nãp são expressivas o suficiente para representar modelos reais de software.
-
-\section{\textit{Combinatorial texting}}
-
-\textit{Combinatorial Texting} tornou-se uma ferramenta muito utilizada pelo profissionais de garantia de qualidade, nesta o foco é selecionar uma amostra das entradas que seja capaz de cobrir primariamente um subconjunto das combinações dos elementos a serem testados.
-
-A representação mais comum destas é a \textit{combinatorial interaction testing} (CIT) onde as N possíveis combinações de valores dos parâmetros estão contidas nas amostras.
-
-Através dos diversos estágios de teste, profissionais de garantia de gualidade confiaram em heurísticas que aproximassem a cobertura dos dados de entrada e saída, a técnica de \textit{Combinatorial Texting} surgiu com base nos conceitos desta época, nesta, os parâmetros e entradas são configurados como fatores e valores, ou seja, para cada fator $f(i)$, é definido um conjunto de $N$ valores, {${x1, x2,\cdots xn}$}. Deste modelo, os casos de teste são gerados a partir do produto cartesiano dos valores de todos os fatores, esta seleção é feita com base em critérios de cobertura.
-
-Um SUT com cinco fatores, sendo que cada fator possua três valores possui $3^{5}$ ou $243$ configurações possíveis no total.
-
-CIT se tornou tradicionalmente usada baseada em especificações como uma técnica sistemática para aumentar a performance de outros tipos de teste.
-
-Seu foco é detectar um tipo específico de  falha, isso é dado por conta das iterações em cima das combinações das entradas ou das configurações.
+Em contraponto à facilidade de construção proporcionada pelo algoritmo de random search, possui a desvantagem do tamanho dos casos de testes gerados e consequentemente, o tempo de execução proporcionado pela execução e validação de cobertura destes. \cite{shamriski20151115}
 
 
-\section{\textit{Adaptive random testing}}
-A técnica de \textit{Random testing} (RT) é uma das mais populares e fundamentais visto que seu conceito é simples de ser compreendido e implementado. 
-
-A TR é a única técnica de geração de dados de teste onde a habilidade de detecção de falhas pode ser analisada teoricamente.
-
-A \textit{Adaptive random testing} (ART) surgiu como uma evolução da RT
-
-Estudos impíricos demonstram que entradas responsáveis por ocorrência de falhas tendem a formar continuas regiões de falhas enquanto entradas não responsáveis por ocorrência de falhas tendem a formar continuas regiões com ausência de falhas
-
-Neste caso, se conjuntos de dados de teste já utilizados não são capazes de revelar uma falha, novos conjuntos de dados de teste devem explorar regiões diferentes dos conjuntos já utilizados.
-
-Por consequência, conjuntos de dados de teste devem ser capazes de explorar proporcionalmente o domínio de valores possíveis de entrada.
-
-O conceito de de explorar proporcionalmente os diferentes subconjuntos de de domínio de entrada é a base intuitiva de formação do ART
-
-Uma contraproposta ao ART surgiu em 1995, o \textit{Anti-random testing}\cite{malaiya1995}, com o mesmo intuito de explorar proporcionalmente os diferentes subconjuntos de de domínio de entrada, porém com uma diferença fundamental: trata-se de um método determinístico, com a exceção do seu primeiro conjunto de dados gerado ser randômico. A essência do ART é ser um método não determinístico, diferindo também \textit{Anti-random testing} em configurações, já que este possui a restrição de começar a geração com um número de casos de teste já gerados pelo profissional de g	arantia de qualidade.
-
-O ART possui alguns conceitos que necessitam ser elicitados para sua compreensão:
-
-\begin{itemize}
-	\item \textit{Failure rate}: Caracterizada por um valor numérico que é a relação do número de entradas causadoras de falhas pela quantidade de valores possíveis no domínio de entrada;
-	\item \textit{Failure patterns}: Representa as distribuições e geometria das entradas causadores de falhas;
-	\item \textit{Efficiency}: O tempo computacional total requerido, onde um valor menor representa uma eficiência maior  ;
-	\item \textit{Effectiveness}: Refere à capacidade de detectar uma falha a qual pode ser medida a partir de métricas de efetividade como P-measure, E-measure, F-measure e etc; A F-measure é uma métrica que demonstra o número de casos de teste necessários para encontrar a primeira falha; A P-measure é a probabilidade de detectar ao menos uma falha e por fim, a E-measure é o número da falhas esperado.
-\end{itemize}
-
-Diversas abordagens foram propostas para o conceito de explorar proporcionalmente o domínio de valores possíveis de entrada, e como consequência destas abordagens, diversos algoritmos de ART foram propostos.
-
-\subsection{\textit{Selection of the best candidate}}
-O conceito desta abordagem é selecionar o melhor candidato como um próximo conjunto de candidatos, sendo assim, diversos conjuntos de entradas são gerados como candidatos e os melhores candidatos passam por um filtro de restrições onde será escolhido o próximo conjunto.
-
-\subsection{\textit{Exclusion}}
-A cada iteração da geração, é definida uma zona de exclusão a partir de casos de teste já executados, os próximos candidatos gerados são gerados fora desta zona afim de gerar uma exploração proporcional.
-
-\subsection{\textit{Partitioning}}
-A abordagem \textit{partitioning} utiliza informações das localizações já executadas de casos de teste anteriores, um pouco similar a técnica de \textit{exclusion}, com a finalidade de dividir os domínios de entrada em partições e assim definir à qual partição os próximos casos de teste gerados pertencem.
-
-\subsection{\textit{Test profiles}}
-
-\subsection{\textit{Metric-driven}}
+Em contraponto à facilidade de construção proporcionada pelo algoritmo, este possui uma a desvantagem do tamanho dos casos de testes gerados e consequentemente, o tempo de execução proporcionado \cite{shamriski20151115}. A técnica de random search também é dificultada por valores de entradas os quais por determinados tipos de entrada como constantes, valores específicos de strings os quais não são difíceis de serem gerados sem algoritmos de seeding. \cite{shamriski20151115}
 
 
-\chapter{Métricas de Software orientados a objeto}
+\section{Algoritmos de busca baseados em evolução}
+Algoritmos evolutivos são inspirados na evolução natural, estes algoritmos têm se mostrado eficazes quando utilizados em diferentes tipos de problemas de otimização \cite{Campos2017}.
+
+A população é gradualmente otimizada usando operações geneticamente inspiradas como a operação de crossover, esta operação combina material genético de no mínimo dois indivíduos para assim gerar uma nova prole , e mutação, uma operação na qual troca altera material genético em um indivíduo a uma baixa probabilidade, para assim garantir diversificação genética \cite{Campos2017}. No contexto de geração de suítes de teste, os indivídios da população são caracterízados por conjuntos de casos de teste, também chamados de suítes de teste. \cite{Campos2017}
+
+
+A seleção de indivíduos é guiada por uma função de aptidão, a qual pontua melhor  os indivídios mais adaptados para um problema de otimização \cite{Campos2017}. A função de aptidão baseia-se em objetivos decobertura que vão da cobertura de código a cobertura de ramificações de código \cite{Campos2017}, sendo assim indivíduos com valores altos de aptidão são mais adaptados ao problema em questão e mais prováveis de sobreviver a novas iterações e produzirem novos candidatos. \cite{Campos2017}
+
+O aumento do número de objetivos de cobertura pode afetar a performance do algoritmo evolutivo \cite{Campos2017}
+
+\subsection{Algoritmo genético}
+
+O algoritmo genético é um dos algoritmos evolutivos mais usados em diversos problemas de otimização pois pode ser fácilmente implementado e apresenta bons resultados  \cite{Campos2017}. Diversas variações do algoritmo genético padrão foram propostos com o intuito de melhorar sua efetividade \cite{Campos2017}
+
+Uma das variações de algoritmo genético é sua versão monotônica do algoritmo genético padrão (Standard GA), a versão monotônica somente inclui, após operações de mutação e validação em cada iteração, somente o melhor conjunto da prole ou o melhor indivíduo da prole anterior \cite{Campos2017}.  Dentre as variações de algoritmos genéticos padrão, existe a variação Steady State GA, esta variação utiliza a mesma estratégia de substituição presente na variação monotônica, a prole descendente substitui os ascendentes da população atual imediatamente a ocorrência da fase de mutação.  \cite{campos20170817}
+
+
+\subsubsection{A versão 1 + ($\lambda$+$\lambda$)}
+
+\chapter{Métricas de Softwares orientados a objetos}
 
 Projeto e desenvolvimento de softwares orientados a objeto são conceitos populares no cenário atual de desenvolvimento de software \cite{srivastava2013}, neste contexto é notável que classes e métodos são estruturas básicas neste gênero de software \cite{kan95}. O desenvolvimento de software orientado a objetos difere de outros paradigmas pois requer uma abordagem voltada para regras de negócio completamente diferente das tradicionais, dado na maneira como a decomposição funcional e fluxo de dados ocorrem  \cite{srivastava2013}.
 
