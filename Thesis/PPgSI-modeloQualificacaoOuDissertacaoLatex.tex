@@ -742,14 +742,28 @@ A seleção de indivíduos é guiada por uma função de aptidão, a qual pontua
 
 O aumento do número de objetivos de cobertura pode afetar a performance do algoritmo evolutivo \cite{Campos2017}
 
-\subsection{Algoritmo genético}
+\subsection{Algoritmos genéticos}
 
-O algoritmo genético é um dos algoritmos evolutivos mais usados em diversos problemas de otimização pois pode ser fácilmente implementado e apresenta bons resultados  \cite{Campos2017}. Diversas variações do algoritmo genético padrão foram propostos com o intuito de melhorar sua efetividade \cite{Campos2017}
+Os algoritmo genéticos estão entre os algoritmos evolutivos mais usados em diversos problemas de otimização pois podem ser fácilmente implementados e apresentam bons resultados  \cite{Campos2017}. Diversas variações do algoritmo genético padrão foram propostos com o intuito de melhorar sua efetividade \cite{Campos2017}
 
-Uma das variações de algoritmo genético é sua versão monotônica do algoritmo genético padrão (Standard GA), a versão monotônica somente inclui, após operações de mutação e validação em cada iteração, somente o melhor conjunto da prole ou o melhor indivíduo da prole anterior \cite{Campos2017}.  Dentre as variações de algoritmos genéticos padrão, existe a variação Steady State GA, esta variação utiliza a mesma estratégia de substituição presente na variação monotônica, a prole descendente substitui os ascendentes da população atual imediatamente a ocorrência da fase de mutação.  \cite{campos20170817}
+Uma das variações de algoritmo genético é sua versão monotônica do algoritmo genético padrão (Standard GA), a versão monotônica somente inclui, após operações de mutação e validação em cada iteração, somente o melhor conjunto da prole ou o melhor indivíduo da prole anterior \cite{Campos2017}.  Dentre as variações de algoritmos genéticos padrão, existe a variação Steady State GA, esta variação utiliza a mesma estratégia de substituição presente na variação monotônica, a prole descendente substitui os ascendentes da população atual imediatamente a ocorrência da fase de mutação.  \cite{Campos2017}
 
 
-\subsubsection{A versão 1 + ($\lambda$+$\lambda$)}
+\subsubsection{O algoritmo evolutivo 1 + ($\lambda$,$\lambda$)}
+A versão do algoritmo evolutivo 1 + ($\lambda$,$\lambda$) , introduzida por Doerr, possui como primeiro passo a geração de uma população randômica de tamanho 1, em seguida, a operação de mutação é aplicada afim de criar $\lambda$ versões diferentes com mutação do indivíduo em análise \cite{Campos2017}. A alta probabilidade de mutação ocorre para incentivar que a exploração seja mais rápida no expaço de busca disponível. \cite{Campos2017}
+
+No próximo passo, o operador de mutação é aplicado novamente com uma probabilidade maior de mutação, dada por K, onde K é usualmente maior que um, isto permite que, na maioria dos casos, mais de um gene seja mutado por cromossomo. Por fim, a operação de crossover acontece uniformemente aos ascendentes e aos melhores descendentes para criar uma prole de  tamanho $\lambda$  \cite{Campos2017}. A operação de crossover unificada entre o melhor indivíduo com os lambda mutantes e seu ascendente foi proposta para amenizar os defeitos causados pela mutação agressiva, após essa operação, toda a prole e avalidada e somente o melhor indivíduo é selecionado \cite{Campos2017}
+
+Se o melhor descendente é melhor avaliado do que o seu ascendente, a população criada de tamanho um é então substituída pela melhor prole. \cite{Campos2017}
+
+\subsubsection{O algoritmo evolutivo  $\mu$ + $\lambda$}
+
+O algoritmo evolutivo $\mu$ + $\lambda$  é um algoritmo baseado em mutações onde o número de ascendentes e descendentes são restringidos respectivamente  a $\mu$ e $\lambda$ \cite{Campos2017}. Cada gene sofre mutação independente com probabilidade 1/n, após a operação de mutação, a prole gerada é comparada com cada asendente com o intuito de manter os melhores ascendentes presentes até então \cite{Campos2017}.
+
+Entre as diferentes versões do algoritmo, existem duas melhores configurações como (1+$\lambda$) e (1+1) os quais a população tem tamanho 1 e o número da prole é limitado a 1 no caso de parâmetros (1+1) \cite{Campos2017}.
+
+\subsubsection{O algoritmo evolutivo MOSA}
+O algoritmo MOSA, Many-Objective Sorting Algorithm, contrapõe os outros algoritmos por tratar cada objetivo de cobertura como um objetivo de otimização independente \cite{Campos2017}. Este algoritmo é uma variação do algoritmo NSGA-II o qual melhor avalia os melhores testes gerados por cada objetivo de cobertura antes não coberto, independente da relação entre os testes e a população. \cite{Campos2017}
 
 \chapter{Métricas de Softwares orientados a objetos}
 
