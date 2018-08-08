@@ -160,6 +160,12 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2379776.2379787}.}
 {KAN, S.~H. \emph{Metrics and Models in Software Quality Engineering}. Reading,
   MA: Addison Wesley, 1995.}
 
+\bibitem[Kaprocki, Pekovic e Velikic 2015]{Kaprocki2015}
+\abntrefinfo{Kaprocki, Pekovic e Velikic}{KAPROCKI; PEKOVIC; VELIKIC}{2015}
+{KAPROCKI, Z.; PEKOVIC, V.; VELIKIC, G. Combined testing approach: Increased
+  efficiency of black box testing. In:  \emph{2015 IEEE 1st International
+  Workshop on Consumer Electronics (CE WS)}. [S.l.: s.n.], 2015. p. 76--78.}
+
 \bibitem[Karnopp 1963]{Karnopp63}
 \abntrefinfo{Karnopp}{KARNOPP}{1963}
 {KARNOPP, D.~C. Random search techniques for optimization problems.
@@ -336,12 +342,25 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1013886.1007526}.}
 ISSN 0163-5948.
 Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1082983.1083296}.}
 
+\bibitem[Walkinshaw e Fraser 2017]{Walkinshaw2017}
+\abntrefinfo{Walkinshaw e Fraser}{WALKINSHAW; FRASER}{2017}
+{WALKINSHAW, N.; FRASER, G. Uncertainty-driven black-box test data generation.
+  In:  \emph{2017 IEEE International Conference on Software Testing,
+  Verification and Validation (ICST)}. [S.l.: s.n.], 2017. p. 253--263.}
+
 \bibitem[Watson, Mccabe e Wallace 1996]{watson96}
 \abntrefinfo{Watson, Mccabe e Wallace}{WATSON; MCCABE; WALLACE}{1996}
 {WATSON, A.~H.; MCCABE, T.~J.; WALLACE, D.~R. Special publication 500-235,
   structured testing: A software testing methodology using the cyclomatic
   complexity metric. In:  \emph{U.S. Department of Commerce/National Institute
   of Standards and Technology}. [S.l.: s.n.], 1996.}
+
+\bibitem[Xu et al. 2016]{Xu2016}
+\abntrefinfo{Xu et al.}{XU et al.}{2016}
+{XU, S. et al. A comparative study on black-box testing with open source
+  applications. In:  \emph{2016 17th IEEE/ACIS International Conference on
+  Software Engineering, Artificial Intelligence, Networking and
+  Parallel/Distributed Computing (SNPD)}. [S.l.: s.n.], 2016. p. 527--532.}
 
 \bibitem[Zeiss et al. 2007]{Zeiss2007}
 \abntrefinfo{Zeiss et al.}{ZEISS et al.}{2007}

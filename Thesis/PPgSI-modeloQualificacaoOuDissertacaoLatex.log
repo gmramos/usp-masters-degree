@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  7 AUG 2018 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  7 AUG 2018 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,27 +1001,27 @@ Overfull \hbox (42.75348pt too wide) in paragraph at lines 430--431
 
 ]
 (./PPgSI-modeloQualificacaoOuDissertacaoLatex.toc
-LaTeX Font Info:    Calculating math sizes for size <13.25> on input line 26.
+LaTeX Font Info:    Calculating math sizes for size <13.25> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <13.25> on input line 26.
+(Font)              <13.25> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.27495> on input line 26.
+(Font)              <9.27495> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.625> on input line 26.
+(Font)              <6.625> on input line 31.
  [8
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 46.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <15> on input line 46.
+(Font)              <15> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.49995> on input line 46.
+(Font)              <10.49995> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.5> on input line 46.
+(Font)              <7.5> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 46.
+(Font)              <7> on input line 52.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 46.
+(Font)              <5> on input line 52.
 ) [9] [10
 
 
@@ -1036,7 +1036,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 593.
  [11] [12]
 [13]
-<modelo-teste.png, id=280, 386.19281pt x 219.06844pt>
+<modelo-teste.png, id=293, 386.19281pt x 219.06844pt>
 File: modelo-teste.png Graphic file (type png)
 <use modelo-teste.png>
 Package pdftex.def Info: modelo-teste.png  used on input line 643.
@@ -1048,169 +1048,143 @@ Package pdftex.def Info: modelo-teste.png  used on input line 643.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.656 D
-       e fato, os custos de garantia de qualidade são elevados \cite{wagner...
- <./modelo-teste.png>]
-<tipos-custo-arvore.png, id=335, 305.64188pt x 137.7647pt>
+l.659 	\item E
+              ventuais entradas para uso; <./modelo-teste.png>] [16] [17]
+<tipos-custo-arvore.png, id=380, 305.64188pt x 137.7647pt>
 File: tipos-custo-arvore.png Graphic file (type png)
 <use tipos-custo-arvore.png>
-Package pdftex.def Info: tipos-custo-arvore.png  used on input line 663.
+Package pdftex.def Info: tipos-custo-arvore.png  used on input line 701.
 (pdftex.def)             Requested size: 305.64111pt x 137.76434pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-2}) has been already used, duplicate ignored
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.673 
-       <./tipos-custo-arvore.png>]
-<nonconformance-costs-timeline.png, id=367, 274.02374pt x 182.18062pt>
+l.708 C
+       ustos de prevenção são aqueles associados com o intuito de preveni...
+ <./tipos-custo-arvore.png>]
+<nonconformance-costs-timeline.png, id=414, 274.02374pt x 182.18062pt>
 File: nonconformance-costs-timeline.png Graphic file (type png)
 <use nonconformance-costs-timeline.png>
 Package pdftex.def Info: nonconformance-costs-timeline.png  used on input line 
-683.
+721.
 (pdftex.def)             Requested size: 274.02307pt x 182.18016pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-3}) has been already used, duplicate ignored
+ [19] [20pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.691 \chapter
+l.729 \chapter
               {Geração automática de dados de teste} <./nonconformance-costs
 -timeline.png>]
 
-Package hyperref Warning: Suppressing empty link on input line 696.
+Package hyperref Warning: Suppressing empty link on input line 734.
 
 
-Package hyperref Warning: Suppressing empty link on input line 698.
+Package hyperref Warning: Suppressing empty link on input line 736.
 
-[18
+[21
 
 ]
 
-Package hyperref Warning: Suppressing empty link on input line 716.
+Package hyperref Warning: Suppressing empty link on input line 754.
 
 
-Package hyperref Warning: Suppressing empty link on input line 716.
-
-[19]
-
-Package hyperref Warning: Suppressing empty link on input line 729.
-
-
-Package hyperref Warning: Suppressing empty link on input line 732.
-
-
-Package hyperref Warning: Suppressing empty link on input line 732.
-
-[20] [21]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 752.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 752.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 752.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 752.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 752.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 752.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 759.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 759.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 759.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 759.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 759.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 759.
+Package hyperref Warning: Suppressing empty link on input line 754.
 
 [22]
 
-! LaTeX Error: Environment lstlisting undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.768 \begin{lstlisting}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Package hyperref Warning: Suppressing empty link on input line 767.
 
 
-! LaTeX Error: \begin{document} ended by \end{lstlisting}.
+Package hyperref Warning: Suppressing empty link on input line 770.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.769 \end{lstlisting}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
-[23] [24
+Package hyperref Warning: Suppressing empty link on input line 770.
 
-] [25]
-<diagrama_diamante.png, id=566, 287.57437pt x 274.77657pt>
+[23] [24]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 790.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 790.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 790.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 790.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 790.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 790.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 797.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mu' on input line 797.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 797.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 797.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 797.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 797.
+
+[25] [26] [27] [28
+
+] [29]
+<diagrama_diamante.png, id=640, 287.57437pt x 274.77657pt>
 File: diagrama_diamante.png Graphic file (type png)
 <use diagrama_diamante.png>
-Package pdftex.def Info: diagrama_diamante.png  used on input line 810.
+Package pdftex.def Info: diagrama_diamante.png  used on input line 857.
 (pdftex.def)             Requested size: 287.57367pt x 274.77588pt.
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.816 
-       <./diagrama_diamante.png>] [27] [28]
-<modelo_srivastava_kumar.png, id=608, 156.585pt x 334.24875pt>
+l.863 
+       <./diagrama_diamante.png>] [31] [32]
+<modelo_srivastava_kumar.png, id=683, 156.585pt x 334.24875pt>
 File: modelo_srivastava_kumar.png Graphic file (type png)
 <use modelo_srivastava_kumar.png>
-Package pdftex.def Info: modelo_srivastava_kumar.png  used on input line 880.
+Package pdftex.def Info: modelo_srivastava_kumar.png  used on input line 927.
 (pdftex.def)             Requested size: 156.58461pt x 334.24792pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.886 \chapter
+l.933 \chapter
               {Proposta de projeto} <./modelo_srivastava_kumar.png>]
 (./PPgSI-modeloQualificacaoOuDissertacaoLatex.bbl
 (./PPgSI-modeloQualificacaoOuDissertacaoLatex.brf)
 \tf@brf=\write5
 \openout5 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.brf'.
 
- [30
+ [34
 
 ]
 
@@ -1226,11 +1200,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\nextToken' on input line 3.
 
 bibitemlist
-[31
+[35
 
-] [32] [33] [34]) 
+] [36] [37] [38]) 
 AED: lastpage setting LastPage
-[35]
+[39]
 \tf@lof=\write6
 \openout6 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.lof'.
 
@@ -1243,26 +1217,26 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 946.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 946.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 993.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 993.
  (./PPgSI-modeloQualificacaoOuDissertacaoLatex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 946.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 946.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 993.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 993.
 Package rerunfilecheck Info: File `PPgSI-modeloQualificacaoOuDissertacaoLatex.b
 rf' has not changed.
-(rerunfilecheck)             Checksum: FFA6F5B909258EDEB70810D85DE2B877;7098.
+(rerunfilecheck)             Checksum: F42DAF42C4D88F464987FFE526264221;8028.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 946.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 993.
  ) 
 Here is how much of TeX's memory you used:
- 14476 strings out of 492649
- 219154 string characters out of 6129623
- 495317 words of memory out of 5000000
- 17862 multiletter control sequences out of 15000+600000
- 29929 words of font info for 133 fonts, out of 8000000 for 9000
+ 14523 strings out of 492649
+ 219779 string characters out of 6129623
+ 497214 words of memory out of 5000000
+ 17894 multiletter control sequences out of 15000+600000
+ 30046 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,18n,43p,1108b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -1280,11 +1254,11 @@ e/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/
 2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/20
 18/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018
 /texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (36 pages, 476
-420 bytes).
+Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (40 pages, 487
+996 bytes).
 PDF statistics:
- 945 PDF objects out of 1000 (max. 8388607)
- 864 compressed objects within 9 object streams
- 147 named destinations out of 1000 (max. 500000)
- 24422 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 1049 PDF objects out of 1200 (max. 8388607)
+ 963 compressed objects within 10 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 24470 words of extra memory for PDF output out of 24883 (max. 10000000)
 

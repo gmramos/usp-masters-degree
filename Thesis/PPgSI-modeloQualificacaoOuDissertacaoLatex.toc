@@ -16,32 +16,38 @@
 \contentsline {chapter}{\chapternumberline {2}Aspectos conceituais e econ\IeC {\^o}micos}{14}{chapter.2}
 \contentsline {section}{\numberline {2.1}Teste de software}{14}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Caso de teste}{15}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Qualidade de software e aspectos econ\IeC {\^o}micos}{15}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.2}Testes manuais}{15}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Testes automatizados}{16}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Teste caixa preta}{16}{section.2.2}
+\contentsline {section}{\numberline {2.3}Particionamento de equival\IeC {\^e}ncia}{17}{section.2.3}
+\contentsline {section}{\numberline {2.4}An\IeC {\'a}lise do valor limite}{17}{section.2.4}
+\contentsline {section}{\numberline {2.5}Qualidade de software e aspectos econ\IeC {\^o}micos}{18}{section.2.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}Gera\IeC {\c c}\IeC {\~a}o autom\IeC {\'a}tica de dados de teste}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Algoritmos baseados em busca}{18}{section.3.1}
-\contentsline {section}{\numberline {3.2}Algoritmo baseado em busca aleat\IeC {\'o}ria}{19}{section.3.2}
-\contentsline {section}{\numberline {3.3}Algoritmos de busca baseados em evolu\IeC {\c c}\IeC {\~a}o}{21}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Algoritmos gen\IeC {\'e}ticos}{21}{subsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.1.1}O algoritmo evolutivo 1 + ($\lambda $,$\lambda $)}{22}{subsubsection.3.3.1.1}
-\contentsline {subsubsection}{\numberline {3.3.1.2}O algoritmo evolutivo $\mu $ + $\lambda $}{23}{subsubsection.3.3.1.2}
-\contentsline {subsubsection}{\numberline {3.3.1.3}O algoritmo evolutivo MOSA}{23}{subsubsection.3.3.1.3}
+\contentsline {chapter}{\chapternumberline {3}Gera\IeC {\c c}\IeC {\~a}o autom\IeC {\'a}tica de dados de teste}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Algoritmos baseados em busca}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Algoritmo baseado em busca aleat\IeC {\'o}ria}{22}{section.3.2}
+\contentsline {section}{\numberline {3.3}Algoritmos de busca baseados em evolu\IeC {\c c}\IeC {\~a}o}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Algoritmos gen\IeC {\'e}ticos}{24}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}O algoritmo evolutivo 1 + ($\lambda $,$\lambda $)}{25}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}O algoritmo evolutivo $\mu $ + $\lambda $}{26}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}O algoritmo evolutivo MOSA}{26}{subsubsection.3.3.1.3}
+\contentsline {section}{\numberline {3.4}Algoritmo de busca rand\IeC {\^o}mica ou algoritmos evolutivos ?}{26}{section.3.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}M\IeC {\'e}tricas de Softwares orientados a objetos}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}Medidas diretas}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Medidas indiretas}{25}{section.4.2}
-\contentsline {section}{\numberline {4.3}O conjunto de m\IeC {\'e}tricas CK}{25}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}\textit {Weighted methods per class (WMC)}}{25}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}\textit {Depth of inheritance tree (DIT)}}{26}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}\textit {Number of children of a class (NOC)}}{27}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}\textit {Coupling between object classes (CBO)}}{27}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}\textit {Response for a class (RFC)}}{27}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{28}{subsection.4.3.6}
-\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas de Lorenz e regras de ouro}{28}{section.4.4}
-\contentsline {section}{\numberline {4.5}Modelo proposto por Srivastava e Kumar}{28}{section.4.5}
+\contentsline {chapter}{\chapternumberline {4}M\IeC {\'e}tricas de Softwares orientados a objetos}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Medidas diretas}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Medidas indiretas}{29}{section.4.2}
+\contentsline {section}{\numberline {4.3}O conjunto de m\IeC {\'e}tricas CK}{29}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\textit {Weighted methods per class (WMC)}}{29}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}\textit {Depth of inheritance tree (DIT)}}{30}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}\textit {Number of children of a class (NOC)}}{31}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}\textit {Coupling between object classes (CBO)}}{31}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}\textit {Response for a class (RFC)}}{31}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{32}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas de Lorenz e regras de ouro}{32}{section.4.4}
+\contentsline {section}{\numberline {4.5}Modelo proposto por Srivastava e Kumar}{32}{section.4.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Proposta de projeto}{30}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}Proposta de projeto}{34}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{31}{chapter*.7}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{35}{chapter*.7}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
