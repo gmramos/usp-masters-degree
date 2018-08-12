@@ -646,7 +646,7 @@ contendo os detalhes de execução, dados de entradas e estadado esperado do SUT
 \end{figure}
 
 \subsection{Caso de teste}
-Um caso de teste  é um conjunto de posséveis entradas, condições de execução e resultados esperados de acordo com seus objetivos, estes quando compilados compõe uma instância única de execução em termos de entrada, execução e resultados esperados, estas saídas quando analisadas em relação aos dados esperados após execução determinam se o estado encontrado pela aplicação  é esperado \cite{Singh2014}. Os casos de teste são projetados para cenários particulares de teste aos quais é desejado comparar estados e resultados coletados a partir do resultado de sua execução com requisitos funcionais anteriormente definidos \cite{Jacob2016}.
+Um caso de teste  é um conjunto de possíveis entradas, condições de execução e resultados esperados de acordo com seus objetivos, estes quando compilados compõe uma instância única de execução em termos de entrada, execução e resultados esperados, estas saídas quando analisadas em relação aos dados esperados após execução determinam se o estado encontrado pela aplicação  é esperado \cite{Singh2014}. Os casos de teste são projetados para cenários particulares de teste aos quais é desejado comparar estados e resultados coletados a partir do resultado de sua execução com requisitos funcionais anteriormente definidos \cite{Jacob2016}.
 
 \subsection{Mocks}
 Ao construir testes automatizados é comum testar componentes de softwares que dependam de outros softwares , e desenvolvedores  normalmente necessitam testar o software com todas suas dependências ou simulações \cite{Spadini2017}. Ao testar todas as dependências juntamente, desenvolvedores passam a ter um comportamento similar ao ambiente de produção \cite{Spadini2017}.
@@ -719,7 +719,7 @@ Custos de não conformidade são os custos relacionados aos cenários em que nã
 
 Os Custos de falha externa caracterizam os custos associados aos defeitos após liberação do produto de software para uso, são exemplos: Resolução de chamados, retorno e substituição de produtos e garantias \cite{pressman2009engenharia} enquanto os custos de falha interna são os custos aplicados para remoção de falhas antes de liberação para uso.
 
-O processo de desenvolvimento de um software flui entre os diversos ciclos, e por consequência, diferentes tipos de investimentos são feitos com o intuito de garantiar mainores níveis de qualidade, porém \cite{pressman2009engenharia} afirma que o custo relativo para encontrar e reparar um defeito aumenta consideravelmente na linha do tempo entre as fases iniciais e finais do ciclo de desenvolvimento, sendo assim, custos do tipo \textit{nonconformance} se tornam mais caros ao longo do tempo de projeto, como demonstrado a seguir:
+ O custo relativo para encontrar e reparar um defeito aumenta consideravelmente na linha do tempo entre as fases iniciais e finais do ciclo de desenvolvimento, sendo assim, custos do tipo \textit{nonconformance} se tornam mais caros ao longo do tempo de projeto, como demonstrado a seguir \cite{wagner2005}:
 
 \begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
 	\centering
@@ -729,8 +729,7 @@ O processo de desenvolvimento de um software flui entre os diversos ciclos, e po
   \source{\cite{wagner2005}}
 \end{figure}
 
-
-
+Apesar do custo relativo para encontrar e reparar um defeito aumenta consideravelmente na linha do tempo, o processo de desenvolvimento de um software flui entre os diversos ciclos, e por consequência, diferentes tipos de investimentos são feitos com o intuito de garantiar mainores níveis de qualidade \cite{pressman2009engenharia}. 
 
 \chapter{Geração automática de dados de teste}
 A manutenção de softwares é usualmente vista não somente como uma tarefa difícil mas cara visto que as atividades ligadas à esta somam por volta de 60\% do investimento total de um software \cite{shamshiri2018}, concomitantemente os profissional de desenvolvimento de software necessitam testar o SUT utilizando-se de casos de teste que revelem falhas, aumentando a cobertura de caminhos e minimizando de custo e tempo simultaneamente. \cite{dave2015}.
@@ -854,11 +853,9 @@ As métricas de software tornaram-se elementos primordiais em diversos domínios
 
 
 
-\section{Medidas diretas}
+\section{Medidas diretas e indiretas}
 Uma medida direta de software é uma métrica a qual o cálculo de seu valor não depende nenhum outro atributo além do principal utilizado em seu cálculo \cite{srivastava2013}. Exemplos claros de medidas em produtos são: LOC (\textit{Lines of code}), velocidade de execução, tamanho de memória, quantidade de defeitos reportados \cite{srivastava2013}.
 
-
-\section{Medidas indiretas}
 Uma medida indireta de software é uma métrica a qual envolve a medida de um ou mais atributos de software\cite{srivastava2013}. As medidas diretas são, em geral, mais fáceis de serem coletadas.
 
 
@@ -937,6 +934,9 @@ O modelo proposto por \cite{srivastava2013} atingiu um nível de acurácia super
 É observado que muitos conjuntos de métricas disponíveis provém informações de qualidade de softwares orientados a objetos.  \cite{Suresh2016}
 
 
+\section{Métricas extraídas com o SB4SE}
+Além de características que possam ser descritas por métricas C.K, é possível também utlizar métricas as quais descrevam características de métodos, já que métodos compõe as ações  presentes dem classes.  No traballho desenvolvido por \cite{Eler2016}, diversas métricas de métodos foram extraídas utilizando execução simbólica, métricas como: Número de loops (NLp)número de loops aninhados (NNLp); quantidade de constantes (NCtt); número de variáveis (NVar); quantidade de variáveis do tipo inteiro (NInt);  quantidade de variáveis do ponto flutuante (NFit); quantidade de referências nulas (NNull); Quantidade de variáveis do tipo string (NStr); número de objetos (NObj); Número de arrays (NArr).
+
 \chapter{Mineiração de dados}
 
 Mineiração de dados é o processo de extrair conhecimento valioso de um grande agrupamento de dados, desconhecido e de valor para o problema em questão \cite{Seth2016, sharma2015}, processo este onde ocorre a análise de dados a partir de diferentes perspectivas, sumarizando com o intuito de obter informaçãos úteis para tomada de decisão  \cite{ sharma2015}. Ela é utilizada em diversos campos como robótica, decisões de marketing, decisões corporativas, inteligência de negócio e segurança \cite{ Seth2016}.
@@ -1000,7 +1000,7 @@ A feramenta possui em torno de duas décacas, com  implementações dos algoritm
 
 A Weka opera com dados unidimensionais, permitindo que pessoas de qualquer nível de conhecimento em mineiração de dados  possam identificar informações escondidas em seus conjuntos de treinamentos com uma interface simples e direta \cite{Subbulakshmi2012}.  Após carregar e treinar um modelo com um conjunto de dados, o classificador pode ser validado para o conjunto e as classes fornecidas \cite{Subbulakshmi2012}. 
 
-\chapter{Proposta de projeto}
+\chapter{Conclusão}
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS

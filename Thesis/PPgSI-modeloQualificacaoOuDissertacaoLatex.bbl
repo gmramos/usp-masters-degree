@@ -80,6 +80,13 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/224155.565634}.}
   (Ed.). \emph{FME '93: Industrial-Strength Formal Methods}. Berlin,
   Heidelberg: Springer Berlin Heidelberg, 1993. p. 268--284.}
 
+\bibitem[Eler, Endo e Durelli 2016]{Eler2016}
+\abntrefinfo{Eler, Endo e Durelli}{ELER; ENDO; DURELLI}{2016}
+{ELER, M.~M.; ENDO, A.~T.; DURELLI, V. H.~S. An empirical study to quantify the
+  characteristics of java programs that may influence symbolic execution from a
+  unit testing perspective.
+\emph{Journal of Systems and Software}, v.~121, p. 281--297, 2016.}
+
 \bibitem[evosuite.org]{Evosuite}
 \abntrefinfo{evosuite\ldots}{EVOSUITE\ldots}{}
 {EVOSUITE.ORG. \url{http://www.evosuite.org/}.

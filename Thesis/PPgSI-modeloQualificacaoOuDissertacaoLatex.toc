@@ -36,24 +36,24 @@
 \contentsline {section}{\numberline {3.5}EvoSuite}{27}{section.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}M\IeC {\'e}tricas de Softwares orientados a objetos}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Medidas diretas}{30}{section.4.1}
-\contentsline {section}{\numberline {4.2}Medidas indiretas}{30}{section.4.2}
-\contentsline {section}{\numberline {4.3}O conjunto de m\IeC {\'e}tricas CK}{30}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}\textit {Weighted methods per class (WMC)}}{30}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}\textit {Depth of inheritance tree (DIT)}}{31}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}\textit {Number of children of a class (NOC)}}{32}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}\textit {Coupling between object classes (CBO)}}{32}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}\textit {Response for a class (RFC)}}{32}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{33}{subsection.4.3.6}
-\contentsline {section}{\numberline {4.4}Modelo proposto por Srivastava e Kumar}{33}{section.4.4}
+\contentsline {section}{\numberline {4.1}Medidas diretas e indiretas}{30}{section.4.1}
+\contentsline {section}{\numberline {4.2}O conjunto de m\IeC {\'e}tricas CK}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}\textit {Weighted methods per class (WMC)}}{30}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}\textit {Depth of inheritance tree (DIT)}}{30}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}\textit {Number of children of a class (NOC)}}{32}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}\textit {Coupling between object classes (CBO)}}{32}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}\textit {Response for a class (RFC)}}{32}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{33}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Modelo proposto por Srivastava e Kumar}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas extra\IeC {\'\i }das com o SB4SE}{34}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Mineira\IeC {\c c}\IeC {\~a}o de dados}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Classifica\IeC {\c c}\IeC {\~a}o}{35}{section.5.1}
-\contentsline {section}{\numberline {5.2}Classificador naive bayes}{36}{section.5.2}
-\contentsline {section}{\numberline {5.3}Weka}{37}{section.5.3}
+\contentsline {chapter}{\chapternumberline {5}Mineira\IeC {\c c}\IeC {\~a}o de dados}{36}{chapter.5}
+\contentsline {section}{\numberline {5.1}Classifica\IeC {\c c}\IeC {\~a}o}{36}{section.5.1}
+\contentsline {section}{\numberline {5.2}Classificador naive bayes}{37}{section.5.2}
+\contentsline {section}{\numberline {5.3}Weka}{38}{section.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}Proposta de projeto}{39}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}Conclus\IeC {\~a}o}{40}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{40}{chapter*.7}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{41}{chapter*.7}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
