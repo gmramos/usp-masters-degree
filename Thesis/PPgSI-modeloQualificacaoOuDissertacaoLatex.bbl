@@ -48,6 +48,12 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2408776.2408795}.}
   33--48.
 ISBN 978-3-319-66299-2.}
 
+\bibitem[Classpath,Java docs]{ClassPath}
+\abntrefinfo{Classpath\ldots}{CLASSPATH\ldots}{}
+{CLASSPATH,JAVA docs.
+  \url{https://docs.oracle.com/javase/8/docs/technotes/tools/windows/classpath.html}.
+Acessado em: 2018-08-04.}
+
 \bibitem[Dave e Agrawal 2015]{dave2015}
 \abntrefinfo{Dave e Agrawal}{DAVE; AGRAWAL}{2015}
 {DAVE, M.; AGRAWAL, R. Search based techniques and mutation analysis in
@@ -68,6 +74,11 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/224155.565634}.}
   from model-based specifications. In:  WOODCOCK, J. C.~P.; LARSEN, P.~G.
   (Ed.). \emph{FME '93: Industrial-Strength Formal Methods}. Berlin,
   Heidelberg: Springer Berlin Heidelberg, 1993. p. 268--284.}
+
+\bibitem[evosuite.org]{Evosuite}
+\abntrefinfo{evosuite\ldots}{EVOSUITE\ldots}{}
+{EVOSUITE.ORG. \url{http://www.evosuite.org/}.
+Acessado em: 2018-07-01.}
 
 \bibitem[Fraser e Arcuri 2011]{Fraser2011}
 \abntrefinfo{Fraser e Arcuri}{FRASER; ARCURI}{2011}
@@ -154,6 +165,11 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2379776.2379787}.}
 {JACOB, P.~M.; PRASANNA, M. A comparative analysis on black box testing
   strategies. In:  \emph{2016 International Conference on Information Science
   (ICIS)}. [S.l.: s.n.], 2016. p.~1--6.}
+
+\bibitem[junit.org/junit5/]{Junit}
+\abntrefinfo{junit\ldots}{JUNIT\ldots}{}
+{JUNIT.ORG/JUNIT5/. \url{https://junit.org/junit5/}.
+Acessado em: 2018-08-04.}
 
 \bibitem[Kan 1995]{kan95}
 \abntrefinfo{Kan}{KAN}{1995}
@@ -295,6 +311,11 @@ Dispon{\'\i}vel em:
 {SINGH, R. Test case generation for object-oriented systems: A review. In:
   \emph{2014 Fourth International Conference on Communication Systems and
   Network Technologies}. [S.l.: s.n.], 2014. p. 981--989.}
+
+\bibitem[site.mockito.org]{Mockito}
+\abntrefinfo{site\ldots}{SITE\ldots}{}
+{SITE.MOCKITO.ORG. \url{http://site.mockito.org}.
+Acessado em: 2018-08-04.}
 
 \bibitem[Slaughter, Harter e Krishnan 1998]{slaughter1998}
 \abntrefinfo{Slaughter, Harter e Krishnan}{SLAUGHTER; HARTER; KRISHNAN}{1998}

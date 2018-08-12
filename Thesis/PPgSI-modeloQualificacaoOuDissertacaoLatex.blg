@@ -17,49 +17,54 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em ClassPath
+Warning--campo year vazio ou faltando em Evosuite
+Warning--campo year vazio ou faltando em Junit
+Warning--campo year vazio ou faltando em Mockito
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 54 entries,
+You've used 58 entries,
             6714 wiz_defined-function locations,
-            1592 strings with 20337 characters,
-and the built_in function-call counts, 71537 in all, are:
-= -- 7507
+            1610 strings with 20677 characters,
+and the built_in function-call counts, 75426 in all, are:
+= -- 8107
 > -- 1834
 < -- 1224
-+ -- 1852
++ -- 1945
 - -- 551
-* -- 4874
-:= -- 8821
-add.period$ -- 273
-call.type$ -- 54
-change.case$ -- 613
-chr.to.int$ -- 114
-cite$ -- 53
-duplicate$ -- 5792
-empty$ -- 3787
+* -- 5039
+:= -- 9272
+add.period$ -- 285
+call.type$ -- 58
+change.case$ -- 641
+chr.to.int$ -- 118
+cite$ -- 61
+duplicate$ -- 5896
+empty$ -- 4031
 format.name$ -- 2642
-if$ -- 15605
+if$ -- 16731
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 989
-newline$ -- 283
+missing$ -- 1053
+newline$ -- 303
 num.names$ -- 269
-pop$ -- 1214
+pop$ -- 1306
 preamble$ -- 1
-purify$ -- 223
+purify$ -- 235
 quote$ -- 0
-skip$ -- 5896
+skip$ -- 6462
 stack$ -- 1
-substring$ -- 3072
-swap$ -- 2467
+substring$ -- 3205
+swap$ -- 2503
 text.length$ -- 106
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 27
-warning$ -- 0
-while$ -- 442
+type$ -- 90
+warning$ -- 4
+while$ -- 450
 width$ -- 0
-write$ -- 951
+write$ -- 1003
+(There were 4 warnings)

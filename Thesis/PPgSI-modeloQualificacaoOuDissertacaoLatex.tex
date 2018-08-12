@@ -733,7 +733,12 @@ O alto custo presente em testes de mutação e geração de mutantes pode ser re
 
 A geração automática de dados de teste consiste em uma tarefa importante no processo de testes de software, ela possui o objetivo de melhorar a qualidade de um determinado software under test (SUT) com o intuito de aumentar a qualidade do software e diminuir o custo investido.\cite{shamriski20151115}. A geração automática de dados de teste possui também um papel importante no processo de desenvolcimento de software visto que esta pode afetar diretamente a qualidade final de um produto de software \cite{dave2015}.
 
-Os testes gerados podem ser incluídos nos repositórios de código do SUT como qualquer outro artefato de software \cite{shamshiri2018}, porém conjuntos de testes volumosos podem levar mais tempo para serem executadas e precisam ser avaliados antes de serem incluídos em uma suíte de testes \cite{shamriski20151115}. A maneira mais fácil de avaliar conjuntos de testes automaticamente gerados é avaliar sua capacidade de expor falhas. \cite{shamshiri2018}, sendo assim, as avaliações de conjuntos de testes automaticamente gerados ocorre por meio de métricas como cobertura de linhas de código ou estimativas da habilidade de detecção de falhas, sendo um exemplo deste o score de mutação. \cite{shamshiri2018}
+Os testes gerados podem ser incluídos nos repositórios de código do SUT como qualquer outro artefato de software \cite{shamshiri2018}, porém conjuntos de testes volumosos podem levar mais tempo para serem executadas e precisam ser avaliados antes de serem incluídos em uma suíte de testes \cite{shamriski20151115}. Ferramentas como a EvoSuite têm se mostrado eficazes em atingir alta cobertura de código em tiferentes tipos de softwares orientados a objetos. \cite{Campos2017}
+
+A maneira mais fácil de avaliar conjuntos de testes automaticamente gerados é avaliar sua capacidade de expor falhas. \cite{shamshiri2018}, sendo assim, as avaliações de conjuntos de testes automaticamente gerados ocorre por meio de métricas como cobertura de linhas de código ou estimativas da habilidade de detecção de falhas, sendo um exemplo deste o score de mutação. \cite{shamshiri2018}
+
+
+
 
 
 \section{Algoritmos baseados em busca}
@@ -814,6 +819,17 @@ Apesar de muitos dos aspectos destes algoritmos avaliados em detalhes, a influê
 O estudo promovido por \cite{Campos2017} demonstra que algoritmos genéticos claramente performaram melhor do que algoritmos randômicos, em média os evolutional algorithms possuem maior cobertura quando comparados a random search e random testing. \cite{Campos2017}
 
 \cite{Campos2017} afirma a necessidade compreender as diferentes características de software as quais influenciam diferentes coberturas de teste nas diferentes técnicas para que assim seja possível desenvolver uma hyper-heurística a qual seleciona a adapta o algoritmo para cada problema de geração em específico.
+
+\section{EvoSuite}
+Existem várias ferramentas de geração de dados de testes com base em buscas disponíveis em uma gama de linguagens de programação, principalmente Java e .NET. Ferramentas as quais variam de técnicas de random search como Randoop, Jcrasher, JTExpert, NightHawk, T3 ou Yeti-Test até ferramentas baseadas em técnicas evolutivas como EvoSuite, eToc ou Testful. \cite{shamriski20151115}
+
+A EvoSuite \cite{Evosuite} é uma ferramente baseada em técnicas de busca que também utiliza algoritmos genéticos na geração automatica de suítes de testes para classes escritas em Java. \cite{Fraser2017}. Para uma determinada classe, referenciada na ferramenta como alvo, e seu classpath completo, o caminho o qual o ambiente de execução possa encontrar as classes compiladas como bytecode e respectivas dependências \cite{ClassPath}, a EvoSuite automaticamente produz um conjunto de testes unitários escritos para o framework de execução de testes Junit \cite{Junit} com o intuito de maximixar a cobertura de código. \cite{Fraser2017}.
+
+A efetividade da EvoSuite tem sido avaliada tanto como uma ferramenta opensource quanto uma ferramenta de apoio a testes nas áreas industriais se tratando de cobertura de código, efetividade na busca de falhas e inclusive aumentando a produtividade de desenvolvimento \cite{Fraser2017}. 
+
+A ferramenta conseguiu o primeiro lugar nas segunda e quarta edições do unit testing tool competition além de conseguir o segundo lugar na terceira edição \cite{Fraser2017}, a configuração da EvoSuite para a competição em maioria manteve seus valores padrão, já que estes foram ajustados extensivamente \cite{Fraser2017}. Com um budget de 480 segundos, a ferramenta atingiu em média 66.5\% de cobertura de caminhos, 0.9\% superior se comparado ao ano anterior com um score de mutação de 50.7\%, 9.7\% super do que o ano anterior. \cite{Fraser2017}
+
+Além das últimas melhorias, diversas correções foram aplicadas desde a última edição do unit testing tool competition em 2017  \cite{Fraser2017}, no ano de 2017 a ferramenta passou a utilizar mocks em seus testes através da ferramenta Mockito \cite{Mockito} \cite{Fraser2017}. Após atingir determinada porcentagem do tempo de busca disponível, a ferramenta considera o uso de mocks ao invés de classes reais, somente caminhos que não puderam ser cobertos por meio de mocks resultaram com o uso de mocks.  \cite{Fraser2017}
 
 \chapter{Métricas de Softwares orientados a objetos}
 

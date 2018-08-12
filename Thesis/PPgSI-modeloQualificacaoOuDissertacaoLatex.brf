@@ -75,6 +75,7 @@
 \backcite {dave2015}{{21}{3}{chapter.3}}
 \backcite {shamshiri2018}{{21}{3}{chapter.3}}
 \backcite {shamriski20151115}{{21}{3}{chapter.3}}
+\backcite {Campos2017}{{21}{3}{chapter.3}}
 \backcite {shamshiri2018}{{21}{3}{chapter.3}}
 \backcite {shamshiri2018}{{21}{3}{chapter.3}}
 \backcite {Campos2017}{{22}{3.1}{section.3.1}}
@@ -86,13 +87,13 @@
 \backcite {Karnopp63}{{22}{3.2}{section.3.2}}
 \backcite {Karnopp63}{{22}{3.2}{section.3.2}}
 \backcite {Campos2017}{{22}{3.2}{section.3.2}}
-\backcite {Campos2017}{{22}{3.2}{section.3.2}}
+\backcite {Campos2017}{{23}{3.2}{section.3.2}}
 \backcite {Campos2017}{{23}{3.2}{section.3.2}}
 \backcite {shamriski20151115}{{23}{3.2}{section.3.2}}
 \backcite {shamriski20151115}{{23}{3.2}{section.3.2}}
 \backcite {Campos2017}{{23}{3.2}{section.3.2}}
 \backcite {Karnopp63}{{23}{3.2}{section.3.2}}
-\backcite {shamriski20151115}{{23}{3.2}{section.3.2}}
+\backcite {shamriski20151115}{{24}{3.2}{section.3.2}}
 \backcite {shamriski20151115}{{24}{3.2}{section.3.2}}
 \backcite {shamriski20151115}{{24}{3.2}{section.3.2}}
 \backcite {Campos2017}{{24}{3.3}{section.3.3}}
@@ -125,66 +126,80 @@
 \backcite {Campos2017}{{27}{3.4}{section.3.4}}
 \backcite {Campos2017}{{27}{3.4}{section.3.4}}
 \backcite {Campos2017}{{27}{3.4}{section.3.4}}
-\backcite {srivastava2013}{{28}{4}{chapter.4}}
-\backcite {kan95}{{28}{4}{chapter.4}}
-\backcite {srivastava2013}{{28}{4}{chapter.4}}
-\backcite {kan95}{{28}{4}{chapter.4}}
-\backcite {srivastava2013}{{28}{4}{chapter.4}}
-\backcite {srivastava2013}{{28}{4}{chapter.4}}
-\backcite {kan95}{{28}{4}{chapter.4}}
-\backcite {kan95}{{28}{4}{chapter.4}}
-\backcite {srivastava2013}{{28}{4}{chapter.4}}
-\backcite {srivastava2013}{{28}{4}{chapter.4}}
-\backcite {srivastava2013}{{28}{4}{chapter.4}}
-\backcite {Zeiss2007}{{28}{4}{chapter.4}}
-\backcite {srivastava2013}{{29}{4.1}{section.4.1}}
-\backcite {srivastava2013}{{29}{4.1}{section.4.1}}
-\backcite {srivastava2013}{{29}{4.2}{section.4.2}}
-\backcite {kan95}{{29}{4.3}{section.4.3}}
-\backcite {kan95}{{29}{4.3}{section.4.3}}
-\backcite {kan95}{{29}{4.3.1}{subsection.4.3.1}}
-\backcite {watson96}{{29}{4.3.1}{subsection.4.3.1}}
-\backcite {kan95}{{29}{4.3.1}{subsection.4.3.1}}
-\backcite {kan95}{{30}{4.3.2}{subsection.4.3.2}}
-\backcite {bruntink04}{{30}{4.3.2}{subsection.4.3.2}}
-\backcite {bruntink04}{{31}{4.3.2}{figure.4.4}}
-\backcite {kan95}{{31}{4.3.3}{subsection.4.3.3}}
-\backcite {kan95}{{31}{4.3.4}{subsection.4.3.4}}
-\backcite {kan95}{{31}{4.3.5}{subsection.4.3.5}}
-\backcite {bruntink04}{{31}{4.3.5}{subsection.4.3.5}}
-\backcite {kan95}{{31}{4.3.5}{subsection.4.3.5}}
+\backcite {shamriski20151115}{{27}{3.5}{section.3.5}}
+\backcite {Evosuite}{{27}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{27}{3.5}{section.3.5}}
+\backcite {ClassPath}{{27}{3.5}{section.3.5}}
+\backcite {Junit}{{27}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{27}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{28}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{28}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{28}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{28}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{28}{3.5}{section.3.5}}
+\backcite {Mockito}{{28}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{28}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{28}{3.5}{section.3.5}}
+\backcite {srivastava2013}{{29}{4}{chapter.4}}
+\backcite {kan95}{{29}{4}{chapter.4}}
+\backcite {srivastava2013}{{29}{4}{chapter.4}}
+\backcite {kan95}{{29}{4}{chapter.4}}
+\backcite {srivastava2013}{{29}{4}{chapter.4}}
+\backcite {srivastava2013}{{29}{4}{chapter.4}}
+\backcite {kan95}{{29}{4}{chapter.4}}
+\backcite {kan95}{{29}{4}{chapter.4}}
+\backcite {srivastava2013}{{29}{4}{chapter.4}}
+\backcite {srivastava2013}{{29}{4}{chapter.4}}
+\backcite {srivastava2013}{{29}{4}{chapter.4}}
+\backcite {Zeiss2007}{{29}{4}{chapter.4}}
+\backcite {srivastava2013}{{30}{4.1}{section.4.1}}
+\backcite {srivastava2013}{{30}{4.1}{section.4.1}}
+\backcite {srivastava2013}{{30}{4.2}{section.4.2}}
+\backcite {kan95}{{30}{4.3}{section.4.3}}
+\backcite {kan95}{{30}{4.3}{section.4.3}}
+\backcite {kan95}{{30}{4.3.1}{subsection.4.3.1}}
+\backcite {watson96}{{30}{4.3.1}{subsection.4.3.1}}
+\backcite {kan95}{{30}{4.3.1}{subsection.4.3.1}}
+\backcite {kan95}{{31}{4.3.2}{subsection.4.3.2}}
+\backcite {bruntink04}{{31}{4.3.2}{subsection.4.3.2}}
+\backcite {bruntink04}{{32}{4.3.2}{figure.4.4}}
+\backcite {kan95}{{32}{4.3.3}{subsection.4.3.3}}
+\backcite {kan95}{{32}{4.3.4}{subsection.4.3.4}}
 \backcite {kan95}{{32}{4.3.5}{subsection.4.3.5}}
-\backcite {pressman2009engenharia}{{32}{4.3.6}{subsection.4.3.6}}
-\backcite {kan95}{{32}{4.3.6}{subsection.4.3.6}}
-\backcite {kan95}{{32}{4.3.6}{subsection.4.3.6}}
-\backcite {srivastava2013}{{32}{4.4}{section.4.4}}
-\backcite {srivastava2013}{{33}{5}{figure.4.5}}
-\backcite {Suresh2016}{{33}{4.4}{figure.4.5}}
-\backcite {Suresh2016}{{33}{4.4}{figure.4.5}}
-\backcite {Suresh2016}{{33}{4.4}{figure.4.5}}
-\backcite {Seth2016, sharma2015}{{34}{5}{chapter.5}}
-\backcite {Seth2016, sharma2015}{{34}{5}{chapter.5}}
-\backcite { sharma2015}{{34}{5}{chapter.5}}
-\backcite { Seth2016}{{34}{5}{chapter.5}}
-\backcite {Seth2016}{{34}{5}{chapter.5}}
-\backcite { Seth2016}{{34}{5}{chapter.5}}
-\backcite {sharma2015}{{34}{5.1}{section.5.1}}
-\backcite { sharma2015}{{34}{5.1}{section.5.1}}
-\backcite { sharma2015}{{34}{5.1}{section.5.1}}
-\backcite { Seth2016}{{34}{5.1}{section.5.1}}
-\backcite { Seth2016}{{34}{5.1}{section.5.1}}
+\backcite {bruntink04}{{32}{4.3.5}{subsection.4.3.5}}
+\backcite {kan95}{{32}{4.3.5}{subsection.4.3.5}}
+\backcite {kan95}{{33}{4.3.5}{subsection.4.3.5}}
+\backcite {pressman2009engenharia}{{33}{4.3.6}{subsection.4.3.6}}
+\backcite {kan95}{{33}{4.3.6}{subsection.4.3.6}}
+\backcite {kan95}{{33}{4.3.6}{subsection.4.3.6}}
+\backcite {srivastava2013}{{33}{4.4}{section.4.4}}
+\backcite {srivastava2013}{{34}{5}{figure.4.5}}
+\backcite {Suresh2016}{{34}{4.4}{figure.4.5}}
+\backcite {Suresh2016}{{34}{4.4}{figure.4.5}}
+\backcite {Suresh2016}{{34}{4.4}{figure.4.5}}
+\backcite {Seth2016, sharma2015}{{35}{5}{chapter.5}}
+\backcite {Seth2016, sharma2015}{{35}{5}{chapter.5}}
+\backcite { sharma2015}{{35}{5}{chapter.5}}
+\backcite { Seth2016}{{35}{5}{chapter.5}}
+\backcite {Seth2016}{{35}{5}{chapter.5}}
+\backcite { Seth2016}{{35}{5}{chapter.5}}
+\backcite {sharma2015}{{35}{5.1}{section.5.1}}
 \backcite { sharma2015}{{35}{5.1}{section.5.1}}
 \backcite { sharma2015}{{35}{5.1}{section.5.1}}
-\backcite { sharma2015}{{35}{5.1}{section.5.1}}
 \backcite { Seth2016}{{35}{5.1}{section.5.1}}
 \backcite { Seth2016}{{35}{5.1}{section.5.1}}
-\backcite { Seth2016}{{35}{5.1}{section.5.1}}
-\backcite { Seth2016}{{35}{5.1}{section.5.1}}
-\backcite {Suresh2016}{{35}{5.2}{section.5.2}}
-\backcite {Suresh2016}{{35}{5.2}{section.5.2}}
-\backcite { sharma2015}{{35}{5.2}{section.5.2}}
-\backcite { sharma2015}{{35}{5.2}{section.5.2}}
-\backcite { sharma2015}{{35}{5.2}{section.5.2}}
-\backcite { Seth2016}{{36}{5.2}{equation.5.2.4}}
-\backcite { sharma2015}{{36}{5.2}{equation.5.2.5}}
-\backcite { sharma2015}{{36}{5.2}{equation.5.2.5}}
+\backcite { sharma2015}{{36}{5.1}{section.5.1}}
+\backcite { sharma2015}{{36}{5.1}{section.5.1}}
+\backcite { sharma2015}{{36}{5.1}{section.5.1}}
+\backcite { Seth2016}{{36}{5.1}{section.5.1}}
+\backcite { Seth2016}{{36}{5.1}{section.5.1}}
+\backcite { Seth2016}{{36}{5.1}{section.5.1}}
+\backcite { Seth2016}{{36}{5.1}{section.5.1}}
+\backcite {Suresh2016}{{36}{5.2}{section.5.2}}
+\backcite {Suresh2016}{{36}{5.2}{section.5.2}}
+\backcite { sharma2015}{{36}{5.2}{section.5.2}}
+\backcite { sharma2015}{{36}{5.2}{section.5.2}}
+\backcite { sharma2015}{{36}{5.2}{section.5.2}}
+\backcite { Seth2016}{{37}{5.2}{equation.5.2.4}}
+\backcite { sharma2015}{{37}{5.2}{equation.5.2.5}}
+\backcite { sharma2015}{{37}{5.2}{equation.5.2.5}}
