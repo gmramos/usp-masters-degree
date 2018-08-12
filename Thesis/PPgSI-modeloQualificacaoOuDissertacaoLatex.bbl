@@ -18,6 +18,11 @@
 ISSN 0001-0782.
 Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/182987.184077}.}
 
+\bibitem[Bouckaert et al. 2008]{Bouckaert2008}
+\abntrefinfo{Bouckaert et al.}{BOUCKAERT et al.}{2008}
+{BOUCKAERT, R. R. et al. Weka manual for version 3-6-0.
+12 2008.}
+
 \bibitem[Bruntink e Deursen 2004]{bruntink04}
 \abntrefinfo{Bruntink e Deursen}{BRUNTINK; DEURSEN}{2004}
 {BRUNTINK, M.; DEURSEN, A. van. Predicting class testability using
@@ -343,6 +348,13 @@ ISBN 9788588639287. Dispon{\'\i}vel em:
 {SRIVASTAVA, S.; KUMAR, R. Indirect method to measure software quality using
   ck-oo suite. In:  \emph{2013 International Conference on Intelligent Systems
   and Signal Processing (ISSP)}. [S.l.: s.n.], 2013. p. 47--51.}
+
+\bibitem[Subbulakshmi, Deepa e Malathi 2012]{Subbulakshmi2012}
+\abntrefinfo{Subbulakshmi, Deepa e Malathi}{SUBBULAKSHMI; DEEPA; MALATHI}{2012}
+{SUBBULAKSHMI, C.~V.; DEEPA, S.~N.; MALATHI, N. Comparative analysis of xlminer
+  and weka for pattern classification. In:  \emph{2012 IEEE International
+  Conference on Advanced Communication Control and Computing Technologies
+  (ICACCCT)}. [S.l.: s.n.], 2012. p. 453--457.}
 
 \bibitem[Suresh 2016]{Suresh2016}
 \abntrefinfo{Suresh}{SURESH}{2016}

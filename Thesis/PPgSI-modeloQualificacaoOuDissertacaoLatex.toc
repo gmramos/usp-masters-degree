@@ -49,9 +49,10 @@
 \contentsline {chapter}{\chapternumberline {5}Mineira\IeC {\c c}\IeC {\~a}o de dados}{35}{chapter.5}
 \contentsline {section}{\numberline {5.1}Classifica\IeC {\c c}\IeC {\~a}o}{35}{section.5.1}
 \contentsline {section}{\numberline {5.2}Classificador naive bayes}{36}{section.5.2}
+\contentsline {section}{\numberline {5.3}Weka}{37}{section.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}Proposta de projeto}{38}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}Proposta de projeto}{39}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{39}{chapter*.7}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{40}{chapter*.7}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
