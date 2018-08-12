@@ -648,6 +648,10 @@ contendo os detalhes de execução, dados de entradas e estadado esperado do SUT
 \subsection{Caso de teste}
 Um caso de teste  é um conjunto de posséveis entradas, condições de execução e resultados esperados de acordo com seus objetivos, estes quando compilados compõe uma instância única de execução em termos de entrada, execução e resultados esperados, estas saídas quando analisadas em relação aos dados esperados após execução determinam se o estado encontrado pela aplicação  é esperado \cite{Singh2014}. Os casos de teste são projetados para cenários particulares de teste aos quais é desejado comparar estados e resultados coletados a partir do resultado de sua execução com requisitos funcionais anteriormente definidos \cite{Jacob2016}.
 
+\subsection{Mocks}
+Ao construir testes automatizados é comum testar componentes de softwares que dependam de outros softwares , e desenvolvedores  normalmente necessitam testar o software com todas suas dependências ou simulações \cite{Spadini2017}. Ao testar todas as dependências juntamente, desenvolvedores passam a ter um comportamento similar ao ambiente de produção \cite{Spadini2017}.
+
+Apesar dos benefícios, algumas dependências como bancos de dados e chamadas à serviços online podem ser custosos para serem testados, nestes casos desenvolvedores podem usar mocks \cite{Spadini2017}. Mocks são usados para substituir dependências reais em softwares ao simular suas características mais importantes, usualmente métodos em mocks  retornam valores desejados de acordo com os valores de entrada \cite{Spadini2017}. 
 
 \subsection{Testes manuais}
 O teste manual  é aquele executado através de um profissional de qualidade, o qual geralmente possui um caso de teste onde são descritos os passos de execução e por fim, o responsável toma decisões de acordo com a finalização da execução \cite{Kaprocki2015}.
@@ -686,6 +690,8 @@ O profissional de qualidade deve estar alinhado com os seguintes princípios par
 \begin{itemize}
 	\item Se a condição de uma entrada  é comprendida entre valores m e n, os casos de teste devem ser projetados para os valores m, n assim como entradas que representem os valores abaixo e assim de m e n, desta maneira o caso de teste deverá ser projetado para o conjunto de entradas {m,n,m};
 \end{itemize}
+
+
 
 \section{Qualidade de software e aspectos econômicos}
 

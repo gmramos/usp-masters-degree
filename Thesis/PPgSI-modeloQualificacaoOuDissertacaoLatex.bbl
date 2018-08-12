@@ -343,6 +343,12 @@ ISBN 0137035152, 9780137035151.}
 ISBN 9788588639287. Dispon{\'\i}vel em:
   \url{https://books.google.com.br/books?id=ifIYOgAACAAJ}.}
 
+\bibitem[Spadini et al. 2017]{Spadini2017}
+\abntrefinfo{Spadini et al.}{SPADINI et al.}{2017}
+{SPADINI, D. et al. To mock or not to mock? an empirical study on mocking
+  practices. In:  \emph{2017 IEEE/ACM 14th International Conference on Mining
+  Software Repositories (MSR)}. [S.l.: s.n.], 2017. p. 402--412.}
+
 \bibitem[Srivastava e Kumar 2013]{srivastava2013}
 \abntrefinfo{Srivastava e Kumar}{SRIVASTAVA; KUMAR}{2013}
 {SRIVASTAVA, S.; KUMAR, R. Indirect method to measure software quality using
