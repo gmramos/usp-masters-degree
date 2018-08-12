@@ -260,6 +260,13 @@ ISBN 978-3-540-37411-4.}
 ISSN 0163-5948.
 Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1095430.1081750}.}
 
+\bibitem[Seth e Banka 2016]{Seth2016}
+\abntrefinfo{Seth e Banka}{SETH; BANKA}{2016}
+{SETH, H.~R.; BANKA, H. Hardware implementation of naïve bayes classifier: A
+  cost effective technique. In:  \emph{2016 3rd International Conference on
+  Recent Advances in Information Technology (RAIT)}. [S.l.: s.n.], 2016. p.
+  264--267.}
+
 \bibitem[Shamshiri et al. 2018]{shamshiri2018}
 \abntrefinfo{Shamshiri et al.}{SHAMSHIRI et al.}{2018}
 {SHAMSHIRI, S. et al. How do automatically generated unit tests influence
@@ -275,6 +282,13 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1095430.1081750}.}
 E1660 stvr.1660.
 Dispon{\'\i}vel em:
   \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/stvr.1660}.}
+
+\bibitem[Sharma, Singh e Singh 2015]{sharma2015}
+\abntrefinfo{Sharma, Singh e Singh}{SHARMA; SINGH; SINGH}{2015}
+{SHARMA, P.; SINGH, D.; SINGH, A. Classification algorithms on a large
+  continuous random dataset using rapid miner tool. In:  \emph{2015 2nd
+  International Conference on Electronics and Communication Systems (ICECS)}.
+  [S.l.: s.n.], 2015. p. 704--709.}
 
 \bibitem[Singh 2014]{Singh2014}
 \abntrefinfo{Singh}{SINGH}{2014}
@@ -308,6 +322,13 @@ ISBN 9788588639287. Dispon{\'\i}vel em:
 {SRIVASTAVA, S.; KUMAR, R. Indirect method to measure software quality using
   ck-oo suite. In:  \emph{2013 International Conference on Intelligent Systems
   and Signal Processing (ISSP)}. [S.l.: s.n.], 2013. p. 47--51.}
+
+\bibitem[Suresh 2016]{Suresh2016}
+\abntrefinfo{Suresh}{SURESH}{2016}
+{SURESH, Y. Software quality assessment for open source software using logistic
+  amp; naive bayes classifier. In:  \emph{2016 International Conference on
+  Computation System and Information Technology for Sustainable Solutions
+  (CSITSS)}. [S.l.: s.n.], 2016. p. 267--272.}
 
 \bibitem[Tahir, MacDonell e Buchan 2014]{tahir2014test}
 \abntrefinfo{Tahir, MacDonell e Buchan}{TAHIR; MACDONELL; BUCHAN}{2014}

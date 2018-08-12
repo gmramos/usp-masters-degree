@@ -895,26 +895,6 @@ A independência pode ser medida por critérios qualitativos: coesão e acoplame
 
 A métrica LCOM representa a dissimilaridade dos métodos em uma classe pelo uso de instâncis de variáveis, a alta de coesão aumenta a complexidade e por consequência, oportunidade de ocorrência de erros durante o processo de desenvolvimento \cite{kan95}.
 
-\section{Métricas de Lorenz e regras de ouro}
-
-
-
-
-
-
-Baseado nestes conceitos, lorenz(1993) propôs 11 métricas de projetos de softwares orientados a
-
-objeto e diretivas sobre os valores destas
-
-Enquanto a maioria destas métricas são relacionadas à design de código e implementação, as
-
-métricas Agerage number of comment Lines, Number of problem reports per class e numbers od
-
-classes and methods thrown aray se destacam por terem propósitos diferentes.
-
-A tabela proposta por lorenza é definida a seguir:
-
-
 \section{Modelo proposto por Srivastava e Kumar}
 
 Srivastava e Kumar proporam em 2013 um modelo de métricas para validação de qualidade de software com a justificativa de que nenhuma das métricas tratavam acoplamento ou similaridades como relações transacionais, sendo assim, métricas que mapeiam estas características são passíveis de incorporação no modelo. No estudo em questão, diversos dados foram coletados de projetos orientados a objeto nas linguagens Java e C++ e neste constatado que diversas métricas são baseadas em ideias similares e representam informações redundantes, sendo assim, foi validado que um subconjunto de métricas pode ser utilizado para predição de falhas.
@@ -928,6 +908,66 @@ O modelo proposto por \cite{srivastava2013} atingiu um nível de acurácia super
 	\label{fig:tipos-custo-arvore}
   \source{\cite{srivastava2013}}
 \end{figure}
+
+É observado na literatura que métricas de softwares orientados a objetos aliadas aos modelos de classificação e predição existentes possuíram efetividade em encontrar relação entre identificação e classificação de falhas e qualitdade de software  \cite{Suresh2016}. O fato ocorre pois métricas de software são a melhor ferramenta para avaliar a qualidade de softwares orientados a objetos.  \cite{Suresh2016}
+
+É observado que muitos conjuntos de métricas disponíveis provém informações de qualidade de softwares orientados a objetos.  \cite{Suresh2016}
+
+
+\chapter{Mineiração de dados}
+
+Mineiração de dados é o processo de extrair conhecimento valioso de um grande agrupamento de dados, desconhecido e de valor para o problema em questão \cite{Seth2016, sharma2015}, processo este onde ocorre a análise de dados a partir de diferentes perspectivas, sumarizando com o intuito de obter informaçãos úteis para tomada de decisão  \cite{ sharma2015}. Ela é utilizada em diversos campos como robótica, decisões de marketing, decisões corporativas, inteligência de negócio e segurança \cite{ Seth2016}.
+
+Na área de mineiração de dados, distinguir diferentes classes a partir de um volume de dados e classificar a partir destes é uma técnica importante \cite{Seth2016}, sendo assim, a classificação é uma subárea de mineração de dados importante, dado que ela é capaz de analisar dados e organizá-los em classes a partir de suas características \cite{ Seth2016}.
+
+\section{Classificação}
+A classificação é uma técnica vastamente utilizada no domínio de mineração de dados, onde escalabilidade e eficiência são requisitos imediatos em classificação de grandes conjuntos de dados \cite{sharma2015}. A classificação é uma atividade não supervisionada \cite{ sharma2015},  a qual já existe o conhecimento desde o início quais são as classesdisponíveis a serem utilizadas pelo algoritmo, oalgoritmo então usa a informação de classes e características presentes em um dataset para treinamento e validação \cite{ sharma2015}.
+
+Um problema de classificação é conhecido estruturalmente por receber uma entrada de dados, conhecido por conjunto de dados de aprendizagem (dataset), o qual é caracterizado por uma série de características (features) de análise e respectivas classes \cite{ Seth2016}. 
+
+O principal objetivo de algoritmos de classificação é construir um modelo de classificação utilizando o conhecimento obtido a partir do conjunto de dados de aprendizagem e avalidar uma porcentagem desdes a partir do conhecimento adquirido. \cite{ Seth2016}
+
+Diferentes algoritmos de classificação usam diferentes técnicas para encontrar relação entre os dados e as classes  \cite{ sharma2015}, estas relações estão sumarizadas em um modelo, o qual pode ser aplicado em novas instâncias para assim classifica-las.  \cite{ sharma2015}
+
+Um modelo pode também ser utilizado para validação, onde novas instâncias são submetidas a um modelo e avaliadas em seguida para verificar se foram classificadas corretamente, este processo é chamado de validação do modelo  \cite{ sharma2015}.
+
+Dentre os classificadores mais famosos, o mais conhecido é o classificador bayseano. \cite{ Seth2016}, o classificador bayseano é um classificador construído com base no teorema de bayess. \cite{ Seth2016}
+
+Quando aplicado a grandes datasets, classificadores bayseanos provem alta acurácia em alta velocidade. \cite{ Seth2016}, a forma mais simples de classificador bayseano conhecido atualmente é o Classificador naive bayes. \cite{ Seth2016}
+
+\section{Classificador naive bayes}
+
+O teorema bayseano deriva da estatística bayseana, o qual possui premissas fortes e ingênuas \cite{Suresh2016}. O classificador bayseano é uma abordagem probabilística simples o qual assume que todos os atributos de um tupla pertencem a uma dada classe com uma probabilidade independente de ser classificado em relação a outros atributos  \cite{Suresh2016}.
+ 
+O teorema bayseano é uma afirmação estatística que permite o cálculo de probabilidades condicionais, probabilidades condicionais são probabilidades que refletem a influência de um evento na probabilidade de outro evento  \cite{ sharma2015} .
+
+Os termos geralmente utilizados em estatística bayseana são: probabilidade anterior e posterior: A probabilidade anterior é o evento com sua probabilidade original, antes de obter qualquer informação adicional em contraponto, a probabilidade posterior é a probabilidade anterior seguida de alguma informação adicional  \cite{ sharma2015}. O teorema de bayes pode ser descrito como  \cite{ sharma2015}:
+
+\begin{equation}
+P(A|B) = \frac{P(B|A).P(A)}{P(B)}
+\end{equation}
+
+Onde:\\
+P(A) é a probabilidade anterior de A\\
+P(B) é a probabilidade anterior de B\\
+P(A|B) é a probabilidade posterior de A dado B\\
+P(B|A) é a probabilidade posterior de B dado A\\
+
+O classificador naive bayes funciona da seguinte maneira \cite{ Seth2016}:
+
+\begin{enumerate}
+  \item Inicialmente é necessário um conjunto de treinamento C com k caraterísticas e classes associadas, usando o valor de atributos presente em cada tupla do dataset, caracterizado por um vetor $\alpha$=($\alpha$1, $\alpha$2, $\alpha$3,…., $\alpha$k);
+  \item A partir de um conjunto um conjunto de M classes beta compostos por $\gamma$1, $\gamma$2, $\gamma$3,…., $\gamma$m; O papel do classificador é predizer a partir de uma tupla $\alpha$ qual a classe  $\gamma$ com maior probabilidade a qual esta tupla pertence dado o que foi aprendido com o conjunto de treinamento, ou seja, o classificador prediz se uma tupla $\alpha$i pertence a uma classe $\gamma$i a partir da seguinte fórmula:
+  
+\begin{equation}
+P(yi|alpha) > P(yj|alpha)\textrm{, para todo 1 $\leq$ j $\leq$ m, j $\neq$ i}
+\end{equation}
+
+\end{enumerate}
+
+Consequentemente, P($\gamma$i|$\alpha$)  deve ser maximizado, a classe resultante com o maior valor de P($\gamma$i|$\alpha$)  é chamada de probabilidade posterior, como no teorema de bayes.Dado o fato de que para todas as classes P($\alpha$) é constante, maximizar P($\alpha$|yi) * P(yi) garante o propósito \cite{ sharma2015}.
+
+Um conjunto de treinamento com muitos atributos para o cálculo de P($\alpha$) pode ser computacionalmente custoso de ser calculado, sendo assim, o classificador reduz este custo assumindo que as classes são condicionalmente independentes entre si \cite{ sharma2015}.
 
 
 \chapter{Proposta de projeto}

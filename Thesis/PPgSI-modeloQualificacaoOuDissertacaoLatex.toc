@@ -43,11 +43,14 @@
 \contentsline {subsection}{\numberline {4.3.4}\textit {Coupling between object classes (CBO)}}{31}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}\textit {Response for a class (RFC)}}{31}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{32}{subsection.4.3.6}
-\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas de Lorenz e regras de ouro}{32}{section.4.4}
-\contentsline {section}{\numberline {4.5}Modelo proposto por Srivastava e Kumar}{32}{section.4.5}
+\contentsline {section}{\numberline {4.4}Modelo proposto por Srivastava e Kumar}{32}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Proposta de projeto}{34}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}Mineira\IeC {\c c}\IeC {\~a}o de dados}{34}{chapter.5}
+\contentsline {section}{\numberline {5.1}Classifica\IeC {\c c}\IeC {\~a}o}{34}{section.5.1}
+\contentsline {section}{\numberline {5.2}Classificador naive bayes}{35}{section.5.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}Proposta de projeto}{37}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{35}{chapter*.7}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{38}{chapter*.7}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
