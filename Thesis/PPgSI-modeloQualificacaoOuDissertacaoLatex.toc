@@ -47,7 +47,7 @@
 \contentsline {section}{\numberline {4.3}Modelo proposto por Srivastava e Kumar}{33}{section.4.3}
 \contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas extra\IeC {\'\i }das com o SB4SE}{34}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Mineira\IeC {\c c}\IeC {\~a}o de dados}{36}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}Minera\IeC {\c c}\IeC {\~a}o de dados}{36}{chapter.5}
 \contentsline {section}{\numberline {5.1}Classifica\IeC {\c c}\IeC {\~a}o}{36}{section.5.1}
 \contentsline {section}{\numberline {5.2}Classificador naive bayes}{37}{section.5.2}
 \contentsline {section}{\numberline {5.3}Weka}{38}{section.5.3}
