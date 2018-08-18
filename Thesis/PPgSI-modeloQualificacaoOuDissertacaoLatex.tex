@@ -373,7 +373,7 @@ Elemento opcional para versão corrigida, depois de depositada.
 %       efetivamente ocorreu.
 %
 %-------------------------------------------------------------------------
-\noindent Dissertação de autoria de Fulano de Tal, sob o título \textbf{``\imprimirtitulo''}, apresentada à Escola de Artes, Ciências e Humanidades da Universidade de São Paulo, para obtenção do título de Mestre em Ciências pelo Programa de Pós-graduação em Sistemas de Informação, na área de concentração Metodologia e Técnicas da Computação, aprovada em \_\_\_\_\_\_\_ de \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ de \_\_\_\_\_\_\_\_\_\_ pela comissão julgadora constituída pelos doutores:
+\noindent Dissertação de autoria de Gustavo da Mota Ramos, sob o título \textbf{``\imprimirtitulo''}, apresentada à Escola de Artes, Ciências e Humanidades da Universidade de São Paulo, para obtenção do título de Mestre em Ciências pelo Programa de Pós-graduação em Sistemas de Informação, na área de concentração Metodologia e Técnicas da Computação, aprovada em \_\_\_\_\_\_\_ de \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ de \_\_\_\_\_\_\_\_\_\_ pela comissão julgadora constituída pelos doutores:
 
 \vspace*{3cm}
 
@@ -444,6 +444,13 @@ Instituição: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 % Não sugerido para Qualificação.
 % 
 %-------------------------------------------------------------------------
+\begin{dedicatoria}
+   \vspace*{\fill}
+   \centering
+   \noindent
+   \textit{Aos meus pais, Nivaldo e Izildinha, que não mediram esforços para que eu chegasse até aqui. Eles são responsáveis pela maior herança da minha vida: meus estudos. } 
+	 \vspace*{\fill}
+\end{dedicatoria}
 
 % ---
 
@@ -459,8 +466,19 @@ Instituição: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 % Lembrar de agradecer agências de fomento e outras instituições similares.
 %
 %-------------------------------------------------------------------------
+\begin{agradecimentos}
+Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
 
+Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+
+Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+
+Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+
+Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+\end{agradecimentos}
 % ---
+
 
 % ---
 % Epígrafe
@@ -473,7 +491,7 @@ Instituição: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 % 
 %-------------------------------------------------------------------------
 
-% ---
+
 
 % ---
 % RESUMOS
@@ -528,6 +546,10 @@ Instituição: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 % Se usar: inserir em ordem alfabética.
 %
 %-------------------------------------------------------------------------
+\begin{siglas}
+ \item[CUT] \textit{Class under test}
+  \item[SUT] \textit{Software under test}
+\end{siglas}
 
 % ---
 
@@ -732,6 +754,7 @@ Os Custos de falha externa caracterizam os custos associados aos defeitos após 
 Apesar do custo relativo para encontrar e reparar um defeito aumenta consideravelmente na linha do tempo, o processo de desenvolvimento de um software flui entre os diversos ciclos, e por consequência, diferentes tipos de investimentos são feitos com o intuito de garantiar mainores níveis de qualidade \cite{pressman2009engenharia}. 
 
 \chapter{Geração automática de dados de teste}
+\label{chap:geracao-automatica-dados-teste}
 A manutenção de softwares é usualmente vista não somente como uma tarefa difícil mas cara visto que as atividades ligadas à esta somam por volta de 60\% do investimento total de um software \cite{shamshiri2018}, concomitantemente os profissional de desenvolvimento de software necessitam testar o SUT utilizando-se de casos de teste que revelem falhas, aumentando a cobertura de caminhos e minimizando de custo e tempo simultaneamente. \cite{dave2015}.
 
 O alto custo presente em testes de mutação e geração de mutantes pode ser reduzido pela geração automática de dados de teste \cite{dave2015}, a geração automática de testes poupa o tempo investido por desenvolvedores na escrita de testes unitários \cite{shamshiri2018}.
@@ -1000,8 +1023,176 @@ A feramenta possui em torno de duas décacas, com  implementações dos algoritm
 
 A Weka opera com dados unidimensionais, permitindo que pessoas de qualquer nível de conhecimento em mineração de dados  possam identificar informações escondidas em seus conjuntos de treinamentos com uma interface simples e direta \cite{Subbulakshmi2012}.  Após carregar e treinar um modelo com um conjunto de dados, o classificador pode ser validado para o conjunto e as classes fornecidas \cite{Subbulakshmi2012}. 
 
-\chapter{Conclusão}
+\chapter{Resultados e Discussões}
+Neste capítulo serão apresentados os resultados obtidos por meio das informações encontradas e dos testes aplicados durante o desenvolvimento da pesquisa. Para efeito de organização, este capítulo será dividido em seções que explicam desde os materiais e métodos utilizados até os resultados obtidos, dados gerados, assim como as conclusões extraídas e trabalhos futuros.
 
+\section{Materiais}
+
+Durante o processo de pesquisa, foi utilizado um conjunto de 110 projetos os quais são reconhecidos e utilizados por diversos pesquisadores da área. Os projetos em questão fazem parte do corpus SF110, o qual é caracterizado por um conjunto de 110 projetos open source retirados do site SourceForge\footnote{https://sourceforge.net/} compostos por: 100 projetos aleatoriamente escolhidos somados a  10 dos projetos com mais download em junho de 2014. \cite{shamriski20151115}.
+
+O corpus SF110 foi utilizado como objeto de análise pelo processo de pesquisa por conta de sua diversidade de características, isso ocorre pois os projetos que compõe o corpus resolvem problemas presentes em domínios variados.  A partir do corpus, diversas ferramentas foram utilizadas para extrair informações e processá-las, o uso destas será detalhada na seção de métodos, para este processos as seguintes ferramentas foram utilizadas 
+
+
+
+\begin{itemize}
+  \item \textbf{EvoSuite\footnote{http://www.evosuite.org/}:} ferramenta utilizada para geração dos dados de teste nas duas técnicas apresentadas no capítulo 2 e cálculo da porcentagem de cobertura de código atingida;
+  \item \textbf{CK\footnote{https://github.com/mauricioaniche/ck}:} ferramenta disponível em repositório opensource para extração de métricas CK em projetos Java;
+  \item \textbf{Weka\footnote{https://www.cs.waikato.ac.nz/ml/weka/}:} ferramenta de mineração de dados utilizada para classificação pela técnica citada no capítulo 5;
+  \item \textbf{LibreOffice Calc\footnote{https://www.libreoffice.org/discover/calc/}:} ferramenta utiizada para o cálculo das correlações entre os valores que serão apresentados.
+  \item \textbf{Go \footnote{https://golang.org/}:} linguagem de programação utilizada para codificação de algumas rotinas de processamento dos dados.
+  \item \textbf{Maven \footnote{https://maven.apache.org/}:} ferramenta de compilação, gestão de dependências e empacotamento dos projetos java presente no SF110.
+\end{itemize}
+
+Nas seções posteriores será descrita a metodologia aplicada durante o processo de pesquisa e os resultados encontrados, o processo foi segmentado nas tarefas de extração e análise das métricas, geração dos dados de teste, associação dos resultados, mineração dos dados, teste da hipótese e análise dos resultados.
+ 
+  \section{Extrações de dados a análises primárias}
+  A primeira etapa do processo consistiu na  extração dos dados para análises primárias das hipóteses apresentadas, este passo foi necessário pois a primeira análise estatística  para validação foi a análise da correlação das métricas CK dos projetos e os dados de execução fornecidos da EvoSuite: Cobertura de código e tempo de execução. A análise da correlação é uma etapa de validação importante visto que valores de correlação com pouca ou nenhuma significância podem dar indícios da eficácia de seu uso na mineração de dados, esta etapa caracteriza como uma etapa eliminatória das etapas posteriores do processo. 
+  
+ Os dados necessários para a análise da correlação são as devidas quantidades de cobertura, tempo disponibilizados pela EvoSuite e métricas CK extraídas das classes do SF110. Por conta da velocidade de extrair métricas estáticas como as métricas CK, a primeira coleta ocorreu com a geração dos dados de teste pela EvoSuite, inicialmente com o algoritmo de busca genético padrão e em seguida com o algoritmo de busca randômica.
+ 
+ O SF110 possui em torno de <X> classes java, espera-se então que o conjunto de dados consolidado final para treinamento possua o mesmo número, porém alguns dos projetos apresentaram problemas ao serem compilados , outros apresentaram mensagens de erro ao iniciar a geração de dados de testes utilizando algoritmos genéticos por meio da EvoSuite e alguns projetos possuíram tempo de execução superior a 8 horas.
+
+
+
+\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
+	\centering
+ 	  \caption{Distribuição de estado dos projetos após geração de dados de teste}
+		\includegraphics[width=\textwidth]{status_projetos.png}
+	\label{fig:distribuicao-estados-projetos}
+  \source{Gustavo da Mota Ramos, 2018}
+\end{figure}
+
+Como demonstrado na figura \ref{fig:distribuicao-estados-projetos}, da quantidade total de projetos presentes no SF110, 75\% tiveram seus dados de teste gerados corretamente, enquanto 8\% apresentaram problemas ao serem compilados, 13\% foram compilados corretamente porém apresentaram erros duranta geração dos dados de teste e 4\% dos projetos precisaram ter sua execução interrompida pois o processo já havia atingido 8 horas de duração para um único projeto.
+
+Seguido à geração de dados de teste por meio de algoritmos genéticos, a geração de dados de teste por meio da técnica randômica ocorreu, porém esta ocorreu somente nos projetos com sucesso na geração anterior, isso ocorre por conta da comparação ser entre os dois algoritmos, então é necessário que ambos sejam gerados com base nos mesmos projetos.
+
+\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
+	\centering
+ 	  \caption{Quantidade de classes que atingiram cobertura de código superior ao outro algoritmo}
+		\includegraphics[width=\textwidth]{cobertura_evosuite.png}
+	\label{fig:distribuicao-cobertura-evosuite}
+  \source{Gustavo da Mota Ramos, 2018}
+\end{figure}
+
+Após a coleta, o dataset contém a cobertura de código atingida até o tempo máximo registrado para cada classe em cada um dos algoritmos de geração descritos no capítulo \autoref{chap:geracao-automatica-dados-teste}, sendo assim foi possível verificar em qual dos algoritmos cada classe teve maior cobertura e quantificar, como demonstrado na figura \ref{fig:distribuicao-cobertura-evosuite}. 
+
+Os resultados de cobertura de código obtidos divergem de alguns resultados apresentados por \cite{shamriski20151115}, no experimento que consistiu em gerar os casos de testes a partir de 1000 classes randomicamente escolhidas do corpus SF110. O estudo em questão apontou que seus resultados sugerem que na prática existe pouca diferença quando os resultados de geração de casos de teste são comparados, concluindo que algoritmos randômicos tenham o mesmo nível de efetividade.
+
+Esta diferença pode ser dada por dois fatores como volume de dados analisado e a evolução da ferramenta, o estudo citado utilizou em torno de de 20\% das classes utilizadas para análise na figura \ref{fig:distribuicao-cobertura-evosuite}, o volume maior análisado pode representar uma quantidade maior de casos. Outro fator importante é a evolução da ferramenta EvoSuite ao longo de 3 anos anos, que através de melhorias constantes pode ter causado melhorias no algoritmo genético o suficiente para conseguir o aumento da cobertura de código demonstrado na diferença dos experimentos.
+
+A partir dos dados de cobertura coletados em cada algoritmo, foi possível calcular a diferença entre eles em cada classe. As diferenças foram agrupadas e separadas em diferentes faixas como demonstrado na tabela a seguir:
+
+
+
+\begin{table}[h]
+
+\centering
+\caption{Distruibuição das classes nas diferenças de cobertura entre os algoritmos}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+DIferença de cobertura & Quantidade de classes \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+Sem diferença  & 	585 \\
+10\%	& 	4232 \\
+20\%	& 	1075 \\
+30\%	& 	197 \\
+40\%	& 	74 \\
+50\%	& 	22 \\
+60\%	& 	1 \\
+70\%	& 	3 \\
+80\%	& 	0 \\
+90\%	& 	0 \\
+100\%	& 	2
+
+
+\end{tabular}
+\label{table:distribuicao-diferenca-cobertura-porcentagem}
+\end{table}
+
+O conteúdo da tabela \ref{table:distribuicao-diferenca-cobertura-porcentagem} mostra a distruibuição das diferenças de cobertura, é possível notar que maioria das classes, 85.7 \% do total, possuem diferença de cobertura entre os algoritmos maior do que 0\% e  menor do que 20\%. A diferença de cobertura entre 0\% e 10\% pode ser melhor vista na imagem \ref{fig:grafico_dif_cobertura}. 
+
+\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
+	\centering
+ 	  \caption{Quantidade de classes que consumiram menos tempo melhor em cada algoritmo}
+		\includegraphics[width=\textwidth]{grafico_dif_cobertura.png}
+	\label{fig:grafico_dif_cobertura}
+  \source{Gustavo da Mota Ramos, 2018}
+\end{figure}
+
+
+A partir da imagem \ref{fig:grafico_dif_cobertura} é possível notar que a predominância da diferença de cobertura entre as técnicas situa-se entre 0\% e 10\% . Estes valores são importantes para compreender a magniture da diferença coberta entre os algoritmos para que assim seja possível escolher o algoritmo mais rápido em casos que a diferença seja menor ao construir o conjunto de dados de aprendizado.
+
+Um segundo ponto importante de análise é o tempo de geração utilizado em cada um dos algoritmos, em alguns dos projetos análisados, o tempo de geração total foi superior a 8 horas. o mesmo processo aplicado para análise da cobertura do código foi aplicado para o tempo de geração:\\
+
+\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
+	\centering
+ 	  \caption{Quantidade de classes que consumiram menos tempo melhor em cada algoritmo}
+		\includegraphics[width=\textwidth]{tempo_evosuite.png}
+	\label{fig:distribuicao-tempo-evosuite}
+  \source{Gustavo da Mota Ramos, 2018}
+\end{figure}
+
+Como pode ser visto na imagem \ref{fig:distribuicao-tempo-evosuite}, uma quantidade considerável, totalizando 66\% das classes foram geradas mais rapidamente utilizando o algoritmo de busca randômica, enquanto somente 32\% das classes tiveram seus dados gerados mais rapidamente utilizando algoritmo genético e somente 2\% tiveram seus dados gerados com a mesma quantidade de tempo.
+
+Após a extração das métricas CK os dados foram consolidados por meio de executáveis escritos em Go, os arquivos de entrada consistem nos resultados gerados usando algoritmo genético, resultados gerados usando algoritmo randômico e as métricas CK. Os 3 arquivos diferem em suas estruturas, porém foram consolidados por meio de umconjunto de dados em comum pelos 3 arquivos: Todos possuem o caminho completo do pacote onde a classe encontra-se e o nome da classe, formando uma tupla única de união das três fontes de dados; O resultado final consistiu em um dataset de 5705 registros de classes contendo os dados consolidados, resultando assim no cálculo da correlação:
+
+
+\begin{table}[h]
+\centering
+\caption{Correlação entre métricas CK e cobertura de código}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+										
+Métrica & Algoritmo genético & Algoritmo randômico \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+CBO	& -0.249850668595503	& 	-0.232931214471127 \\
+WNC	& -0.29807261754159	& 	-0.276826266943643 \\
+DIT	& -0.221073021178272		& -0.229483879955976 \\
+NOC& 	0.000302617656848	& 	0.001561246261131 \\
+RFC	& -0.564049275058188		& -0.552823956941685 \\
+LCOM	 & -0.040802466405277	& 	-0.032051943296475 \\
+NOM	& -0.109889786736834		& -0.0827808149062 \\
+NOPM	 & -0.014135793315715		& 0.009596758553157 \\
+NOSM	 & -0.075230386707179	& 	-0.071445190069526 \\
+NOF	& -0.140224056429869	& 	-0.120339077987188 \\
+NOPF	& -0.004633572435886		& -0.000497241219225 \\
+NOSF	& -0.111343334357608		& -0.109334015568744 \\
+NOSI	& -0.282084913928777	& 	-0.273109674212372 \\
+LOC	& -0.287212833651501	& 	-0.262779424522538
+
+\end{tabular}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\caption{Correlação entre métricas CK e o tempo de geração}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+										
+Métrica & Algoritmo genético & Algoritmo randômico \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+CBO		& 0.396318591856812		& 0.037898357322244 \\
+WNC		& 0.484002414944669		& 0.059460693763974 \\
+DIT		& 0.0040537265288		& 0.005185276134757 \\
+NOC		& 0.008046221302802		& -0.00048066394787 \\
+RFC		& 0.491425142687552		& 0.073355181869394 \\
+LCOM		& 0.186475399697658	& 	0.025181662291855 \\
+NOM		& 0.441803537967141		& 0.038466136152881 \\
+NOPM		& 0.38853663183873		& 0.027876177461111 \\
+NOSM		& 0.180912744473895	& 	0.030067038091283 \\
+NOF		& 0.332907657997746	& 	0.02963776551629 \\
+NOPF		& 0.059216533461886	& 	0.002387027385852 \\
+NOSF		& 0.159268739166119		& 0.02786927036709 \\
+NOSI		& 0.283074420386565		& 0.042066832430523 \\
+LOC		& 0.476423297500777	& 0.052316363027409
+\end{tabular}
+\end{table}
+
+\section{Extrações de dados e análise das métricas SB4SE}
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
 % ----------------------------------------------------------
