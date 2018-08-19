@@ -1230,6 +1230,8 @@ LOC		& 0.476423297500777	& 0.052316363027409
 \label{table:correlacao-tempo}
 \end{table}
 
+As tabelas \ref{table:correlacao-cobertura} e \ref{table:correlacao-tempo} possuem as correlações calculadas entre cada métrica $CK$ extraída com a cobertura atingida nos dois algoritmos. A partir dos resultados presentes nas tabelas é possível notar que os valores de correlação situados entre valores baixos e moderados, enquanto no algoritmo randômico, com exceção da métrica $RFC$, todos os valores baixos o suficiente para não possuírem qualquer significância para análise.
+
 \section{Aplicação das classes e classificação}
 
 Após a coleta dos dados e consolidação seguido de validação deste conjunto por meio da sua correlação, é possível trabalhar com este conjunto para assim classificar cada um dos elementos. Para a execução de um algoritmo de classificação supervisionado, neste caso o algoritmo naive bayes, é necessário primariamente definir quais são as classes as quais cada elemento do conjunto de dados poderá pertencer, as classes são os nomes dados para os agrupamentos os quais será necessário classificar cada elemento de acordo com suas características, desde que um elemento pertença a uma classe somente.
@@ -1307,6 +1309,21 @@ O algoritmo naive bayes, ao ser executado, retornou uma precisão de 80.3\% apó
 
 O terceiro conjunto de aprendizado construído levou em consideração tanto a cobertura dos testes quanto o tempo de execução, a execução do algoritmo foi similar ao algoritmo \ref{alg:algoritmo-CBCK} com uma otimização: Em casos onde a diferença de cobertura entre os algoritmos situa-se entre 0\% e 10\%, a classe do algoritmo com o menor tempo de execução foi aplicada, o conjunto de treinamento foi então nomeado por \textbf{CBCK10}. O algoritmo naive bayes foi executado, seguindo o uso das mesmas métricas utilizadas no conjunto de treinamento \textbf{CBCK+}, resultando na seguinte matriz de confusão:
 
+\begin{algorithm}[htbp]
+\caption{Algoritmo para aplicação das classes no conjunto de treinamento CBCK}
+\label{alg:algoritmo-CBCK}
+\begin{algorithmic}[1]
+
+\Procedure{AplicarClasse}{}
+\State Para todas as linhas L do conjunto consolidado:
+\State $classe := RANDOM$
+\State 		Se L.CoberturaGA > L.CoberturaRandom: $classe := GA$
+\State $AtualizaArquivo()$
+\EndProcedure
+\end{algorithmic}
+\source{Gustavo Ramos, 2018}
+\end{algorithm}
+
 \begin{table}[h]
 \centering
 \caption{Matriz de confusão ao classificar o conjunto CBCK10 com o algoritmo Naive Bayes}
@@ -1323,7 +1340,27 @@ RANDOM		& 107		& 226
 \label{table:confusao-hibrido+}
 \end{table}
 
-O algoritmo, ao ser executado, retornou uma precisão de 63.5\%, porém é possível notar a melhora na distribuição da matriz de confusão, o algoritmo passou a reconhecer mais casos onde o algoritmo randômico deveria ser selecionado.
+O algoritmo, ao ser executado, retornou uma precisão de 63.5\%, porém é possível notar a melhora na distribuição da matriz de confusão demonstrada na tabela \ref{confusao-hibrido+}, o algoritmo passou a reconhecer mais casos onde o algoritmo randômico deveria ser selecionado.
+
+
+\begin{table}[h]
+\centering
+\caption{Arquivos de treinamento utilizados no formato do software Weka}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+										
+ Conjunto de treinamento & Arquivo \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+CKCK		& \href{https://github.com/gmramos/usp-masters-degree/blob/master/Datasets/WEKA/CBCK.arff}{CBCK.arff} \\
+CKCK+		& \href{http://www.texample.net/tikz/resources/}{Tex Example Site} \\
+ CKCK10		& \href{http://www.texample.net/tikz/resources/}{Tex Example Site}
+\end{tabular}
+\source{Gustavo Ramos, 2018}
+\label{table:confusao-hibrido+}
+\end{table}
+
+
 
 \chapter{Conclusão}
 
