@@ -71,6 +71,7 @@
 \usepackage{mdwlist}			%para itens com espaço padrão da abnt
 \usepackage[noend]{algpseudocode}			%para ilustrações do tipo algoritmo
 \usepackage[T1]{fontenc}
+\usepackage{mdframed}
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
@@ -596,6 +597,7 @@ Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de
 %
 %-------------------------------------------------------------------------
 \chapter{Introdução}
+\label{chap:introducao}
 Produtos de software de diferentes tamanhos e complexidades são utilizados todos os dias em atividades profissionais ou de entretenimento. Em qualquer circunstância, entretanto, a falta de qualidade em produtos pode caracterizar uma situação preocupante para seus produtores \cite{hilburn2002software}  \cite{binder1994test}, uma vez que cada vez mais os níveis aceitáveis de qualidade de um software estão aumentando, tanto no que se refere ao seu comportamento observável externamente quanto ao seu processo de desenvolvimento e estrutura interna \cite{linda2006quality} \cite{bashir2008test} \cite{graham2008foundations}.
 
 
@@ -1058,6 +1060,7 @@ A feramenta possui em torno de duas décacas, com  implementações dos algoritm
 A Weka opera com dados unidimensionais, permitindo que pessoas de qualquer nível de conhecimento em mineração de dados  possam identificar informações escondidas em seus conjuntos de treinamentos com uma interface simples e direta \cite{Subbulakshmi2012}.  Após carregar e treinar um modelo com um conjunto de dados, o classificador pode ser validado para o conjunto e as classes fornecidas \cite{Subbulakshmi2012}. 
 
 \chapter{Resultados e Discussões}
+\label{chap:resultados}
 Neste capítulo serão apresentados os resultados obtidos por meio das informações encontradas e dos testes aplicados durante o desenvolvimento da pesquisa. Para efeito de organização, este capítulo será dividido em seções que explicam desde os materiais e métodos utilizados até os resultados obtidos, dados gerados, assim como as conclusões extraídas e trabalhos futuros.
 
 \section{Materiais}
@@ -1182,7 +1185,7 @@ Após a extração das métricas CK os dados foram consolidados por meio de exec
 Métrica & Algoritmo genético & Algoritmo randômico \\ % Note a separação de col. e a quebra de linhas
 \hline                               % para uma linha horizontal
 CBO	& -0.249850668595503	& 	-0.232931214471127 \\
-WNC	& -0.29807261754159	& 	-0.276826266943643 \\
+WMC	& -0.29807261754159	& 	-0.276826266943643 \\
 DIT	& -0.221073021178272		& -0.229483879955976 \\
 NOC& 	0.000302617656848	& 	0.001561246261131 \\
 RFC	& -0.564049275058188		& -0.552823956941685 \\
@@ -1212,7 +1215,7 @@ LOC	& -0.287212833651501	& 	-0.262779424522538
 Métrica & Algoritmo genético & Algoritmo randômico \\ % Note a separação de col. e a quebra de linhas
 \hline                               % para uma linha horizontal
 CBO		& 0.396318591856812		& 0.037898357322244 \\
-WNC		& 0.484002414944669		& 0.059460693763974 \\
+WMC		& 0.484002414944669		& 0.059460693763974 \\
 DIT		& 0.0040537265288		& 0.005185276134757 \\
 NOC		& 0.008046221302802		& -0.00048066394787 \\
 RFC		& 0.491425142687552		& 0.073355181869394 \\
@@ -1285,7 +1288,7 @@ No conjunto de aprendizado \textbf{CBCK}, 14 métricas de softwares orientados a
 
 Os resultados simulados por \cite{Xia2013} provam que diversas métricas são correlacionadas e algumas podem ser úteis em modelos de predição de defeitos, métricas destritas no capitulo \ref{chap:metricas}  como: LOC, RFC, CBO, AMC e CAM.  As métricas destacadas coincidem inclusive com as de valores mais altos de correlação na tabela \ref{table:correlacao-cobertura}.
 
-Dada a relevâncias das métricas citadas, segundo conjunto de aprendizado foi criado com o nome \textbf{CBCK+} com base no conjunto de métricas detalhados por \cite{Xia2013}, ou seja, somente estas métricas foram selecionadas para execução do algorítmo na interface do software Weka. Dado que as métricas de coesão entre os métodos (CAM) e complexidade média dos métodos não fazem parte do conjunto, estas foram substituídas pelas métricas LCOM e WNC respectivamente, resultando na seguinte matriz de confusão:
+Dada a relevâncias das métricas citadas, segundo conjunto de aprendizado foi criado com o nome \textbf{CBCK+} com base no conjunto de métricas detalhados por \cite{Xia2013}, ou seja, somente estas métricas foram selecionadas para execução do algorítmo na interface do software Weka. Dado que as métricas de coesão entre os métodos (CAM) e complexidade média dos métodos não fazem parte do conjunto, estas foram substituídas pelas métricas LCOM e WMC respectivamente, resultando na seguinte matriz de confusão:
 
 \begin{table}[h]
 \centering
@@ -1309,21 +1312,6 @@ O algoritmo naive bayes, ao ser executado, retornou uma precisão de 80.3\% apó
 
 O terceiro conjunto de aprendizado construído levou em consideração tanto a cobertura dos testes quanto o tempo de execução, a execução do algoritmo foi similar ao algoritmo \ref{alg:algoritmo-CBCK} com uma otimização: Em casos onde a diferença de cobertura entre os algoritmos situa-se entre 0\% e 10\%, a classe do algoritmo com o menor tempo de execução foi aplicada, o conjunto de treinamento foi então nomeado por \textbf{CBCK10}. O algoritmo naive bayes foi executado, seguindo o uso das mesmas métricas utilizadas no conjunto de treinamento \textbf{CBCK+}, resultando na seguinte matriz de confusão:
 
-\begin{algorithm}[htbp]
-\caption{Algoritmo para aplicação das classes no conjunto de treinamento CBCK}
-\label{alg:algoritmo-CBCK}
-\begin{algorithmic}[1]
-
-\Procedure{AplicarClasse}{}
-\State Para todas as linhas L do conjunto consolidado:
-\State $classe := RANDOM$
-\State 		Se L.CoberturaGA > L.CoberturaRandom: $classe := GA$
-\State $AtualizaArquivo()$
-\EndProcedure
-\end{algorithmic}
-\source{Gustavo Ramos, 2018}
-\end{algorithm}
-
 \begin{table}[h]
 \centering
 \caption{Matriz de confusão ao classificar o conjunto CBCK10 com o algoritmo Naive Bayes}
@@ -1337,34 +1325,78 @@ GA		& 524		& 284 \\
 RANDOM		& 107		& 226
 \end{tabular}
 \source{Gustavo Ramos, 2018}
-\label{table:confusao-hibrido+}
+\label{table:confusao-hibrido-plus}
 \end{table}
 
-O algoritmo, ao ser executado, retornou uma precisão de 63.5\%, porém é possível notar a melhora na distribuição da matriz de confusão demonstrada na tabela \ref{confusao-hibrido+}, o algoritmo passou a reconhecer mais casos onde o algoritmo randômico deveria ser selecionado.
+O algoritmo, ao ser executado, retornou uma precisão de 63.5\%, porém é possível notar a melhora na distribuição da matriz de confusão demonstrada na tabela \ref{table:confusao-hibrido-plus}, o algoritmo passou a reconhecer mais casos onde o algoritmo randômico deveria ser selecionado enquanto o algoritmo reconheceu uma grande quantidade dos casos onde o algoritmo genético deveria ser selecionado.
 
-
-\begin{table}[h]
-\centering
-\caption{Arquivos de treinamento utilizados no formato do software Weka}
-\vspace{0.5cm}
-\begin{tabular}{r|lr}
-
-										
- Conjunto de treinamento & Arquivo \\ % Note a separação de col. e a quebra de linhas
-\hline                               % para uma linha horizontal
-CKCK		& \href{https://github.com/gmramos/usp-masters-degree/blob/master/Datasets/WEKA/CBCK.arff}{CBCK.arff} \\
-CKCK+		& \href{http://www.texample.net/tikz/resources/}{Tex Example Site} \\
- CKCK10		& \href{http://www.texample.net/tikz/resources/}{Tex Example Site}
-\end{tabular}
-\source{Gustavo Ramos, 2018}
-\label{table:confusao-hibrido+}
-\end{table}
 
 
 
 \chapter{Conclusão}
+\label{chap:conclusao}
+Neste trabalho foi apresentado um estudo sobre a relação das métricas CK com a cobertura de código e tempo em dois algoritmos de geração de dados de testes distintos.
+Ao longo do trabalho foram coletados diversos dados sobre ambos os assuntos: métricas e geração de dados de testes, estes dados foram então processados, agrupados e análisados para que assim seja compreendida a relação entre estes, caso exista e possíveis tomadas de decisão.
+
+Nas etapas iniciais de projeto, algumas questões foram levantadas como as questões elicitadas no capítulo \ref{chap:introducao}, estas questões serviram como base para mapear todos os materiais e atividades necessários para garantir respostas. Após as  extrações e análises  descritas no capítulo \ref{chap:resultados}, é possível assim responder os questionamentos, dentro os questionamentos estão:\\
+
+\fbox{\parbox{5in}{%
+Q1: Existe alguma diferença de performance entre os algoritmos de geração de dados de teste: randômico e algoritmos genéticos ?
+}}
+\\
+
+Os algoritmos apresentados possuem diferenças em seus resultados de execução, sejam eles cobertura de código ou tempo de execução. O algoritmo genético apresentou maior porcentagem de cobertura de código em 80\% dos casos analisados, estas diferenças situam-se em sua maioria entre 1\% e 20\% quando comparados às coberturas de código apresentadas pelo algoritmo randômico nos testes efetuados. Esta diferença pode ser dada por conta da natureza do algoritmo genético, este é um algoritmo de busca direcionado o qual altera sua própria execução para o problema de busca em análise, enquanto o algoritmo randômico procura possíveis soluções em um espaço maior de busca, com pouco direcionamento.
+
+Em comparação, o algoritmo randômico apresentou menor tempo de execução em 66 \% dos casos, o tempo de execução reduzido é dado pelo tempo entre as interações do algoritmo, visto que o algoritmo randômico não possui passos como crossover ou mutação, garantindo assim que consiga varrer o espaço de busca com velocidade maior se comparado ao algoritmo genético.
+
+Sendo assim, é possível concluir que o algorítmo randômico consegue ser executado com maior velocidade e menor tempo do que um algoritmo genético, porém também é notável que um algorítmo genético consegue atingir maior cobertura de código.\\
+
+\fbox{\parbox{5in}{%
+Q2: Alguma característica ou conjunto de características do software sob teste que faça com que uma técnica usada na geração de casos de teste seja melhor do que outra?
+}}
+\\
+
+Em suma, 14 métricas foram analisadas no contexto de geração de dados de teste para entender características como correlação com o tempo necessário para geração ou a cobertura de código atingida ou efeitos destas métricas no processo de geração. Durante a análise dos resultados foi possível notar que um número maior de métricas pode ser redundante, inclusive danificar o resultado se comparado a um conjunto mais preciso de métricas.
+
+Através a análise foi possível notar também que um conjunto de 5 métricas foram capazes de representar melhor uma classe durante a seleção de algoritmos quando este conjunto foi comparado ao conjunto total de 14 métricas. Neste conjunto de métricas estão: $CBO$ (Coupling between Object Classes), $WMC$ (Weight Method Class ou Complexidade de McCabe), $LCOM$ (Lack of Cohesion of Methods) e $LOC$ (Lines of code) e em especial a métrica $RFC$ (Response for a Class) a qual possuiu maior valor de correlação com a cobertura de código.
+
+O conjunto das 5 métricas citadas apresentou correlação média com a cobertura de código apresentada pelo algoritmo genético, além de demonstrar eficiência no algoritmo de classificação, ao mesmo tempo,  as métricas apresentaram pouca correlação com a cobertura obtida pelo algoritmo randômico ou com o tempo de execução em ambos os algoritmos, sendo assim, é possível afirmar que um algorítmo genético tem características similares em geração de dados de teste enquanto este fato não ocorre no algoritmo randômico. \\
 
 
+\fbox{\parbox{5in}{%
+Q3: É possível escolher entre dois algoritmos de geração de dados de testes a partir de um algoritmo de classificação e métricas de softwares orientados e objetos ?
+}}
+\\
+
+
+\begin{comment}
+
+
+
+
+\begin{table}[h]
+\centering
+\caption{Arquivos gerados pelos experimentos}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+										
+ Arquivo & URL \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+  Dados de geração e métricas CK		& \href{https://github.com/gmramos/usp-masters-degree/blob/master/Datasets/CSV/EvoSuite\%20data\%20and\%20CK\%20metrics.csv}{EvoSuite data and CK metrics.csv}\\
+Conjunto de treinamento CKCK		& \href{https://github.com/gmramos/usp-masters-degree/blob/master/Datasets/WEKA/CBCK.arff}{CBCK.arff} \\
+Conjunto de treinamento CKCK+		& \href{https://github.com/gmramos/usp-masters-degree/blob/master/Datasets/WEKA/CBCK\%2B.arff}{CBCK+.arff} \\
+ Conjunto de treinamento CKCK10		& \href{https://github.com/gmramos/usp-masters-degree/blob/master/Datasets/WEKA/CBCK10.arff}{CBCK10.arff}
+
+\end{tabular}
+
+
+\source{Gustavo Ramos, 2018}
+\label{table:confusao-hibrido+}
+\end{table}
+
+\section{Trabalhos futuros}
+\end{comment}
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS

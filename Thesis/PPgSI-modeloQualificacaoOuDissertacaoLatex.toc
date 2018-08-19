@@ -64,5 +64,5 @@
 \contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o}{56}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{57}{chapter*.12}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{58}{chapter*.12}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
