@@ -26,45 +26,45 @@ Warning--campo year vazio ou faltando em Mockito
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 62 entries,
+You've used 63 entries,
             6714 wiz_defined-function locations,
-            1634 strings with 21618 characters,
-and the built_in function-call counts, 79333 in all, are:
-= -- 8388
-> -- 2019
-< -- 1229
-+ -- 2016
-- -- 605
-* -- 5348
-:= -- 9774
-add.period$ -- 301
-call.type$ -- 62
-change.case$ -- 699
-chr.to.int$ -- 125
-cite$ -- 65
-duplicate$ -- 6072
-empty$ -- 4297
-format.name$ -- 2904
-if$ -- 17672
+            1640 strings with 21809 characters,
+and the built_in function-call counts, 80486 in all, are:
+= -- 8476
+> -- 2071
+< -- 1232
++ -- 2036
+- -- 620
+* -- 5438
+:= -- 9910
+add.period$ -- 306
+call.type$ -- 63
+change.case$ -- 714
+chr.to.int$ -- 129
+cite$ -- 66
+duplicate$ -- 6126
+empty$ -- 4382
+format.name$ -- 2974
+if$ -- 17957
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1126
-newline$ -- 321
-num.names$ -- 289
-pop$ -- 1409
+missing$ -- 1146
+newline$ -- 325
+num.names$ -- 294
+pop$ -- 1439
 preamble$ -- 1
-purify$ -- 255
+purify$ -- 260
 quote$ -- 0
-skip$ -- 6666
+skip$ -- 6724
 stack$ -- 1
-substring$ -- 3347
-swap$ -- 2593
-text.length$ -- 110
+substring$ -- 3394
+swap$ -- 2625
+text.length$ -- 112
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 92
+type$ -- 93
 warning$ -- 4
-while$ -- 479
+while$ -- 487
 width$ -- 0
-write$ -- 1064
+write$ -- 1081
 (There were 4 warnings)

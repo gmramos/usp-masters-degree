@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  18 AUG 2018 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  19 AUG 2018 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1019,17 +1019,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [11
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 63.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <15> on input line 63.
+(Font)              <15> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.49995> on input line 63.
+(Font)              <10.49995> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.5> on input line 63.
+(Font)              <7.5> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 63.
+(Font)              <7> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 63.
+(Font)              <5> on input line 67.
 ) [12] [13
 
 
@@ -1044,7 +1044,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 615.
  [14] [15]
 [16]
-<modelo-teste.png, id=347, 386.19281pt x 219.06844pt>
+<modelo-teste.png, id=369, 386.19281pt x 219.06844pt>
 File: modelo-teste.png Graphic file (type png)
 <use modelo-teste.png>
 Package pdftex.def Info: modelo-teste.png  used on input line 665.
@@ -1058,7 +1058,7 @@ Package pdftex.def Info: modelo-teste.png  used on input line 665.
                                                   \fi \fi 
 l.677 
        <./modelo-teste.png>] [19] [20] [21]
-<tipos-custo-arvore.png, id=452, 305.64188pt x 137.7647pt>
+<tipos-custo-arvore.png, id=474, 305.64188pt x 137.7647pt>
 File: tipos-custo-arvore.png Graphic file (type png)
 <use tipos-custo-arvore.png>
 Package pdftex.def Info: tipos-custo-arvore.png  used on input line 729.
@@ -1070,7 +1070,7 @@ Package pdftex.def Info: tipos-custo-arvore.png  used on input line 729.
                                                   \fi \fi 
 l.741 
        <./tipos-custo-arvore.png>]
-<nonconformance-costs-timeline.png, id=482, 274.02374pt x 182.18062pt>
+<nonconformance-costs-timeline.png, id=504, 274.02374pt x 182.18062pt>
 File: nonconformance-costs-timeline.png Graphic file (type png)
 <use nonconformance-costs-timeline.png>
 Package pdftex.def Info: nonconformance-costs-timeline.png  used on input line 
@@ -1109,194 +1109,222 @@ Package hyperref Warning: Suppressing empty link on input line 803.
 
 Package hyperref Warning: Suppressing empty link on input line 803.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 818--819
+
+ []
+
 [27]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 823.
+ [28]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 823.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 823.
+(hyperref)                removing `math shift' on input line 856.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 823.
+(hyperref)                removing `\lambda' on input line 856.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 823.
+(hyperref)                removing `math shift' on input line 856.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 823.
+(hyperref)                removing `math shift' on input line 856.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 830.
+(hyperref)                removing `\lambda' on input line 856.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 830.
+(hyperref)                removing `math shift' on input line 856.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 830.
+(hyperref)                removing `math shift' on input line 863.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 830.
+(hyperref)                removing `\mu' on input line 863.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 830.
+(hyperref)                removing `math shift' on input line 863.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 830.
-
-[28] [29]
-
-Package hyperref Warning: Suppressing empty link on input line 852.
+(hyperref)                removing `math shift' on input line 863.
 
 
-Package hyperref Warning: Suppressing empty link on input line 854.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 863.
 
 
-Package hyperref Warning: Suppressing empty link on input line 854.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 863.
+
+[29] [30]
+
+Package hyperref Warning: Suppressing empty link on input line 885.
 
 
-Package hyperref Warning: Suppressing empty link on input line 854.
+Package hyperref Warning: Suppressing empty link on input line 887.
 
-[30]
 
-Package hyperref Warning: Suppressing empty link on input line 860.
+Package hyperref Warning: Suppressing empty link on input line 887.
 
-[31] [32
 
-] [33]
-<diagrama_diamante.png, id=736, 287.57437pt x 274.77657pt>
+Package hyperref Warning: Suppressing empty link on input line 887.
+
+[31]
+
+Package hyperref Warning: Suppressing empty link on input line 893.
+
+[32] [33
+
+] [34]
+<diagrama_diamante.png, id=778, 287.57437pt x 274.77657pt>
 File: diagrama_diamante.png Graphic file (type png)
 <use diagrama_diamante.png>
-Package pdftex.def Info: diagrama_diamante.png  used on input line 900.
+Package pdftex.def Info: diagrama_diamante.png  used on input line 934.
 (pdftex.def)             Requested size: 287.57367pt x 274.77588pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.910 \end{equation}
-                     <./diagrama_diamante.png>] [35]
-<modelo_srivastava_kumar.png, id=775, 156.585pt x 334.24875pt>
+l.944 \end{equation}
+                     <./diagrama_diamante.png>] [36]
+<modelo_srivastava_kumar.png, id=816, 156.585pt x 334.24875pt>
 File: modelo_srivastava_kumar.png Graphic file (type png)
 <use modelo_srivastava_kumar.png>
-Package pdftex.def Info: modelo_srivastava_kumar.png  used on input line 950.
+Package pdftex.def Info: modelo_srivastava_kumar.png  used on input line 984.
 (pdftex.def)             Requested size: 156.58461pt x 334.24792pt.
- [36] [37pdfTeX warning (ext4): destination with the same identifier (name{figu
+ [37] [38pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.962 
-       <./modelo_srivastava_kumar.png>] [38] [39
+l.996 
+       <./modelo_srivastava_kumar.png>] [39] [40
 
-] [40]
-Underfull \hbox (badness 10000) in paragraph at lines 996--1001
+] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1035
 
  []
 
-[41] [42]
+[42] [43]
 
-Package hyperref Warning: Suppressing empty link on input line 1031.
+Package hyperref Warning: Suppressing empty link on input line 1065.
 
-[43
+[44
 
 ]
-<status_projetos.png, id=926, 886.31125pt x 551.05875pt>
+<status_projetos.png, id=966, 886.31125pt x 551.05875pt>
 File: status_projetos.png Graphic file (type png)
 <use status_projetos.png>
-Package pdftex.def Info: status_projetos.png  used on input line 1060.
+Package pdftex.def Info: status_projetos.png  used on input line 1094.
 (pdftex.def)             Requested size: 455.0pt x 282.8945pt.
- [44]
-<cobertura_evosuite.png, id=935, 714.16812pt x 502.87875pt>
+ [45]
+<cobertura_evosuite.png, id=975, 714.16812pt x 502.87875pt>
 File: cobertura_evosuite.png Graphic file (type png)
 <use cobertura_evosuite.png>
-Package pdftex.def Info: cobertura_evosuite.png  used on input line 1072.
+Package pdftex.def Info: cobertura_evosuite.png  used on input line 1106.
 (pdftex.def)             Requested size: 455.0pt x 320.38336pt.
- [45pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1076 
+l.1110 
         <./status_projetos.png>]
 
-Package hyperref Warning: Suppressing empty link on input line 1079.
+Package hyperref Warning: Suppressing empty link on input line 1113.
 
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1082 
+l.1116 
         <./cobertura_evosuite.png>]
-<grafico_dif_cobertura.png, id=952, 816.55063pt x 469.25313pt>
+<grafico_dif_cobertura.png, id=993, 816.55063pt x 469.25313pt>
 File: grafico_dif_cobertura.png Graphic file (type png)
 <use grafico_dif_cobertura.png>
-Package pdftex.def Info: grafico_dif_cobertura.png  used on input line 1118.
+Package pdftex.def Info: grafico_dif_cobertura.png  used on input line 1152.
 (pdftex.def)             Requested size: 455.0pt x 261.47679pt.
- [47pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
+ [48pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1122 
+l.1156 
        ]
-Underfull \hbox (badness 10000) in paragraph at lines 1126--1127
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
 
  []
 
-<tempo_evosuite.png, id=958, 661.97313pt x 662.97687pt>
+<tempo_evosuite.png, id=1000, 661.97313pt x 662.97687pt>
 File: tempo_evosuite.png Graphic file (type png)
 <use tempo_evosuite.png>
-Package pdftex.def Info: tempo_evosuite.png  used on input line 1131.
+Package pdftex.def Info: tempo_evosuite.png  used on input line 1165.
 (pdftex.def)             Requested size: 455.0pt x 455.6842pt.
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1135 
-        <./grafico_dif_cobertura.png>] [49pdfTeX warning (ext4): destination wi
+l.1169 
+        <./grafico_dif_cobertura.png>] [50pdfTeX warning (ext4): destination wi
 th the same identifier (name{figure.6.9}) has been already used, duplicate igno
 red
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1139 
-        <./tempo_evosuite.png>]
+l.1173 
+        <./tempo_evosuite.png>] [51pdfTeX warning (ext4): destination with the 
+same identifier (name{table.6.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1236 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+6.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1236 
+       ] [52] [53pdfTeX warning (ext4): destination with the same identifier (n
+ame{table.6.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1286 D
+        ada a relevâncias das métricas citadas, segundo conjunto de aprend...
+] [54pdfTeX warning (ext4): destination with the same identifier (name{table.6.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1328 \chapter
+               {Conclusão}pdfTeX warning (ext4): destination with the same ide
+ntifier (name{table.6.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1328 \chapter
+               {Conclusão}] [55]
 (./PPgSI-modeloQualificacaoOuDissertacaoLatex.bbl
 (./PPgSI-modeloQualificacaoOuDissertacaoLatex.brf)
 \tf@brf=\write5
 \openout5 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.brf'.
 
- [50pdfTeX warning (ext4): destination with the same identifier (name{table.6.2
-}) has been already used, duplicate ignored
+ [56
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.3 ...th{\labelsep}{0pt}\begin{thebibliography}{}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{table.6.3}) has been already used, duplica
-te ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.3 ...th{\labelsep}{0pt}\begin{thebibliography}{}
-                                                  ] [51]
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 3.
@@ -1306,11 +1334,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 3.
 
 bibitemlist
-[52
+[57
 
-] [53] [54] [55]) 
+] [58] [59] [60] [61]) 
 AED: lastpage setting LastPage
-[56]
+[62]
 \tf@lof=\write6
 \openout6 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.lof'.
 
@@ -1323,29 +1351,29 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1254.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1254.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1390.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1390.
  (./PPgSI-modeloQualificacaoOuDissertacaoLatex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1254.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1254.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1390.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1390.
 
 Package rerunfilecheck Info: File `PPgSI-modeloQualificacaoOuDissertacaoLatex.b
 rf' has not changed.
-(rerunfilecheck)             Checksum: 82E913E729A72509E8EE6E31767344CF;10823.
+(rerunfilecheck)             Checksum: 521DDACBE9854AE9C0080A7AD5C86281;11039.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1254.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1390.
  ) 
 Here is how much of TeX's memory you used:
- 14731 strings out of 492649
- 222793 string characters out of 6129623
- 505159 words of memory out of 5000000
- 18031 multiletter control sequences out of 15000+600000
- 31044 words of font info for 137 fonts, out of 8000000 for 9000
+ 14794 strings out of 492649
+ 223703 string characters out of 6129623
+ 508557 words of memory out of 5000000
+ 18074 multiletter control sequences out of 15000+600000
+ 31877 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,18n,43p,1108b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,18n,43p,1108b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
@@ -1355,18 +1383,19 @@ local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (57 pages, 903
-577 bytes).
+xlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (63 pages, 930
+628 bytes).
 PDF statistics:
- 1412 PDF objects out of 1440 (max. 8388607)
- 1297 compressed objects within 13 object streams
- 222 named destinations out of 1000 (max. 500000)
- 25090 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1510 PDF objects out of 1728 (max. 8388607)
+ 1385 compressed objects within 14 object streams
+ 237 named destinations out of 1000 (max. 500000)
+ 27162 words of extra memory for PDF output out of 29859 (max. 10000000)
 

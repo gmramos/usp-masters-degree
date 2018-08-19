@@ -1,4 +1,7 @@
 \babel@toc {brazil}{}
-\contentsline {table}{\numberline {1}{\ignorespaces Distruibui\IeC {\c c}\IeC {\~a}o das classes nas diferen\IeC {\c c}as de cobertura entre os algoritmos}}{47}{table.6.1}
-\contentsline {table}{\numberline {2}{\ignorespaces Correla\IeC {\c c}\IeC {\~a}o entre m\IeC {\'e}tricas CK e cobertura de c\IeC {\'o}digo}}{50}{table.6.2}
-\contentsline {table}{\numberline {3}{\ignorespaces Correla\IeC {\c c}\IeC {\~a}o entre m\IeC {\'e}tricas CK e o tempo de gera\IeC {\c c}\IeC {\~a}o}}{50}{table.6.3}
+\contentsline {table}{\numberline {1}{\ignorespaces Distruibui\IeC {\c c}\IeC {\~a}o das classes nas diferen\IeC {\c c}as de cobertura entre os algoritmos}}{48}{table.6.1}
+\contentsline {table}{\numberline {2}{\ignorespaces Correla\IeC {\c c}\IeC {\~a}o entre m\IeC {\'e}tricas CK e cobertura de c\IeC {\'o}digo}}{51}{table.6.2}
+\contentsline {table}{\numberline {3}{\ignorespaces Correla\IeC {\c c}\IeC {\~a}o entre m\IeC {\'e}tricas CK e o tempo de gera\IeC {\c c}\IeC {\~a}o}}{51}{table.6.3}
+\contentsline {table}{\numberline {4}{\ignorespaces Matriz de confus\IeC {\~a}o ao classificar o conjunto CBCK com o algoritmo Naive Bayes}}{53}{table.6.4}
+\contentsline {table}{\numberline {5}{\ignorespaces Matriz de confus\IeC {\~a}o ao classificar o conjunto CBCK com o algoritmo Naive Bayes}}{54}{table.6.5}
+\contentsline {table}{\numberline {6}{\ignorespaces Matriz de confus\IeC {\~a}o ao classificar o conjunto CBCK10 com o algoritmo Naive Bayes}}{54}{table.6.6}

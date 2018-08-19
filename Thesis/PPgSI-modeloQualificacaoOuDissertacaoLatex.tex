@@ -815,9 +815,42 @@ O aumento do número de objetivos de cobertura pode afetar a performance do algo
 
 \subsection{Algoritmos genéticos}
 
-Os algoritmo genéticos estão entre os algoritmos evolutivos mais usados em diversos problemas de otimização pois podem ser fácilmente implementados e apresentam bons resultados  \cite{Campos2017}. Diversas variações do algoritmo genético padrão foram propostos com o intuito de melhorar sua efetividade \cite{Campos2017}
+Os algoritmo genéticos estão entre os algoritmos evolutivos mais usados em diversos problemas de otimização pois podem ser fácilmente implementados e apresentam bons resultados  \cite{Campos2017}.  No contexto de geração de suítes de testes e algoritmos genéticos, os indivídios da população são caracterízados por conjuntos de casos de teste, também chamados de suítes de teste \cite{Campos2017}. Os algoritmos genéticos geralmente possuem os seguintes passos lógicos: \\
 
-Uma das variações de algoritmo genético é sua versão monotônica do algoritmo genético padrão (Standard GA), a versão monotônica somente inclui, após operações de mutação e validação em cada iteração, somente o melhor conjunto da prole ou o melhor indivíduo da prole anterior \cite{Campos2017}.  Dentre as variações de algoritmos genéticos padrão, existe a variação Steady State GA, esta variação utiliza a mesma estratégia de substituição presente na variação monotônica, a prole descendente substitui os ascendentes da população atual imediatamente a ocorrência da fase de mutação.  \cite{Campos2017}
+
+
+\begin{algorithm}[htbp]
+\caption{Algoritmo genético padrão com as seguintes entradas: Condição de parada $C$, função de aptidão $A$, função de seleção $Fs$, tamanho de população $Tp$, função de crossover $Fc$, probabilidade de crossover $Pc$, função de mutação $Fm$ e probabilidade de mutação $Pm$.}
+\label{alg:algoritmo-genetico}
+
+
+\begin{algorithmic}[1]
+
+\State$ P \leftarrow  PopulacaoRandomicamenteGerada(ps)$ \label{ga:line:rand}
+\State ValidarAptidão(ps)
+\State \textbf{Enquanto} $\neg C$ \textbf{faça}
+\State \quad $ Np \leftarrow  []$
+\State \quad \textbf{Enquanto} $ |Np| < Tp $ \textbf{faça}
+\State \quad \quad  $ p1,p2 \leftarrow Selecionar(Fs, P) $ \label{ga:line:selecionar}
+\State \quad \quad  $ o1,o2 \leftarrow Crossover(Fc, Pc, p1,p2) $ \label{ga:line:crossover}
+\State \quad \quad  $ Mutacao(Fm, Pm, o1) $ \label{ga:line:Mutacao}
+\State \quad \quad  $ Mutacao(Fm, Pm, o2) $ \label{ga:line:Mutacao2}
+\State \quad \quad  $ Np \leftarrow  Np \cup \{o1,o2\}$
+\State \quad \textbf{Fim enquanto}
+
+\State  $ P\leftarrow  Np$
+\State ValidarAptidão($A$,$P$) \label{ga:line:aptidao1}
+\State \textbf{Fim enquanto}
+\State \textbf{retornar} $P$
+
+\end{algorithmic}
+\source{\cite{Campos2017}}
+\label{alg:algoritmo-GA}
+\end{algorithm}
+
+No algoritmo \ref{alg:algoritmo-GA} é possível verificar os passos de execução na versão padrão do algorítmo, o algoritmo começa gerando uma população randômica de indivíduos os quais são potenciais soluções para o problema em análise (linha \ref{ga:line:rand}). Sem seguida, enquanto a condição de parada $C$ não for atingida, os seguintes passos serão executados para cada indivíduo : seleção (linha \ref{ga:line:selecionar}), crossover (linha \ref{ga:line:crossover}) e mutação (linhas \ref{ga:line:Mutacao} e \ref{ga:line:Mutacao2}). Por fim, a cada uma dessas iterações, a funcão de aptidão é aplicada (linha \ref{ga:line:aptidao1}) com o intuito de pontuar indivíduos com a melhor aptidão para resultado na solução em questão para que estes não sejam descartados na função de selecão da próxima iteração linha(\ref{ga:line:selecionar}). 
+
+Diversas variações do algoritmo genético padrão foram propostos com o intuito de melhorar sua efetividade \cite{Campos2017}. Uma das variações de algoritmo genético é sua versão monotônica do algoritmo genético padrão (Standard GA), a versão monotônica somente inclui, após operações de mutação e validação em cada iteração, somente o melhor conjunto da prole ou o melhor indivíduo da prole anterior \cite{Campos2017}.  Dentre as variações de algoritmos genéticos padrão, existe a variação Steady State GA, esta variação utiliza a mesma estratégia de substituição presente na variação monotônica, a prole descendente substitui os ascendentes da população atual imediatamente a ocorrência da fase de mutação.  \cite{Campos2017}
 
 
 \subsubsection{O algoritmo evolutivo 1 + ($\lambda$,$\lambda$)}
@@ -861,6 +894,7 @@ Além das últimas melhorias, diversas correções foram aplicadas desde a últi
 
 
 \chapter{Métricas de Softwares orientados a objetos}
+\label{chap:metricas}
 
 Projeto e desenvolvimento de softwares orientados a objeto são conceitos populares no cenário atual de desenvolvimento de software \cite{srivastava2013}, neste contexto é notável que classes e métodos são estruturas básicas neste gênero de software \cite{kan95}. O desenvolvimento de software orientado a objetos difere de outros paradigmas pois requer uma abordagem voltada para regras de negócio completamente diferente das tradicionais, dado na maneira como a decomposição funcional e fluxo de dados ocorrem  \cite{srivastava2013}.
 
@@ -1163,6 +1197,8 @@ NOSI	& -0.282084913928777	& 	-0.273109674212372 \\
 LOC	& -0.287212833651501	& 	-0.262779424522538
 
 \end{tabular}
+\source{Gustavo Ramos, 2018}
+\label{table:correlacao-cobertura}
 \end{table}
 
 
@@ -1190,9 +1226,109 @@ NOSF		& 0.159268739166119		& 0.02786927036709 \\
 NOSI		& 0.283074420386565		& 0.042066832430523 \\
 LOC		& 0.476423297500777	& 0.052316363027409
 \end{tabular}
+\source{Gustavo Ramos, 2018}
+\label{table:correlacao-tempo}
 \end{table}
 
-\section{Extrações de dados e análise das métricas SB4SE}
+\section{Aplicação das classes e classificação}
+
+Após a coleta dos dados e consolidação seguido de validação deste conjunto por meio da sua correlação, é possível trabalhar com este conjunto para assim classificar cada um dos elementos. Para a execução de um algoritmo de classificação supervisionado, neste caso o algoritmo naive bayes, é necessário primariamente definir quais são as classes as quais cada elemento do conjunto de dados poderá pertencer, as classes são os nomes dados para os agrupamentos os quais será necessário classificar cada elemento de acordo com suas características, desde que um elemento pertença a uma classe somente.
+
+Dado que o intuito do experimento é reconhecer qual o algoritmo de geração de dados de teste é mais adequado: Algoritmo de busca randômica ou algoritmo genético, é possível então afirmar que as classes de classificação serão os dois algoritmos, os quais serão tratados com as seguintes classes:  \textbf{RANDOM} ou \textbf{GA} respectivamente. 
+
+\subsection{Conjunto de aprendizado com base em cobertura}
+
+O primeiro conjunto de aprendizado montado, levou em consideração somente a cobertura dos testes para montagem do conjunto de aprendizado, ou seja, o tempo foi desconsiderado, sendo assim este conjunto de dados foi nomeado como \textbf{CBCK} (Cover based on CK dataset).
+
+\begin{algorithm}[htbp]
+\caption{Algoritmo para aplicação das classes no conjunto de treinamento CBCK}
+\label{alg:algoritmo-CBCK}
+\begin{algorithmic}[1]
+
+\Procedure{AplicarClasse}{}
+\State Para todas as linhas L do conjunto consolidado:
+\State $classe := RANDOM$
+\State 		Se L.CoberturaGA > L.CoberturaRandom: $classe := GA$
+\State $AtualizaArquivo()$
+\EndProcedure
+\end{algorithmic}
+\source{Gustavo Ramos, 2018}
+\end{algorithm}
+
+O algoritmo \ref{alg:algoritmo-CBCK} demonstra a lógica para aplicação da classe para cada linha do conjunto de testes como é possível ver na linha 2. A partir da linha 3 é possível ver que todas as linhas receberam a classe \textbf{RANDOM} , este estado é mudado se a condição da linha 4 seja for satisfeita, ou seja, a linha do conjunto receberá a  \textbf{GA} se a cobertura com algoritmo genético for maior. A atribuição da linha 3 ocorreu pois além dos casos em que o algoritmo ranômico tenha maior performance, é possível ocorrer o caso em que ambas ambas cobriram a mesma quantidade, estes são os 10\% presentes na figura \ref{fig:distribuicao-cobertura-evosuite}. Para os casos em que a cobertura atingida foi igual nos dois algoritmos, a classe  \textbf{RANDOM}  foi aplicada visto que esta consumiu menor tempo na geração de dados como demonstrado na figura \ref{fig:distribuicao-tempo-evosuite}.
+
+Após a aplicação das classes no conjunto de dados, é possível utilizar o mesmo na ferramenta Weka para assim executar o algoritmo de classificação naive bayes, a própria ferramenta possui um mecanismo onde é possível separar aleatoriamente uma quantidade dos dados do conjunto para treinamento e a parte complementar (usualmente menor) para validação e testes, por padrão foi adotado 80\% dos dados para aprendizado enquanto os 20\% restantes para testes. O algoritmo foi executado apresentando dois resultados, a precisão e a seguinte matriz de confusão:
+
+\begin{table}[h]
+\centering
+\caption{Matriz de confusão ao classificar o conjunto CBCK com o algoritmo Naive Bayes}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+										
+ & GA & RANDOM \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+GA		& 898		& 42 \\
+RANDOM		& 176		& 25
+\end{tabular}
+\source{Gustavo Ramos, 2018}
+\label{table:confusao-CBCK}
+\end{table}
+
+Os resultados apresentados pela ferramenta demonstram que 78.6\% dos casos foram corretamente classificados enquanto 21.4\% foram incorretamente classificados. A matriz demonstrada na tabela \ref{table:confusao-CBCK} é chamada de matriz de confusão, as coordenadas na diagonal (Os valores 898 e 25 respectivamente) representam os casos corretamente classificados, ou seja, a linha possuía a classe GA no conjunto de treinamento e foi corretamente classificada como GA, o mesmo casso ocorre para a classe RANDOM. Os outros casos compõe os casos onde uma classe foi dada e o algoritmo classificou em outra classe.
+
+É possível notar, apesar da precisão de 78.6\%, que o algoritmo teve maior facilidade de classificar casos onde o algoritmo genético possuiu maior cobertura, porém possui dificuldade em classificar em torno de 60\% dos casos onde o algoritmo randômico possuiu atingiu maior cobertura.
+
+No conjunto de aprendizado \textbf{CBCK}, 14 métricas de softwares orientados a objetos foram utilizadas, como as métricas listadas nas tabelas  \ref{table:correlacao-cobertura} e \ref{table:correlacao-tempo}, porém \cite{Xia2013} afirma que algumas métricas tornam-se redundantes ou irrelevantes em um modelo relacionado à predição de defeitos em softwares.
+
+Os resultados simulados por \cite{Xia2013} provam que diversas métricas são correlacionadas e algumas podem ser úteis em modelos de predição de defeitos, métricas destritas no capitulo \ref{chap:metricas}  como: LOC, RFC, CBO, AMC e CAM.  As métricas destacadas coincidem inclusive com as de valores mais altos de correlação na tabela \ref{table:correlacao-cobertura}.
+
+Dada a relevâncias das métricas citadas, segundo conjunto de aprendizado foi criado com o nome \textbf{CBCK+} com base no conjunto de métricas detalhados por \cite{Xia2013}, ou seja, somente estas métricas foram selecionadas para execução do algorítmo na interface do software Weka. Dado que as métricas de coesão entre os métodos (CAM) e complexidade média dos métodos não fazem parte do conjunto, estas foram substituídas pelas métricas LCOM e WNC respectivamente, resultando na seguinte matriz de confusão:
+
+\begin{table}[h]
+\centering
+\caption{Matriz de confusão ao classificar o conjunto CBCK com o algoritmo Naive Bayes}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+										
+ & GA & RANDOM \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+GA		& 891		& 49 \\
+RANDOM		& 176		& 25
+\end{tabular}
+\source{Gustavo Ramos, 2018}
+\label{table:confusao-CBCK+}
+\end{table}
+
+O algoritmo naive bayes, ao ser executado, retornou uma precisão de 80.3\% após a otimização, a partir da matriz de confusão \ref{table:confusao-CBCK+} é possível notar que a classificação de algoritmos randômicos possuiu uma melhora modesta de 1.7\%. 
+
+\subsection{Conjunto de aprendizado híbrido}
+
+O terceiro conjunto de aprendizado construído levou em consideração tanto a cobertura dos testes quanto o tempo de execução, a execução do algoritmo foi similar ao algoritmo \ref{alg:algoritmo-CBCK} com uma otimização: Em casos onde a diferença de cobertura entre os algoritmos situa-se entre 0\% e 10\%, a classe do algoritmo com o menor tempo de execução foi aplicada, o conjunto de treinamento foi então nomeado por \textbf{CBCK10}. O algoritmo naive bayes foi executado, seguindo o uso das mesmas métricas utilizadas no conjunto de treinamento \textbf{CBCK+}, resultando na seguinte matriz de confusão:
+
+\begin{table}[h]
+\centering
+\caption{Matriz de confusão ao classificar o conjunto CBCK10 com o algoritmo Naive Bayes}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+										
+ & GA & RANDOM \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+GA		& 524		& 284 \\
+RANDOM		& 107		& 226
+\end{tabular}
+\source{Gustavo Ramos, 2018}
+\label{table:confusao-hibrido+}
+\end{table}
+
+O algoritmo, ao ser executado, retornou uma precisão de 63.5\%, porém é possível notar a melhora na distribuição da matriz de confusão, o algoritmo passou a reconhecer mais casos onde o algoritmo randômico deveria ser selecionado.
+
+\chapter{Conclusão}
+
+
+
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
 % ----------------------------------------------------------
