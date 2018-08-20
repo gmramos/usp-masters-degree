@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  20 AUG 2018 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  20 AUG 2018 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -499,26 +499,32 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
+\c@quadro=\count153
+\c@loqdepth=\count154
+\cftbeforequadroskip=\skip186
+\cftquadroindent=\skip187
+\cftquadronumwidth=\skip188
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip186
+\labelindent=\skip189
 \enit@outerparindent=\dimen152
 \enit@toks=\toks23
 \enit@inbox=\box29
-\enitdp@description=\count153
+\enitdp@description=\count155
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count154
-\calc@Bcount=\count155
+\calc@Acount=\count156
+\calc@Bcount=\count157
 \calc@Adimen=\dimen153
 \calc@Bdimen=\dimen154
-\calc@Askip=\skip187
-\calc@Bskip=\skip188
+\calc@Askip=\skip190
+\calc@Bskip=\skip191
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count156
-\calc@Cskip=\skip189
+\calc@Ccount=\count158
+\calc@Cskip=\skip192
 )
 
 ******************************************************
@@ -540,34 +546,34 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count157
-\cftlastnumwidth=\skip190
-\chapternamenumlength=\skip191
-\ABNTEXcitacaorecuo=\skip192
-\c@alineasi=\count158
-\c@alineasii=\count159
-\enitdp@alineas=\count160
-\c@subalineasi=\count161
-\enitdp@subalineas=\count162
-\c@incisosi=\count163
-\enitdp@incisos=\count164
-\ABNTEXsignwidth=\skip193
-\ABNTEXsignthickness=\skip194
-\ABNTEXsignskip=\skip256
+\c@abntex@bookmarkcounter=\count159
+\cftlastnumwidth=\skip193
+\chapternamenumlength=\skip194
+\ABNTEXcitacaorecuo=\skip256
+\c@alineasi=\count160
+\c@alineasii=\count161
+\enitdp@alineas=\count162
+\c@subalineasi=\count163
+\enitdp@subalineas=\count164
+\c@incisosi=\count165
+\enitdp@incisos=\count166
+\ABNTEXsignwidth=\skip257
+\ABNTEXsignthickness=\skip258
+\ABNTEXsignskip=\skip259
 (/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count165
+\c@float@type=\count167
 \float@exts=\toks24
 \float@box=\box30
 \@float@everytoks=\toks25
 \@floatcapt=\box31
 )
 \@float@every@algorithm=\toks26
-\c@algorithm=\count166
+\c@algorithm=\count168
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
@@ -611,18 +617,18 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks29
-\MT@count=\count167
+\MT@count=\count169
 LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen157
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count168
+\MT@listname@count=\count170
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 913.
 LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip257
+\MT@outer@space=\skip260
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -644,7 +650,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box32
 \AM@global@opts=\toks30
 \AM@toc@title=\toks31
-\c@AM@survey=\count169
+\c@AM@survey=\count171
 \AM@templatesizebox=\box33
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/mdwtools/mdwlist.sty
@@ -657,305 +663,21 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count170
-\c@ALG@rem=\count171
-\c@ALG@nested=\count172
-\ALG@tlm=\skip258
-\ALG@thistlm=\skip259
-\c@ALG@Lnr=\count173
-\c@ALG@blocknr=\count174
-\c@ALG@storecount=\count175
-\c@ALG@tmpcounter=\count176
-\ALG@tmplength=\skip260
+\c@ALG@line=\count172
+\c@ALG@rem=\count173
+\c@ALG@nested=\count174
+\ALG@tlm=\skip261
+\ALG@thistlm=\skip262
+\c@ALG@Lnr=\count175
+\c@ALG@blocknr=\count176
+\c@ALG@storecount=\count177
+\c@ALG@tmpcounter=\count178
+\ALG@tmplength=\skip263
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/mdframed/mdframed.sty
-Package: mdframed 2013/07/01 1.9b: mdframed
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2018/03/05 L3 programming layer (loader) 
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count177
-\l_tmpa_int=\count178
-\l_tmpb_int=\count179
-\g_tmpa_int=\count180
-\g_tmpb_int=\count181
-\g__intarray_font_int=\count182
-\g__prg_map_int=\count183
-\c_log_iow=\count184
-\l_iow_line_count_int=\count185
-\l__iow_line_target_int=\count186
-\l__iow_one_indent_int=\count187
-\l__iow_indent_int=\count188
-\c_zero_dim=\dimen160
-\c_max_dim=\dimen161
-\l_tmpa_dim=\dimen162
-\l_tmpb_dim=\dimen163
-\g_tmpa_dim=\dimen164
-\g_tmpb_dim=\dimen165
-\c_zero_skip=\skip261
-\c_max_skip=\skip262
-\l_tmpa_skip=\skip263
-\l_tmpb_skip=\skip264
-\g_tmpa_skip=\skip265
-\g_tmpb_skip=\skip266
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count189
-\c__fp_leading_shift_int=\count190
-\c__fp_middle_shift_int=\count191
-\c__fp_trailing_shift_int=\count192
-\c__fp_big_leading_shift_int=\count193
-\c__fp_big_middle_shift_int=\count194
-\c__fp_big_trailing_shift_int=\count266
-\c__fp_Bigg_leading_shift_int=\count267
-\c__fp_Bigg_middle_shift_int=\count268
-\c__fp_Bigg_trailing_shift_int=\count269
-\c__fp_rand_size_int=\count270
-\c__fp_rand_four_int=\count271
-\c__fp_rand_eight_int=\count272
-\l__sort_length_int=\count273
-\l__sort_min_int=\count274
-\l__sort_top_int=\count275
-\l__sort_max_int=\count276
-\l__sort_true_max_int=\count277
-\l__sort_block_int=\count278
-\l__sort_begin_int=\count279
-\l__sort_end_int=\count280
-\l__sort_A_int=\count281
-\l__sort_B_int=\count282
-\l__sort_C_int=\count283
-\l__tl_build_start_index_int=\count284
-\l__tl_build_index_int=\count285
-\l__tl_analysis_normal_int=\count286
-\l__tl_analysis_index_int=\count287
-\l__tl_analysis_nesting_int=\count288
-\l__tl_analysis_type_int=\count289
-\l__regex_internal_a_int=\count290
-\l__regex_internal_b_int=\count291
-\l__regex_internal_c_int=\count292
-\l__regex_balance_int=\count293
-\l__regex_group_level_int=\count294
-\l__regex_mode_int=\count295
-\c__regex_cs_in_class_mode_int=\count296
-\c__regex_cs_mode_int=\count297
-\l__regex_catcodes_int=\count298
-\l__regex_default_catcodes_int=\count299
-\c__regex_catcode_D_int=\count300
-\c__regex_catcode_S_int=\count301
-\c__regex_catcode_L_int=\count302
-\c__regex_catcode_O_int=\count303
-\c__regex_catcode_A_int=\count304
-\c__regex_all_catcodes_int=\count305
-\l__regex_show_lines_int=\count306
-\l__regex_min_state_int=\count307
-\l__regex_max_state_int=\count308
-\l__regex_left_state_int=\count309
-\l__regex_right_state_int=\count310
-\l__regex_capturing_group_int=\count311
-\l__regex_min_pos_int=\count312
-\l__regex_max_pos_int=\count313
-\l__regex_curr_pos_int=\count314
-\l__regex_start_pos_int=\count315
-\l__regex_success_pos_int=\count316
-\l__regex_curr_char_int=\count317
-\l__regex_curr_catcode_int=\count318
-\l__regex_last_char_int=\count319
-\l__regex_case_changed_char_int=\count320
-\l__regex_curr_state_int=\count321
-\l__regex_step_int=\count322
-\l__regex_min_active_int=\count323
-\l__regex_max_active_int=\count324
-\l__regex_replacement_csnames_int=\count325
-\l__regex_match_count_int=\count326
-\l__regex_min_submatch_int=\count327
-\l__regex_submatch_int=\count328
-\l__regex_zeroth_submatch_int=\count329
-\g__regex_trace_regex_int=\count330
-\c_empty_box=\box34
-\l_tmpa_box=\box35
-\l_tmpb_box=\box36
-\g_tmpa_box=\box37
-\g_tmpb_box=\box38
-\l__box_top_dim=\dimen166
-\l__box_bottom_dim=\dimen167
-\l__box_left_dim=\dimen168
-\l__box_right_dim=\dimen169
-\l__box_top_new_dim=\dimen170
-\l__box_bottom_new_dim=\dimen171
-\l__box_left_new_dim=\dimen172
-\l__box_right_new_dim=\dimen173
-\l__box_internal_box=\box39
-\l__coffin_internal_box=\box40
-\l__coffin_internal_dim=\dimen174
-\l__coffin_offset_x_dim=\dimen175
-\l__coffin_offset_y_dim=\dimen176
-\l__coffin_x_dim=\dimen177
-\l__coffin_y_dim=\dimen178
-\l__coffin_x_prime_dim=\dimen179
-\l__coffin_y_prime_dim=\dimen180
-\c_empty_coffin=\box41
-\l__coffin_aligned_coffin=\box42
-\l__coffin_aligned_internal_coffin=\box43
-\l_tmpa_coffin=\box44
-\l_tmpb_coffin=\box45
-\l__coffin_display_coffin=\box46
-\l__coffin_display_coord_coffin=\box47
-\l__coffin_display_pole_coffin=\box48
-\l__coffin_display_offset_dim=\dimen181
-\l__coffin_display_x_dim=\dimen182
-\l__coffin_display_y_dim=\dimen183
-\l__coffin_bounding_shift_dim=\dimen184
-\l__coffin_left_corner_dim=\dimen185
-\l__coffin_right_corner_dim=\dimen186
-\l__coffin_bottom_corner_dim=\dimen187
-\l__coffin_top_corner_dim=\dimen188
-\l__coffin_scaled_total_height_dim=\dimen189
-\l__coffin_scaled_width_dim=\dimen190
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count331
-))
-Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count332
-\g__xparse_grabber_int=\count333
-\l__xparse_m_args_int=\count334
-\l__xparse_mandatory_args_int=\count335
-\l__xparse_v_nesting_int=\count336
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count337
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
-Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/zref-base.sty
-Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
-Package zref Info: New property list: main on input line 759.
-Package zref Info: New property: default on input line 760.
-Package zref Info: New property: page on input line 761.
-)
-\c@abspage=\count338
-Package zref Info: New property: abspage on input line 62.
-)
-\mdf@templength=\skip267
-\c@mdf@globalstyle@cnt=\count339
-\mdf@skipabove@length=\skip268
-\mdf@skipbelow@length=\skip269
-\mdf@leftmargin@length=\skip270
-\mdf@rightmargin@length=\skip271
-\mdf@innerleftmargin@length=\skip272
-\mdf@innerrightmargin@length=\skip273
-\mdf@innertopmargin@length=\skip274
-\mdf@innerbottommargin@length=\skip275
-\mdf@splittopskip@length=\skip276
-\mdf@splitbottomskip@length=\skip277
-\mdf@outermargin@length=\skip278
-\mdf@innermargin@length=\skip279
-\mdf@linewidth@length=\skip280
-\mdf@innerlinewidth@length=\skip281
-\mdf@middlelinewidth@length=\skip282
-\mdf@outerlinewidth@length=\skip283
-\mdf@roundcorner@length=\skip284
-\mdf@footenotedistance@length=\skip285
-\mdf@userdefinedwidth@length=\skip286
-\mdf@needspace@length=\skip287
-\mdf@frametitleaboveskip@length=\skip288
-\mdf@frametitlebelowskip@length=\skip289
-\mdf@frametitlerulewidth@length=\skip290
-\mdf@frametitleleftmargin@length=\skip291
-\mdf@frametitlerightmargin@length=\skip292
-\mdf@shadowsize@length=\skip293
-\mdf@extratopheight@length=\skip294
-\mdf@subtitleabovelinewidth@length=\skip295
-\mdf@subtitlebelowlinewidth@length=\skip296
-\mdf@subtitleaboveskip@length=\skip297
-\mdf@subtitlebelowskip@length=\skip298
-\mdf@subtitleinneraboveskip@length=\skip299
-\mdf@subtitleinnerbelowskip@length=\skip300
-\mdf@subsubtitleabovelinewidth@length=\skip301
-\mdf@subsubtitlebelowlinewidth@length=\skip302
-\mdf@subsubtitleaboveskip@length=\skip303
-\mdf@subsubtitlebelowskip@length=\skip304
-\mdf@subsubtitleinneraboveskip@length=\skip305
-\mdf@subsubtitleinnerbelowskip@length=\skip306
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
-File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
-)
-\mdf@frametitlebox=\box49
-\mdf@footnotebox=\box50
-\mdf@splitbox@one=\box51
-\mdf@splitbox@two=\box52
-\mdf@splitbox@save=\box53
-\mdfsplitboxwidth=\skip307
-\mdfsplitboxtotalwidth=\skip308
-\mdfsplitboxheight=\skip309
-\mdfsplitboxdepth=\skip310
-\mdfsplitboxtotalheight=\skip311
-\mdfframetitleboxwidth=\skip312
-\mdfframetitleboxtotalwidth=\skip313
-\mdfframetitleboxheight=\skip314
-\mdfframetitleboxdepth=\skip315
-\mdfframetitleboxtotalheight=\skip316
-\mdffootnoteboxwidth=\skip317
-\mdffootnoteboxtotalwidth=\skip318
-\mdffootnoteboxheight=\skip319
-\mdffootnoteboxdepth=\skip320
-\mdffootnoteboxtotalheight=\skip321
-\mdftotallinewidth=\skip322
-\mdfboundingboxwidth=\skip323
-\mdfboundingboxtotalwidth=\skip324
-\mdfboundingboxheight=\skip325
-\mdfboundingboxdepth=\skip326
-\mdfboundingboxtotalheight=\skip327
-\mdf@freevspace@length=\skip328
-\mdf@horizontalwidthofbox@length=\skip329
-\mdf@verticalmarginwhole@length=\skip330
-\mdf@horizontalspaceofbox=\skip331
-\mdfsubtitleheight=\skip332
-\mdfsubsubtitleheight=\skip333
-\c@mdfcountframes=\count340
-
-****** mdframed patching \endmdf@trivlist
-
-****** -- success******
-
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
-.................................................
-\mdf@envdepth=\count341
-\c@mdf@env@i=\count342
-\c@mdf@env@ii=\count343
-\c@mdf@zref@counter=\count344
-Package zref Info: New property: mdf@pagevalue on input line 895.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count345
+\c@lips@count=\count179
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
@@ -964,122 +686,113 @@ Package: backref 2016/05/21 v1.39 Bibliographical back referencing
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-\minimumbiblabelwidth=\skip334
-\ABCIauxlen=\skip335
-\c@ABCIaux=\count346
-\c@ABCImax=\count347
+\minimumbiblabelwidth=\skip264
+\ABCIauxlen=\skip265
+\c@ABCIaux=\count180
+\c@ABCImax=\count181
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip336
+\biblabelsep=\skip266
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks32
 )
-Package color Info: Redefining color blue on input line 225.
+Package color Info: Redefining color blue on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 242.
+(hyperref)                removing `\uppercase' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 242.
+(hyperref)                removing `\newline' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 242.
+(hyperref)                removing `\newline' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 242.
+(hyperref)                removing `\newline' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 242.
+(hyperref)                removing `\newline' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 242.
+(hyperref)                removing `\newline' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 242.
+(hyperref)                removing `\newline' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 242.
+(hyperref)                removing `\newline' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 242.
+(hyperref)                removing `\newline' on input line 256.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 242.
+Package hyperref Info: Option `colorlinks' set `true' on input line 256.
 \PPgSI-modeloQualificacaoOuDissertacaoLatex@idxfile=\write4
 \openout4 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.idx'.
 
 Writing index file PPgSI-modeloQualificacaoOuDissertacaoLatex.idx 
-(./PPgSI-modeloQualificacaoOuDissertacaoLatex.aux
-
-LaTeX Warning: Label `fig:tipos-custo-arvore' multiply defined.
-
-
-LaTeX Warning: Label `fig:tipos-custo-arvore' multiply defined.
-
-
-LaTeX Warning: Label `fig:tipos-custo-arvore' multiply defined.
-
-)
+(./PPgSI-modeloQualificacaoOuDissertacaoLatex.aux)
 \openout1 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 271.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 285.
+LaTeX Font Info:    ... okay on input line 285.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 285.
+LaTeX Font Info:    ... okay on input line 285.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 285.
+LaTeX Font Info:    ... okay on input line 285.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 285.
+LaTeX Font Info:    ... okay on input line 285.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 285.
+LaTeX Font Info:    ... okay on input line 285.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 285.
+LaTeX Font Info:    ... okay on input line 285.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 285.
+LaTeX Font Info:    ... okay on input line 285.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 285.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count348
+\c@section@level=\count182
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 271.
-LaTeX Info: Redefining \ref on input line 271.
-LaTeX Info: Redefining \pageref on input line 271.
-LaTeX Info: Redefining \nameref on input line 271.
-\myptabbox=\box55
-\myptabboxwidth=\skip337
+LaTeX Info: Redefining \nameref on input line 285.
+LaTeX Info: Redefining \ref on input line 285.
+LaTeX Info: Redefining \pageref on input line 285.
+LaTeX Info: Redefining \nameref on input line 285.
+\myptabbox=\box35
+\myptabboxwidth=\skip267
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 271.
+(lastpage)             ! on input line 285.
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count349
-\scratchdimen=\dimen191
-\scratchbox=\box56
-\nofMPsegments=\count350
-\nofMParguments=\count351
+\scratchcounter=\count183
+\scratchdimen=\dimen160
+\scratchbox=\box36
+\nofMPsegments=\count184
+\nofMParguments=\count185
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count352
-\MPscratchDim=\dimen192
-\MPnumerator=\count353
-\makeMPintoPDFobject=\count354
+\MPscratchCnt=\count186
+\MPscratchDim=\dimen161
+\MPnumerator=\count187
+\makeMPintoPDFobject=\count188
 \everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1098,7 +811,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 271.
+LaTeX Info: Redefining \microtypecontext on input line 285.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1123,146 +836,102 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-\T1/cmr/m/n/12 (+20) DissertaÁ„o apre-sen-tada ‡ Es-cola de
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+\OT1/cmr/m/n/12 (+20) Disserta^^Xc~ao apre-sen-tada ^^Ra Es-cola de
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 304--304
-\T1/cmr/m/n/12 (+20) Ar-tes, Ci-Ín-cias e Hu-ma-ni-da-des da Uni-
+Underfull \hbox (badness 1337) in paragraph at lines 318--318
+\OT1/cmr/m/n/12 (+20) Ar-tes, Ci^encias e Hu-ma-ni-da-des da Uni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
-\T1/cmr/m/n/12 (+20) ¡rea de con-cen-tra-Á„o: Me-to-do-lo-gia e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 8056) in paragraph at lines 318--318
+[]\OT1/cmr/m/n/12 (+20) Area de con-cen-tra^^Xc~ao: Me-to-do-lo-gia e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 304.
+(Font)              <12> on input line 318.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 304.
+(Font)              <8> on input line 318.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 304.
+(Font)              <6> on input line 318.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.304 
+l.318 
        [1
 
 
 
 ]
-<fig_ficha_catalografica.pdf, id=19, 597.432pt x 845.07718pt>
+<fig_ficha_catalografica.pdf, id=16, 597.432pt x 845.07718pt>
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf>
-Package pdftex.def Info: fig_ficha_catalografica.pdf  used on input line 332.
+Package pdftex.def Info: fig_ficha_catalografica.pdf  used on input line 346.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf>
-Package pdftex.def Info: fig_ficha_catalografica.pdf  used on input line 332.
+Package pdftex.def Info: fig_ficha_catalografica.pdf  used on input line 346.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<fig_ficha_catalografica.pdf, id=22, page=1, 597.432pt x 845.07718pt>
+<fig_ficha_catalografica.pdf, id=19, page=1, 597.432pt x 845.07718pt>
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 332.
+ 346.
 (pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 332.
+ 346.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 332.
+ 346.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 332.
+ 346.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 332.
+ 346.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [2 <./fig_ficha_catalografica.pdf>]
-Overfull \hbox (149.64035pt too wide) in paragraph at lines 409--410
- \T1/cmr/bx/n/12 __________________________________________________________ 
- []
-
-
-Overfull \hbox (60.66129pt too wide) in paragraph at lines 412--413
- \T1/cmr/m/n/12 (-20) _________________________________________________________
-_ 
- []
-
-
-Overfull \hbox (118.14804pt too wide) in paragraph at lines 416--417
- \T1/cmr/bx/n/12 _______________________________________________________ 
- []
-
-
-Overfull \hbox (42.75348pt too wide) in paragraph at lines 418--419
- \T1/cmr/m/n/12 (-20) ________________________________________________________ 
-
- []
-
-
-Overfull \hbox (118.14804pt too wide) in paragraph at lines 422--423
- \T1/cmr/bx/n/12 _______________________________________________________ 
- []
-
-
-Overfull \hbox (42.75348pt too wide) in paragraph at lines 424--425
- \T1/cmr/m/n/12 (-20) ________________________________________________________ 
-
- []
-
-
-Overfull \hbox (118.14804pt too wide) in paragraph at lines 428--429
- \T1/cmr/bx/n/12 _______________________________________________________ 
- []
-
-
-Overfull \hbox (42.75348pt too wide) in paragraph at lines 430--431
- \T1/cmr/m/n/12 (-20) ________________________________________________________ 
-
- []
-
-[3
+ [2 <./fig_ficha_catalografica.pdf>] [3
 
 ] [4
 
@@ -1270,393 +939,206 @@ Overfull \hbox (42.75348pt too wide) in paragraph at lines 430--431
 
 ] [6
 
-] (./PPgSI-modeloQualificacaoOuDissertacaoLatex.lof) [7
+]
+(./PPgSI-modeloQualificacaoOuDissertacaoLatex.lof) [7
 
 ]
 (./PPgSI-modeloQualificacaoOuDissertacaoLatex.loa) [8
 
 
 ]
-(./PPgSI-modeloQualificacaoOuDissertacaoLatex.lot) [9
+(./PPgSI-modeloQualificacaoOuDissertacaoLatex.loq) [9
 
-] [10
+]
+(./PPgSI-modeloQualificacaoOuDissertacaoLatex.lot) [10
+
+] [11
 
 
 ]
-(./PPgSI-modeloQualificacaoOuDissertacaoLatex.toc
-LaTeX Font Info:    Calculating math sizes for size <13.25> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <13.25> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.27495> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.625> on input line 32.
- [11
+(./PPgSI-modeloQualificacaoOuDissertacaoLatex.toc [12
 
-]
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 65.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <15> on input line 65.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.49995> on input line 65.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.5> on input line 65.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 65.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 65.
-) [12] [13
-
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 646.
+]) [13]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 699.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 646.
- [14] [15]
-[16]
-<modelo-teste.png, id=368, 386.19281pt x 219.06844pt>
-File: modelo-teste.png Graphic file (type png)
-<use modelo-teste.png>
-Package pdftex.def Info: modelo-teste.png  used on input line 696.
-(pdftex.def)             Requested size: 386.19185pt x 219.06789pt.
- [17
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 699.
+ [14
 
-] [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-.1}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.708 
-       <./modelo-teste.png>] [19] [20] [21]
-<tipos-custo-arvore.png, id=473, 305.64188pt x 137.7647pt>
-File: tipos-custo-arvore.png Graphic file (type png)
-<use tipos-custo-arvore.png>
-Package pdftex.def Info: tipos-custo-arvore.png  used on input line 760.
-(pdftex.def)             Requested size: 305.64111pt x 137.76434pt.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-2}) has been already used, duplicate ignored
+] [15]
+[16] [17pdfTeX warning (ext4): destination with the same identifier (name{table
+.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.772 
-       <./tipos-custo-arvore.png>]
-<nonconformance-costs-timeline.png, id=503, 274.02374pt x 182.18062pt>
-File: nonconformance-costs-timeline.png Graphic file (type png)
-<use nonconformance-costs-timeline.png>
-Package pdftex.def Info: nonconformance-costs-timeline.png  used on input line 
-780.
-(pdftex.def)             Requested size: 274.02307pt x 182.18016pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+      ] [18] [19]
+<figura-exemplo.png, id=286, 388.45125pt x 122.70844pt>
+File: figura-exemplo.png Graphic file (type png)
+<use figura-exemplo.png>
+Package pdftex.def Info: figura-exemplo.png  used on input line 876.
+(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.925 
+       <./figura-exemplo.png>]
+File: figura-exemplo.png Graphic file (type png)
+<use figura-exemplo.png>
+Package pdftex.def Info: figura-exemplo.png  used on input line 938.
+(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
+
+
+LaTeX Warning: Citation `teste3' on page 21 undefined on input line 940.
+
+
+LaTeX Warning: Citation `teste3' on page 21 undefined on input line 940.
+
+[21pdfTeX warning (ext4): destination with the same identifier (name{quadro.1.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.948 
+      ] [22pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.1.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.972 T
+       exto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo...
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.972 T
+       exto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo...
+]
+File: figura-exemplo.png Graphic file (type png)
+<use figura-exemplo.png>
+Package pdftex.def Info: figura-exemplo.png  used on input line 979.
+(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.787 \chapter
-              {Gera√ß√£o autom√°tica de dados de teste} <./nonconformance-costs
--timeline.png>]
-
-Package hyperref Warning: Suppressing empty link on input line 793.
-
-
-Package hyperref Warning: Suppressing empty link on input line 795.
-
-[24
-
-] [25]
-
-Package hyperref Warning: Suppressing empty link on input line 818.
-
-
-Package hyperref Warning: Suppressing empty link on input line 818.
-
-
-Package hyperref Warning: Suppressing empty link on input line 831.
-
-[26]
-
-Package hyperref Warning: Suppressing empty link on input line 834.
-
-
-Package hyperref Warning: Suppressing empty link on input line 834.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 849--850
-
- []
-
-[27]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 854.
- [28]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 887.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 887.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 887.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 887.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 887.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 887.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 894.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 894.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 894.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 894.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 894.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 894.
-
-[29] [30]
-
-Package hyperref Warning: Suppressing empty link on input line 916.
-
-
-Package hyperref Warning: Suppressing empty link on input line 918.
-
-
-Package hyperref Warning: Suppressing empty link on input line 918.
-
-
-Package hyperref Warning: Suppressing empty link on input line 918.
-
-[31]
-
-Package hyperref Warning: Suppressing empty link on input line 924.
-
-[32] [33
-
-] [34]
-<diagrama_diamante.png, id=777, 287.57437pt x 274.77657pt>
-File: diagrama_diamante.png Graphic file (type png)
-<use diagrama_diamante.png>
-Package pdftex.def Info: diagrama_diamante.png  used on input line 965.
-(pdftex.def)             Requested size: 287.57367pt x 274.77588pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-4}) has been already used, duplicate ignored
+l.1021 
+       pdfTeX warning (ext4): destination with the same identifier (name{quadro
+.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.975 \end{equation}
-                     <./diagrama_diamante.png>] [36]
-<modelo_srivastava_kumar.png, id=815, 156.585pt x 334.24875pt>
-File: modelo_srivastava_kumar.png Graphic file (type png)
-<use modelo_srivastava_kumar.png>
-Package pdftex.def Info: modelo_srivastava_kumar.png  used on input line 1015.
-(pdftex.def)             Requested size: 156.58461pt x 334.24792pt.
- [37] [38pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.4.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1027 
-        <./modelo_srivastava_kumar.png>] [39] [40
-
-] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1066
-
- []
-
-[42] [43]
-
-Package hyperref Warning: Suppressing empty link on input line 1097.
-
-[44
-
-]
-<status_projetos.png, id=965, 886.31125pt x 551.05875pt>
-File: status_projetos.png Graphic file (type png)
-<use status_projetos.png>
-Package pdftex.def Info: status_projetos.png  used on input line 1126.
-(pdftex.def)             Requested size: 455.0pt x 282.8945pt.
- [45]
-<cobertura_evosuite.png, id=974, 714.16812pt x 502.87875pt>
-File: cobertura_evosuite.png Graphic file (type png)
-<use cobertura_evosuite.png>
-Package pdftex.def Info: cobertura_evosuite.png  used on input line 1138.
-(pdftex.def)             Requested size: 455.0pt x 320.38336pt.
- [46pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1142 
-        <./status_projetos.png>]
-
-Package hyperref Warning: Suppressing empty link on input line 1145.
-
-[47pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1148 
-        <./cobertura_evosuite.png>]
-<grafico_dif_cobertura.png, id=992, 816.55063pt x 469.25313pt>
-File: grafico_dif_cobertura.png Graphic file (type png)
-<use grafico_dif_cobertura.png>
-Package pdftex.def Info: grafico_dif_cobertura.png  used on input line 1184.
-(pdftex.def)             Requested size: 455.0pt x 261.47679pt.
- [48pdfTeX warning (ext4): destination with the same identifier (name{table.6.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1188 
+l.1021 
        ]
-Underfull \hbox (badness 10000) in paragraph at lines 1192--1193
-
- []
-
-<tempo_evosuite.png, id=999, 661.97313pt x 662.97687pt>
-File: tempo_evosuite.png Graphic file (type png)
-<use tempo_evosuite.png>
-Package pdftex.def Info: tempo_evosuite.png  used on input line 1197.
-(pdftex.def)             Requested size: 455.0pt x 455.6842pt.
-[49pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8
-}) has been already used, duplicate ignored
+File: figura-exemplo.png Graphic file (type png)
+<use figura-exemplo.png>
+Package pdftex.def Info: figura-exemplo.png  used on input line 1051.
+(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{quadro.1.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1201 
-        <./grafico_dif_cobertura.png>] [50pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.6.9}) has been already used, duplicate igno
-red
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1205 
-        <./tempo_evosuite.png>] [51pdfTeX warning (ext4): destination with the 
-same identifier (name{table.6.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1266 
+l.1076 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
-6.3}) has been already used, duplicate ignored
+1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1266 
-       ] [52] [53pdfTeX warning (ext4): destination with the same identifier (n
-ame{table.6.4}) has been already used, duplicate ignored
+l.1076 
+       ] [25pdfTeX warning (ext4): destination with the same identifier (name{f
+igure.1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1316 N
-        o conjunto de aprendizado \textbf{CBCK}, 14 m√©tricas de softwares o...
-] [54pdfTeX warning (ext4): destination with the same identifier (name{table.6.
+l.1100 \end{table}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{quadro.1.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1100 \end{table}
+                  ] [26pdfTeX warning (ext4): destination with the same identif
+ier (name{table.1.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1129 
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+1.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1129 
+       ]
+File: figura-exemplo.png Graphic file (type png)
+<use figura-exemplo.png>
+Package pdftex.def Info: figura-exemplo.png  used on input line 1135.
+(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1358 \end{table}
-                  ] [55pdfTeX warning (ext4): destination with the same identif
-ier (name{table.6.6}) has been already used, duplicate ignored
+l.1142 \chapter
+               {Outra se√ß√£o prim√°ria}]
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1365 \chapter
-               {Conclus√£o}]
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1371
-
- []
+LaTeX Warning: Citation `teste1' on page 28 undefined on input line 1148.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1374--1376
-
- []
+LaTeX Warning: Citation `teste2' on page 28 undefined on input line 1148.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1382
-
- []
-
-[56
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1385--1387
-
- []
+LaTeX Warning: Citation `teste3' on page 28 undefined on input line 1149.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1392--1393
+LaTeX Warning: Citation `teste3' on page 28 undefined on input line 1150.
 
- []
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 1179.
+[28
 
+] [29] [30] [31] [32] [33] [34
 
-Underfull \hbox (badness 10000) in paragraph at lines 1397--1399
+] [35] [36] [37
 
- []
+] [38] [39] [40
 
+] [41]
+No file PPgSI-modeloQualificacaoOuDissertacaoLatex.bbl.
+[42] [43
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+] [44] [45
 
-(./PPgSI-modeloQualificacaoOuDissertacaoLatex.bbl
-(./PPgSI-modeloQualificacaoOuDissertacaoLatex.brf)
-\tf@brf=\write5
-\openout5 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.brf'.
+] [46] [47
 
- [57] [58pdfTeX warning (ext4): destination with the same identifier (name{tabl
-e.7.7}) has been already used, duplicate ignored
+] [48] [49
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.3 ...th{\labelsep}{0pt}\begin{thebibliography}{}
-                                                  ]
+] [50] [51] [52] [53] [54] [55] [56]
+[57] [58] [59] [60] [61
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 3.
+] [62] [63
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 3.
-
-bibitemlist
-[59
-
-] [60] [61] [62] [63]) 
+] 
 AED: lastpage setting LastPage
 [64]
-\tf@lof=\write6
-\openout6 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.lof'.
+\tf@lof=\write5
+\openout5 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.lof'.
 
-\tf@loa=\write7
-\openout7 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.loa'.
+\tf@loa=\write6
+\openout6 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.loa'.
+
+\tf@loq=\write7
+\openout7 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.loq'.
 
 \tf@lot=\write8
 \openout8 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.lot'.
@@ -1664,51 +1146,42 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1487.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1487.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1910.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1910.
  (./PPgSI-modeloQualificacaoOuDissertacaoLatex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1487.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1487.
-
-Package rerunfilecheck Info: File `PPgSI-modeloQualificacaoOuDissertacaoLatex.b
-rf' has not changed.
-(rerunfilecheck)             Checksum: A4E7A7454F22AEFBCEEE65FF70760FEC;11039.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1910.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1910.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1487.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1910.
  ) 
 Here is how much of TeX's memory you used:
- 24113 strings out of 492649
- 415270 string characters out of 6129623
- 691108 words of memory out of 5000000
- 27358 multiletter control sequences out of 15000+600000
- 558509 words of font info for 148 fonts, out of 8000000 for 9000
+ 13920 strings out of 492649
+ 208152 string characters out of 6129623
+ 494233 words of memory out of 5000000
+ 17271 multiletter control sequences out of 15000+600000
+ 11223 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,18n,43p,10484b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+ 39i,18n,43p,2754b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (65 pages, 942
-530 bytes).
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (65 pages, 305
+799 bytes).
 PDF statistics:
- 1525 PDF objects out of 1728 (max. 8388607)
- 1398 compressed objects within 14 object streams
- 236 named destinations out of 1000 (max. 500000)
- 27162 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 851 PDF objects out of 1000 (max. 8388607)
+ 761 compressed objects within 8 object streams
+ 245 named destinations out of 1000 (max. 500000)
+ 10682 words of extra memory for PDF output out of 12000 (max. 10000000)
 

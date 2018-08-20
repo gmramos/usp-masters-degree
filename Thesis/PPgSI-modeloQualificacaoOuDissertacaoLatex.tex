@@ -133,7 +133,7 @@
 % Sem ponto final.
 %-------------------------------------------------------------------------
 \autor{\uppercase{GUSTAVO DA MOTA RAMOS}}
-
+ 
 %-------------------------------------------------------------------------
 % Comentário adicional do PPgSI - Informações sobre o ``local'':
 %
@@ -213,7 +213,8 @@ Versão original
 % Substituir ``xx de xxxxxxxxxxxxxxx de xxxx'' pela ``data da defesa''.
 %
 %-------------------------------------------------------------------------
-\newline \newline \newline Versão corrigida contendo as alterações solicitadas pela comissão julgadora em xx de xxxxxxxxxxxxxxx de xxxx. A versão original encontra-se em acervo reservado na Biblioteca da EACH-USP e na Biblioteca Digital de Teses e Dissertações da USP (BDTD), de acordo com a Resolução CoPGr 6018, de 13 de outubro de 2011.}
+\newline \newline \newline %Versão corrigida contendo as alterações solicitadas pela comissão julgadora em xx de xxxxxxxxxxxxxxx de xxxx. A versão original encontra-se em acervo reservado na Biblioteca da EACH-USP e na Biblioteca Digital de Teses e Dissertações da USP (BDTD), de acordo com a Resolução CoPGr 6018, de 13 de outubro de 2011.
+}
 % ---
 
 
@@ -349,9 +350,7 @@ Versão original
 % Não usar esta página para Qualificação.
 %
 %-------------------------------------------------------------------------
-\begin{errata}
-Elemento opcional para versão corrigida, depois de depositada.
-\end{errata}
+
 % ---
 
 % ---
@@ -455,31 +454,6 @@ Instituição: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 
 % ---
 
-% ---
-% Agradecimentos
-% ---
-%-------------------------------------------------------------------------
-% Comentário adicional do PPgSI - Informações sobre ``Agradecimentos'': 
-%
-% Opcional para Dissertação.
-% Não sugerido para Qualificação.
-% 
-% Lembrar de agradecer agências de fomento e outras instituições similares.
-%
-%-------------------------------------------------------------------------
-\begin{agradecimentos}
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-
-Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
-\end{agradecimentos}
-% ---
-
 
 % ---
 % Epígrafe
@@ -512,12 +486,13 @@ Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de
 %
 %-------------------------------------------------------------------------
 \begin{flushleft}
-SOBRENOME, Nome1 Nome2 Nome3. \textbf{Título do trabalho}: subtítulo do trabalho. \imprimirdata. \pageref{LastPage} f. Dissertação (Mestrado em Ciências) – Escola de Artes, Ciências e Humanidades, Universidade de São Paulo, São Paulo, AnoDeDefesa.
+RAMOS, Gustavo da Mota. \textbf{Título do trabalho}: Seleção entre estratégias de geração automática de dados de teste por meio de métricas estáticas de softwares orientados a objetos. \imprimirdata. 75p f. Dissertação (Mestrado em Ciências) – Escola de Artes, Ciências e Humanidades, Universidade de São Paulo, São Paulo, 2018.
 \end{flushleft}
 
-Escreva aqui o texto do seu resumo... (redigido em parágrafo único, no máximo em uma página, contendo no ``máximo 500 palavras'', e apresentando um resumo de todos o seu trabalho, incluindo objetivos, metodologia, resultados e conclusões; não inclua apenas a contextualização até chegar nos objetivos, é importante fazer um resumo de todos os capítulos do texto, até chegar à conclusão). Texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo.
+Produtos de software com diferentes complexidade são criados diariamente através da elicitação de demandas complexas e variadas juntamente a prazos restritos. Enquanto estes surgem, altos níveis de qualidade são esperados para tais, ou seja, enquanto os produtos tornam-se mais complexos, o nível de qualidade pode não ser aceitável enquanto o tempo hábil para testes não acompanha a complexidade. Desta maneira, o teste de software e a geração automática de dados de testes surgem com o intuito de entregar produtos contendo altos níveis de qualidade através de baixos custos e atividades rápidas de teste. Porém, neste contexto, os profissionais de desenvolvimento dependem das estratégias de geração automáticas de testes e principalmente da seleção da técnica mais adequada para conseguir maior cobertura de código possível, este é um fator importante dados que cada técnica de geração de dados de teste possuem particularidades e problemas que fazem seu uso melhor em determinados tipos de software. A partir desde cenário, o presente trabalho propõe a seleção da técnica adequada para cada classe de um software com base em suas características, expressas por meio de métricas de softwares orientados a objetos a partir do algoritmo de classificação naive bayes.
+Inicialmente foi realizado uma revisão bilbiográfica dos dois algoritmos de geração estudos, algoritmo de busca randômico e algoritmo de busca genético, compreendendo assim suas vantagens e desvantagens tanto de implementação como de execução. As métricas CK também foram estudadas com o intuito de compreender como estas podem descrever melhor as características de uma classe. O conhecimento adquirido possibilitou coletar os dados de geração de testes de cada classe como cobertura de código e tempo de geração a partir de cada técnica e também as métricas CK, permitindo assim a análise destes dados em conjunto e por fim execução do algoritmo de classificação. Os resultados desta análise demonstraram que um conjunto reduzido e selecionado de métricas é mais eficiente e descreve melhor as características de uma classe além de demonstrarem que as métricas CK possuem pouca ou nenhuma influência no tempo de geração dos dados de teste e no algoritmo de busca randômico. Entretando, as métricas CK demonstraram média correlação e influência na seleção do algoritmo genético, participando assim na sua seleção pelo algoritmo naive bayes.
 
-Palavras-chaves: Palavra1. Palavra2. Palavra3. etc.
+Palavras-chaves: Métricas CK. Teste de software. Geração de testes. Cobertura de testes. Naive bayes. Algoritmo genético. 
 \end{resumo}
 
 
@@ -542,12 +517,13 @@ Palavras-chaves: Palavra1. Palavra2. Palavra3. etc.
 %
 %-------------------------------------------------------------------------
 \begin{flushleft}
-SURNAME, FirstName MiddleName1 MiddleName2. \textbf{Work title}: work subtitle. \imprimirdata. \pageref{LastPage} p. Dissertation (Master of Science) – School of Arts, Sciences and Humanities, University of São Paulo, São Paulo, DefenseYear. 
+RAMOS, Gustavo da Mota. \textbf{Work title}: Selection between whole test generation strategies by analysing object oriented software  static metrics .  \imprimirdata. 75 p. Dissertation (Master of Science) – School of Arts, Sciences and Humanities, University of São Paulo, São Paulo, DefenseYear. 
 \end{flushleft}
 
-Write here the English version of your ``Resumo''. Example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text, example text.
+Software products with different complexity are created daily through analysis of complex and varied demands together with tight deadlines. While these arise, high levels of quality are expected for such, as products become more complex, the quality level may not be acceptable while the timing for testing does not keep up with complexity. In this way, software testing and automatic generation of test data arise in order to deliver products containing high levels of quality through low cost and rapid test activities. However, in this context, software developers depend on the strategies of automatic generation of tests and especially on the selection of the most adequate technique to obtain greater code coverage possible, this is an important factor given that each technique of data generation of test have peculiarities and problems that make its use better in certain types of software. From this scenario, the present work proposes the selection of the appropriate technique for each class of software based on its characteristics, expressed through object oriented software metrics from the naive bayes classification algorithm.
+Initially, a literature review of the two generation algorithms was carried out, random search algorithm and genetic search algorithm, thus understanding its advantages and disadvantages in both implementation and execution. The CK metrics have also been studied in order to understand how they can better describe the characteristics of a class. The acquired knowledge allowed to collect the generation data of tests of each class as code coverage and generation time from each technique and also the CK metrics, thus allowing the analysis of these data together and finally execution of the classification algorithm. The results of this analysis demonstrated that a reduced and selected set of metrics is more efficient and better describes the characteristics of a class besides demonstrating that the CK metrics have little or no influence on the generation time of the test data and on the random search algorithm . However, the CK metrics showed a medium correlation and influence in the selection of the genetic algorithm, thus participating in its selection by the algorithm naive bayes.
 
-Keywords: Keyword1. Keyword2. Keyword3. etc.
+Keywords: CK metrics. Software testing. Test data generation. Code coverages. Naive bayes. Genetic algorithm.
 \end{otherlanguage*}
 \end{resumo}
 
@@ -589,8 +565,20 @@ Keywords: Keyword1. Keyword2. Keyword3. etc.
 %
 %-------------------------------------------------------------------------
 \begin{siglas}
+\item[CBO] \textit{Coupling between objects}
+\item[CK] \textit{Chidamber \& Kemerer}
  \item[CUT] \textit{Class under test}
+ \item[DIT] \textit{Depth inheritance tree}
+ \item[LCOM] \textit{Lack of cohesion of methods}
+ \item[LOC] \textit{Lines of code}
+ \item[NOC] \textit{Number of children}
+ \item[NOF] \textit{Number of fields}
+ \item[NOM] \textit{Number of methods}
+ \item[NOPF] \textit{Number of public fields}
+ \item[NOPM] \textit{Number of public methods}
+ \item[RFC] \textit{Response for a Class}
   \item[SUT] \textit{Software under test}
+   \item[WMC] \textit{Weight method class}
 \end{siglas}
 
 % ---
@@ -655,8 +643,10 @@ Recentemente, novos algoritmos evolutivos foram adicionados à ferramenta EvoSui
 O estudo realizado para comparar a eficácia dos algoritmos na geração de casos de teste implementados na ferramenta EvoSuite mostrou que a escolha do algoritmo importa. Entretanto, nenhuma análise mais criteriosa foi realizada para identificar em que situações ou para que tipo de classe um algoritmo é melhor do que outro. Portanto, as seguintes questões de pesquisa emergem neste contexto:
 
 \begin{itemize}
-  \item Quais são as características das classes sob teste que podem influenciar a eficiência e a eficácia dos algoritmos evolutivos utilizados na geração de casos de teste?
-  \item Existem padrões de características para os quais um algoritmo específico geralmente vai obter melhor resultado?
+ \item Existe alguma diferença de performance entre os algoritmos de geração de dados de teste: randômico e algoritmos genéticos ?
+ \item Alguma característica ou conjunto de características do software sob teste que faça com que uma técnica usada na geração de casos de teste seja melhor do que outra?
+\item É possível escolher entre dois algoritmos de geração de dados de testes a partir de um algoritmo de classificação e métricas de softwares orientados e objetos ?
+
 \end{itemize}
 
 \section{Objetivos}
@@ -666,20 +656,18 @@ Neste contexto, o objetivo geral deste projeto de pesquisa  é definir uma hiper
 Os objetivos específicos deste projeto de pesquisa são os seguintes:
 
 \begin{enumerate}
-	\item Mapear sistematicamente as métricas de software mais utilizadas para estimar a testabilidade de um software.
-	\item Selecionar métricas de testabilidade que tem maior probabilidade de influenciar os resultados dos algoritmos na geração de casos de teste. Essa seleção será realizada utilizando-se a correlação entre as métricas e os resultados obtidos pelos algoritmos evolutivos em termos de cobertura de código dos casos de teste gerados por eles.
-	\item Utilizar um algoritmo de reconhecimento de padrões para analisar as métricas de testabilidade de uma classe e classificá-la de acordo com o algoritmo de geração de testes mais adequado.
-	\item Implementar uma hiper-heurística em uma ferramenta de geração de casos de teste para selecionar o melhor algoritmo evolutivo de acordo com a classe a ser testada.
+	\item Selecionar métricas de softwares orientados a objetos que tem maior probabilidade de influenciar os resultados dos algoritmos na geração de casos de teste. Essa seleção será realizada utilizando-se a correlação entre as métricas e os resultados obtidos pelos algoritmos evolutivos em termos de cobertura de código dos casos de teste gerados por eles.
+	\item Utilizar um algoritmo de reconhecimento de padrões para analisar as métricas  de uma classe e classificá-la de acordo com o algoritmo de geração de testes mais adequado.
 \end{enumerate}
 
 \section{Justificativa}
-Os diversos algoritmos e abordagens de geração de casos de teste encontrados no ambiente acadˆemico e industrial possuem pontos fracos e fortes. Em especial, a técnica de teste baseado em busca tem sido amplamente utilizada para gerar casos de teste, e muitos dos alguns dos seus algoritmos conseguem convergir para resultados  ótimos mais rapidamente do que os outros, mas n não conseguem tratar de situações mais complexas, por exemplo. Portanto, utilizar o algoritmo que consegue obter os melhores resultados e convergir mais rapidamente para cada classe do projeto a ser testado irá aumentar consideravelmente a eficiência e a eficácia de ferramentas de geração de casos de teste como a EvoSuite, por exemplo. Além disso, os resultados obtidos podem encorajar a implementaçã de algoritmos evolutivos que são utilizados em outras áreas mas que ainda não utilizados na geração de casos teste.
+Os diversos algoritmos e abordagens de geração de casos de teste encontrados no ambiente acadêmico e industrial possuem pontos fracos e fortes. Em especial, a técnica de teste baseado em busca tem sido amplamente utilizada para gerar casos de teste, e muitos dos alguns dos seus algoritmos conseguem convergir para resultados  ótimos mais rapidamente do que os outros, mas n não conseguem tratar de situações mais complexas, por exemplo. Portanto, utilizar o algoritmo que consegue obter os melhores resultados e convergir mais rapidamente para cada classe do projeto a ser testado irá aumentar consideravelmente a eficiência e a eficácia de ferramentas de geração de casos de teste como a EvoSuite, por exemplo. Além disso, os resultados obtidos podem encorajar a implementaçã de algoritmos evolutivos que são utilizados em outras áreas mas que ainda não utilizados na geração de casos teste.
 
 \section{Método de pesquisa}
-Este projeto será, conduzido usando um método indutivo com objetivos de caráter exploratório, descritivo e experimental. Mais detalhes dos materiais e métodos de pesquisa utilizados neste projeto de pesquisa estã apresentados no Capítulo 5.
+Este projeto será, conduzido usando um método indutivo com objetivos de caráter exploratório, descritivo e experimental. Mais detalhes dos materiais e métodos de pesquisa utilizados neste projeto de pesquisa estã apresentados no Capítulo \ref{chap:resultados}.
 
 \section{Organização do documento}
-Esta proposta de pequisa está organizada da seguinte forma. No Capítulo 2 são apresentados os conceitos mais importantes que embasam este projeto.
+Esta proposta de pequisa está organizada da seguinte forma. No Capítulo 2 são apresentados os conceitos mais importantes  e econômicos de motivação, nos capítulos 3, 4 e 5 serão apresentados conceitos mais importantes que dão base para este projeto. No capítulo 6 serão detalhados os resultados, os quais serão concluídos no capítulo 7.
 
 \chapter{Aspectos conceituais e econômicos}
 No presente capítulo será apresentado uma síntese dos conceitos base com o objetivo de fundamentação teórica dos capítulos seguintes e auxílio na estrutura do presente documento.
