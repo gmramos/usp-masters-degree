@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  20 AUG 2018 15:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  20 AUG 2018 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,181 +956,18 @@ Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
 
 
 ]
-(./PPgSI-modeloQualificacaoOuDissertacaoLatex.toc [12
+(./PPgSI-modeloQualificacaoOuDissertacaoLatex.toc) [12
 
-]) [13]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 699.
+] [13
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 699.
- [14
-
+] [14
 
 ] [15]
-[16] [17pdfTeX warning (ext4): destination with the same identifier (name{table
-.1.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.772 
-      ] [18] [19]
-<figura-exemplo.png, id=286, 388.45125pt x 122.70844pt>
-File: figura-exemplo.png Graphic file (type png)
-<use figura-exemplo.png>
-Package pdftex.def Info: figura-exemplo.png  used on input line 876.
-(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.925 
-       <./figura-exemplo.png>]
-File: figura-exemplo.png Graphic file (type png)
-<use figura-exemplo.png>
-Package pdftex.def Info: figura-exemplo.png  used on input line 938.
-(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
-
-
-LaTeX Warning: Citation `teste3' on page 21 undefined on input line 940.
-
-
-LaTeX Warning: Citation `teste3' on page 21 undefined on input line 940.
-
-[21pdfTeX warning (ext4): destination with the same identifier (name{quadro.1.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.948 
-      ] [22pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.1.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.972 T
-       exto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo...
-pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) h
-as been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.972 T
-       exto de exemplo, texto de exemplo, texto de exemplo, texto de exemplo...
-]
-File: figura-exemplo.png Graphic file (type png)
-<use figura-exemplo.png>
-Package pdftex.def Info: figura-exemplo.png  used on input line 979.
-(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1021 
-       pdfTeX warning (ext4): destination with the same identifier (name{quadro
-.1.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1021 
-       ]
-File: figura-exemplo.png Graphic file (type png)
-<use figura-exemplo.png>
-Package pdftex.def Info: figura-exemplo.png  used on input line 1051.
-(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{quadro.1.
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1076 
-       pdfTeX warning (ext4): destination with the same identifier (name{table.
-1.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1076 
-       ] [25pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.1.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1100 \end{table}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{quadro.1.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1100 \end{table}
-                  ] [26pdfTeX warning (ext4): destination with the same identif
-ier (name{table.1.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1129 
-       pdfTeX warning (ext4): destination with the same identifier (name{table.
-1.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1129 
-       ]
-File: figura-exemplo.png Graphic file (type png)
-<use figura-exemplo.png>
-Package pdftex.def Info: figura-exemplo.png  used on input line 1135.
-(pdftex.def)             Requested size: 388.45029pt x 122.70813pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
-5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1142 \chapter
-               {Outra seção primária}]
-
-LaTeX Warning: Citation `teste1' on page 28 undefined on input line 1148.
-
-
-LaTeX Warning: Citation `teste2' on page 28 undefined on input line 1148.
-
-
-LaTeX Warning: Citation `teste3' on page 28 undefined on input line 1149.
-
-
-LaTeX Warning: Citation `teste3' on page 28 undefined on input line 1150.
-
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 1179.
-[28
-
-] [29] [30] [31] [32] [33] [34
-
-] [35] [36] [37
-
-] [38] [39] [40
-
-] [41]
 No file PPgSI-modeloQualificacaoOuDissertacaoLatex.bbl.
-[42] [43
 
-] [44] [45
-
-] [46] [47
-
-] [48] [49
-
-] [50] [51] [52] [53] [54] [55] [56]
-[57] [58] [59] [60] [61
-
-] [62] [63
-
-] 
 AED: lastpage setting LastPage
-[64]
+[16]
 \tf@lof=\write5
 \openout5 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.lof'.
 
@@ -1146,42 +983,37 @@ AED: lastpage setting LastPage
 \tf@toc=\write9
 \openout9 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1910.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1910.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 825.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 825.
  (./PPgSI-modeloQualificacaoOuDissertacaoLatex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1910.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1910.
-
-
-LaTeX Warning: There were undefined references.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 825.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 825.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1910.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 825.
  ) 
 Here is how much of TeX's memory you used:
- 13920 strings out of 492649
- 208152 string characters out of 6129623
- 494233 words of memory out of 5000000
- 17271 multiletter control sequences out of 15000+600000
- 11223 words of font info for 82 fonts, out of 8000000 for 9000
+ 13544 strings out of 492649
+ 203996 string characters out of 6129623
+ 490059 words of memory out of 5000000
+ 17153 multiletter control sequences out of 15000+600000
+ 8886 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,18n,43p,2754b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+ 39i,18n,43p,1367b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{appendix.anexochapback.1} has been referenced but
+ does not exist, replaced by a fixed one
+
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (65 pages, 305
-799 bytes).
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (17 pages, 172
+129 bytes).
 PDF statistics:
- 851 PDF objects out of 1000 (max. 8388607)
- 761 compressed objects within 8 object streams
- 245 named destinations out of 1000 (max. 500000)
- 10682 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 7853 words of extra memory for PDF output out of 10000 (max. 10000000)
 
