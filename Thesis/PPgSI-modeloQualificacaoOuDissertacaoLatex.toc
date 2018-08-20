@@ -8,61 +8,61 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{13}{chapter.1}
-\contentsline {section}{\numberline {1.1}Problema de pesquisa}{14}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objetivos}{15}{section.1.2}
-\contentsline {section}{\numberline {1.3}Justificativa}{15}{section.1.3}
-\contentsline {section}{\numberline {1.4}M\IeC {\'e}todo de pesquisa}{16}{section.1.4}
-\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do documento}{16}{section.1.5}
+\contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{15}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problema de pesquisa}{16}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objetivos}{17}{section.1.2}
+\contentsline {section}{\numberline {1.3}Justificativa}{17}{section.1.3}
+\contentsline {section}{\numberline {1.4}M\IeC {\'e}todo de pesquisa}{18}{section.1.4}
+\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do documento}{18}{section.1.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}Aspectos conceituais e econ\IeC {\^o}micos}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}Teste de software}{17}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Caso de teste}{18}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Mocks}{18}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Testes manuais}{19}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Testes automatizados}{19}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Teste caixa preta}{20}{section.2.2}
-\contentsline {section}{\numberline {2.3}Particionamento de equival\IeC {\^e}ncia}{20}{section.2.3}
-\contentsline {section}{\numberline {2.4}An\IeC {\'a}lise do valor limite}{21}{section.2.4}
-\contentsline {section}{\numberline {2.5}Qualidade de software e aspectos econ\IeC {\^o}micos}{21}{section.2.5}
+\contentsline {chapter}{\chapternumberline {2}Aspectos conceituais e econ\IeC {\^o}micos}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Teste de software}{19}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Caso de teste}{20}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Mocks}{20}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Testes manuais}{21}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Testes automatizados}{21}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Teste caixa preta}{22}{section.2.2}
+\contentsline {section}{\numberline {2.3}Particionamento de equival\IeC {\^e}ncia}{22}{section.2.3}
+\contentsline {section}{\numberline {2.4}An\IeC {\'a}lise do valor limite}{23}{section.2.4}
+\contentsline {section}{\numberline {2.5}Qualidade de software e aspectos econ\IeC {\^o}micos}{23}{section.2.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}Gera\IeC {\c c}\IeC {\~a}o autom\IeC {\'a}tica de dados de teste}{24}{chapter.3}
-\contentsline {section}{\numberline {3.1}Algoritmos baseados em busca}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Algoritmo baseado em busca aleat\IeC {\'o}ria}{25}{section.3.2}
-\contentsline {section}{\numberline {3.3}Algoritmos de busca baseados em evolu\IeC {\c c}\IeC {\~a}o}{27}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Algoritmos gen\IeC {\'e}ticos}{28}{subsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.1.1}O algoritmo evolutivo 1 + ($\lambda $,$\lambda $)}{29}{subsubsection.3.3.1.1}
-\contentsline {subsubsection}{\numberline {3.3.1.2}O algoritmo evolutivo $\mu $ + $\lambda $}{29}{subsubsection.3.3.1.2}
-\contentsline {subsubsection}{\numberline {3.3.1.3}O algoritmo evolutivo MOSA}{30}{subsubsection.3.3.1.3}
-\contentsline {section}{\numberline {3.4}Algoritmo de busca rand\IeC {\^o}mica ou algoritmos evolutivos ?}{30}{section.3.4}
-\contentsline {section}{\numberline {3.5}EvoSuite}{31}{section.3.5}
+\contentsline {chapter}{\chapternumberline {3}Gera\IeC {\c c}\IeC {\~a}o autom\IeC {\'a}tica de dados de teste}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Algoritmos baseados em busca}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Algoritmo baseado em busca aleat\IeC {\'o}ria}{27}{section.3.2}
+\contentsline {section}{\numberline {3.3}Algoritmos de busca baseados em evolu\IeC {\c c}\IeC {\~a}o}{29}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Algoritmos gen\IeC {\'e}ticos}{30}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}O algoritmo evolutivo 1 + ($\lambda $,$\lambda $)}{31}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}O algoritmo evolutivo $\mu $ + $\lambda $}{31}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}O algoritmo evolutivo MOSA}{32}{subsubsection.3.3.1.3}
+\contentsline {section}{\numberline {3.4}Algoritmo de busca rand\IeC {\^o}mica ou algoritmos evolutivos ?}{32}{section.3.4}
+\contentsline {section}{\numberline {3.5}EvoSuite}{33}{section.3.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}M\IeC {\'e}tricas de Softwares orientados a objetos}{33}{chapter.4}
-\contentsline {section}{\numberline {4.1}Medidas diretas e indiretas}{34}{section.4.1}
-\contentsline {section}{\numberline {4.2}O conjunto de m\IeC {\'e}tricas CK}{34}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}\textit {Weighted methods per class (WMC)}}{34}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}\textit {Depth of inheritance tree (DIT)}}{34}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}\textit {Number of children of a class (NOC)}}{36}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}\textit {Coupling between object classes (CBO)}}{36}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}\textit {Response for a class (RFC)}}{36}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{37}{subsection.4.2.6}
-\contentsline {section}{\numberline {4.3}Modelo proposto por Srivastava e Kumar}{37}{section.4.3}
-\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas extra\IeC {\'\i }das com o SB4SE}{38}{section.4.4}
+\contentsline {chapter}{\chapternumberline {4}M\IeC {\'e}tricas de Softwares orientados a objetos}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Medidas diretas e indiretas}{36}{section.4.1}
+\contentsline {section}{\numberline {4.2}O conjunto de m\IeC {\'e}tricas CK}{36}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}\textit {Weighted methods per class (WMC)}}{36}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}\textit {Depth of inheritance tree (DIT)}}{36}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}\textit {Number of children of a class (NOC)}}{38}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}\textit {Coupling between object classes (CBO)}}{38}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}\textit {Response for a class (RFC)}}{38}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{39}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Modelo proposto por Srivastava e Kumar}{39}{section.4.3}
+\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas extra\IeC {\'\i }das com o SB4SE}{40}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}Minera\IeC {\c c}\IeC {\~a}o de dados}{40}{chapter.5}
-\contentsline {section}{\numberline {5.1}Classifica\IeC {\c c}\IeC {\~a}o}{40}{section.5.1}
-\contentsline {section}{\numberline {5.2}Classificador naive bayes}{41}{section.5.2}
-\contentsline {section}{\numberline {5.3}Weka}{42}{section.5.3}
+\contentsline {chapter}{\chapternumberline {5}Minera\IeC {\c c}\IeC {\~a}o de dados}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}Classifica\IeC {\c c}\IeC {\~a}o}{42}{section.5.1}
+\contentsline {section}{\numberline {5.2}Classificador naive bayes}{43}{section.5.2}
+\contentsline {section}{\numberline {5.3}Weka}{44}{section.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}Resultados e Discuss\IeC {\~o}es}{44}{chapter.6}
-\contentsline {section}{\numberline {6.1}Materiais}{44}{section.6.1}
-\contentsline {section}{\numberline {6.2}Extra\IeC {\c c}\IeC {\~o}es de dados a an\IeC {\'a}lises prim\IeC {\'a}rias}{45}{section.6.2}
-\contentsline {section}{\numberline {6.3}Aplica\IeC {\c c}\IeC {\~a}o das classes e classifica\IeC {\c c}\IeC {\~a}o}{52}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Conjunto de aprendizado com base em cobertura}{52}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Conjunto de aprendizado h\IeC {\'\i }brido}{54}{subsection.6.3.2}
+\contentsline {chapter}{\chapternumberline {6}Resultados e Discuss\IeC {\~o}es}{46}{chapter.6}
+\contentsline {section}{\numberline {6.1}Materiais}{46}{section.6.1}
+\contentsline {section}{\numberline {6.2}Extra\IeC {\c c}\IeC {\~o}es de dados a an\IeC {\'a}lises prim\IeC {\'a}rias}{47}{section.6.2}
+\contentsline {section}{\numberline {6.3}Aplica\IeC {\c c}\IeC {\~a}o das classes e classifica\IeC {\c c}\IeC {\~a}o}{54}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Conjunto de aprendizado com base em cobertura}{54}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Conjunto de aprendizado h\IeC {\'\i }brido}{56}{subsection.6.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o}{56}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o}{58}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{58}{chapter*.12}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{61}{chapter*.14}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
