@@ -1,0 +1,451 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Bashir e Banuri 2008]{bashir2008test}
+\abntrefinfo{Bashir e Banuri}{BASHIR; BANURI}{2008}
+{BASHIR, M.~F.; BANURI, S. H.~K. Automated model based software test data
+  generation system. In:  \emph{Emerging Technologies, 2008. ICET 2008. 4th
+  International Conference on}. [S.l.: s.n.], 2008. p. 275--279.}
+
+\bibitem[Binder 1994]{binder1994test}
+\abntrefinfo{Binder}{BINDER}{1994}
+{BINDER, R.~V. Design for testability in object-oriented systems.
+\emph{Commun. ACM}, ACM, New York, NY, USA, v.~37, n.~9, p. 87--101, set. 1994.
+ISSN 0001-0782.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/182987.184077}.}
+
+\bibitem[Bouckaert \textit{et al.} 2008]{Bouckaert2008}
+\abntrefinfo{Bouckaert \textit{et al.}}{BOUCKAERT \textit{et al.}}{2008}
+{BOUCKAERT, R. R.; FRANK, E.; HALL, M.; KIRKBY, R.; REUTEMANN, P.; SEEWALD, A.;
+  SCUSE, D. Weka manual for version 3-6-0.
+12 2008.}
+
+\bibitem[Bruntink e Deursen 2004]{bruntink04}
+\abntrefinfo{Bruntink e Deursen}{BRUNTINK; DEURSEN}{2004}
+{BRUNTINK, M.; DEURSEN, A. van. Predicting class testability using
+  object-oriented metrics. In:  \emph{Source Code Analysis and Manipulation,
+  Fourth IEEE International Workshop on}. [S.l.: s.n.], 2004. p. 136--145.}
+
+\bibitem[Cadar, Dunbar e Engler 2008]{Cadar2008}
+\abntrefinfo{Cadar, Dunbar e Engler}{CADAR; DUNBAR; ENGLER}{2008}
+{CADAR, C.; DUNBAR, D.; ENGLER, D. Klee: Unassisted and automatic generation of
+  high-coverage tests for complex systems programs. In:  \emph{Proceedings of
+  the 8th USENIX Conference on Operating Systems Design and Implementation}.
+  Berkeley, CA, USA: USENIX Association, 2008.  (OSDI'08), p. 209--224.
+  Dispon{\'\i}vel em: \url{http://dl.acm.org/citation.cfm?id=1855741.1855756}.}
+
+\bibitem[Cadar e Sen 2013]{Cadar2013}
+\abntrefinfo{Cadar e Sen}{CADAR; SEN}{2013}
+{CADAR, C.; SEN, K. Symbolic execution for software testing: Three decades
+  later.
+\emph{Commun. ACM}, ACM, New York, NY, USA, v.~56, n.~2, p. 82--90, fev. 2013.
+ISSN 0001-0782.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2408776.2408795}.}
+
+\bibitem[Campos \textit{et al.} 2017]{Campos2017}
+\abntrefinfo{Campos \textit{et al.}}{CAMPOS \textit{et al.}}{2017}
+{CAMPOS, J.; GE, Y.; FRASER, G.; ELER, M.; ARCURI, A. An empirical evaluation
+  of evolutionary algorithms for test suite generation. In:  MENZIES, T.;
+  PETKE, J. (Ed.). \emph{Search Based Software Engineering}. Cham: Springer
+  International Publishing, 2017. p. 33--48.
+ISBN 978-3-319-66299-2.}
+
+\bibitem[Classpath,Java docs]{ClassPath}
+\abntrefinfo{Classpath\ldots}{CLASSPATH\ldots}{}
+{CLASSPATH,JAVA docs.
+  \url{https://docs.oracle.com/javase/8/docs/technotes/tools/windows/classpath.html}.
+Acessado em: 2018-08-04.}
+
+\bibitem[Dave e Agrawal 2015]{dave2015}
+\abntrefinfo{Dave e Agrawal}{DAVE; AGRAWAL}{2015}
+{DAVE, M.; AGRAWAL, R. Search based techniques and mutation analysis in
+  automatic test case generation: A survey. In:  \emph{2015 IEEE International
+  Advance Computing Conference (IACC)}. [S.l.: s.n.], 2015. p. 795--799.}
+
+\bibitem[Davis 1995]{Davis1995}
+\abntrefinfo{Davis}{DAVIS}{1995}
+{DAVIS, M.~J. Process and product: Dichotomy or duality?
+\emph{SIGSOFT Softw. Eng. Notes}, ACM, New York, NY, USA, v.~20, n.~2, p.
+  17--18, abr. 1995.
+ISSN 0163-5948.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/224155.565634}.}
+
+\bibitem[Dick e Faivre 1993]{dick93}
+\abntrefinfo{Dick e Faivre}{DICK; FAIVRE}{1993}
+{DICK, J.; FAIVRE, A. Automating the generation and sequencing of test cases
+  from model-based specifications. In:  WOODCOCK, J. C.~P.; LARSEN, P.~G.
+  (Ed.). \emph{FME '93: Industrial-Strength Formal Methods}. Berlin,
+  Heidelberg: Springer Berlin Heidelberg, 1993. p. 268--284.}
+
+\bibitem[Eler, Endo e Durelli 2016]{Eler2016}
+\abntrefinfo{Eler, Endo e Durelli}{ELER; ENDO; DURELLI}{2016}
+{ELER, M.~M.; ENDO, A.~T.; DURELLI, V. H.~S. An empirical study to quantify the
+  characteristics of java programs that may influence symbolic execution from a
+  unit testing perspective.
+\emph{Journal of Systems and Software}, v.~121, p. 281--297, 2016.}
+
+\bibitem[evosuite.org]{Evosuite}
+\abntrefinfo{evosuite\ldots}{EVOSUITE\ldots}{}
+{EVOSUITE.ORG. \url{http://www.evosuite.org/}.
+Acessado em: 2018-07-01.}
+
+\bibitem[Fraser e Arcuri 2011]{Fraser2011}
+\abntrefinfo{Fraser e Arcuri}{FRASER; ARCURI}{2011}
+{FRASER, G.; ARCURI, A. Evosuite: Automatic test suite generation for
+  object-oriented software. In:  \emph{Proceedings of the 19th ACM SIGSOFT
+  Symposium and the 13th European Conference on Foundations of Software
+  Engineering}. New York, NY, USA: ACM, 2011.  (ESEC/FSE '11), p. 416--419.
+ISBN 978-1-4503-0443-6. Dispon{\'\i}vel em:
+  \url{http://doi.acm.org/10.1145/2025113.2025179}.}
+
+\bibitem[Fraser e Arcuri 2013]{Fraser2013}
+\abntrefinfo{Fraser e Arcuri}{FRASER; ARCURI}{2013}
+{FRASER, G.; ARCURI, A. Whole test suite generation.
+\emph{IEEE Trans. Softw. Eng.}, IEEE Press, Piscataway, NJ, USA, v.~39, n.~2,
+  p. 276--291, fev. 2013.
+ISSN 0098-5589.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/TSE.2012.14}.}
+
+\bibitem[Fraser e Arcuri 2014]{Fraser2014}
+\abntrefinfo{Fraser e Arcuri}{FRASER; ARCURI}{2014}
+{FRASER, G.; ARCURI, A. A large-scale evaluation of automated unit test
+  generation using evosuite.
+\emph{ACM Trans. Softw. Eng. Methodol.}, ACM, New York, NY, USA, v.~24, n.~2,
+  p. 8:1--8:42, dez. 2014.
+ISSN 1049-331X.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2685612}.}
+
+\bibitem[Fraser \textit{et al.} 2017]{Fraser2017}
+\abntrefinfo{Fraser \textit{et al.}}{FRASER \textit{et al.}}{2017}
+{FRASER, G.; ROJAS, J.~M.; CAMPOS, J.; ARCURI, A. Evosuite at the sbst 2017
+  tool competition. In:  \emph{Proceedings of the 10th International Workshop
+  on Search-Based Software Testing}. Piscataway, NJ, USA: IEEE Press, 2017.
+  (SBST '17), p. 39--41.
+ISBN 978-1-5386-2789-1. Dispon{\'\i}vel em:
+  \url{https://doi.org/10.1109/SBST.2017..6}.}
+
+\bibitem[Fraser \textit{et al.} 2015]{Fraser2015}
+\abntrefinfo{Fraser \textit{et al.}}{FRASER \textit{et al.}}{2015}
+{FRASER, G.; STAATS, M.; MCMINN, P.; ARCURI, A.; PADBERG, F. Does automated
+  unit test generation really help software testers? a controlled empirical
+  study.
+\emph{ACM Trans. Softw. Eng. Methodol.}, ACM, New York, NY, USA, v.~24, n.~4,
+  p. 23:1--23:49, set. 2015.
+ISSN 1049-331X.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2699688}.}
+
+\bibitem[Godefroid, Klarlund e Sen 2005]{Godefroid2005}
+\abntrefinfo{Godefroid, Klarlund e Sen}{GODEFROID; KLARLUND; SEN}{2005}
+{GODEFROID, P.; KLARLUND, N.; SEN, K. Dart: Directed automated random testing.
+\emph{SIGPLAN Not.}, ACM, New York, NY, USA, v.~40, n.~6, p. 213--223, jun.
+  2005.
+ISSN 0362-1340.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1064978.1065036}.}
+
+\bibitem[Goodenough e Gerhart 1975]{gerhart1975}
+\abntrefinfo{Goodenough e Gerhart}{GOODENOUGH; GERHART}{1975}
+{GOODENOUGH, J.~B.; GERHART, S.~L. Toward a theory of test data selection.
+\emph{IEEE Transactions on Software Engineering}, SE-1, n.~2, p. 156--173, June
+  1975.
+ISSN 0098-5589.}
+
+\bibitem[Graham, Veenendaal e Evans 2008]{graham2008foundations}
+\abntrefinfo{Graham, Veenendaal e Evans}{GRAHAM; VEENENDAAL; EVANS}{2008}
+{GRAHAM, D.; VEENENDAAL, E. V.; EVANS, I. \emph{Foundations of Software
+  Testing: ISTQB Certification}. Cengage Learning, 2008.
+ISBN 9781844809899. Dispon{\'\i}vel em:
+  \url{https://books.google.ie/books?id=Ss62LSqCa1MC}.}
+
+\bibitem[Harman, Mansouri e Zhang 2012]{Harman2012}
+\abntrefinfo{Harman, Mansouri e Zhang}{HARMAN; MANSOURI; ZHANG}{2012}
+{HARMAN, M.; MANSOURI, S.~A.; ZHANG, Y. Search-based software engineering:
+  Trends, techniques and applications.
+\emph{ACM Comput. Surv.}, ACM, New York, NY, USA, v.~45, n.~1, p. 11:1--11:61,
+  dez. 2012.
+ISSN 0360-0300.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/2379776.2379787}.}
+
+\bibitem[Hilburn e Towhidnejad 2002]{hilburn2002software}
+\abntrefinfo{Hilburn e Towhidnejad}{HILBURN; TOWHIDNEJAD}{2002}
+{HILBURN, Y.; TOWHIDNEJAD, M. Software quality across the curriculum. In:
+  IEEE. \emph{Frontiers in Education, 2002. FIE 2002. 32nd Annual}. [S.l.],
+  2002. v.~3, p. S1G--18.}
+
+\bibitem[Jacob e Prasanna 2016]{Jacob2016}
+\abntrefinfo{Jacob e Prasanna}{JACOB; PRASANNA}{2016}
+{JACOB, P.~M.; PRASANNA, M. A comparative analysis on black box testing
+  strategies. In:  \emph{2016 International Conference on Information Science
+  (ICIS)}. [S.l.: s.n.], 2016. p.~1--6.}
+
+\bibitem[junit.org/junit5/]{Junit}
+\abntrefinfo{junit\ldots}{JUNIT\ldots}{}
+{JUNIT.ORG/JUNIT5/. \url{https://junit.org/junit5/}.
+Acessado em: 2018-08-04.}
+
+\bibitem[Kan 1995]{kan95}
+\abntrefinfo{Kan}{KAN}{1995}
+{KAN, S.~H. \emph{Metrics and Models in Software Quality Engineering}. Reading,
+  MA: Addison Wesley, 1995.}
+
+\bibitem[Kaprocki, Pekovic e Velikic 2015]{Kaprocki2015}
+\abntrefinfo{Kaprocki, Pekovic e Velikic}{KAPROCKI; PEKOVIC; VELIKIC}{2015}
+{KAPROCKI, Z.; PEKOVIC, V.; VELIKIC, G. Combined testing approach: Increased
+  efficiency of black box testing. In:  \emph{2015 IEEE 1st International
+  Workshop on Consumer Electronics (CE WS)}. [S.l.: s.n.], 2015. p. 76--78.}
+
+\bibitem[Karnopp 1963]{Karnopp63}
+\abntrefinfo{Karnopp}{KARNOPP}{1963}
+{KARNOPP, D.~C. Random search techniques for optimization problems.
+\emph{Automatica}, Pergamon Press, Inc., Tarrytown, NY, USA, v.~1, n.~2-3, p.
+  111--121, ago. 1963.
+ISSN 0005-1098.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/0005-1098(63)90018-9}.}
+
+\bibitem[Korel 1990]{Korel1990}
+\abntrefinfo{Korel}{KOREL}{1990}
+{KOREL, B. Automated software test data generation.
+\emph{IEEE Trans. Softw. Eng.}, IEEE Press, Piscataway, NJ, USA, v.~16, n.~8,
+  p. 870--879, ago. 1990.
+ISSN 0098-5589.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/32.57624}.}
+
+\bibitem[McMinn 2004]{McMinn2004}
+\abntrefinfo{McMinn}{MCMINN}{2004}
+{MCMINN, P. Search-based software test data generation: A survey: Research
+  articles.
+\emph{Softw. Test. Verif. Reliab.}, John Wiley and Sons Ltd., Chichester, UK,
+  v.~14, n.~2, p. 105--156, jun. 2004.
+ISSN 0960-0833.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1002/stvr.v14:2}.}
+
+\bibitem[Northrop 2006]{linda2006quality}
+\abntrefinfo{Northrop}{NORTHROP}{2006}
+{NORTHROP, L.~M. Let's teach architecting high quality software. In:
+  \emph{19th Conference on Software Engineering Education and Training
+  (CSEE{\&}T 2006), 19-21 April 2006, Turtle Bay, Hawaii, {USA}}. [s.n.], 2006.
+  p.~5. Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1109/CSEET.2006.23}.}
+
+\bibitem[Pacheco e Ernst 2007]{Pacheco2007}
+\abntrefinfo{Pacheco e Ernst}{PACHECO; ERNST}{2007}
+{PACHECO, C.; ERNST, M. D. Randoop: Feedback-directed random testing for java.
+  In:  \emph{Proceedings of the Conference on Object-Oriented Programming
+  Systems, Languages, and Applications, OOPSLA}. [S.l.: s.n.], 2007. p.
+  815--816.}
+
+\bibitem[Pezz{\`e} e Young 2008]{pezze2008software}
+\abntrefinfo{Pezz{\`e} e Young}{PEZZ{\`E}; YOUNG}{2008}
+{PEZZ{\`E}, M.; YOUNG, M. \emph{Software testing and analysis: process,
+  principles, and techniques}. Wiley, 2008.
+ISBN 9780471455936. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=mjEiAQAAIAAJ}.}
+
+\bibitem[Pfleeger e Atlee 2010]{pfleeger2010}
+\abntrefinfo{Pfleeger e Atlee}{PFLEEGER; ATLEE}{2010}
+{PFLEEGER, S.; ATLEE, J. \emph{Software Engineering: Theory and Practice}.
+  Prentice Hall, 2010.
+ISBN 9780136061694. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=7zbSZ54JG1wC}.}
+
+\bibitem[Pressman 2009]{pressman2009engenharia}
+\abntrefinfo{Pressman}{PRESSMAN}{2009}
+{PRESSMAN, R. \emph{Engenharia de Software - 7.ed.:}. McGraw Hill Brasil, 2009.
+ISBN 9788580550443. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=y0rH9wuXe68C}.}
+
+\bibitem[Repasi 2009]{repasi2009}
+\abntrefinfo{Repasi}{REPASI}{2009}
+{REPASI, T. Software testing - state of the art and current research
+  challanges. In:  \emph{2009 5th International Symposium on Applied
+  Computational Intelligence and Informatics}. [S.l.: s.n.], 2009. p. 47--50.}
+
+\bibitem[Rojas e Fraser 2017]{rojas2017b}
+\abntrefinfo{Rojas e Fraser}{ROJAS; FRASER}{2017}
+{ROJAS, J.~M.; FRASER, G. Is search-based unit test generation research stuck
+  in a local optimum? In:  \emph{2017 IEEE ACM 10th International Workshop on
+  Search-Based Software Testing (SBST)}. [S.l.: s.n.], 2017. p. 51--52.}
+
+\bibitem[Rojas \textit{et al.} 2017]{Rojas2017}
+\abntrefinfo{Rojas \textit{et al.}}{ROJAS \textit{et al.}}{2017}
+{ROJAS, J.~M.; VIVANTI, M.; ARCURI, A.; FRASER, G. A detailed investigation of
+  the effectiveness of whole test suite generation.
+\emph{Empirical Software Engineering}, v.~22, n.~2, p. 852--893, Apr 2017.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1007/s10664-015-9424-2}.}
+
+\bibitem[Sen e Agha 2006]{Sen2006}
+\abntrefinfo{Sen e Agha}{SEN; AGHA}{2006}
+{SEN, K.; AGHA, G. Cute and jcute: Concolic unit testing and explicit path
+  model-checking tools. In:  BALL, T.; JONES, R.~B. (Ed.). \emph{Computer Aided
+  Verification}. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006. p.
+  419--423.
+ISBN 978-3-540-37411-4.}
+
+\bibitem[Sen, Marinov e Agha 2005]{Sen2005}
+\abntrefinfo{Sen, Marinov e Agha}{SEN; MARINOV; AGHA}{2005}
+{SEN, K.; MARINOV, D.; AGHA, G. Cute: A concolic unit testing engine for c.
+\emph{SIGSOFT Softw. Eng. Notes}, ACM, New York, NY, USA, v.~30, n.~5, p.
+  263--272, set. 2005.
+ISSN 0163-5948.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1095430.1081750}.}
+
+\bibitem[Seth e Banka 2016]{Seth2016}
+\abntrefinfo{Seth e Banka}{SETH; BANKA}{2016}
+{SETH, H.~R.; BANKA, H. Hardware implementation of naïve bayes classifier: A
+  cost effective technique. In:  \emph{2016 3rd International Conference on
+  Recent Advances in Information Technology (RAIT)}. [S.l.: s.n.], 2016. p.
+  264--267.}
+
+\bibitem[Shamshiri \textit{et al.} 2018]{shamshiri2018}
+\abntrefinfo{Shamshiri \textit{et al.}}{SHAMSHIRI \textit{et al.}}{2018}
+{SHAMSHIRI, S.; ROJAS, J.~M.; GALEOTTI, J.~P.; WALKINSHAW, N.; FRASER, G. How
+  do automatically generated unit tests influence software maintenance? In:
+  \emph{2018 IEEE 11th International Conference on Software Testing,
+  Verification and Validation (ICST)}. [S.l.: s.n.], 2018. p. 250--261.}
+
+\bibitem[Shamshiri \textit{et al.}]{shamriski20151115}
+\abntrefinfo{Shamshiri \textit{et al.}}{SHAMSHIRI \textit{et al.}}{}
+{SHAMSHIRI, S.; ROJAS, J.~M.; GAZZOLA, L.; FRASER, G.; MCMINN, P.; MARIANI, L.;
+  ARCURI, A. Random or evolutionary search for object-oriented test suite
+  generation?
+\emph{Software Testing, Verification and Reliability}, v.~28, n.~4, p. e1660.
+E1660 stvr.1660.
+Dispon{\'\i}vel em:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/stvr.1660}.}
+
+\bibitem[Sharma, Singh e Singh 2015]{sharma2015}
+\abntrefinfo{Sharma, Singh e Singh}{SHARMA; SINGH; SINGH}{2015}
+{SHARMA, P.; SINGH, D.; SINGH, A. Classification algorithms on a large
+  continuous random dataset using rapid miner tool. In:  \emph{2015 2nd
+  International Conference on Electronics and Communication Systems (ICECS)}.
+  [S.l.: s.n.], 2015. p. 704--709.}
+
+\bibitem[Singh 2014]{Singh2014}
+\abntrefinfo{Singh}{SINGH}{2014}
+{SINGH, R. Test case generation for object-oriented systems: A review. In:
+  \emph{2014 Fourth International Conference on Communication Systems and
+  Network Technologies}. [S.l.: s.n.], 2014. p. 981--989.}
+
+\bibitem[site.mockito.org]{Mockito}
+\abntrefinfo{site\ldots}{SITE\ldots}{}
+{SITE.MOCKITO.ORG. \url{http://site.mockito.org}.
+Acessado em: 2018-08-04.}
+
+\bibitem[Slaughter, Harter e Krishnan 1998]{slaughter1998}
+\abntrefinfo{Slaughter, Harter e Krishnan}{SLAUGHTER; HARTER; KRISHNAN}{1998}
+{SLAUGHTER, S.~A.; HARTER, D.~E.; KRISHNAN, M.~S. Evaluating the cost of
+  software quality.
+\emph{Commun. ACM}, ACM, New York, NY, USA, v.~41, n.~8, p. 67--73, ago. 1998.
+ISSN 0001-0782.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/280324.280335}.}
+
+\bibitem[Sommerville 2010]{Sommerville2010}
+\abntrefinfo{Sommerville}{SOMMERVILLE}{2010}
+{SOMMERVILLE, I. \emph{Software Engineering}. 9th. ed. USA: Addison-Wesley
+  Publishing Company, 2010.
+ISBN 0137035152, 9780137035151.}
+
+\bibitem[Sommerville \textit{et al.} 2008]{sommerville2008engenharia}
+\abntrefinfo{Sommerville \textit{et al.}}{SOMMERVILLE \textit{et al.}}{2008}
+{SOMMERVILLE, I.; MELNIKOFF, S.; ARAKAKI, R.; BARBOSA, E. de A.
+  \emph{Engenharia de software}. ADDISON WESLEY BRA, 2008.
+ISBN 9788588639287. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=ifIYOgAACAAJ}.}
+
+\bibitem[Spadini \textit{et al.} 2017]{Spadini2017}
+\abntrefinfo{Spadini \textit{et al.}}{SPADINI \textit{et al.}}{2017}
+{SPADINI, D.; ANICHE, M.; BRUNTINK, M.; BACCHELLI, A. To mock or not to mock?
+  an empirical study on mocking practices. In:  \emph{2017 IEEE/ACM 14th
+  International Conference on Mining Software Repositories (MSR)}. [S.l.:
+  s.n.], 2017. p. 402--412.}
+
+\bibitem[Srivastava e Kumar 2013]{srivastava2013}
+\abntrefinfo{Srivastava e Kumar}{SRIVASTAVA; KUMAR}{2013}
+{SRIVASTAVA, S.; KUMAR, R. Indirect method to measure software quality using
+  ck-oo suite. In:  \emph{2013 International Conference on Intelligent Systems
+  and Signal Processing (ISSP)}. [S.l.: s.n.], 2013. p. 47--51.}
+
+\bibitem[Subbulakshmi, Deepa e Malathi 2012]{Subbulakshmi2012}
+\abntrefinfo{Subbulakshmi, Deepa e Malathi}{SUBBULAKSHMI; DEEPA; MALATHI}{2012}
+{SUBBULAKSHMI, C.~V.; DEEPA, S.~N.; MALATHI, N. Comparative analysis of xlminer
+  and weka for pattern classification. In:  \emph{2012 IEEE International
+  Conference on Advanced Communication Control and Computing Technologies
+  (ICACCCT)}. [S.l.: s.n.], 2012. p. 453--457.}
+
+\bibitem[Suresh 2016]{Suresh2016}
+\abntrefinfo{Suresh}{SURESH}{2016}
+{SURESH, Y. Software quality assessment for open source software using logistic
+  amp; naive bayes classifier. In:  \emph{2016 International Conference on
+  Computation System and Information Technology for Sustainable Solutions
+  (CSITSS)}. [S.l.: s.n.], 2016. p. 267--272.}
+
+\bibitem[Tahir, MacDonell e Buchan 2014]{tahir2014test}
+\abntrefinfo{Tahir, MacDonell e Buchan}{TAHIR; MACDONELL; BUCHAN}{2014}
+{TAHIR, A.; MACDONELL, S.~G.; BUCHAN, J. Understanding class-level testability
+  through dynamic analysis. In:  \emph{Evaluation of Novel Approaches to
+  Software Engineering (ENASE), 2014 International Conference on}. [S.l.:
+  s.n.], 2014. p. 1--10.}
+
+\bibitem[Tillmann e Halleux 2008]{Tillmann2008}
+\abntrefinfo{Tillmann e Halleux}{TILLMANN; HALLEUX}{2008}
+{TILLMANN, N.; HALLEUX, J. de. Pex--white box test generation for .net. In:
+  BECKERT, B.; H{\"A}HNLE, R. (Ed.). \emph{Tests and Proofs}. Berlin,
+  Heidelberg: Springer Berlin Heidelberg, 2008. p. 134--153.
+ISBN 978-3-540-79124-9.}
+
+\bibitem[Visser, Pǎsǎreanu e Khurshid 2004]{Visser2004}
+\abntrefinfo{Visser, Pǎsǎreanu e Khurshid}{VISSER; PǎSǎREANU;
+  KHURSHID}{2004}
+{VISSER, W.; PǎSǎREANU, C.~S.; KHURSHID, S. Test input generation with java
+  pathfinder.
+\emph{SIGSOFT Softw. Eng. Notes}, ACM, New York, NY, USA, v.~29, n.~4, p.
+  97--107, jul. 2004.
+ISSN 0163-5948.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1013886.1007526}.}
+
+\bibitem[Wagner e Seifert 2005]{wagner2005}
+\abntrefinfo{Wagner e Seifert}{WAGNER; SEIFERT}{2005}
+{WAGNER, S.; SEIFERT, T. Software quality economics for defect-detection
+  techniques using failure prediction.
+\emph{SIGSOFT Softw. Eng. Notes}, ACM, New York, NY, USA, v.~30, n.~4, p.~1--6,
+  maio 2005.
+ISSN 0163-5948.
+Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1082983.1083296}.}
+
+\bibitem[Walkinshaw e Fraser 2017]{Walkinshaw2017}
+\abntrefinfo{Walkinshaw e Fraser}{WALKINSHAW; FRASER}{2017}
+{WALKINSHAW, N.; FRASER, G. Uncertainty-driven black-box test data generation.
+  In:  \emph{2017 IEEE International Conference on Software Testing,
+  Verification and Validation (ICST)}. [S.l.: s.n.], 2017. p. 253--263.}
+
+\bibitem[Watson, Mccabe e Wallace 1996]{watson96}
+\abntrefinfo{Watson, Mccabe e Wallace}{WATSON; MCCABE; WALLACE}{1996}
+{WATSON, A.~H.; MCCABE, T.~J.; WALLACE, D.~R. Special publication 500-235,
+  structured testing: A software testing methodology using the cyclomatic
+  complexity metric. In:  \emph{U.S. Department of Commerce/National Institute
+  of Standards and Technology}. [S.l.: s.n.], 1996.}
+
+\bibitem[Xia, Yan e Si 2013]{Xia2013}
+\abntrefinfo{Xia, Yan e Si}{XIA; YAN; SI}{2013}
+{XIA, Y.; YAN, G.; SI, Q. A study on the significance of software metrics in
+  defect prediction. In:  \emph{2013 Sixth International Symposium on
+  Computational Intelligence and Design}. [S.l.: s.n.], 2013. v.~2, p.
+  343--346.}
+
+\bibitem[Xu \textit{et al.} 2016]{Xu2016}
+\abntrefinfo{Xu \textit{et al.}}{XU \textit{et al.}}{2016}
+{XU, S.; CHEN, L.; WANG, C.; RUD, O. A comparative study on black-box testing
+  with open source applications. In:  \emph{2016 17th IEEE/ACIS International
+  Conference on Software Engineering, Artificial Intelligence, Networking and
+  Parallel/Distributed Computing (SNPD)}. [S.l.: s.n.], 2016. p. 527--532.}
+
+\bibitem[Zeiss \textit{et al.} 2007]{Zeiss2007}
+\abntrefinfo{Zeiss \textit{et al.}}{ZEISS \textit{et al.}}{2007}
+{ZEISS, B.; VEGA, D.; SCHIEFERDECKER, I.; NEUKIRCHEN, H.; GRABOWSKI, J.
+  Applying the iso 9126 quality model to test specifications - exemplified for
+  ttcn-3 test specifications. In:  \emph{Software Engineering}. [S.l.: s.n.],
+  2007.}
+
+\end{thebibliography}
