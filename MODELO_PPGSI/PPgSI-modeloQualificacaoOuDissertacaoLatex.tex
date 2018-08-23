@@ -983,7 +983,6 @@ O estudo promovido por \cite{Campos2017} demonstra que algoritmos genéticos cla
 \cite{Campos2017} afirma a necessidade compreender as diferentes características de software as quais influenciam diferentes coberturas de teste nas diferentes técnicas para que assim seja possível desenvolver uma hyper-heurística a qual seleciona a adapta o algoritmo para cada problema de geração em específico.
 
 \section{EvoSuite}
-Existem várias ferramentas de geração de dados de testes com base em buscas disponíveis em uma gama de linguagens de programação, principalmente Java e .NET. Ferramentas as quais variam de técnicas de random search como Randoop, Jcrasher, JTExpert, NightHawk, T3 ou Yeti-Test até ferramentas baseadas em técnicas evolutivas como EvoSuite, eToc ou Testful. \cite{shamriski20151115}
 
 A EvoSuite \cite{Evosuite} é uma ferramente baseada em técnicas de busca que também utiliza algoritmos genéticos na geração automatica de suítes de testes para classes escritas em Java. \cite{Fraser2017}. Para uma determinada classe, referenciada na ferramenta como alvo, e seu classpath completo, o caminho o qual o ambiente de execução possa encontrar as classes compiladas como bytecode e respectivas dependências \cite{ClassPath}, a EvoSuite automaticamente produz um conjunto de testes unitários escritos para o framework de execução de testes Junit \cite{Junit} com o intuito de maximixar a cobertura de código. \cite{Fraser2017}.
 
@@ -1158,7 +1157,7 @@ A feramenta possui em torno de duas décacas, com  implementações dos algoritm
 
 A Weka opera com dados unidimensionais, permitindo que pessoas de qualquer nível de conhecimento em mineração de dados  possam identificar informações escondidas em seus conjuntos de treinamentos com uma interface simples e direta \cite{Subbulakshmi2012}.  Após carregar e treinar um modelo com um conjunto de dados, o classificador pode ser validado para o conjunto e as classes fornecidas \cite{Subbulakshmi2012}. 
 
-\chapter{Resultados e Discussões}
+\chapter{Materiais e métodos}
 \label{chap:resultados}
 Neste capítulo serão apresentados os resultados obtidos por meio das informações encontradas e dos testes aplicados durante o desenvolvimento da pesquisa. Para efeito de organização, este capítulo será dividido em seções que explicam desde os materiais e métodos utilizados até os resultados obtidos, dados gerados, assim como as conclusões extraídas e trabalhos futuros.
 
@@ -1176,12 +1175,60 @@ O corpus SF110 foi utilizado como objeto de análise pelo processo de pesquisa p
   \item \textbf{Weka\footnote{https://www.cs.waikato.ac.nz/ml/weka/}:} ferramenta de mineração de dados utilizada para classificação pela técnica citada no capítulo 5;
   \item \textbf{LibreOffice Calc\footnote{https://www.libreoffice.org/discover/calc/}:} ferramenta utiizada para o cálculo das correlações entre os valores que serão apresentados.
   \item \textbf{Go \footnote{https://golang.org/}:} linguagem de programação utilizada para codificação de algumas rotinas de processamento dos dados.
-  \item \textbf{Maven \footnote{https://maven.apache.org/}:} ferramenta de compilação, gestão de dependências e empacotamento dos projetos java presente no SF110.
+  \item \textbf{Maven \footnote{https://maven.apache.org/}:} ferramenta compilação, gestão de dependências e empacotamento dos projetos java presente no SF110.
 \end{itemize}
 
 Nas seções posteriores será descrita a metodologia aplicada durante o processo de pesquisa e os resultados encontrados, o processo foi segmentado nas tarefas de extração e análise das métricas, geração dos dados de teste, associação dos resultados, mineração dos dados, teste da hipótese e análise dos resultados.
  
-  \section{Extrações de dados a análises primárias}
+ \section{Métodos}
+ 
+ Esta seção visa descrever a metodologia utilizada durante esta dissertação, detalhando as etapas necessárias para conclusão de todas as atividades de análise, condução dos experimentos e resultados. As etapas as quais compõe a pesquisa conduzida durante esta dissertação podem ser divididas em :
+ 
+ \begin{itemize}
+  \item Análise bibliográfica de métricas em softwares orientados a objetos;
+  \item Estudo dos algoritmos de geração automática de dados de teste e comparativos entre os algoritmos utilizados;
+  \item Escolha, análise e preparação da base de dados;
+  \item Escolha das ferramentas de coleta de métricas, geração de dados de teste e mineração de dados;
+  \item Geração dos dados de teste e coleta dos medidas apresentadas pelos dados de saída;
+   \item Extração das métricas selecionadas ;
+   \item Consolidação das métricas de geração de dados de teste e das métricas de softwares orientados a objetos ;
+    \item Análise dos dados consolidados e montagem dos conjuntos de treinamento;
+    \item Análise dos dados consolidados e montagem dos conjuntos de treinamento;
+    \item Execução do algoritmo de classificação;
+    \item Análise dos resultados.
+\end{itemize}
+
+\subsection{Análise bibliográfica de métricas em softwares orientados a objetos}
+O conjunto de métricas utilizado é o conjunto proposto por Chidamber \& Kemerer, durante a análise bibliográfica, diversas métricas foram estudadas para que assim fossem escolhidas, entre o conjunto de métricas existente, as métricas que melhor representassem características de softwares orientados a objetos. Além do requisito claso de representação de características do software, as métricas necessitam ser de fácil e rápida extração, uma vez que softwares que necessitem escolher uma técnica mais adequada necessitam que a escolha ocorra em tempo hábil. 
+
+As métricas de softwares orientados a objetos podem ser divididas em métricas estáticas e métricas dinâmicas, onde o primeiro conjunto não necessita de execução do SUT para a extração diferentemente do segundo que demanda que as métricas sejam extraídas em tempo de execução. Por conta destas características, as métricas estáticas são extraídas mais rapidamente e consomem menos recursos computacionais, sendo assim, 
+para preencher os requisitos de tempo e processamento, visto que a seleção do melhor algoritmo necessita ser rápida, as métricas estáticas foram escolhidas.
+
+Dentre as métricas estáticas, vários tipos de medidas podem ser extraídas por meio de análise dos códigos das classes, através da análise bibliográfica foi possível notar que as métricas CK possuem boa representação das características de classes que compõe um software. O conjunto de métricas CK foi utilizado em diversos contextos como detecção de falhas e análise de qualidade dando suporte para descrição de características.
+
+\subsection{Estudo dos algoritmos de geração de dados de teste}
+A literatura sobre geração automática de dados de testes engloba diversas técnicas de busca que variam de técnicas randômicas mais simples a técnicas baseadas em algoritmos genéticos e suas variações. Apesar do número de algoritmos disponíveis para uso, o objetivo de pesquisa deste trabalho baseia-se na escolha automática entre dois algoritmos distintos: os algoritmos de geração baseados em busca randômica algoritmo de busca genético.
+
+
+
+\subsection{Definição da amostra utilizada}
+O experimento para validação das hipóteses possui diversas atividades de geração e extração de dados que serão detalhados nas próximas seções. Para que as extrações ocorram é necessária a utilização de uma base de amostras capaz de denotar os mais diversos tipos de classes presentes em softwares, ou seja, os tipos de problemas resolvidos pelos softwares que compõe a amostra devem ser dos mais variados possível.
+
+Durante a análise dos algoritmos de geração de dados de teste foi possível notar o uso do SF110, também chamado de SF110 corpus, por diversos experimentos. O corpus SF110 possui grande relevância na literatura, sendo utilizado em experimentos relacionados à geração de dados de teste, além de ser um corpus consolidado, possui 110 projetos de software presentes em cenários variados de utilização, compondo em torno de 10.000 classes em Java, suprindo assim a necessidade de variedade de contextos de resolução de problemas.
+
+Todos os arquivos escritos em Java que compõe os softwares presentes no SF110 podem ser utilizadas coleta de métricas no experimento, com exceção de elementos como interfaces, sendo assim, a de análise ocorre para as classes definidas nos projetos. O mesmo ocorre para a geração de dados de teste, somente as classes de software em Java serão consideradas para análise.
+
+\subsection{Geração dos dados de teste e extração das métricas CK}
+
+A geração dos dados de teste demanda uma ferramenta que seja capaz de gerar os testes de unidade nos dois algoritmos, além de fornecer estatísticas de geração como cobertura de código e tempo de execução.
+
+Existem várias ferramentas de geração de dados de testes com base em buscas disponíveis em uma gama de linguagens de programação, principalmente Java e .NET. Ferramentas as quais variam de técnicas de random search como Randoop, Jcrasher, JTExpert, NightHawk, T3 ou Yeti-Test até ferramentas baseadas em técnicas evolutivas como EvoSuite, eToc ou Testful \cite{shamriski20151115}. 
+
+Entre as ferramentas citadas, destaca-se a EvoSuite, a ferramenta possui mais de 53 publicações registradas no site oficial, foi submetida ao \textit{Unit testing tool competition} e conseguiu o primeiro lugar em duas edições.
+
+
+
+ \chapter{Condução dos experimentos e discussões}
   A primeira etapa do processo consistiu na  extração dos dados para análises primárias das hipóteses apresentadas, este passo foi necessário pois a primeira análise estatística  para validação foi a análise da correlação das métricas CK dos projetos e os dados de execução fornecidos da EvoSuite: Cobertura de código e tempo de execução. A análise da correlação é uma etapa de validação importante visto que valores de correlação com pouca ou nenhuma significância podem dar indícios da eficácia de seu uso na mineração de dados, esta etapa caracteriza como uma etapa eliminatória das etapas posteriores do processo. 
   
  Os dados necessários para a análise da correlação são as devidas quantidades de cobertura, tempo disponibilizados pela EvoSuite e métricas CK extraídas das classes do SF110. Por conta da velocidade de extrair métricas estáticas como as métricas CK, a primeira coleta ocorreu com a geração dos dados de teste pela EvoSuite, inicialmente com o algoritmo de busca genético padrão e em seguida com o algoritmo de busca randômica.
@@ -1340,7 +1387,7 @@ Após a coleta dos dados e consolidação seguido de validação deste conjunto 
 
 Dado que o intuito do experimento é reconhecer qual o algoritmo de geração de dados de teste é mais adequado: Algoritmo de busca randômica ou algoritmo genético, é possível então afirmar que as classes de classificação serão os dois algoritmos, os quais serão tratados com as seguintes classes:  \textbf{RANDOM} ou \textbf{GA} respectivamente. 
 
-\subsection{Conjunto de aprendizado com base em cobertura}
+\subsection{Conjunto de aprendizado baseado em cobertura de código}
 
 O primeiro conjunto de aprendizado montado, levou em consideração somente a cobertura dos testes para montagem do conjunto de aprendizado, ou seja, o tempo foi desconsiderado, sendo assim este conjunto de dados foi nomeado como \textbf{CBCK} (Cover based on CK dataset).
 
@@ -1432,8 +1479,7 @@ O algoritmo, ao ser executado, retornou uma precisão de 63.5\%, porém é poss�
 
 
 
-\chapter{Conclusão}
-\label{chap:conclusao}
+\section{Discussão dos resultados}
 Neste trabalho foi apresentado um estudo sobre a relação das métricas CK com a cobertura de código e tempo em dois algoritmos de geração de dados de testes distintos.
 Ao longo do trabalho foram coletados diversos dados sobre ambos os assuntos: métricas e geração de dados de testes, estes dados foram então processados, agrupados e análisados para que assim seja compreendida a relação entre estes, caso exista e possíveis tomadas de decisão.
 
@@ -1469,6 +1515,8 @@ Q3: É possível escolher entre dois algoritmos de geração de dados de testes 
 
 
 
+\chapter{Conclusão}
+\label{chap:conclusao}
 
 
 % ----------------------------------------------------------

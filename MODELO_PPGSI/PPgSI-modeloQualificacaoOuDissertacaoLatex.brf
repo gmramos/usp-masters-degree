@@ -133,13 +133,12 @@
 \backcite {Campos2017}{{32}{3.4}{section.3.4}}
 \backcite {Campos2017}{{32}{3.4}{section.3.4}}
 \backcite {Campos2017}{{32}{3.4}{section.3.4}}
-\backcite {shamriski20151115}{{32}{3.5}{section.3.5}}
 \backcite {Evosuite}{{32}{3.5}{section.3.5}}
 \backcite {Fraser2017}{{32}{3.5}{section.3.5}}
 \backcite {ClassPath}{{32}{3.5}{section.3.5}}
 \backcite {Junit}{{32}{3.5}{section.3.5}}
 \backcite {Fraser2017}{{32}{3.5}{section.3.5}}
-\backcite {Fraser2017}{{33}{3.5}{section.3.5}}
+\backcite {Fraser2017}{{32}{3.5}{section.3.5}}
 \backcite {Fraser2017}{{33}{3.5}{section.3.5}}
 \backcite {Fraser2017}{{33}{3.5}{section.3.5}}
 \backcite {Fraser2017}{{33}{3.5}{section.3.5}}
@@ -218,7 +217,8 @@
 \backcite {Subbulakshmi2012}{{44}{5.3}{section.5.3}}
 \backcite {Subbulakshmi2012}{{44}{5.3}{section.5.3}}
 \backcite {shamriski20151115}{{45}{6.1}{section.6.1}}
-\backcite {shamriski20151115}{{48}{6.2}{figure.6.7}}
-\backcite {Xia2013}{{55}{6.3.1}{table.6.4}}
-\backcite {Xia2013}{{55}{6.3.1}{table.6.4}}
-\backcite {Xia2013}{{55}{6.3.1}{table.6.4}}
+\backcite {shamriski20151115}{{48}{6.2.4}{subsection.6.2.4}}
+\backcite {shamriski20151115}{{52}{7}{figure.7.7}}
+\backcite {Xia2013}{{59}{7.1.1}{table.7.4}}
+\backcite {Xia2013}{{59}{7.1.1}{table.7.4}}
+\backcite {Xia2013}{{59}{7.1.1}{table.7.4}}

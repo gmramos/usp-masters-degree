@@ -53,17 +53,24 @@
 \contentsline {section}{\numberline {5.2}Classificador naive bayes}{42}{section.5.2}
 \contentsline {section}{\numberline {5.3}Weka}{43}{section.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}Resultados e Discuss\IeC {\~o}es}{45}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}Materiais e m\IeC {\'e}todos}{45}{chapter.6}
 \contentsline {section}{\numberline {6.1}Materiais}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}Extra\IeC {\c c}\IeC {\~o}es de dados a an\IeC {\'a}lises prim\IeC {\'a}rias}{46}{section.6.2}
-\contentsline {section}{\numberline {6.3}Aplica\IeC {\c c}\IeC {\~a}o das classes e classifica\IeC {\c c}\IeC {\~a}o}{53}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Conjunto de aprendizado com base em cobertura}{53}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Conjunto de aprendizado h\IeC {\'\i }brido}{55}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.2}M\IeC {\'e}todos}{46}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}An\IeC {\'a}lise bibliogr\IeC {\'a}fica de m\IeC {\'e}tricas em softwares orientados a objetos}{47}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Estudo dos algoritmos de gera\IeC {\c c}\IeC {\~a}o de dados de teste}{47}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Defini\IeC {\c c}\IeC {\~a}o da amostra utilizada}{48}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Gera\IeC {\c c}\IeC {\~a}o dos dados de teste e extra\IeC {\c c}\IeC {\~a}o das m\IeC {\'e}tricas CK}{48}{subsection.6.2.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}Conclus\IeC {\~a}o}{57}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}Condu\IeC {\c c}\IeC {\~a}o dos experimentos e discuss\IeC {\~o}es}{50}{chapter.7}
+\contentsline {section}{\numberline {7.1}Aplica\IeC {\c c}\IeC {\~a}o das classes e classifica\IeC {\c c}\IeC {\~a}o}{57}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Conjunto de aprendizado baseado em cobertura de c\IeC {\'o}digo}{57}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Conjunto de aprendizado h\IeC {\'\i }brido}{59}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Discuss\IeC {\~a}o dos resultados}{60}{section.7.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}Conclus\IeC {\~a}o}{63}{chapter.8}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{59}{chapter*.13}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{64}{chapter*.13}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{Anexo \space }
