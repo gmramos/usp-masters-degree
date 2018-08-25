@@ -1218,7 +1218,7 @@ Durante a análise dos algoritmos de geração de dados de teste foi possível n
 
 Todos os arquivos escritos em Java que compõe os softwares presentes no SF110 podem ser utilizadas coleta de métricas no experimento, com exceção de elementos como interfaces, sendo assim, a de análise ocorre para as classes definidas nos projetos. O mesmo ocorre para a geração de dados de teste, somente as classes de software em Java serão consideradas para análise.
 
-\subsection{Geração dos dados de teste e extração das métricas CK}
+\subsection{Geração dos dados de teste}
 
 A geração dos dados de teste demanda uma ferramenta que seja capaz de gerar os testes de unidade nos dois algoritmos, além de fornecer estatísticas de geração como cobertura de código e tempo de execução.
 
@@ -1226,6 +1226,62 @@ Existem várias ferramentas de geração de dados de testes com base em buscas d
 
 Entre as ferramentas citadas, destaca-se a EvoSuite, a ferramenta possui mais de 53 publicações registradas no site oficial, foi submetida ao \textit{Unit testing tool competition} e conseguiu o primeiro lugar em duas edições.
 
+A EvoSuite suporta diversos algoritmos de geração como os citados no capítulo \ref{chap:geracao-automatica-dados-teste}, dentre os algoritmos é possível escolher diferentes configurações como tempo máximo de uso em busca, técnicas de seeding para guiar busca, entre outras. As versões dos algoritmos utilizadas no \textit{Unit testing tool competition} são as versões padrão dos algoritmos, utilizando também as configurações padrão de geração \cite{shamriski20151115}. 
+
+Dado que o objetivo desta dissertação também consiste em analisar  as diferenças dos algoritmos randômico e genético  e a peformance da configuração adotada no \textit{Unit testing tool competition} foi alta, então a versão monotônica padrão do algoritmo genético e a versão do algoritmo randômico padrão são adotadas para o experimento, ambas com suas configurações padrão.
+
+A execução do EvoSuite possui como resultado de saída um arquivo no formato CSV com os seguintes campos como cabeçalho: TARGET\_CLASS, criterion, Coverage, Total\_Goals, Covered\_Goals. 
+
+A coluna TARGET\_CLASS caracteriza o nome da classe e pacote da classe java, ela pode ser usada para unir os dados de métricas CK extraídos com os dados de cobertura, isso ocorre pois este é um dado disponível em ambas saídas das ferramentas, a coluna Covered\_Goals possui o percentual de critérios cobertos durante a execução. É importante salientar que o critério de cobertura adotado foi o de cobertura de caminhos.
+
+
+
+\subsection{Extração das métricas CK}
+As métricas de software são medidas extraídas a partir de componentes de software, as quais podem descrever características internas, inclusive atributos de qualidade dos componentes. O presente trabalho procura utilizar-se destes atributos, caracterizados por métricas, na seleção da técnica mais adequada de geração para cada classe presente em um software orientado a objetos.
+
+A ferramenta selecionada para extração das métricas é a ferramenta CK publicada em repositório de código aberto Github, já descrita na seção de materias. A partir da ferramenta é possível extrair a partir de um conjunto de classes escritas na linguagem de programação Java as seguintes métricas estáticas:
+
+
+\begin{table}[h]
+
+\centering
+\caption{Métricas extraídas pelo CK}
+\vspace{0.5cm}
+\begin{tabular}{r|lr}
+
+Métrica  & Descrição \\ % Note a separação de col. e a quebra de linhas
+\hline                               % para uma linha horizontal
+CBO & Acoplamento entre os objetos \\
+WMC & Complexidade de McCabe \\	  
+DIT & Profundidade na árvore de herança \\	 
+NOC & Número de classes as quais herdam a classe em análise \\   
+RFC & Número de invocações únicas de um método em uma classe \\	 
+LCOM & Falta de coesão nos métodos \\	
+NOM & Número de métodos \\	 
+NOPM & Número de métodos públicos	 \\ 
+NOSM & Número de métodos estáticos \\	
+NOF & Número de atributos\\	  
+NOPF & Número de atributos públicos \\	
+NOSF & Número de atributos estáticos \\	
+NOSI & Numero de invocação de métodos estáticos  \\	
+LOC & Total de linhas de código
+
+
+\end{tabular}
+\label{table:metricas-extraidas-ck}
+\end{table}
+
+A tabela \ref{table:metricas-extraidas-ck} lista todas as métricas extraídas pelo CK e a descrição do valor extraído em cada métrica. O CK  foi escolhido por ser uma ferramenta que é não só capaz de extrair as métricas propostas por Chidamber \& Kemerer, também é capaz de extrair outras métricas importantes em softwares orientados a objetos como as métricas de contagem de métodos, métricas de contragem de atributos e suas variações, ambas presentes na tabela \ref{table:metricas-extraidas-ck}.
+
+A execução do CK possui como resultado de saída um arquivo no formato CSV com os seguintes campos como cabeçalho: file, class, type, cbo, wmc, dit, noc, rfc, lcom, nom, nopm, nosm, nof, nopf, nosf, nosi, loc. Além dos valores das métricas, a coluna class é importante para união dos dados de geração com suas respectivas métricas, dado que este é um campo presente em ambos arquivos de saída.
+
+\subsection{Consolidação dos dados extraídos e análises iniciais}
+Com a conclusão das atividades de extração das métricas e estatísticas de geração dos dados de teste, é necessário que os dados coletados de ambos sejam consolidados em um arquivo único de dados onde cada linha do arquivo possua a classe do software, as métricas coletadas desta classe, o tempo necessário e a cobertura atingida por cada um dos dois algoritmos de geração de dados de teste. O arquivo final possui o nome de conjunto de dados consolidado.
+
+O arquivo consolidado possui todos os dados de métricas e geração associados a uma classe, isso permite que diferentes conjuntos de treinamento sejam criados com base em diferentes necessidades como, classificar pela técnica mais rápida ou pela técnica com maior cobertura.Com a montagem do conjunto de dados consolidado é possível conduzir algumas análises primárias. 
+
+
+\subsection{Construção dos conjuntos de treinamento e análise dos resultados}
 
 
  \chapter{Condução dos experimentos e discussões}
@@ -1602,6 +1658,9 @@ Q3: É possível escolher entre dois algoritmos de geração de dados de testes 
 %
 %-------------------------------------------------------------------------
 
+\chapter{Conjuntos de treinamento}
+
+\chapter{Algoritmos de processamento dos conjuntos de treinamento}
 
 \end{anexosenv}
 
