@@ -1283,6 +1283,28 @@ O arquivo consolidado possui todos os dados de métricas e geração associados 
 
 \subsection{Construção dos conjuntos de treinamento e análise dos resultados}
 
+A montagem do arquivo consolidado permite que estes diferentes conjuntos de treinamento sejam montados. Compreende-se por montagem do conjunto de treinamento, replicar os dados do arquivo consolidado em um novo arquivo e assim aplicar um campo a mais, chamado de classe.  
+
+Uma classe é simplesmente uma string, no caso deste experimento ela determina o algoritmo mais adequado e aplicado no conjunto, este passo é importante para que o algoritmo de classificação saiba o conjunto de classes disponíveis no total e aprenda a classificar de acordo com as medidas fornecidas e as classes. As classes adotadas utilizadas então são \textbf{GA} para algoritmo genético e \textbf{RANDOM} para algoritmo randômico.
+
+Os experimentos de classificação demandam que os conjuntos de treinamento sejam montados de acordo com os diferentes critérios de análise nos experimentos. As análises desejadas por esta dissertação compreendem dois tipos de seleção do algoritmo de geração: o primeiro com base na maior cobertura de código e o segundo híbrido com base tanto na cobertura de código quanto no tempo geração.
+
+O primeiro conjunto de treinamento é um conjunto baseado totalmente em cobertura de código, ou seja, selecionar o algoritmo de geração de dados de teste que agintiu a maior cobertura de código para cada tupla de uma classe java no arquivo consolidado. Sendo assim, para a montagem é necessário replicar os dados presentes no arquivo consolidado e aplicar nesta replica a classe do algoritmo com maior cobertura, para cada linha: Aplicar \textbf{GA}  se o algoritmo genético possuiu  maior cobertura ou \textbf{RANDOM} se o algoritmo randômico atingiu maior cobertura.
+
+O segundo conjunto de treinamento é um conjunto baseado tanto na cobertura dos dados de teste quanto no tempo de execução. A aplicação da classe é diferente do conjunto anterior, quando a diferença de cobertura entre os algoritmos situa-se entre um percentual aceitável, a classe aplicada será a classe do algoritmo com o menor tempo. Assim como o conjunto de treinamento anterior, os dados consolidados necessitam ser replicados em um novo conjunto, e as linhas iteradas para que a classe correta seja aplicada.
+
+Supondo um valor como 5\% como limiar, se a diferença de cobertura entre os dois algoritmos for menor ou igual a 5\%, o algoritmo que consumiu menos tempo na geração de dados de teste será escolhido. O valor escolhido como limiar depende das análises primárias já descritas, espera-se com esse conjunto garantir maior velocidade com detrimento muito reduzido e aceitável da cobertura dos testes.
+
+\subsection{Classificação e análise dos resultados}
+A construção dos conjuntos de treinamento permite que o algoritmo de classificação seja executado e assim obter os dados para análise das hipóteses. Dentre os algoritmos de classificação disponíveis, o classificador naive bayes foi escolhido por apresentar boa performance de execução e bons resultados.
+
+A velocidade de um classificador nestes experimentos é um fator importante, em um caso de implementação do classificador em uma ferramenta como a EvoSuite, o algoritmo precisa ser executado para cada classe do software, com o intuito de escolher o algoritmo mais adequado. Esta operação não pode ser de alto custo computacional ou demandar um tempo de execução que atrapalhe o processo.
+
+A análise dos resultados apresentados pelos dados de saída baseia-se na assertividade de escolha apresentada no modelo proposto, ou seja, a quantidade corretamente classificadas de cada algoritmo. Este dado compõe o cálculo de precisão, a precisão é dada pelo proporção de instâncias corretamente classificadas pelo total de instâncias existentes \cite{Kaur2014}.
+
+Segundo \cite{Kaur2014}, um resultado de classificação é considerado preciso se uma medida de performance como a precisão possui um valor maior ou igual a 70\%. Espera-se com os modelos propostos atingir acima de 70\% de instâncias corretas de classificação.
+
+
 
  \chapter{Condução dos experimentos e discussões}
   A primeira etapa do processo consistiu na  extração dos dados para análises primárias das hipóteses apresentadas, este passo foi necessário pois a primeira análise estatística  para validação foi a análise da correlação das métricas CK dos projetos e os dados de execução fornecidos da EvoSuite: Cobertura de código e tempo de execução. A análise da correlação é uma etapa de validação importante visto que valores de correlação com pouca ou nenhuma significância podem dar indícios da eficácia de seu uso na mineração de dados, esta etapa caracteriza como uma etapa eliminatória das etapas posteriores do processo. 
@@ -1550,7 +1572,7 @@ Os algoritmos apresentados possuem diferenças em seus resultados de execução,
 
 Em comparação, o algoritmo randômico apresentou menor tempo de execução em 66 \% dos casos, o tempo de execução reduzido é dado pelo tempo entre as interações do algoritmo, visto que o algoritmo randômico não possui passos como crossover ou mutação, garantindo assim que consiga varrer o espaço de busca com velocidade maior se comparado ao algoritmo genético.
 
-Sendo assim, é possível concluir que o algorítmo randômico consegue ser executado com maior velocidade e menor tempo do que um algoritmo genético, porém também é notável que um algorítmo genético consegue atingir maior cobertura de código.\\
+Sendo assim, é possível concluir que o algoritmo randômico consegue ser executado com maior velocidade e menor tempo do que um algoritmo genético, porém também é notável que um algoritmo genético consegue atingir maior cobertura de código.\\
 
 \fbox{\parbox{5in}{%
 Q2: Alguma característica ou conjunto de características do software sob teste que faça com que uma técnica usada na geração de casos de teste seja melhor do que outra?
@@ -1561,7 +1583,7 @@ Em suma, 14 métricas foram analisadas no contexto de geração de dados de test
 
 Através a análise foi possível notar também que um conjunto de 5 métricas foram capazes de representar melhor uma classe durante a seleção de algoritmos quando este conjunto foi comparado ao conjunto total de 14 métricas. Neste conjunto de métricas estão: $CBO$ (Coupling between Object Classes), $WMC$ (Weight Method Class ou Complexidade de McCabe), $LCOM$ (Lack of Cohesion of Methods) e $LOC$ (Lines of code) e em especial a métrica $RFC$ (Response for a Class) a qual possuiu maior valor de correlação com a cobertura de código.
 
-O conjunto das 5 métricas citadas apresentou correlação média com a cobertura de código apresentada pelo algoritmo genético, além de demonstrar eficiência no algoritmo de classificação, ao mesmo tempo,  as métricas apresentaram pouca correlação com a cobertura obtida pelo algoritmo randômico ou com o tempo de execução em ambos os algoritmos, sendo assim, é possível afirmar que um algorítmo genético tem características similares em geração de dados de teste enquanto este fato não ocorre no algoritmo randômico. \\
+O conjunto das 5 métricas citadas apresentou correlação média com a cobertura de código apresentada pelo algoritmo genético, além de demonstrar eficiência no algoritmo de classificação, ao mesmo tempo,  as métricas apresentaram pouca correlação com a cobertura obtida pelo algoritmo randômico ou com o tempo de execução em ambos os algoritmos, sendo assim, é possível afirmar que um algoritmo genético tem características similares em geração de dados de teste enquanto este fato não ocorre no algoritmo randômico. \\
 
 
 \fbox{\parbox{5in}{%

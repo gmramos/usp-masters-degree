@@ -205,6 +205,13 @@ Acessado em: 2018-08-04.}
 ISSN 0005-1098.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/0005-1098(63)90018-9}.}
 
+\bibitem[Kaur, Kaur e Pathak 2014]{Kaur2014}
+\abntrefinfo{Kaur, Kaur e Pathak}{KAUR; KAUR; PATHAK}{2014}
+{KAUR, A.; KAUR, K.; PATHAK, K. Software maintainability prediction by data
+  mining of software code metrics. In:  \emph{2014 International Conference on
+  Data Mining and Intelligent Computing (ICDMIC)}. [S.l.: s.n.], 2014.
+  p.~1--6.}
+
 \bibitem[Korel 1990]{Korel1990}
 \abntrefinfo{Korel}{KOREL}{1990}
 {KOREL, B. Automated software test data generation.
@@ -424,7 +431,7 @@ Dispon{\'\i}vel em: \url{http://doi.acm.org/10.1145/1082983.1083296}.}
 \abntrefinfo{Watson, Mccabe e Wallace}{WATSON; MCCABE; WALLACE}{1996}
 {WATSON, A.~H.; MCCABE, T.~J.; WALLACE, D.~R. Special publication 500-235,
   structured testing: A software testing methodology using the cyclomatic
-  complexity metric. In:  \emph{U.S. Department of Commerce/National Institute
+  complexity metric. In:  \emph{U.S. Department of Commerce/N ational Institute
   of Standards and Technology}. [S.l.: s.n.], 1996.}
 
 \bibitem[Xia, Yan e Si 2013]{Xia2013}

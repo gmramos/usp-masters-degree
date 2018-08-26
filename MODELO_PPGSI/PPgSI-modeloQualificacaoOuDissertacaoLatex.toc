@@ -63,25 +63,26 @@
 \contentsline {subsection}{\numberline {6.2.5}Extra\IeC {\c c}\IeC {\~a}o das m\IeC {\'e}tricas CK}{50}{subsection.6.2.5}
 \contentsline {subsection}{\numberline {6.2.6}Consolida\IeC {\c c}\IeC {\~a}o dos dados extra\IeC {\'\i }dos e an\IeC {\'a}lises iniciais}{51}{subsection.6.2.6}
 \contentsline {subsection}{\numberline {6.2.7}Constru\IeC {\c c}\IeC {\~a}o dos conjuntos de treinamento e an\IeC {\'a}lise dos resultados}{52}{subsection.6.2.7}
+\contentsline {subsection}{\numberline {6.2.8}Classifica\IeC {\c c}\IeC {\~a}o e an\IeC {\'a}lise dos resultados}{53}{subsection.6.2.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}Condu\IeC {\c c}\IeC {\~a}o dos experimentos e discuss\IeC {\~o}es}{53}{chapter.7}
-\contentsline {section}{\numberline {7.1}Aplica\IeC {\c c}\IeC {\~a}o das classes e classifica\IeC {\c c}\IeC {\~a}o}{60}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Conjunto de aprendizado baseado em cobertura de c\IeC {\'o}digo}{60}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Conjunto de aprendizado h\IeC {\'\i }brido}{62}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Discuss\IeC {\~a}o dos resultados}{63}{section.7.2}
+\contentsline {chapter}{\chapternumberline {7}Condu\IeC {\c c}\IeC {\~a}o dos experimentos e discuss\IeC {\~o}es}{54}{chapter.7}
+\contentsline {section}{\numberline {7.1}Aplica\IeC {\c c}\IeC {\~a}o das classes e classifica\IeC {\c c}\IeC {\~a}o}{61}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Conjunto de aprendizado baseado em cobertura de c\IeC {\'o}digo}{61}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Conjunto de aprendizado h\IeC {\'\i }brido}{63}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Discuss\IeC {\~a}o dos resultados}{64}{section.7.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}Conclus\IeC {\~a}o}{66}{chapter.8}
+\contentsline {chapter}{\chapternumberline {8}Conclus\IeC {\~a}o}{67}{chapter.8}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{67}{chapter*.13}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{68}{chapter*.13}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{Anexo \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}Conjuntos de treinamento}{73}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}Conjuntos de treinamento}{74}{appendix.anexochapback.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}Algoritmos de processamento dos conjuntos de treinamento}{74}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {B}Algoritmos de processamento dos conjuntos de treinamento}{75}{appendix.anexochapback.2}
