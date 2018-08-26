@@ -1591,10 +1591,24 @@ Q3: É possível escolher entre dois algoritmos de geração de dados de testes 
 }}
 \\
 
+Os resultados apresentados pelos experimentos demonstram que é possível escolher entre os algoritmos de geração utilizados com base em um conjunto reduzido de métricas a uma precisão superior a 70\%.
+
+O algoritmo genético conseguiu maior precisão nos testes efetuados, a partir das matrizes de confusão apresentadas é possível notar que a quantidade de instâncias incorretamente classificadas situou-se em torno de 20\%, enquanto no caso do algoritmo de busca randômica, a quantidade de instâncias incorretamente classificadas situou-se em 50\%.
+
+É possível que as instâncias corretamente classificadas para uso do algoritmo genético possuam um padrão nas métricas de softwares orientados a objetos enquanto no algoritmo de busca randômica, o padrão não pode ser descrito por meio de métricas de softwares orientados a objetos ou não exista um padrão claro.
 
 
 \chapter{Conclusão}
 \label{chap:conclusao}
+
+Os algoritmos de geração de dados de teste baseados em busca, randômico e baseado em algoritmo genético possuem suas diferenças conceituais e estruturais.  Os resultados apresentados pelos experimentos demonstram grandes diferenças tanto na cobertura de código quanto no tempo de execução em cada um dos algoritmos. Algoritmos genéticos, em sua maioria, conseguiram maior cobertura do código a partir dos testes gerados, porém, o algoritmo de busca randômico conseguiu cobrir uma parcela menor de código com tempo de execução menor.
+
+Dadas as diferenças entre os algoritmos, surge a necessidade de seleção do algoritmo  de geração de testes mais adequado para cada classe de um software ou componente de software. Durante o presente trabalho, foi proposto o uso de um algoritmo de classificação, para que a partir de um conjunto completo de dados contendo métricas o classificador pudesse escolher o algoritmo mais adequado para cada caso.
+
+As métricas CK demonstraram relação com a seleção do algoritmo genético, ou seja, o conjunto de métricas CK pode ser utilizado para escolher o algoritmo genético.  O algoritmo de busca randômico também pode ser escolhido a partir de métricas CK, porém, com uma redução razoável da eficácia, sendo assim, recomenda-se o uso de métricas CK para seleção somente de algoritmos genéticos
+
+\section{Trabalhos futuros}
+Dada a eficácia da seleção do algoritmo genético a partir de métricas CK, compreende-se então a necessidade de analisar a seleção do algoritmo mais adequado de geração automática de dados de teste com base em métricas CK com um escopo maior. A EvoSuite possui diversos outros algoritmos, com diferentes configurações, como os descritos no capítulo \ref{chap:geracao-automatica-dados-teste}.
 
 
 % ----------------------------------------------------------

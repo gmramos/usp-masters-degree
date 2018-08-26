@@ -72,6 +72,7 @@
 \contentsline {section}{\numberline {7.2}Discuss\IeC {\~a}o dos resultados}{64}{section.7.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {8}Conclus\IeC {\~a}o}{67}{chapter.8}
+\contentsline {section}{\numberline {8.1}Trabalhos futuros}{67}{section.8.1}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{68}{chapter*.13}

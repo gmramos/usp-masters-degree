@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  26 AUG 2018 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  26 AUG 2018 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,11 +969,11 @@ Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 77.
+(Font)              <7> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
+(Font)              <5> on input line 78.
  [13]
-Overfull \hbox (0.58334pt too wide) in paragraph at lines 88--88
+Overfull \hbox (0.58334pt too wide) in paragraph at lines 89--89
  [][] [][][]\OT1/cmr/bx/n/12 Algoritmos de pro-ces-sa-mento dos con-jun-tos de 
 trei- 
  []
@@ -991,7 +991,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 707.
 
 [16] [17] [18]
-<modelo-teste.png, id=406, 386.19281pt x 219.06844pt>
+<modelo-teste.png, id=408, 386.19281pt x 219.06844pt>
 File: modelo-teste.png Graphic file (type png)
 <use modelo-teste.png>
 Package pdftex.def Info: modelo-teste.png  used on input line 762.
@@ -1005,7 +1005,7 @@ Package pdftex.def Info: modelo-teste.png  used on input line 762.
                                                   \fi \fi 
 l.774 
        <./modelo-teste.png>] [21] [22] [23]
-<tipos-custo-arvore.png, id=509, 305.64188pt x 137.7647pt>
+<tipos-custo-arvore.png, id=511, 305.64188pt x 137.7647pt>
 File: tipos-custo-arvore.png Graphic file (type png)
 <use tipos-custo-arvore.png>
 Package pdftex.def Info: tipos-custo-arvore.png  used on input line 826.
@@ -1017,7 +1017,7 @@ Package pdftex.def Info: tipos-custo-arvore.png  used on input line 826.
                                                   \fi \fi 
 l.838 
        <./tipos-custo-arvore.png>]
-<nonconformance-costs-timeline.png, id=540, 274.02374pt x 182.18062pt>
+<nonconformance-costs-timeline.png, id=542, 274.02374pt x 182.18062pt>
 File: nonconformance-costs-timeline.png Graphic file (type png)
 <use nonconformance-costs-timeline.png>
 Package pdftex.def Info: nonconformance-costs-timeline.png  used on input line 
@@ -1130,7 +1130,7 @@ Package hyperref Warning: Suppressing empty link on input line 993.
 [34] [35
 
 ] [36]
-<diagrama_diamante.png, id=815, 287.57437pt x 274.77657pt>
+<diagrama_diamante.png, id=817, 287.57437pt x 274.77657pt>
 File: diagrama_diamante.png Graphic file (type png)
 <use diagrama_diamante.png>
 Package pdftex.def Info: diagrama_diamante.png  used on input line 1034.
@@ -1142,7 +1142,7 @@ Package pdftex.def Info: diagrama_diamante.png  used on input line 1034.
                                                   \fi \fi 
 l.1040 
         <./diagrama_diamante.png>] [38]
-<modelo_srivastava_kumar.png, id=852, 156.585pt x 334.24875pt>
+<modelo_srivastava_kumar.png, id=854, 156.585pt x 334.24875pt>
 File: modelo_srivastava_kumar.png Graphic file (type png)
 <use modelo_srivastava_kumar.png>
 Package pdftex.def Info: modelo_srivastava_kumar.png  used on input line 1084.
@@ -1182,7 +1182,7 @@ Package hyperref Warning: Suppressing empty link on input line 1229.
 l.1281 O
          arquivo consolidado possui todos os dados de métricas e geração ...
 ] [52] [53]
-<status_projetos.png, id=1045, 886.31125pt x 551.05875pt>
+<status_projetos.png, id=1047, 886.31125pt x 551.05875pt>
 File: status_projetos.png Graphic file (type png)
 <use status_projetos.png>
 Package pdftex.def Info: status_projetos.png  used on input line 1321.
@@ -1190,7 +1190,7 @@ Package pdftex.def Info: status_projetos.png  used on input line 1321.
  [54
 
 ]
-<cobertura_evosuite.png, id=1052, 714.16812pt x 502.87875pt>
+<cobertura_evosuite.png, id=1054, 714.16812pt x 502.87875pt>
 File: cobertura_evosuite.png Graphic file (type png)
 <use cobertura_evosuite.png>
 Package pdftex.def Info: cobertura_evosuite.png  used on input line 1333.
@@ -1212,7 +1212,7 @@ Package hyperref Warning: Suppressing empty link on input line 1340.
                                                   \fi \fi 
 l.1343 
         <./cobertura_evosuite.png>]
-<grafico_dif_cobertura.png, id=1069, 816.55063pt x 469.25313pt>
+<grafico_dif_cobertura.png, id=1071, 816.55063pt x 469.25313pt>
 File: grafico_dif_cobertura.png Graphic file (type png)
 <use grafico_dif_cobertura.png>
 Package pdftex.def Info: grafico_dif_cobertura.png  used on input line 1379.
@@ -1228,7 +1228,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1387--1388
 
  []
 
-<tempo_evosuite.png, id=1075, 661.97313pt x 662.97687pt>
+<tempo_evosuite.png, id=1077, 661.97313pt x 662.97687pt>
 File: tempo_evosuite.png Graphic file (type png)
 <use tempo_evosuite.png>
 Package pdftex.def Info: tempo_evosuite.png  used on input line 1392.
@@ -1307,7 +1307,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1591--1593
 
  []
 
-[66] (./PPgSI-modeloQualificacaoOuDissertacaoLatex.bbl
+[66]
+Overfull \hbox (0.88242pt too wide) in paragraph at lines 1611--1612
+[]\OT1/cmr/m/n/12 (-20) Dada a efic^^Sacia da sele^^Xc~ao do al-go-ritmo gen^^S
+etico a par-tir de m^^Setricas CK, compreende-
+ []
+
+(./PPgSI-modeloQualificacaoOuDissertacaoLatex.bbl
 (./PPgSI-modeloQualificacaoOuDissertacaoLatex.brf)
 \tf@brf=\write5
 \openout5 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.brf'.
@@ -1348,35 +1354,29 @@ AED: lastpage setting LastPage
 \tf@toc=\write10
 \openout10 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1696.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1696.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1710.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1710.
  (./PPgSI-modeloQualificacaoOuDissertacaoLatex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1696.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1696.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1710.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1710.
 
+Package rerunfilecheck Info: File `PPgSI-modeloQualificacaoOuDissertacaoLatex.b
+rf' has not changed.
+(rerunfilecheck)             Checksum: FF7B79596A986414198B1207DDF5C285;11060.
 
-
-Package rerunfilecheck Warning: File `PPgSI-modeloQualificacaoOuDissertacaoLate
-x.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `PPgSI-modeloQualificacaoOuDissertac
-aoLatex.brf':
-(rerunfilecheck)             Before: 9432D587B5D039E8962E10F98CAEF783;11008
-(rerunfilecheck)             After:  FF7B79596A986414198B1207DDF5C285;11060.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1696.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1710.
  ) 
 Here is how much of TeX's memory you used:
- 14636 strings out of 492649
- 220288 string characters out of 6129623
- 512814 words of memory out of 5000000
- 17910 multiletter control sequences out of 15000+600000
+ 14638 strings out of 492649
+ 220305 string characters out of 6129623
+ 512910 words of memory out of 5000000
+ 17911 multiletter control sequences out of 15000+600000
  13875 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,18n,43p,1367b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,18n,43p,1367b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
@@ -1387,11 +1387,11 @@ ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (76 pages, 876
-667 bytes).
+Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (76 pages, 879
+388 bytes).
 PDF statistics:
- 1633 PDF objects out of 1728 (max. 8388607)
- 1498 compressed objects within 15 object streams
- 261 named destinations out of 1000 (max. 500000)
- 13442 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 1640 PDF objects out of 1728 (max. 8388607)
+ 1504 compressed objects within 16 object streams
+ 262 named destinations out of 1000 (max. 500000)
+ 13450 words of extra memory for PDF output out of 14400 (max. 10000000)
 
