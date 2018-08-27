@@ -20,14 +20,14 @@
 \contentsline {subsection}{\numberline {2.1.2}Mocks}{20}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Testes manuais}{21}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Testes automatizados}{21}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}Teste caixa preta}{22}{section.2.2}
+\contentsline {section}{\numberline {2.2}Teste caixa preta}{21}{section.2.2}
 \contentsline {section}{\numberline {2.3}Particionamento de equival\IeC {\^e}ncia}{22}{section.2.3}
-\contentsline {section}{\numberline {2.4}An\IeC {\'a}lise do valor limite}{23}{section.2.4}
+\contentsline {section}{\numberline {2.4}An\IeC {\'a}lise do valor limite}{22}{section.2.4}
 \contentsline {section}{\numberline {2.5}Qualidade de software e aspectos econ\IeC {\^o}micos}{23}{section.2.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}Gera\IeC {\c c}\IeC {\~a}o autom\IeC {\'a}tica de dados de teste}{26}{chapter.3}
 \contentsline {section}{\numberline {3.1}Algoritmos baseados em busca}{27}{section.3.1}
-\contentsline {section}{\numberline {3.2}Algoritmo baseado em busca aleat\IeC {\'o}ria}{27}{section.3.2}
+\contentsline {section}{\numberline {3.2}Algoritmo baseado em busca rand\IeC {\^o}mica}{27}{section.3.2}
 \contentsline {section}{\numberline {3.3}Algoritmos de busca baseados em evolu\IeC {\c c}\IeC {\~a}o}{29}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Algoritmos gen\IeC {\'e}ticos}{30}{subsection.3.3.1}
 \contentsline {subsubsection}{O algoritmo evolutivo 1 + ($\lambda $,$\lambda $)}{31}{section*.9}
@@ -46,12 +46,12 @@
 \contentsline {subsection}{\numberline {4.2.5}\textit {Response for a class (RFC)}}{38}{subsection.4.2.5}
 \contentsline {subsection}{\numberline {4.2.6}\textit {Lack Of Cohesion Of Methods (LCOM)}}{39}{subsection.4.2.6}
 \contentsline {section}{\numberline {4.3}Modelo proposto por Srivastava e Kumar}{39}{section.4.3}
-\contentsline {section}{\numberline {4.4}M\IeC {\'e}tricas extra\IeC {\'\i }das com o SB4SE}{40}{section.4.4}
+\contentsline {section}{\numberline {4.4}Outras m\IeC {\'e}tricas est\IeC {\'a}ticas}{40}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}Minera\IeC {\c c}\IeC {\~a}o de dados}{42}{chapter.5}
 \contentsline {section}{\numberline {5.1}Classifica\IeC {\c c}\IeC {\~a}o}{42}{section.5.1}
 \contentsline {section}{\numberline {5.2}Classificador naive bayes}{43}{section.5.2}
-\contentsline {section}{\numberline {5.3}Weka}{44}{section.5.3}
+\contentsline {section}{\numberline {5.3}Weka}{45}{section.5.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {6}Materiais e m\IeC {\'e}todos}{46}{chapter.6}
 \contentsline {section}{\numberline {6.1}Materiais}{46}{section.6.1}
@@ -75,15 +75,11 @@
 \contentsline {section}{\numberline {8.1}Trabalhos futuros}{67}{section.8.1}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{68}{chapter*.13}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{69}{chapter*.13}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{Anexo \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}Conjuntos de treinamento}{74}{appendix.anexochapback.1}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}Algoritmos de processamento dos conjuntos de treinamento}{75}{appendix.anexochapback.2}
+\contentsline {appendix}{\chapternumberline {A}Conjuntos de treinamento}{75}{appendix.anexochapback.1}
