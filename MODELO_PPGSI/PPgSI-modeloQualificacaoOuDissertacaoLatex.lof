@@ -1,10 +1,9 @@
 \babel@toc {brazil}{}
-\contentsline {figure}{\numberline {1}{\ignorespaces Modelo de teste de software}}{20}{figure.2.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Hierarquia da classifica\IeC {\c c}\IeC {\~a}o dos tipos de custo presentes em desenvolvimento de software}}{24}{figure.2.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Crescimento dos custos do tipo \textit {nonconformance} ao longo do tempo de projeto}}{25}{figure.2.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de problema do diamante}}{37}{figure.4.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Modelo de qualidade proposto por Srivastava e Kumar}}{40}{figure.4.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o de estado dos projetos ap\IeC {\'o}s gera\IeC {\c c}\IeC {\~a}o de dados de teste}}{55}{figure.7.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Quantidade de classes que atingiram cobertura de c\IeC {\'o}digo superior ao outro algoritmo}}{56}{figure.7.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Quantidade de classes que consumiram menos tempo melhor em cada algoritmo}}{58}{figure.7.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Quantidade de classes que consumiram menos tempo melhor em cada algoritmo}}{59}{figure.7.9}
+\contentsline {figure}{\numberline {1}{\ignorespaces Modelo de teste de software}}{19}{figure.2.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Hierarquia da classifica\IeC {\c c}\IeC {\~a}o dos tipos de custo presentes em desenvolvimento de software}}{22}{figure.2.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Crescimento dos custos do tipo \textit {nonconformance} ao longo do tempo de projeto}}{23}{figure.2.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Exemplo de problema do diamante}}{35}{figure.4.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o de estado dos projetos ap\IeC {\'o}s gera\IeC {\c c}\IeC {\~a}o de dados de teste}}{52}{figure.7.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Quantidade de classes que atingiram cobertura de c\IeC {\'o}digo superior ao outro algoritmo}}{53}{figure.7.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o da cobertura alcan\IeC {\c c}ada por cada classe em cada software}}{55}{figure.7.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Quantidade de classes que consumiram menos tempo melhor em cada algoritmo}}{56}{figure.7.8}
