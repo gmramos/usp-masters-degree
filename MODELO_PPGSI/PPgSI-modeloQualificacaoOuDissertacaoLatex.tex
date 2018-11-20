@@ -691,10 +691,10 @@ Keywords: CK metrics. Software testing. Test data generation. Code coverages. Na
 %-------------------------------------------------------------------------
 \chapter{Introdução}
 \label{chap:introducao}
-Produtos de software de diferentes tamanhos e complexidades são utilizados todos os dias nos mais diversos contextos. Em qualquer circunstância, entretanto, a falta de qualidade nestes produtos pode caracterizar uma situação preocupante para seus produtores \cite{hilburn2002software}  \cite{binder1994test}, uma vez que cada vez mais os níveis aceitáveis de qualidade de um software estão aumentando, tanto no que se refere ao seu comportamento observável externamente quanto ao seu processo de desenvolvimento e estrutura interna \cite{linda2006quality} \cite{bashir2008test} \cite{graham2008foundations}.
+Produtos de software de diferentes tamanhos e complexidades são utilizados todos os dias nos mais diversos contextos. Em qualquer circunstância, entretanto, a falta de qualidade nestes produtos pode caracterizar uma situação preocupante para seus produtores \cite{hilburn2002software}  \cite{binder1994test}, cada vez mais os níveis aceitáveis de qualidade de um software estão aumentando, tanto no que se refere ao seu comportamento observável externamente quanto ao seu processo de desenvolvimento e estrutura interna \cite{linda2006quality} \cite{bashir2008test} \cite{graham2008foundations}.
 
 
-O teste de software \cite{tahir2014test} é a maneira mais popular de verificar se um software atende às especificações descritas e cumpre o papel desejado pelos interessados \cite{sommerville2008engenharia}. Ele consiste na execução do programa sob teste para revelar seus defeitos. Para isso, casos de teste são gerados de maneira que satisfaçam a diversos critérios, geralmente baseados na especificação e na implementação do software \cite{pezze2008software}. 
+O teste de software é a maneira mais popular de verificar se um software atende às especificações descritas e cumpre o papel desejado pelos interessados \cite{sommerville2008engenharia, tahir2014test}. Ele consiste na execução do programa sob teste para revelar seus defeitos. Para isso, casos de teste são gerados de maneira que satisfaçam a diversos critérios, geralmente baseados na especificação e na implementação do software \cite{pezze2008software}. 
 
 Entretanto, gerar casos de teste para testar o software nos mais diversos contextos e dados de entrada é uma das atividades mais custosas no ciclo de vida de software, requisitando muito tempo e esforço para o seu planejamento, execução e manutenção. \cite{tahir2014test}. Consequentemente, pesquisadores e profissionais da área passaram então a desenvolver  abordagens para gerar casos de teste automaticamente e assim reduzir o custo e a complexidade desta tarefa. Diversas técnicas já foram utilizadas com teste objetivo: geração de testes aleatórios \cite{Pacheco2007}; execução simbólica \cite{Cadar2013}; teste baseado em modelos \cite{dick93}; e teste baseado em buscas \cite{McMinn2004, Harman2012}. Diversas ferramentas já foram desenvolvidas utilizando uma ou mais dessas técnicas, como, por exemplo, Randoop \cite{Pacheco2007}, DART \cite{Godefroid2005}, CUTE \cite{Sen2005}, JCute \cite{Sen2006}, Klee \cite{Cadar2008}, JavaPathFinder \cite{Visser2004}, PEX \cite{Tillmann2008} e EvoSuite \cite{Fraser2011}.
 
@@ -715,7 +715,7 @@ O estudo realizado para comparar a eficácia dos algoritmos na geração de caso
 
 \section{Objetivos}
 
-Neste contexto, o objetivo geral deste projeto de pesquisa é definir um mecanismo para escolher o melhor algoritmo de geração de casos de testes de acordo com o problema em mãos. 
+Neste contexto, o objetivo geral deste projeto de pesquisa é definir um mecanismo para escolher o de geração de casos de testes mais adequado para cada classe em um projeto de software orientado a objetos. 
 
 Desta forma, ao invés de utilizar um único algoritmo para gerar todos os casos de teste de um projeto, os casos de teste de cada classe podem ser gerados por diferentes algoritmos dependendo das suas características.
 
@@ -727,13 +727,13 @@ Os objetivos específicos deste projeto de pesquisa são os seguintes:
 \end{enumerate}
 
 \section{Justificativa}
-Os diversos algoritmos e abordagens de geração de casos de teste encontrados no ambiente acadêmico e industrial possuem pontos fracos e fortes. Em especial, a técnica de teste baseado em busca tem sido amplamente utilizada para gerar casos de teste, e muitos dos seus algoritmos conseguem convergir para resultados  ótimos mais rapidamente do que os outros, mas não conseguem tratar de situações mais complexas, por exemplo. Portanto, utilizar o algoritmo que consegue obter os melhores resultados e convergir mais rapidamente para cada classe do projeto a ser testado irá aumentar consideravelmente a eficiência e a eficácia de ferramentas de geração de casos de teste como a EvoSuite, por exemplo. Além disso, os resultados obtidos podem encorajar a implementação de algoritmos evolutivos que são utilizados em outras áreas mas que ainda não utilizados na geração de casos teste.
+Os diversos algoritmos e abordagens de geração de casos de teste encontrados no ambiente acadêmico e industrial possuem pontos fracos e fortes. Em especial, a técnica de teste baseado em busca tem sido amplamente utilizada para gerar casos de teste, muitos dos seus algoritmos conseguem convergir para resultados  ótimos mais rapidamente do que os outros, mas não conseguem tratar de situações mais complexas, por exemplo. Portanto, utilizar o algoritmo que consegue obter os melhores resultados e convergir mais rapidamente para cada classe do projeto a ser testado irá aumentar consideravelmente a eficiência de ferramentas de geração de casos de teste como a EvoSuite, por exemplo. Além disso, os resultados obtidos podem encorajar a implementação de algoritmos evolutivos que são utilizados em outras áreas mas que ainda não utilizados na geração de casos teste.
 
 \section{Método de pesquisa}
 Este projeto será, conduzido usando um método indutivo com objetivos de caráter exploratório, descritivo e experimental. Mais detalhes dos materiais e métodos de pesquisa utilizados neste projeto de pesquisa estão apresentados no Capítulo \ref{chap:materiais-e-metodos}.
 
 \section{Organização do documento}
-Esta proposta de pequisa está organizada da seguinte forma: No Capítulo 2 são apresentados os conceitos mais importantes  e econômicos de motivação para o contexto de teste de software. Nos capítulos 3, 4 e 5 serão apresentados conceitos mais importantes que dão base para este projeto através da revisão bibliográfica construída. No capítulo 6 serão detalhados os materiais e métodos utilizados, os quais serão detalhados como uso no capítulo 7 e concluídos no capítulo 8.
+Esta proposta de pequisa está organizada da seguinte forma: No Capítulo 2 são apresentados os conceitos mais importantes  e econômicos de motivação para o contexto de teste de software. Nos Capítulos 3, 4 e 5 serão apresentados conceitos mais importantes que dão base para este projeto através da revisão bibliográfica construída. No Capítulo 6 serão detalhados os materiais e métodos utilizados, os quais serão detalhados como uso no Capítulo 7 e concluídos no Capítulo 8.
 
 
 
@@ -743,65 +743,11 @@ Esta proposta de pequisa está organizada da seguinte forma: No Capítulo 2 são
 \chapter{Aspectos conceituais e econômicos}
 No presente capítulo será apresentado uma síntese dos conceitos base com o objetivo de fundamentação teórica dos capítulos seguintes e auxílio na estrutura do presente documento.
 
-\section{Teste de software}
-O teste de software é uma subárea da engenharia de software que compreende as atividades capazes de determinar se um software em análise contém erros \cite{gerhart1975} com objetivo encontrar falhas e não o objetivo de provar a corretitude de software. Os testes não são capazes de demonstrar se um software em análise está livre de defeitos ou que irá se comportar como esperado em todas as circunstâncias, ou seja, testes são responsáveis somente por evidenciar a presença de possíveis erros e não a falta destes \cite{pfleeger2010}. 
-
-A partir de testes é possível validar se um software cumpre o propósito de desenvolvimento e por fim eliminar possíveis defeitos e assim garantir maior qualidade de \textit{software} \cite{Sommerville2010}. De acordo com \cite{pressman2009engenharia} e \cite{Davis1995} são notórios os princípios de teste: 
-
-\begin{enumerate}
-\item Todos os testes devem ser rastreáveis aos requisitos de usuários;
-\item Testes devem ser planejados antes de sua execução;
-\item O princípio de pareto deve ser aplicado ao teste de software;
-\item Testes devem começar as menores unidades a fim de atingir partes maiores de software;
-\item Testes exaustivos não são possíveis.
-\end{enumerate}
-
-
-O fluxo de testes  é composto por modelar o requisito em formato de casos de teste, contendo os detalhes de execução, dados de entradas e estado esperado do \textit{SUT} (\textit{Software under test}). Após a criação do caso de teste, este pode ser utilizado para execução, para executar um caso de teste,  é necessário simular a execução do \textit{SUT} e validar, a partir dos resultados extraídos da execução, possíveis anomalias e erros, testes de software são executados em grande parte dos casos com dados artificais \cite{Sommerville2010}. Com os dados de saída  é possível verificar se o estado encontrado é o mesmo esperado, este modelo é demonstrado na figura 1.
-
-
-\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
-	\centering
- 	  \caption{Modelo de teste de software}
-		\includegraphics{modelo-teste.png}
-	\label{fig:tipos-custo-arvore}
-  \source{\cite{Sommerville2010}}
-\end{figure}
-
-\subsection{Caso de teste}
-Um caso de teste  é um conjunto de possíveis entradas, condições de execução e resultados esperados de acordo com seus objetivos, estes quando agrupados compõe uma instância única de execução em termos de entrada, execução e resultados esperados, estas saídas quando analisadas em relação aos dados esperados após execução determinam se o estado encontrado pela aplicação é o esperado \cite{Singh2014}. Os casos de teste são projetados para cenários particulares de teste aos quais é desejado comparar estados e resultados coletados a partir do resultado de sua execução com requisitos funcionais anteriormente definidos \cite{Jacob2016}.
-
-\subsection{\textit{Mocks}}
-Ao construir testes automatizados é comum testar componentes de softwares que dependam de outros softwares ou inclusive de outros componentes do mesmo software, e desenvolvedores  normalmente necessitam testar o software com todas suas dependências ou simulações \cite{Spadini2017}. Ao testar todas as dependências juntamente, desenvolvedores passam a ter um comportamento similar ao ambiente real de produção \cite{Spadini2017}.
-
-Apesar dos benefícios, algumas dependências como bancos de dados e chamadas a serviços \textit{online} podem ser custosos para serem testados, nestes casos desenvolvedores podem usar \textit{mocks} \cite{Spadini2017}. \textit{Mocks} são usados para substituir dependências reais em softwares ao simular suas características mais importantes, usualmente métodos em \textit{mocks}  retornam valores desejados de acordo com os valores de entrada \cite{Spadini2017}. 
-
-\subsection{Testes manuais}
-O teste manual  é aquele executado por um profissional de qualidade, o qual geralmente possui um caso de teste no qual são descritos os passos de execução e por fim, o responsável toma decisões de acordo com a finalização da execução \cite{Kaprocki2015}. Espera-se que os testes projetados para aplicações sejam, em geral, compostos pelos seguintes itens:
-
-\begin{itemize}
-	\item Estado inicial do teste;
-	\item Entradas para uso;
-	\item Sequência de passos para execução; 
-	\item Uma ou mais saídas esperadas.
-\end{itemize}
-
-\subsection{Testes automatizados}
-
-Os testes automatizados possuem uma estrutura comum aos testes manuais, porém, o maior diferencial deste tipo de teste é delegar para a máquina a execução e possivelmente a validação dos resultados obtidos. Apesar de testes automatizados possuírem diversos papéis, como testes funcionais, testes de stress, é notório que testes automatizados têm a capacidade de executar uma grande quantidade de casos de teste em um curto período de tempo, com maior precisão \cite{Kaprocki2015}.
-
-\section{Teste caixa preta}
-
-O teste caixa preta é uma categoria de testes funcionais o qual na sua execução não existe o conhecimento da estrutura interna do SUT \cite{Xu2016}, o conceito nasceu da ideia que a estrutura interna do SUT está coberta por uma caixa preta de maneira não se tenha conhecimento de sua estrutura interna. Este conceito foca somente no funcionamento do \textit{SUT}, desta maneira o profissional concentra no que o software deve fazer e elimina o raciocínio baseado na maneira como é feito \cite{Jacob2016}.
-
-Geralmente ao efetuar um teste caixa preta, o profissional de qualidade ou ferramentas de execução automatizada de scripts de teste poderão interagir com a interface de usuário de maneira que possam fornecer dados de entrada sem quaisquer noções da lógica computacional por trás da interface utilizada \cite{Xu2016}. Idealmente este tipo de teste é guiado por especificações formais dos requisitos elicitados ou modelos de dados de teste, porém na prática estas especificações nem sempre estão disponíveis \cite{Walkinshaw2017}.
-
-
 \section{Qualidade de software e aspectos econômicos}
 
 A Garantia de Qualidade ou \textit{Quality Assurance} é considerada uma das partes mais caras do desenvolvimento de software \cite{wagner2005}, o conceito de garantia de qualidade tornou-se mais evidente após a primeira conferência de engenharia de software com o propósito de estabelecer melhores princípios e estratégias econômicas para atingir um estado viável de software. Nesta conferência de 1968 discutiu-se sobre a disciplina de teste e controle de qualidade em diversas  fases de desenvolvimento de software desde então \cite{repasi2009}.
 
-De fato custos de garantia de qualidade são elevados \cite{wagner2005} \cite{Korel1990}, eles consistem em todo e qualquer valor investido em atividades cujo propósito almeja qualidade de software \cite{pressman2009engenharia}. Entretanto é notável que investimentos em melhoria de qualidade nem sempre são bem aceitos por todos os interessados no desenvolvimento de softwar; é comum a falta de compreensão sobre o retorno de investimento e o valor de negócio, ambos gerados a partir de atividades relacionadas a qualidade de desenvolvimento de software \cite{slaughter1998}.
+De fato, custos de garantia de qualidade são elevados \cite{wagner2005} \cite{Korel1990}, eles consistem em todo e qualquer valor investido em atividades cujo propósito almeja qualidade de software \cite{pressman2009engenharia}. Entretanto é notável que investimentos em melhoria de qualidade nem sempre são bem aceitos por todos os interessados no desenvolvimento de softwar; é comum a falta de compreensão sobre o retorno de investimento e o valor de negócio, ambos gerados a partir de atividades relacionadas a qualidade de desenvolvimento de software \cite{slaughter1998}.
 
 Apesar da falta de compreensão, os investimentos em qualidade de software são importantes e devem ser planejados, dado que cada valor gasto em horas de trabalho e não investido em retrabalho pode ser usado para melhorias rápidas e criação de novas funcionalidades \cite{slaughter1998}.
 
@@ -823,7 +769,7 @@ Custos de avaliação compreendem custos relacionados a medidas e extração de 
 
 Custos de não conformidade são os custos relacionados aos cenários em que não seguem o planejado e defeitos produzindo um erro e por fim levando à falha \cite{wagner2005}, nesta categoria estão as subcategorias de custos de falha externa e custos de falha interna \cite{pressman2009engenharia}. 
 
-Os custos de falha externa caracterizam os custos associados aos defeitos após liberação do produto de software para uso, são exemplos: resolução de chamados, retorno e substituição de produtos e garantias \cite{pressman2009engenharia} enquanto os custos de falha interna são os custos aplicados para remoção de falhas antes de liberação para uso.
+Os custos de falha externa caracterizam os custos associados aos defeitos após liberação do produto de software para uso, são exemplos: Resolução de chamados, retorno e substituição de produtos e garantias \cite{pressman2009engenharia}, enquanto os custos de falha interna são os custos aplicados para remoção de falhas antes de liberação para uso.
 
  O custo relativo para encontrar e reparar um defeito aumenta consideravelmente na linha do tempo entre as fases iniciais e finais do ciclo de desenvolvimento, sendo assim, custos do tipo \textit{nonconformance} se tornam mais caros ao longo do tempo de projeto, como demonstrado a seguir \cite{wagner2005}:
 
@@ -837,6 +783,59 @@ Os custos de falha externa caracterizam os custos associados aos defeitos após 
 
 Apesar do custo relativo para encontrar e reparar um defeito aumenta consideravelmente na linha do tempo, o processo de desenvolvimento de um software flui entre os diversos ciclos, e por consequência, diferentes tipos de investimentos são feitos com o intuito de garantiar maiores níveis de qualidade \cite{pressman2009engenharia}. 
 
+\section{Teste de software}
+O teste de software é uma subárea da engenharia de software que compreende as atividades capazes de determinar se um software em análise contém erros \cite{gerhart1975} com objetivo encontrar falhas e não o objetivo de provar a corretitude de software. Os testes não são capazes de demonstrar se um software em análise está livre de defeitos ou que irá se comportar como esperado em todas as circunstâncias, ou seja, testes são responsáveis somente por evidenciar a presença de possíveis erros e não a falta destes \cite{pfleeger2010}. 
+
+A partir de testes é possível validar se um software cumpre o propósito de desenvolvimento e por fim eliminar possíveis defeitos e assim garantir maior qualidade de \textit{software} \cite{Sommerville2010}. De acordo com \cite{pressman2009engenharia} e \cite{Davis1995} são notórios os princípios de teste: 
+
+\begin{enumerate}
+\item Todos os testes devem ser rastreáveis aos requisitos de usuários;
+\item Testes devem ser planejados antes de sua execução;
+\item O princípio de pareto deve ser aplicado ao teste de software;
+\item Testes devem começar as menores unidades a fim de atingir partes maiores de software;
+\item Testes exaustivos não são possíveis.
+\end{enumerate}
+
+
+O fluxo de testes  é composto por modelar o requisito em formato de casos de teste, contendo os detalhes de execução, dados de entradas e estado esperado do \textit{SUT} (\textit{Software under test}). Após a criação do caso de teste, este pode ser utilizado para execução, para executar um caso de teste,  é necessário simular a execução do \textit{SUT} e validar, a partir dos resultados extraídos da execução, possíveis anomalias e erros, testes de software são executados em grande parte dos casos com dados artificais \cite{Sommerville2010}. Com os dados de saída  é possível verificar se o estado encontrado é o mesmo esperado, este modelo é demonstrado na Figura 1:
+
+
+\begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
+	\centering
+ 	  \caption{Modelo de teste de software}
+		\includegraphics{modelo-teste.png}
+	\label{fig:tipos-custo-arvore}
+  \source{\cite{Sommerville2010}}
+\end{figure}
+
+\subsection{Caso de teste}
+Um caso de teste  é um conjunto de entradas, condições de execução e resultados esperados de acordo com seus objetivos, estes quando agrupados compõe uma instância única de execução em termos de entrada, execução e resultados esperados, estas saídas quando analisadas em relação aos dados esperados após execução determinam se o estado encontrado pela aplicação é o esperado \cite{Singh2014}. Os casos de teste são projetados para cenários particulares de teste aos quais é desejado comparar estados e resultados coletados a partir do resultado de sua execução com requisitos funcionais anteriormente definidos \cite{Jacob2016}.
+
+\subsection{\textit{Mocks}}
+Ao construir testes automatizados é comum testar componentes de softwares que dependam de outros softwares ou inclusive de outros componentes do mesmo software, e desenvolvedores  normalmente necessitam testar o software com todas suas dependências ou simulações \cite{Spadini2017}. Ao testar todas as dependências juntamente, desenvolvedores passam a ter um comportamento similar ao ambiente real de produção \cite{Spadini2017}.
+
+Apesar dos benefícios, algumas dependências como bancos de dados e chamadas a serviços \textit{online} podem ser custosos para serem testados, nestes casos desenvolvedores podem usar \textit{mocks} \cite{Spadini2017}. \textit{Mocks} são usados para substituir dependências reais em softwares ao simular suas características mais importantes, usualmente métodos em \textit{mocks}  retornam valores desejados de acordo com os valores de entrada \cite{Spadini2017}. 
+
+\subsection{Testes manuais}
+O teste manual  é aquele executado por um profissional de qualidade, o qual geralmente possui um caso de teste no qual são descritos os passos de execução e por fim, o responsável toma decisões de acordo com a finalização da execução \cite{Kaprocki2015}. Espera-se que os testes projetados para aplicações sejam, em geral, compostos pelos seguintes itens:
+
+\begin{itemize}
+	\item Estado inicial do teste;
+	\item Entradas para uso;
+	\item Sequência de passos para execução; 
+	\item Uma ou mais saídas esperadas.
+\end{itemize}
+
+\subsection{Testes automatizados}
+
+Os testes automatizados possuem uma estrutura similar aos testes manuais, porém, o maior diferencial deste tipo de teste é delegar para a máquina a execução e possivelmente a validação dos resultados obtidos. Apesar de testes automatizados possuírem diversos papéis, como testes funcionais, testes de stress, é notório que testes automatizados têm a capacidade de executar uma grande quantidade de casos de teste em um curto período de tempo, com maior precisão \cite{Kaprocki2015}.
+
+\section{Teste caixa preta}
+
+O teste caixa preta é uma categoria de testes funcionais o qual na sua execução não existe o conhecimento da estrutura interna do SUT \cite{Xu2016}, o conceito nasceu da ideia que a estrutura interna do SUT está coberta por uma caixa preta de maneira não se tenha conhecimento de sua estrutura interna. Este conceito foca somente no funcionamento do \textit{SUT}, desta maneira o profissional concentra no que o software deve fazer e elimina o raciocínio baseado na maneira como é feito \cite{Jacob2016}.
+
+Geralmente ao efetuar um teste caixa preta, o profissional de qualidade ou ferramentas de execução automatizada de scripts de teste poderão interagir com a interface de usuário de maneira que possam fornecer dados de entrada sem quaisquer noções da lógica computacional por trás da interface utilizada \cite{Xu2016}. Idealmente este tipo de teste é guiado por especificações formais dos requisitos elicitados ou modelos de dados de teste, porém na prática estas especificações nem sempre estão disponíveis \cite{Walkinshaw2017}.
+
 
 
 
@@ -847,11 +846,11 @@ A manutenção de softwares é usualmente vista não somente como uma tarefa cus
 
 O alto custo presente em testes de mutação e geração de mutantes pode ser reduzido pela geração automática de dados de teste \cite{dave2015}, a geração automática de testes poupa o tempo investido por desenvolvedores na escrita de testes unitários \cite{shamshiri2018}.
 
-A geração automática de dados de teste consiste em uma tarefa importante no processo de testes de software, ela possui o objetivo de melhorar a qualidade de um \textit{SUT} com o intuito de aumentar a qualidade do software e diminuir o custo investido \cite{shamriski20151115}. A geração automática de dados de teste possui também um papel importante no processo de desenvolvimento de software pois pode afetar diretamente a qualidade final de um produto de software \cite{dave2015}.
+A geração automática de dados de teste consiste em uma tarefa importante no processo de testes de software, ela possui o objetivo de melhorar a qualidade de um \textit{SUT} com o intuito de aumentar a qualidade do software e diminuir o custo investido \cite{shamriski20151115}. A geração automática de dados de teste possui também um papel importante no processo de desenvolvimento de software, pois pode afetar diretamente a qualidade final de um produto de software \cite{dave2015}.
 
 Os testes gerados podem ser incluídos nos repositórios de código do SUT como qualquer outro artefato de software \cite{shamshiri2018}, porém conjuntos de testes volumosos podem levar mais tempo para serem executadas e precisam ser avaliados antes de serem incluídos em uma suíte de testes \cite{shamriski20151115}. Ferramentas como a EvoSuite têm se mostrado eficazes em atingir alta cobertura de código em diferentes tipos de softwares orientados a objetos. \cite{Campos2017}
 
-A maneira mais fácil de avaliar conjuntos de testes automaticamente gerados é avaliar sua capacidade de expor falhas \cite{shamshiri2018}, as avaliações de conjuntos de testes automaticamente gerados ocorre por meio de métricas como cobertura de linhas de código, cobertura de caminhos ou estimativas da habilidade de detecção de falhas, sendo um exemplo deste o \textit{score} de mutação  \cite{shamshiri2018}.
+A maneira mais fácil de avaliar conjuntos de testes automaticamente gerados é avaliar sua capacidade de expor falhas \cite{shamshiri2018}. As avaliações de conjuntos de testes automaticamente gerados ocorre por meio de métricas como cobertura de linhas de código, cobertura de caminhos ou estimativas da habilidade de detecção de falhas, sendo um exemplo deste o \textit{score} de mutação  \cite{shamshiri2018}.
 
 
 
@@ -860,13 +859,13 @@ A maneira mais fácil de avaliar conjuntos de testes automaticamente gerados é 
 \section{Algoritmos baseados em busca}
 Algoritmos baseados em busca têm se mostrado efetivos na geração de dados de teste quando otimizados para cobertura de código de diferentes tipos de software \cite{Campos2017}. Os algoritmos baseados em busca também mostraram-se eficazes quando aplicada para geração de suítes de testes unitários otimizados para cobertura de código em classes de softwares orientados a objetos \cite{Campos2017}.
 
-Novas técnicas de busca foram desenvolvidas nos últimos anos \cite{rojas2017b}, algoritmos de busca estão entre as técnicas mais bem sucedidas para automaticamente gerar dados de teste e testes unitários \cite{rojas2017b}. Técnicas como buscas aleatórias, buscas locais, \textit{simulated annealing} e algoritmos genéticos são algumas das técnicas mais utilizadas. \cite{rojas2017b}
+Novas técnicas de busca foram desenvolvidas nos últimos anos \cite{rojas2017b}, algoritmos de busca estão entre as técnicas mais bem sucedidas para automaticamente gerar dados de teste e testes unitários \cite{rojas2017b}. Técnicas como buscas aleatórias, buscas locais, \textit{simulated annealing} e algoritmos genéticos são algumas das técnicas mais utilizadas \cite{rojas2017b}.
 
 Uma abordagem popular é o uso de algoritmos evolutivos no qual os indivíduos utilizados na população são caracterizados por testes os quais  após gerados compõe suítes de testes completas, a construção destas suítes ocorre com objetivo de encontrar suítes de teste os quais atingem a cobertura de código máxima a partir de técnicas baseadas em evolução natural \cite{Campos2017}
 
 \section{Algoritmo baseado em busca aleatória}
 
-O algoritmo de busca aleatória, ou \textit{random search},  é um algoritmo o qual um mecanismo de seleção deve ser estabelecido para escolher os candidados em um espaço de tamanho $X$, o processo aleatório pode ser definido como a função de densidade de probabilidade $P(x)$ a qual expressa a probabilidade de qualquer candidato presente em um espaço $X$ de possíveis soluções \cite{Karnopp63}. Apesar de estudos na área, existe um grande uso de técnicas padrão, técnicas como estas geralmente baseiam-se em um gerador aleatório entre 0 e 1, o qual a saída pode ser utilizada para produzir uma aproximação da distribuição desejada. \cite{Karnopp63}
+O algoritmo de busca aleatória, ou \textit{random search},  é um algoritmo o qual um mecanismo de seleção deve ser estabelecido para escolher os candidados em um espaço de tamanho $X$, o processo aleatório pode ser definido como a função de densidade de probabilidade $P(x)$ a qual expressa a probabilidade de qualquer candidato presente em um espaço $X$ de possíveis soluções \cite{Karnopp63}. Apesar de estudos na área, existe um grande uso de técnicas padrão, técnicas como estas geralmente baseiam-se em um gerador aleatório entre 0 e 1, o qual a saída pode ser utilizada para produzir uma aproximação da distribuição desejada  \cite{Karnopp63}.
 
 O algoritmo de busca aleatória é um algoritmo que não utiliza operações de \textit{crossover}, mutações ou selecões, ao contrário dos algoritmos genéticos seu funcionamento baseia-se puramente em estratégias de substituição \cite{Campos2017}. O algoritmo de busca aleatória consiste em repetidamente gerar amostras de candidatos presentes em um espaço de busca de soluções possíveis para o problema a qual o candidato já presente na solução parcial é substituído se a aptidão do indivíduo gerado supera a aptidão do indivíduo já presente na resolução do problema em análise. \cite{Campos2017}
 
@@ -898,7 +897,7 @@ A seleção de indivíduos é guiada por uma função de aptidão, a qual pontua
 
 \subsection{Algoritmos genéticos}
 
-Os algoritmo genéticos estão entre os algoritmos evolutivos mais usados em diversos problemas de otimização pois podem ser facilmente implementados e apresentam bons resultados  \cite{Campos2017}.  No contexto de geração de suítes de testes e algoritmos genéticos, os indivídios da população são caracterízados por conjuntos de casos de teste, também chamados de suítes de teste \cite{Campos2017}. Os algoritmos genéticos geralmente possuem a seguinte estrutura lógica: \\
+Os algoritmo genéticos estão entre os algoritmos evolutivos mais usados em diversos problemas de otimização pois podem ser facilmente implementados e apresentam bons resultados  \cite{Campos2017}.  No contexto de geração de suítes de testes e algoritmos genéticos, os indivídios da população são caracterízados por conjuntos de casos de teste, também chamados de suítes de teste \cite{Campos2017}. Os algoritmos genéticos,  geralmente, possuem a seguinte estrutura lógica: \\
 
 
 
@@ -937,11 +936,11 @@ Diversas variações do algoritmo genético padrão foram propostas com o intuit
 
 
 \subsubsection{O algoritmo evolutivo 1 + ($\lambda$,$\lambda$)}
-A versão do algoritmo evolutivo 1 + ($\lambda$,$\lambda$) , introduzida por Doerr, possui como primeiro passo a geração de uma população aleatória de tamanho 1, em seguida, a operação de mutação é aplicada para criar $\lambda$ versões diferentes com mutação do indivíduo em análise \cite{Campos2017}. A alta probabilidade de mutação ocorre para incentivar que a exploração seja mais rápida no espaço de busca disponível. \cite{Campos2017}
+A versão do algoritmo evolutivo 1 + ($\lambda$,$\lambda$) , introduzida por Doerr, possui como primeiro passo a geração de uma população aleatória de tamanho 1, em seguida, a operação de mutação é aplicada para criar $\lambda$ versões diferentes com mutação do indivíduo em análise \cite{Campos2017}. A alta probabilidade de mutação ocorre para incentivar que a exploração seja mais rápida no espaço de busca disponível \cite{Campos2017}.
 
-No próximo passo, o operador de mutação é aplicado novamente com uma probabilidade maior de mutação, dada por K, onde K é usualmente maior que um, isto permite que, na maioria dos casos, mais de um gene seja mutado por cromossomo. Por fim, a operação de crossover acontece uniformemente aos ascendentes e aos melhores descendentes para criar uma prole de  tamanho $\lambda$  \cite{Campos2017}. A operação de \textit{crossover} unificada entre o melhor indivíduo com os lambda mutantes e seu ascendente foi proposta para amenizar os defeitos causados pela mutação agressiva, após essa operação, toda a prole e avalidada e somente o melhor indivíduo é selecionado \cite{Campos2017}
+No próximo passo, o operador de mutação é aplicado novamente com uma probabilidade maior de mutação, dada por K, onde K é usualmente maior que um, isto permite que, na maioria dos casos, mais de um gene seja mutado por cromossomo. Por fim, a operação de crossover acontece uniformemente aos ascendentes e aos melhores descendentes para criar uma prole de  tamanho $\lambda$  \cite{Campos2017}. A operação de \textit{crossover} unificada entre o melhor indivíduo com os lambda mutantes e seu ascendente foi proposta para amenizar os defeitos causados pela mutação agressiva, após essa operação, toda a prole e avalidada e somente o melhor indivíduo é selecionado \cite{Campos2017}.
 
-Se o melhor descendente é melhor avaliado do que o seu ascendente, a população criada de tamanho um é então substituída pela melhor prole. \cite{Campos2017}
+Se o melhor descendente é melhor avaliado do que o seu ascendente, a população criada de tamanho um é então substituída pela melhor prole \cite{Campos2017}.
 
 \subsubsection{O algoritmo evolutivo  $\mu$ + $\lambda$}
 
@@ -950,13 +949,13 @@ O algoritmo evolutivo $\mu$ + $\lambda$  é um algoritmo baseado em mutações e
 \subsubsection{O algoritmo evolutivo MOSA}
 O algoritmo MOSA, Many-Objective Sorting Algorithm, contrapõe os outros algoritmos por tratar cada objetivo de cobertura como um objetivo de otimização independente \cite{Campos2017}. Para que seja possível trabalhar com o grande número de objetivos de cobertura, o qual ocorre por conta da combinação dos diversos objetivos de cobertura, a extensão  do algoritmo DynaMOSA dinamicamente seleciona  os critérios  \cite{Campos2017}. 
 
-Tanto o algoritmo MOSA quanto o algoritmo DynaMOSA demonstraram atingir alta cobertura de alguns critérios selecionados quando comparados aos algoritmos genéticos tradicionais. \cite{Campos2017}
+Tanto o algoritmo MOSA quanto o algoritmo DynaMOSA demonstraram atingir alta cobertura de alguns critérios selecionados quando comparados aos algoritmos genéticos tradicionais \cite{Campos2017}.
 
 \section{Algoritmo de busca aleatória ou algoritmos evolutivos ?}
 Apesar de muitos dos aspectos destes algoritmos avaliados em detalhes, a influência de diferentes algoritmos em diferentes casos recebeu pouca atenção na literatura \cite{Campos2017}. Vários algoritmos foram propostos porém nenhum dos algoritmos pode ser considerado melhor em todos os domínios de problemas, alguns algoritmos desempenham melhor do que outros de acordo com as características presentes no domínio do problema. \cite{Campos2017}
 
 
-É teoricamente impossível desenvolver um algoritmo de geração de dados de teste o qual desempenha bem em todos os tipos de problemas disponíveis \cite{Campos2017}. Uma abordagem comum em problemas de geração de dados de testes na engenharia de software é utilizar um algoritmo genético primariamente e somente depois refiná-lo ou compará-lo com outros algoritmos para assim verificar qual dos algoritmos e soluções disponíveis  é apropriado para o problema em questão. \cite{Campos2017}
+É teoricamente impossível desenvolver um algoritmo de geração de dados de teste o qual desempenha bem em todos os tipos de problemas disponíveis \cite{Campos2017}. Uma abordagem comum em problemas de geração de dados de testes na engenharia de software é utilizar um algoritmo genético primariamente e somente depois refiná-lo ou compará-lo com outros algoritmos para assim verificar qual dos algoritmos e soluções disponíveis  é apropriado para o problema em questão \cite{Campos2017}.
 
 O estudo promovido por \cite{Campos2017} demonstra que algoritmos genéticos claramente desempenharam melhor do que algoritmos aleatórios, em média os algoritmos evolutivos possuem maior cobertura quando comparados a algoritmos de busca aleatória. \cite{Campos2017}
 
@@ -966,9 +965,9 @@ Existe a necessidade compreender as diferentes características de software as q
 
 A EvoSuite  é uma ferramente baseada em técnicas de busca que também utiliza algoritmos genéticos na geração automatica de suítes de testes para classes escritas em Java \cite{Fraser2017}. Para uma determinada classe, referenciada na ferramenta como alvo, e seu \textit{classpath} completo, o caminho o qual o ambiente de execução possa encontrar as classes compiladas como bytecode e respectivas dependências, a EvoSuite automaticamente produz um conjunto de testes unitários escritos para o framework de execução de testes Junit com o intuito de maximixar a cobertura de código. \cite{Fraser2017}.
 
-A efetividade da EvoSuite tem sido avaliada tanto como uma ferramenta de código aberto quanto uma ferramenta de apoio a testes nas áreas industriais se tratando de cobertura de código, efetividade na busca de falhas e inclusive aumentando a produtividade de desenvolvimento \cite{Fraser2017}. 
+A efetividade da EvoSuite tem sido avaliada tanto como uma ferramenta de código aberto quanto uma ferramenta de apoio a testes nas áreas industriais se tratando de cobertura de código, efetividade na busca de falhas e ,inclusive, aumentando a produtividade de desenvolvimento \cite{Fraser2017}. 
 
-A ferramenta conseguiu o primeiro lugar nas segunda e quarta edições do \textit{Unit testing tool competition} além de conseguir o segundo lugar na terceira edição \cite{Fraser2017}, a configuração da EvoSuite para a competição em maioria manteve seus valores padrão, já que estes foram ajustados extensivamente \cite{Fraser2017}. Com um \textit{budget} de 480 segundos, a ferramenta atingiu em média 66.5\% de cobertura de caminhos, 0.9\% superior se comparado ao ano anterior com um score de mutação de 50.7\%, 9.7\% super do que o ano anterior. \cite{Fraser2017}
+A ferramenta conseguiu o primeiro lugar nas segunda e quarta edições do \textit{Unit testing tool competition}, além de conseguir o segundo lugar na terceira edição \cite{Fraser2017}. A configuração da EvoSuite para a competição em maioria manteve seus valores padrão, já que estes foram ajustados extensivamente \cite{Fraser2017}. Com um \textit{budget} de 480 segundos, a ferramenta atingiu em média 66.5\% de cobertura de caminhos, 0.9\% superior se comparado ao ano anterior com um score de mutação de 50.7\%, 9.7\% super do que o ano anterior. \cite{Fraser2017}
 
 Além das últimas melhorias, diversas correções foram aplicadas desde a última edição do \textit{Unit testing tool competition} em 2017  \cite{Fraser2017}, no ano de 2017 a ferramenta passou a utilizar mocks em seus testes através da ferramenta Mockito \footnote{https://site.mockito.org/} \cite{Fraser2017}. Após atingir determinada porcentagem do tempo de busca disponível, a ferramenta considera o uso de \textit{mocks} ao invés de classes reais.  \cite{Fraser2017}
 
@@ -976,13 +975,15 @@ Além das últimas melhorias, diversas correções foram aplicadas desde a últi
 \chapter{Métricas de Softwares orientados a objetos}
 \label{chap:metricas}
 
-Projeto e desenvolvimento de softwares orientados a objeto são conceitos populares no cenário atual de desenvolvimento de software \cite{srivastava2013}, neste contexto é notável que classes e métodos são estruturas básicas neste gênero de software \cite{kan95}. 
+Projeto e desenvolvimento de softwares orientados a objeto são conceitos populares no cenário atual de desenvolvimento de software \cite{srivastava2013}. Neste contexto, é notável que classes e métodos são estruturas básicas neste gênero de software \cite{kan95}. 
 
 A análise e projeto de softwares orientados a objeto focam nos objetos como estruturas primárias de computação \cite{kan95} \cite{srivastava2013}, nesta cada classe é composta por dados e operações realizadas, os quais  são representações de uma única entidade real de negócio \cite{srivastava2013}.
 
 As operações realizadas são caracterizadas pelos métodos das classes, a quantidade de funcionalidade, representada por método, agregada ao um software orientado a objeto pode ser estimada com base na quantidade de classe, métodos e variantes destes, utilizados \cite{kan95}. Desta maneira, é comum relacionar métricas de softwares orientados a objeto a valores baseados em atributos de classes e métodos, sejam linhas de código, complexidade, entre outros \cite{kan95}.
 
-As métricas de software tornaram-se elementos primordiais em diversos domínios de Engenharia de software, e principalmente no âmbito de garantia de qualidade, já que toda a informação reunida por métricas pode ser submetida a diversos tipos de análise e comparação com dados históricos com o objetivo de avaliar e garantir qualidade de software \cite{srivastava2013}. Métricas de software podem ser utilizadas para predizer atributos de qualidade em tempo de execução, inclusive para aplicações cujo requisito é ser uma aplicação de tempo real \cite{srivastava2013}. O real valor de métricas de software vem da sua representação dos atributos de software externos, muitos destes com alto valor de negócio, como confiabilidade, mantenibilidade, reusabilidade, testabilidade e eficiência \cite{srivastava2013}, os quais são requisitos de qualidade descritos pela ISO9126 \cite{Zeiss2007}.
+As métricas de software tornaram-se elementos primordiais em diversos domínios de Engenharia de software, e principalmente, no âmbito de garantia de qualidade. Toda a informação reunida por métricas pode ser submetida a diversos tipos de análise e comparação com dados históricos com o objetivo de avaliar e garantir qualidade de software \cite{srivastava2013}. 
+
+Métricas de software podem ser utilizadas para predizer atributos de qualidade em tempo de execução, inclusive para aplicações cujo requisito é ser uma aplicação de tempo real \cite{srivastava2013}. O real valor de métricas de software vem da sua representação dos atributos de software externos, muitos destes com alto valor de negócio, como confiabilidade, mantenibilidade, reusabilidade, testabilidade e eficiência \cite{srivastava2013}, os quais são requisitos de qualidade descritos pela ISO9126 \cite{Zeiss2007}.
 
 
 
@@ -991,32 +992,30 @@ As métricas de software tornaram-se elementos primordiais em diversos domínios
 
 
 \section{Medidas diretas e indiretas}
-Uma medida direta de software é uma métrica cujo cálculo de seu valor não depende nenhuma outra métrica \cite{srivastava2013}. Exemplos claros de medidas em produtos são: LOC (\textit{Lines of code}), velocidade de execução, tamanho de memória, quantidade de defeitos reportados \cite{srivastava2013}.
+Uma medida direta de software é uma métrica cujo cálculo de seu valor não depende de nenhuma outra métrica \cite{srivastava2013}. Exemplos claros de medidas em produtos são: LOC (\textit{Lines of code}), velocidade de execução, tamanho de memória, quantidade de defeitos reportados \cite{srivastava2013}.
 
-Uma medida indireta de software é uma métrica que envolve a medida de um ou mais atributos de software\cite{srivastava2013}. As medidas diretas são, em geral, mais fáceis de serem coletadas.
+Uma medida indireta de software é uma métrica que envolve a medida de um ou mais atributos de software \cite{srivastava2013}. As medidas diretas são, em geral, mais fáceis de serem coletadas.
 
 
 \section{O conjunto de métricas CK}
 
-Em 1994 Chidamber e Kemerer propuseram seis métricas de projeto e complexidade de softwares orientados a objeto, as quais, futuramente, tornaram-se o conjunto de métricas CK \cite{kan95}. Este conjunto foi derivado aplicando
-
-Chidamber e Kemerer aplicaram as seis métricas do conjunto (as quais serão definidas nas próximas seções) em estudos empíricos de duas empresas, uma usando C++ e outra Smalltalk \cite{kan95}, o sumário desta é demonstrado na tabela.
+Em 1994, Chidamber e Kemerer propuseram seis métricas de projeto e complexidade de softwares orientados a objeto, as quais, futuramente, tornaram-se o conjunto de métricas CK \cite{kan95}. Este conjunto foi derivado aplicando seis métricas do conjunto (as quais serão definidas nas próximas seções) em estudos empíricos de duas empresas, uma usando C++ e outra Smalltalk \cite{kan95}.
 
 \subsection{\textit{Weighted methods per class (WMC)}}
-A WMC é uma métrica contabilizada pela soma das complexidades dos métodos, cuja complexidade é dada pelo \textit{cyclomatic complexity number}  de McCabe (CCN)\cite{kan95} \cite{watson96}. Medir de maneira automatizada o \textit{cyclomatic complexity number} não é trivial de implementação dado que nem todos os métodos são acessíveis de acordo com a hierarquia dos objetos, isso é resultado por conta da herança aplicada no projeto do componente \cite{kan95}.
+A WMC é uma métrica contabilizada pela soma das complexidades dos métodos, cuja complexidade é dada pelo \textit{cyclomatic complexity number}  de McCabe (CCN)\cite{kan95} \cite{watson96}. Medir de maneira automatizada o \textit{cyclomatic complexity number} não é trivial de implementação dado que nem todos os métodos são acessíveis de acordo com a hierarquia dos objetos. Isso ocorre por conta da herança aplicada no projeto do componente \cite{kan95}.
 
 \subsection{\textit{Depth of inheritance tree (DIT)}}
-A DIT é uma medida que compreende o valor do comprimento máximo de um caminho em uma árvore de herança, este comprimento é dado pela distância entre o nó em análise até o nó raíz \cite{kan95}. A definição da DIT baseia-se na premissa de que desenvolvedores lidam com linguagens de programação orientadas a objeto as quais permitam que uma classe possua no máximo uma classe pai \cite{bruntink04}, linguagens alheias a este conceito são conhecidas por possuir herança múltipla, presente em linguagens como C++ e Python. Muitas linguagens orientadas a objeto não suportam herança múltipla por conta do problema do diamante, caracterizado pela seguinte situação:
+A DIT é uma medida que compreende o valor do comprimento máximo de um caminho em uma árvore de herança, este comprimento é dado pela distância entre o nó em análise até o nó raíz \cite{kan95}. A definição da DIT baseia-se na premissa de que desenvolvedores lidam com linguagens de programação orientadas a objeto as quais permitam que uma classe possua no máximo uma classe pai \cite{bruntink04}, linguagens alheias a este conceito são conhecidas por possuir herança múltipla, presente em linguagens como C++ e Python. Muitas linguagens orientadas a objeto não suportam herança múltipla por conta do problema do diamante, apresentado pela Figura \ref{fig:diagra-diamante}.
 
 \begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
 	\centering
  	  \caption{Exemplo de problema do diamante}
 		\includegraphics{diagrama_diamante.png}
-	\label{fig:tipos-custo-arvore}
+	\label{fig:diagra-diamante}
   \source{Gustavo Ramos, 2017}
 \end{figure}
 
-No caso do problema do diamante, um objeto instanciado do tipo D possui acesso para executar o \textbf{Método 1}, porém o compilador pode não saber a qual referência de \textbf{Método 1} executar já que o objeto do tipo D herda tanto de B e de C quanto de A, todos os quais possuem o \textbf{Método 1}. Este caso é conhecido por problema do diamante, por conta deste, linguagens como Java não permitem a herança múltipla.Dada a premissa de que a linguagem do software em análise não suporta herança múltipla, ao calcular o DIT, o número de ancestrais do nó $c$ em análise, corresponde à profundidade de $c$ na árvore de herança \cite{bruntink04}. A fórmula que descreve o cálculo da DIT para um determinado nó $c$ é dado a seguir:
+No caso do problema do diamante, um objeto instanciado do tipo D possui acesso para executar o \textbf{Método 1}, porém o compilador pode não saber a qual referência de \textbf{Método 1} executar já que o objeto do tipo D herda tanto de B e de C quanto de A, todos os quais possuem o \textbf{Método 1}. Este caso é conhecido por problema do diamante, por conta deste, linguagens como Java não permitem a herança múltipla. Dada a premissa de que a linguagem do software em análise não suporta herança múltipla, ao calcular o DIT, o número de ancestrais do nó $c$ em análise, corresponde à profundidade de $c$ na árvore de herança \cite{bruntink04}. A Fórmula \ref{eq:calc-dit} que descreve o cálculo da DIT para um determinado nó $c$.
 
 \begin{equation}
   DIT(c) = |Ancestrais(c)|
@@ -1025,7 +1024,7 @@ No caso do problema do diamante, um objeto instanciado do tipo D possui acesso p
 
 \subsection{\textit{Number of children of a class (NOC)}}
 
-O NOC é uma métrica de simples cálculo, caracterizada pelo número de sucessores imediatos(subclasses) na árvore de hierarquia, calculada com base em  uma classe $c$ em análise \cite{kan95}. Seu cálculo é dado pela fórmula a seguir:
+O NOC é uma métrica de simples cálculo, caracterizada pelo número de sucessores imediatos(subclasses) na árvore de hierarquia, calculada com base em  uma classe $c$ em análise \cite{kan95}. Seu cálculo é dado pela Fórmula \ref{eq:calc-noc}.
 
 \begin{equation}
   NOC(c) = |QuantidadeDeFilhos(c)|
@@ -1034,7 +1033,7 @@ O NOC é uma métrica de simples cálculo, caracterizada pelo número de sucesso
 
 
 \subsection{\textit{Coupling between object classes (CBO)}}
-Uma classe $A$ é acoplada a uma classe $B$ se a classe $A$ invoca uma método ou utiliza uma variável de uma instância de $B$ \cite{kan95}, sendo assim, o CBO é dado pelo número de classes a qual uma classe $c$ em análise está acoplada, ou seja, seu cálculo é dado por:
+Uma classe $A$ é acoplada a uma classe $B$ se a classe $A$ invoca uma método ou utiliza uma variável de uma instância de $B$ \cite{kan95}, sendo assim, o CBO é dado pelo número de classes a qual uma classe $c$ em análise está acoplada, ou seja, seu cálculo é apresentado na equação \ref{eq:calc-cbo}.
 
 \begin{equation}
   CBO(c) = |Quantidade de classes que relaciona(c)|
@@ -1048,13 +1047,13 @@ Quanto maior o número de métodos que podem ser invocados indiretamente atravé
 
 
 \subsection{\textit{Lack Of Cohesion Of Methods (LCOM)}}
-A independência pode ser medida por critérios qualitativos: coesão e acoplamento, a coesão é a medida relação funcional de um módulo \cite{pressman2009engenharia}, neste contexto, a coesão de uma classe é dada pela proximidade de métodos locais à instâncias de variáveis na classe, alta coesão indica uma boa subdivisão das classes \cite{kan95}.
+A independência pode ser medida por critérios qualitativos: coesão e acoplamento, a coesão é a medida relação funcional de um módulo \cite{pressman2009engenharia}. Neste contexto, a coesão de uma classe é dada pela proximidade de métodos locais à instâncias de variáveis na classe, alta coesão indica uma boa subdivisão das classes \cite{kan95}.
 
 A métrica LCOM representa a dissimilaridade dos métodos em uma classe pelo uso de instâncias de variáveis, a baixa de coesão aumenta a complexidade e por consequência, oportunidade de ocorrência de erros durante o processo de desenvolvimento \cite{kan95}.
 
 \section{Modelo proposto por Srivastava e Kumar}
 
-Srivastava e Kumar proporam em 2013 um modelo de métricas para validação de qualidade de software com a justificativa de que nenhuma das métricas tratavam acoplamento ou similaridades como relações transacionais, sendo assim, métricas que mapeiam estas características são passíveis de incorporação no modelo. No estudo em questão, diversos dados foram coletados de projetos orientados a objeto nas linguagens Java e C++, no estudo em questão foi constatado que diversas métricas são baseadas em ideias similares e representam informações redundantes, sendo assim, foi validado que um subconjunto de métricas pode ser utilizado para predição de falhas.
+Srivastava e Kumar propuseram em 2013 um modelo de métricas para validação de qualidade de software com a justificativa de que nenhuma das métricas existentes tratavam acoplamento ou similaridades como relações transacionais, sendo assim, métricas que mapeiam estas características são passíveis de incorporação no modelo. No estudo em questão, diversos dados foram coletados de projetos orientados a objeto nas linguagens Java e C++, no estudo em questão foi constatado que diversas métricas são baseadas em ideias similares e representam informações redundantes, sendo assim, foi validado que um subconjunto de métricas pode ser utilizado para predição de falhas.
 
 O modelo proposto por \cite{srivastava2013} atingiu um nível de acurácia superior a 80\% na predição de falhas em classes. É observado na literatura que métricas de softwares orientados a objetos aliadas aos modelos de classificação e predição existentes possuíram efetividade em encontrar relação entre identificação e classificação de falhas e qualitdade de software  \cite{Suresh2016}.
 
@@ -1062,15 +1061,15 @@ O modelo proposto por \cite{srivastava2013} atingiu um nível de acurácia super
 
 
 \section{Outras métricas estáticas}
-Além de características que possam ser descritas por métricas C.K, é possível também utlizar métricas que descrevam características de métodos, já que métodos compõe as ações  presentes dem classes.  No traballho desenvolvido por \cite{Eler2016}, diversas métricas de métodos foram extraídas utilizando execução simbólica, métricas como: Número de loops (NLp)número de loops aninhados (NNLp); quantidade de constantes (NCtt); número de variáveis (NVar); quantidade de variáveis do tipo inteiro (NInt);  quantidade de variáveis do ponto flutuante (NFit); quantidade de referências nulas (NNull); Quantidade de variáveis do tipo string (NStr); número de objetos (NObj); Número de arrays (NArr).
+Além de características que possam ser descritas por métricas CK, é possível também utlizar métricas que descrevam características de métodos, já que métodos compõe as ações  presentes dem classes.  No traballho desenvolvido por \cite{Eler2016}, diversas métricas de métodos foram extraídas utilizando execução simbólica, métricas como: Número de loops (NLp) número de loops aninhados (NNLp); quantidade de constantes (NCtt); número de variáveis (NVar); quantidade de variáveis do tipo inteiro (NInt);  quantidade de variáveis do ponto flutuante (NFit); quantidade de referências nulas (NNull); Quantidade de variáveis do tipo string (NStr); número de objetos (NObj); Número de arrays (NArr).
 
-É possível também extrair métricas como número de métodos (Nom) , númeto de métodos públicos (Nopm), número de métodos estáticos (Nosm), número de atributos (Nof), número de atributos públicos (Nopf), número de atributos estáticos (Nosf), número de invocação de métodos estáticos (Nosi) e total de linhas de código (Loc).
+É possível também extrair métricas como número de métodos (Nom), número de métodos públicos (Nopm), número de métodos estáticos (Nosm), número de atributos (Nof), número de atributos públicos (Nopf), número de atributos estáticos (Nosf), número de invocação de métodos estáticos (Nosi) e total de linhas de código (Loc).
 
 \chapter{Mineração de dados}
 
 Mineração de dados é o processo de extrair conhecimento valioso de um grande agrupamento de dados, desconhecido e de valor para o problema em questão \cite{Seth2016, sharma2015}. Na mineração ocorre a análise de dados a partir de diferentes perspectivas com o intuito de obter informaçãos úteis para tomada de decisão  \cite{ sharma2015}. Ela é utilizada em diversos campos como robótica, decisões de marketing, decisões corporativas, inteligência de negócio e segurança \cite{ Seth2016}.
 
-Na área de mineração de dados, distinguir diferentes classes a partir de um volume de dados e classificar a partir destes é uma técnica importante \cite{Seth2016}, sendo assim, a classificação é uma subárea importate de mineração de dados, dado que ela é capaz de analisar dados e organizá-los em classes a partir de suas características \cite{ Seth2016}.
+Na área de mineração de dados, distinguir diferentes classes a partir de um volume de dados e classificá-los é uma técnica importante \cite{Seth2016}. Sendo assim, a classificação é uma subárea importate de mineração de dados, dado que ela é capaz de analisar dados e organizá-los em classes a partir de suas características \cite{ Seth2016}.
 
 \section{Classificação}
 A classificação é uma técnica vastamente utilizada no domínio de mineração de dados, na qual escalabilidade e eficiência são requisitos imediatos em classificação de grandes conjuntos de dados \cite{sharma2015}. A classificação é uma atividade não supervisionada \cite{ sharma2015},  a qual já existe o conhecimento desde o início quais são as classes disponíveis a serem utilizadas pelo algoritmo, o algoritmo então usa a informação de classes e características presentes em um conjunto de dados para treinamento e validação \cite{ sharma2015}.
@@ -1081,9 +1080,9 @@ O principal objetivo de algoritmos de classificação é construir um modelo de 
 
 Diferentes algoritmos de classificação usam diferentes técnicas para encontrar relação entre os dados e as classes  \cite{ sharma2015}, estas relações estão sumarizadas em um modelo, o qual pode ser aplicado em novas instâncias para classificação destas  \cite{ sharma2015}.
 
-Um modelo pode também ser utilizado para validação, em que novas instâncias são submetidas a um modelo e avaliadas em seguida para verificar se foram classificadas corretamente, este processo é chamado de validação do modelo  \cite{ sharma2015}.
+Um modelo pode também ser utilizado para validação, em que novas instâncias são submetidas a um modelo e avaliadas em seguida para verificar se foram classificadas corretamente. Este processo é chamado de validação do modelo  \cite{ sharma2015}.
 
-Dentre os classificadores mais famosos, o mais conhecido é o classificador bayseano. \cite{ Seth2016}, o classificador bayseano é um classificador construído com base no teorema de bayes \cite{ Seth2016}. Quando aplicado a grandes conjuntos de dados, classificadores bayseanos conseguem alta acurácia em alta velocidade \cite{ Seth2016}, a forma mais simples de classificador bayseano conhecido atualmente é o classificador \textit{naive bayes} \cite{ Seth2016}.
+Dentre os classificadores mais famosos, o mais conhecido é o classificador bayseano. \cite{ Seth2016}, um classificador construído com base no teorema de bayes \cite{ Seth2016}. Quando aplicado a grandes conjuntos de dados, classificadores bayseanos conseguem alta acurácia em alta velocidade \cite{ Seth2016}, a forma mais simples de classificador bayseano conhecido atualmente é o classificador \textit{naive bayes} \cite{ Seth2016}.
 
 \section{Classificador \textit{naive bayes}}
 
@@ -1091,7 +1090,7 @@ O teorema bayseano deriva da estatística bayseana, o qual possui premissas fort
  
 O teorema bayseano é uma afirmação estatística que permite o cálculo de probabilidades condicionais, probabilidades condicionais são probabilidades que refletem a influência de um evento na probabilidade de outro evento  \cite{ sharma2015} .
 
-Os termos geralmente utilizados em estatística bayseana são: probabilidade anterior e posterior: A probabilidade anterior é o evento com sua probabilidade original, antes de obter qualquer informação adicional em contraponto, a probabilidade posterior é a probabilidade anterior seguida de alguma informação adicional  \cite{ sharma2015}. O teorema de bayes pode ser descrito como  \cite{ sharma2015}:
+Os termos geralmente utilizados em estatística bayseana são: probabilidade anterior e posterior: A probabilidade anterior é o evento com sua probabilidade original, antes de obter qualquer informação adicional em contraponto. A probabilidade posterior é a probabilidade anterior seguida de alguma informação adicional  \cite{ sharma2015}. O teorema de bayes pode ser descrito como  \cite{ sharma2015}:
 
 \begin{equation}
 P(A|B) = \frac{P(B|A).P(A)}{P(B)}
@@ -1117,11 +1116,11 @@ P(yi|alpha) > P(yj|alpha)\textrm{, para todo 1 $\leq$ j $\leq$ m, j $\neq$ i}
 
 Consequentemente, P($\gamma$i|$\alpha$)  deve ser maximizado, a classe resultante com o maior valor de P($\gamma$i|$\alpha$)  é chamada de probabilidade posterior, como no teorema de \textit{bayes}. Dado o fato de que para todas as classes P($\alpha$) é constante, maximizar P($\alpha$|yi) * P(yi) garante o propósito \cite{ sharma2015}.
 
-Um conjunto de treinamento com muitos atributos para o cálculo de P($\alpha$) pode ser computacionalmente custoso de ser calculado, sendo assim, o classificador reduz este custo assumindo que as classes são condicionalmente independentes entre si \cite{ sharma2015}.
+Um conjunto de treinamento com muitos atributos para o cálculo de P($\alpha$) pode ser computacionalmente custoso de ser calculado. Sendo assim, o classificador reduz este custo assumindo que as classes são condicionalmente independentes entre si \cite{ sharma2015}.
 
 
 \section{Weka}
-A ferramenta Weka (\textit{Waikato Environment for Knowledge Learning})\footnote{https://www.cs.waikato.ac.nz/ml/weka/} é um software desenvolvido pela universidade de Waikato na Nova Zelândia \cite{Subbulakshmi2012}.  A WEKA apoia diferentes tipos de atividades como pré-processamento, classificação, clusterização, regressão, visualização e seleção de atributos \cite{Subbulakshmi2012}. A premissa da aplicação é utilizar-se de um computador e o software para executar técnicas de aprendizado de máquina e mineração de dados e derivar informações úteis através de padrões \cite{Subbulakshmi2012}.
+A ferramenta Weka (\textit{Waikato Environment for Knowledge Learning})\footnote{https://www.cs.waikato.ac.nz/ml/weka/} é um software desenvolvido pela universidade de Waikato na Nova Zelândia \cite{Subbulakshmi2012}.  A Weka apoia diferentes tipos de atividades como pré-processamento, classificação, clusterização, regressão, visualização e seleção de atributos \cite{Subbulakshmi2012}. A premissa da aplicação é utilizar-se de um computador e o software para executar técnicas de aprendizado de máquina e mineração de dados e derivar informações úteis através de padrões \cite{Subbulakshmi2012}.
 
 A feramenta possui em torno de duas décacas, com  implementações dos algoritmos de classificação e interfaces gráficas de fácil uso e visualização além de algoritmos de validação \cite{Bouckaert2008}. 
 
@@ -1135,14 +1134,14 @@ Neste capítulo serão apresentados os materiais utilizados e a maneira como est
 
 Durante o processo de pesquisa, foi utilizado um conjunto de 110 projetos os quais são reconhecidos e utilizados por diversos pesquisadores da área. Os projetos em questão fazem parte do corpus SF110, o qual é caracterizado por um conjunto de 110 projetos open source retirados do site SourceForge\footnote{https://sourceforge.net/} compostos por: 100 projetos aleatoriamente escolhidos somados a  10 dos projetos com mais download em junho de 2014. \cite{shamriski20151115}.
 
-O corpus SF110 foi utilizado como objeto de análise pelo processo de pesquisa por conta de sua diversidade de características, isso ocorre pois os projetos que compõe o corpus resolvem problemas presentes em domínios variados.  A partir do corpus, diversas ferramentas foram utilizadas para extrair informações e processá-las, o uso destas será detalhada na seção de métodos, para este processos as seguintes ferramentas foram utilizadas 
+O corpus SF110 foi utilizado como objeto de análise pelo processo de pesquisa por conta de sua diversidade de características. Isso ocorre, pois os projetos que compõe o corpus resolvem problemas presentes em domínios variados.  A partir do corpus, diversas ferramentas foram utilizadas para extrair informações e processá-las, o uso destas será detalhada na seção de métodos, para este processos as seguintes ferramentas foram utilizadas 
 
 
 
 \begin{itemize}
   \item \textbf{EvoSuite\footnote{http://www.evosuite.org/}:} ferramenta utilizada para geração dos dados de teste nas duas técnicas apresentadas no capítulo \ref{chap:geracao-automatica-dados-teste} e cálculo da porcentagem de cobertura de código atingida;
   \item \textbf{CK\footnote{https://github.com/mauricioaniche/ck}:} ferramenta disponível em repositório opensource para extração de métricas CK em projetos Java;
-  \item \textbf{Weka\footnote{https://www.cs.waikato.ac.nz/ml/weka/}:} ferramenta de mineração de dados utilizada para classificação pela técnica citada no capítulo 5;
+  \item \textbf{Weka\footnote{https://www.cs.waikato.ac.nz/ml/weka/}:} ferramenta de mineração de dados utilizada para classificação pela técnica citada no Capítulo 5;
   \item \textbf{LibreOffice Calc\footnote{https://www.libreoffice.org/discover/calc/}:} ferramenta utiizada para o cálculo das correlações entre os valores que serão apresentados.
   \item \textbf{Go \footnote{https://golang.org/}:} linguagem de programação utilizada para codificação de algumas rotinas de processamento dos dados.
   \item \textbf{Maven \footnote{https://maven.apache.org/}:} ferramenta compilação, gestão de dependências e empacotamento dos projetos java presente no SF110.
@@ -1152,7 +1151,7 @@ Nas seções posteriores será descrita a metodologia aplicada durante o process
  
  \section{Métodos}
  
- Esta seção visa descrever a metodologia utilizada durante esta dissertação, detalhando as etapas necessárias para conclusão de todas as atividades de análise, condução dos experimentos e resultados. As etapas as quais compõem a pesquisa conduzida durante esta dissertação podem ser divididas em :
+ Esta seção visa descrever a metodologia utilizada durante esta dissertação, detalhando as etapas necessárias para conclusão de todas as atividades de análise, condução dos experimentos e resultados. As etapas as quais compõem a pesquisa conduzida durante esta dissertação podem ser divididas em:
  
  \begin{itemize}
   \item Análise bibliográfica de métricas em softwares orientados a objetos;
@@ -1168,9 +1167,9 @@ Nas seções posteriores será descrita a metodologia aplicada durante o process
 \end{itemize}
 
 \subsection{Análise bibliográfica de métricas em softwares orientados a objetos}
-O conjunto de métricas utilizado é o conjunto proposto por Chidamber \& Kemerer, durante a análise bibliográfica, diversas métricas foram estudadas para que assim fossem escolhidas, entre o conjunto de métricas existente, as métricas que melhor representassem características de softwares orientados a objetos. Além do requisito claro de representação de características do software, as métricas necessitam ser de fácil e rápida extração, uma vez que softwares que necessitem escolher uma técnica mais adequada necessitam que a escolha ocorra em tempo hábil. 
+O conjunto de métricas utilizado é o conjunto proposto por Chidamber \& Kemerer.  Durante a análise bibliográfica, diversas métricas foram estudadas para que assim fossem escolhidas, entre o conjunto de métricas existente, as métricas que melhor representassem características de softwares orientados a objetos. Além do requisito claro de representação de características do software, as métricas necessitam ser de fácil e rápida extração, uma vez que softwares que necessitem escolher uma técnica mais adequada necessitam que a escolha ocorra em tempo hábil. 
 
-As métricas de softwares orientados a objetos podem ser divididas em métricas estáticas e métricas dinâmicas, sendo que o primeiro conjunto não necessita de execução do \textit{SUT} para a extração diferentemente do segundo que demanda que as métricas sejam extraídas em tempo de execução. Por conta destas características, as métricas estáticas são extraídas mais rapidamente e consomem menos recursos computacionais, sendo assim, 
+As métricas de softwares orientados a objetos podem ser divididas em métricas estáticas e métricas dinâmicas, sendo que o primeiro conjunto não necessita de execução do \textit{SUT} para a extração, diferentemente, do segundo que demanda que as métricas sejam extraídas em tempo de execução. Por conta destas características, as métricas estáticas são extraídas mais rapidamente e consomem menos recursos computacionais, sendo assim, 
 para preencher os requisitos de tempo e processamento, visto que a seleção do melhor algoritmo necessita ser rápida, as métricas estáticas foram escolhidas.
 
 Dentre as métricas estáticas, vários tipos de medidas podem ser extraídas por meio de análise dos códigos das classes, por meio da análise bibliográfica foi possível notar que as métricas CK possuem boa representação das características de classes que compõe um software. O conjunto de métricas CK foi utilizado em diversos contextos como detecção de falhas e análise de qualidade dando suporte para descrição de características.
@@ -1195,7 +1194,7 @@ Existem várias ferramentas de geração de dados de testes com base em buscas d
 
 Entre as ferramentas citadas, destaca-se a EvoSuite, a ferramenta possui mais de 53 publicações registradas no site oficial, foi submetida ao \textit{Unit testing tool competition} e conseguiu o primeiro lugar em duas edições.
 
-A EvoSuite suporta diversos algoritmos de geração como os citados no capítulo \ref{chap:geracao-automatica-dados-teste}, dentre os algoritmos é possível escolher diferentes configurações como tempo máximo de uso em busca, técnicas de \textit{seeding} para guiar busca, entre outras. As versões dos algoritmos utilizadas no \textit{Unit testing tool competition} são as versões padrão dos algoritmos, utilizando também as configurações padrão de geração \cite{shamriski20151115}. 
+A EvoSuite suporta diversos algoritmos de geração como os citados no Capítulo \ref{chap:geracao-automatica-dados-teste}, dentre os algoritmos é possível escolher diferentes configurações como tempo máximo de uso em busca, técnicas de \textit{seeding} para guiar busca, entre outras. As versões dos algoritmos utilizadas no \textit{Unit testing tool competition} são as versões padrão dos algoritmos, utilizando também as configurações padrão de geração \cite{shamriski20151115}. 
 
 Dado que o objetivo desta dissertação também consiste em analisar  as diferenças dos algoritmos aleatório e genético  e a desempenho da configuração adotada no \textit{Unit testing tool competition} foi alta, atingindo mais de 80\% de cobertura de código, então a versão monotônica padrão do algoritmo genético e a versão do algoritmo aleatório padrão são adotadas para o experimento, ambas com suas configurações padrão.
 
@@ -1241,7 +1240,7 @@ LOC & Total de linhas de código
 \source{Gustavo da Mota Ramos, 2018}
 \end{table}
 
-A tabela \ref{table:metricas-extraidas-ck} lista todas as métricas extraídas pelo CK e a descrição do valor extraído em cada métrica. O CK  foi escolhido por ser uma ferramenta que é não só capaz de extrair as métricas propostas por Chidamber \& Kemerer, também é capaz de extrair outras métricas importantes em softwares orientados a objetos como as métricas de contagem de métodos, métricas de contragem de atributos e suas variações, ambas presentes na tabela \ref{table:metricas-extraidas-ck}.
+A Tabela \ref{table:metricas-extraidas-ck} lista todas as métricas extraídas pelo CK e a descrição do valor extraído em cada métrica. O CK  foi escolhido por ser uma ferramenta que é não só capaz de extrair as métricas propostas por Chidamber \& Kemerer, também é capaz de extrair outras métricas importantes em softwares orientados a objetos como as métricas de contagem de métodos, métricas de contragem de atributos e suas variações, ambas presentes na Tabela \ref{table:metricas-extraidas-ck}.
 
 A execução do CK possui como resultado de saída um arquivo no formato CSV com os seguintes campos como cabeçalho: file, class, type, cbo, wmc, dit, noc, rfc, lcom, nom, nopm, nosm, nof, nopf, nosf, nosi, loc. Além dos valores das métricas, a coluna class é importante para união dos dados de geração com suas respectivas métricas, dado que este é um campo presente em ambos arquivos de saída.
 
@@ -1278,11 +1277,11 @@ Segundo \cite{Kaur2014}, um resultado de classificação é considerado preciso 
 
  \chapter{Condução dos experimentos e discussões}
  \label{chap:resultados}
-  A primeira etapa do processo consistiu na  extração dos dados para análises primárias das hipóteses apresentadas, este passo foi necessário pois a primeira análise estatística  para validação foi a análise da correlação das métricas CK dos projetos e os dados de execução fornecidos da EvoSuite: Cobertura de código e tempo de execução. A análise da correlação é uma etapa de validação importante visto que valores de correlação com pouca ou nenhuma significância podem dar indícios da eficácia de seu uso na mineração de dados, esta etapa caracteriza como uma etapa eliminatória das etapas posteriores do processo. 
+  A primeira etapa do processo consistiu na  extração dos dados para análises primárias das hipóteses apresentadas. Este passo foi necessário, pois a primeira análise estatística  para validação foi a análise da correlação das métricas CK dos projetos e os dados de execução fornecidos da EvoSuite: cobertura de código e tempo de execução. A análise da correlação é uma etapa de validação importante visto que valores de correlação com pouca ou nenhuma significância podem dar indícios da eficácia de seu uso na mineração de dados, esta etapa caracteriza como uma etapa eliminatória das etapas posteriores do processo. 
   
- Os dados necessários para a análise da correlação são as devidas quantidades de cobertura, tempo disponibilizados pela EvoSuite e métricas CK extraídas das classes do SF110. Por conta da velocidade de extrair métricas estáticas como as métricas CK, a primeira coleta ocorreu com a geração dos dados de teste pela EvoSuite, inicialmente com o algoritmo de busca genético padrão e em seguida com o algoritmo de busca aleatória.
+ Os dados necessários para a análise da correlação são as devidas quantidades de cobertura, tempo disponibilizados pela EvoSuite e métricas CK extraídas das classes do SF110. Por conta da velocidade de extrair métricas estáticas como as métricas CK, a primeira coleta ocorreu com a geração dos dados de teste pela EvoSuite, inicialmente, com o algoritmo de busca genético padrão e, em seguida,  com o algoritmo de busca aleatória.
  
- O SF110 possui em torno de 10.000 classes java, espera-se então que o conjunto de dados consolidado final para treinamento possua o mesmo número, porém alguns dos projetos apresentaram problemas ao serem compilados , outros apresentaram mensagens de erro ao iniciar a geração de dados de testes utilizando algoritmos genéticos por meio da EvoSuite e alguns projetos possuíram tempo de execução superior a 8 horas.
+ O SF110 possui em torno de 10.000 classes java. Espera-se então que o conjunto de dados consolidado final para treinamento possua o mesmo número, porém alguns dos projetos apresentaram problemas ao serem compilados. Outros apresentaram mensagens de erro ao iniciar a geração de dados de testes utilizando algoritmos genéticos por meio da EvoSuite e alguns projetos possuíram tempo de execução superior a 8 horas.
 
 
 
@@ -1306,13 +1305,13 @@ Seguido à geração de dados de teste por meio de algoritmos genéticos, a gera
   \source{Gustavo da Mota Ramos, 2018}
 \end{figure}
 
-Após a coleta, o conjunto de dados contém a cobertura de código atingida até o tempo máximo registrado para cada classe em cada um dos algoritmos de geração descritos no capítulo \autoref{chap:geracao-automatica-dados-teste}, sendo assim foi possível verificar em qual dos algoritmos cada classe teve maior cobertura e quantificar, como demonstrado na figura \ref{fig:distribuicao-cobertura-evosuite}. 
+Após a coleta, o conjunto de dados contém a cobertura de código atingida até o tempo máximo registrado para cada classe em cada um dos algoritmos de geração descritos no Capítulo \autoref{chap:geracao-automatica-dados-teste}, sendo assim foi possível verificar em qual dos algoritmos cada classe teve maior cobertura e quantificar, como demonstrado na Figura \ref{fig:distribuicao-cobertura-evosuite}. 
 
-Os resultados de cobertura de código obtidos divergem de alguns resultados apresentados por \cite{shamriski20151115}, no experimento que consistiu em gerar os casos de testes a partir de 1000 classes randomicamente escolhidas do corpus SF110. O estudo em questão apontou que seus resultados sugerem que na prática existe pouca diferença quando os resultados de geração de casos de teste são comparados, concluindo que algoritmos aleatórios tenham o mesmo nível de efetividade.
+Os resultados de cobertura de código obtidos divergem de alguns resultados apresentados por \cite{shamriski20151115}. No experimento que consistiu em gerar os casos de testes a partir de 1000 classes randomicamente escolhidas do corpus SF110. O estudo em questão apontou que seus resultados sugerem que na prática existe pouca diferença quando os resultados de geração de casos de teste são comparados, concluindo que algoritmos aleatórios tenham o mesmo nível de efetividade.
 
-Esta diferença pode ser dada por dois fatores como volume de dados analisado e a evolução da ferramenta, o estudo citado utilizou em torno de de 20\% das classes utilizadas para análise na figura \ref{fig:distribuicao-cobertura-evosuite}, o volume maior analisado pode representar uma quantidade maior de casos. Outro fator importante é a evolução da ferramenta EvoSuite ao longo de 3 anos,  por meio de melhorias constantes pode ter causado melhorias no algoritmo genético o suficiente para conseguir o aumento da cobertura de código demonstrado na diferença dos experimentos.
+Esta diferença pode ser dada por dois fatores como volume de dados analisado e a evolução da ferramenta. O estudo citado utilizou em torno de de 20\% das classes utilizadas para análise na Figura \ref{fig:distribuicao-cobertura-evosuite}, o volume maior analisado pode representar uma quantidade maior de casos. Outro fator importante é a evolução da ferramenta EvoSuite ao longo de 3 anos,  por meio de melhorias constantes pode ter causado melhorias no algoritmo genético o suficiente para conseguir o aumento da cobertura de código demonstrado na diferença dos experimentos.
 
-A partir dos dados de cobertura coletados em cada algoritmo, foi possível calcular a diferença entre eles em cada classe. As diferenças foram agrupadas e separadas em diferentes faixas como demonstrado na tabela a seguir:
+A partir dos dados de cobertura coletados em cada algoritmo, foi possível calcular a diferença entre eles em cada classe. As diferenças foram agrupadas e separadas em diferentes faixas como demonstrado na tabela \ref{table:distribuicao-diferenca-cobertura-porcentagem}.
 
 
 
@@ -1354,9 +1353,9 @@ O conteúdo da tabela \ref{table:distribuicao-diferenca-cobertura-porcentagem} m
 \end{figure}
 
 
-A partir da figura \ref{fig:grafico_dif_cobertura} é possível notar que a predominância da diferença de cobertura entre as técnicas situa-se entre 0\% e 10\% . Estes valores são importantes para compreender a magniture da diferença coberta entre os algoritmos para que assim seja possível escolher o algoritmo mais rápido em casos que a diferença seja menor ao construir o conjunto de dados de aprendizado.
+A partir da Figura \ref{fig:grafico_dif_cobertura} é possível notar a predominância da diferença de cobertura entre as técnicas situa-se entre 0\% e 10\%. Estes valores são importantes para compreender a magniture da diferença coberta entre os algoritmos para que assim seja possível escolher o algoritmo mais rápido em casos que a diferença seja menor ao construir o conjunto de dados de aprendizado.
 
-Um segundo ponto importante de análise é o tempo de geração utilizado em cada um dos algoritmos, em alguns dos projetos análisados, o tempo de geração total foi superior a 8 horas. o mesmo processo aplicado para análise da cobertura do código foi aplicado para o tempo de geração:\\
+Um segundo ponto importante de análise é o tempo de geração utilizado em cada um dos algoritmos, em alguns dos projetos análisados, o tempo de geração total foi superior a 8 horas. O mesmo processo aplicado para análise da cobertura do código foi aplicado para o tempo de geração:\\
 
 \begin{figure}[H]% H manda colocar exatamente nessa posição no texto (relativa aos parágrafos anterior e posterior)
 	\centering
@@ -1366,9 +1365,9 @@ Um segundo ponto importante de análise é o tempo de geração utilizado em cad
   \source{Gustavo da Mota Ramos, 2018}
 \end{figure}
 
-Como pode ser visto na imagem \ref{fig:distribuicao-tempo-evosuite}, uma quantidade considerável, totalizando 66\% das classes foram geradas mais rapidamente utilizando o algoritmo de busca aleatória, enquanto somente 32\% das classes tiveram seus dados gerados mais rapidamente utilizando algoritmo genético e somente 2\% tiveram seus dados gerados com a mesma quantidade de tempo.
+Como pode ser visto na Figura \ref{fig:distribuicao-tempo-evosuite}, uma quantidade considerável, totalizando 66\% das classes foram geradas mais rapidamente utilizando o algoritmo de busca aleatória, enquanto somente 32\% das classes tiveram seus dados gerados mais rapidamente utilizando algoritmo genético e somente 2\% tiveram seus dados gerados com a mesma quantidade de tempo.
 
-Após a extração das métricas CK os dados foram consolidados por meio de executáveis escritos em Go, os arquivos de entrada consistem nos resultados gerados usando algoritmo genético, resultados gerados usando algoritmo aleatório e as métricas CK. Os 3 arquivos diferem em suas estruturas, porém foram consolidados por meio de umconjunto de dados em comum pelos 3 arquivos: Todos possuem o caminho completo do pacote onde a classe encontra-se e o nome da classe, formando uma tupla única de união das três fontes de dados; O resultado final consistiu em um conjunto de dados de 5705 registros de classes contendo os dados consolidados, resultando assim no cálculo da correlação:
+Após a extração das métricas CK, os dados foram consolidados por meio de executáveis escritos em Go. Os arquivos de entrada consistem nos resultados gerados usando algoritmo genético, resultados gerados usando algoritmo aleatório e as métricas CK. Os três arquivos diferem em suas estruturas, porém foram consolidados por meio de umconjunto de dados em comum pelos três arquivos.  Todos possuem o caminho completo do pacote onde a classe encontra-se e o nome da classe, formando uma tupla única de união das três fontes de dados; O resultado final consistiu em um conjunto de dados de 5705 registros de classes contendo os dados consolidados, resultando assim no cálculo da correlação:
 
 
 \begin{table}[h]
@@ -1429,7 +1428,7 @@ LOC		& 0.476423297500777	& 0.052316363027409
 \label{table:correlacao-tempo}
 \end{table}
 
-As tabelas \ref{table:correlacao-cobertura} e \ref{table:correlacao-tempo} possuem as correlações calculadas entre cada métrica $CK$ extraída com a cobertura atingida nos dois algoritmos. A partir dos resultados presentes nas tabelas é possível notar que os valores de correlação situados entre valores baixos e moderados, enquanto no algoritmo aleatório, com exceção da métrica $RFC$, todos os valores baixos o suficiente para não possuírem qualquer significância para análise.
+As Tabelas \ref{table:correlacao-cobertura} e \ref{table:correlacao-tempo} possuem as correlações calculadas entre cada métrica $CK$ extraída com a cobertura atingida nos dois algoritmos. A partir dos resultados presentes nas tabelas é possível notar que os valores de correlação situados entre valores baixos e moderados, enquanto no algoritmo aleatório, com exceção da métrica $RFC$, todos os valores baixos o suficiente para não possuírem qualquer significância para análise.
 
 \section{Aplicação das classes e classificação}
 
@@ -1456,7 +1455,7 @@ O primeiro conjunto de aprendizado montado, levou em consideração somente a co
 \source{Gustavo Ramos, 2018}
 \end{algorithm}
 
-O algoritmo \ref{alg:algoritmo-CBCK} demonstra a lógica para aplicação da classe para cada linha do conjunto de testes como é possível ver na linha 2. A partir da linha 3 é possível ver que todas as linhas receberam a classe \textbf{RANDOM} , este estado é mudado se a condição da linha 4 seja for satisfeita, ou seja, a linha do conjunto receberá a  \textbf{GA} se a cobertura com algoritmo genético for maior. A atribuição da linha 3 ocorreu pois além dos casos em que o algoritmo ranômico tenha maior performance, é possível ocorrer o caso em que ambas ambas cobriram a mesma quantidade, estes são os 10\% presentes na figura \ref{fig:distribuicao-cobertura-evosuite}. Para os casos em que a cobertura atingida foi igual nos dois algoritmos, a classe  \textbf{RANDOM}  foi aplicada visto que esta consumiu menor tempo na geração de dados como demonstrado na figura \ref{fig:distribuicao-tempo-evosuite}.
+O algoritmo \ref{alg:algoritmo-CBCK} demonstra a lógica para aplicação da classe para cada linha do conjunto de testes como é possível ver na linha 2. A partir da linha 3 é possível ver que todas as linhas receberam a classe \textbf{RANDOM} , este estado é mudado se a condição da linha 4 seja for satisfeita, ou seja, a linha do conjunto receberá a  \textbf{GA} se a cobertura com algoritmo genético for maior. A atribuição da linha 3 ocorreu pois além dos casos em que o algoritmo ranômico tenha maior performance, é possível ocorrer o caso em que ambas ambas cobriram a mesma quantidade, estes são os 10\% presentes na Figura \ref{fig:distribuicao-cobertura-evosuite}. Para os casos em que a cobertura atingida foi igual nos dois algoritmos, a classe  \textbf{RANDOM}  foi aplicada visto que esta consumiu menor tempo na geração de dados como demonstrado na Figura \ref{fig:distribuicao-tempo-evosuite}.
 
 Após a aplicação das classes no conjunto de dados, é possível utilizar o mesmo na ferramenta Weka para assim executar o algoritmo de classificação naive bayes, a própria ferramenta possui um mecanismo onde é possível separar aleatoriamente uma quantidade dos dados do conjunto para treinamento e a parte complementar (usualmente menor) para validação e testes, por padrão foi adotado 80\% dos dados para aprendizado enquanto os 20\% restantes para testes. O algoritmo foi executado apresentando dois resultados, a precisão e a seguinte matriz de confusão:
 
@@ -1476,13 +1475,13 @@ RANDOM		& 176		& 25
 \label{table:confusao-CBCK}
 \end{table}
 
-Os resultados apresentados pela ferramenta demonstram que 78.6\% dos casos foram corretamente classificados enquanto 21.4\% foram incorretamente classificados. A matriz demonstrada na tabela \ref{table:confusao-CBCK} é chamada de matriz de confusão, as coordenadas na diagonal (Os valores 898 e 25 respectivamente) representam os casos corretamente classificados, ou seja, a linha possuía a classe GA no conjunto de treinamento e foi corretamente classificada como GA, o mesmo casso ocorre para a classe RANDOM. Os outros casos compõe os casos onde uma classe foi dada e o algoritmo classificou em outra classe.
+Os resultados apresentados pela ferramenta demonstram que 78.6\% dos casos foram corretamente classificados enquanto 21.4\% foram incorretamente classificados. A matriz demonstrada na Tabela \ref{table:confusao-CBCK} é chamada de matriz de confusão, as coordenadas na diagonal (Os valores 898 e 25 respectivamente) representam os casos corretamente classificados, ou seja, a linha possuía a classe GA no conjunto de treinamento e foi corretamente classificada como GA, o mesmo casso ocorre para a classe RANDOM. Os outros casos compõe os casos onde uma classe foi dada e o algoritmo classificou em outra classe.
 
 É possível notar, apesar da precisão de 78.6\%, que o algoritmo teve maior facilidade de classificar casos onde o algoritmo genético possuiu maior cobertura, porém possui dificuldade em classificar em torno de 60\% dos casos onde o algoritmo aleatório possuiu atingiu maior cobertura.
 
-No conjunto de aprendizado \textbf{CBCK}, 14 métricas de softwares orientados a objetos foram utilizadas, como as métricas listadas nas tabelas  \ref{table:correlacao-cobertura} e \ref{table:correlacao-tempo}, porém \cite{Xia2013} afirma que algumas métricas tornam-se redundantes ou irrelevantes em um modelo relacionado à predição de defeitos em softwares.
+No conjunto de aprendizado \textbf{CBCK}, 14 métricas de softwares orientados a objetos foram utilizadas, como as métricas listadas nas Tabelas  \ref{table:correlacao-cobertura} e \ref{table:correlacao-tempo}, porém \cite{Xia2013} afirma que algumas métricas tornam-se redundantes ou irrelevantes em um modelo relacionado à predição de defeitos em softwares.
 
-Os resultados simulados por \cite{Xia2013} provam que diversas métricas são correlacionadas e algumas podem ser úteis em modelos de predição de defeitos, métricas destritas no capitulo \ref{chap:metricas}  como: LOC, RFC, CBO, AMC e CAM.  As métricas destacadas coincidem inclusive com as de valores mais altos de correlação na tabela \ref{table:correlacao-cobertura}.
+Os resultados simulados por \cite{Xia2013} provam que diversas métricas são correlacionadas e algumas podem ser úteis em modelos de predição de defeitos, métricas destritas no capitulo \ref{chap:metricas}  como: LOC, RFC, CBO, AMC e CAM.  As métricas destacadas coincidem inclusive com as de valores mais altos de correlação na Tabela \ref{table:correlacao-cobertura}.
 
 Dada a relevâncias das métricas citadas, segundo conjunto de aprendizado foi criado com o nome \textbf{CBCK+} com base no conjunto de métricas detalhados por \cite{Xia2013}, ou seja, somente estas métricas foram selecionadas para execução do algorítmo na interface do software Weka. Dado que as métricas de coesão entre os métodos (CAM) e complexidade média dos métodos não fazem parte do conjunto, estas foram substituídas pelas métricas LCOM e WMC respectivamente, resultando na seguinte matriz de confusão:
 
@@ -1506,7 +1505,7 @@ O algoritmo naive bayes, ao ser executado, retornou uma precisão de 80.3\% apó
 
 \subsection{Conjunto de aprendizado híbrido}
 
-O terceiro conjunto de aprendizado construído levou em consideração tanto a cobertura dos testes quanto o tempo de execução, a execução do algoritmo foi similar ao algoritmo \ref{alg:algoritmo-CBCK} com uma otimização: Nos casos em que a diferença de cobertura entre os algoritmos situa-se entre 0\% e 10\%, a classe do algoritmo com o menor tempo de execução foi aplicada, o conjunto de treinamento foi então nomeado por \textbf{CBCK10}. O algoritmo naive bayes foi executado, seguindo o uso das mesmas métricas utilizadas no conjunto de treinamento \textbf{CBCK+}, resultando na seguinte matriz de confusão:
+O terceiro conjunto de aprendizado construído levou em consideração tanto a cobertura dos testes quanto o tempo de execução, a execução do algoritmo foi similar ao algoritmo \ref{alg:algoritmo-CBCK} com uma otimização. Nos casos em que a diferença de cobertura entre os algoritmos situa-se entre 0\% e 10\%, a classe do algoritmo com o menor tempo de execução foi aplicada, o conjunto de treinamento foi então nomeado por \textbf{CBCK10}. O algoritmo naive bayes foi executado, seguindo o uso das mesmas métricas utilizadas no conjunto de treinamento \textbf{CBCK+}, resultando na seguinte matriz de confusão:
 
 \begin{table}[h]
 \centering
@@ -1524,7 +1523,7 @@ RANDOM		& 107		& 226
 \label{table:confusao-hibrido-plus}
 \end{table}
 
-O algoritmo, ao ser executado, retornou uma precisão de 63.5\%, porém é possível notar a melhora na distribuição da matriz de confusão demonstrada na tabela \ref{table:confusao-hibrido-plus}, o algoritmo passou a reconhecer mais casos onde o algoritmo aleatório deveria ser selecionado enquanto o algoritmo reconheceu uma grande quantidade dos casos onde o algoritmo genético deveria ser selecionado.
+O algoritmo, ao ser executado, retornou uma precisão de 63.5\%, porém é possível notar a melhora na distribuição da matriz de confusão demonstrada na Tabela \ref{table:confusao-hibrido-plus}. O algoritmo passou a reconhecer mais casos onde o algoritmo aleatório deveria ser selecionado enquanto o algoritmo reconheceu uma grande quantidade dos casos onde o algoritmo genético deveria ser selecionado.
 
 
 
