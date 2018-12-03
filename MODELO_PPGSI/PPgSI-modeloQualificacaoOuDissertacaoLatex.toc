@@ -64,20 +64,20 @@
 \contentsline {subsection}{\numberline {6.2.8}Classifica\IeC {\c c}\IeC {\~a}o e an\IeC {\'a}lise dos resultados}{50}{subsection.6.2.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {7}Condu\IeC {\c c}\IeC {\~a}o dos experimentos e discuss\IeC {\~o}es}{51}{chapter.7}
-\contentsline {section}{\numberline {7.1}Aplica\IeC {\c c}\IeC {\~a}o das classes e classifica\IeC {\c c}\IeC {\~a}o}{58}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Conjunto de aprendizado baseado em cobertura de c\IeC {\'o}digo}{58}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Conjunto de aprendizado h\IeC {\'\i }brido}{60}{subsection.7.1.2}
-\contentsline {section}{\numberline {7.2}Discuss\IeC {\~a}o dos resultados}{61}{section.7.2}
+\contentsline {section}{\numberline {7.1}Aplica\IeC {\c c}\IeC {\~a}o das classes e classifica\IeC {\c c}\IeC {\~a}o}{57}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Conjunto de aprendizado baseado em cobertura de c\IeC {\'o}digo}{57}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Conjunto de aprendizado h\IeC {\'\i }brido}{59}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Discuss\IeC {\~a}o dos resultados}{60}{section.7.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {8}Conclus\IeC {\~a}o}{64}{chapter.8}
-\contentsline {section}{\numberline {8.1}Trabalhos futuros}{64}{section.8.1}
+\contentsline {chapter}{\chapternumberline {8}Conclus\IeC {\~a}o}{63}{chapter.8}
+\contentsline {section}{\numberline {8.1}Trabalhos futuros}{63}{section.8.1}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{66}{chapter*.13}
+\contentsline {chapter}{Refer\^encias\footnote {De acordo com a Associa\c {c}\~ao Brasileira de Normas T\'ecnicas. NBR 6023.}}{65}{chapter*.13}
 \renewcommand *{\cftappendixname }{Ap\^endice \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{Anexo \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}Conjuntos de treinamento}{72}{appendix.anexochapback.1}
+\contentsline {appendix}{\chapternumberline {A}Conjuntos de treinamento}{71}{appendix.anexochapback.1}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  20 NOV 2018 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.9)  3 DEC 2018 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,45 +699,41 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks32
 )
-Package color Info: Redefining color blue on input line 239.
+Package color Info: Redefining color blue on input line 240.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 256.
+(hyperref)                removing `\uppercase' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 256.
+(hyperref)                removing `\hfill' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 256.
+(hyperref)                removing `\newline' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 256.
+(hyperref)                removing `\newline' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 256.
+(hyperref)                removing `\newline' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 256.
+(hyperref)                removing `\newline' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 256.
+(hyperref)                removing `\newline' on input line 257.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 256.
+(hyperref)                removing `\newline' on input line 257.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\newline' on input line 256.
-
-Package hyperref Info: Option `colorlinks' set `true' on input line 256.
+Package hyperref Info: Option `colorlinks' set `true' on input line 257.
 \PPgSI-modeloQualificacaoOuDissertacaoLatex@idxfile=\write4
 \openout4 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.idx'.
 
@@ -749,22 +745,22 @@ LaTeX Warning: Label `fig:tipos-custo-arvore' multiply defined.
 )
 \openout1 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 285.
-LaTeX Font Info:    ... okay on input line 285.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 285.
+Package hyperref Info: Link coloring ON on input line 286.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -775,15 +771,15 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 285.
-LaTeX Info: Redefining \ref on input line 285.
-LaTeX Info: Redefining \pageref on input line 285.
-LaTeX Info: Redefining \nameref on input line 285.
+LaTeX Info: Redefining \nameref on input line 286.
+LaTeX Info: Redefining \ref on input line 286.
+LaTeX Info: Redefining \pageref on input line 286.
+LaTeX Info: Redefining \nameref on input line 286.
 \myptabbox=\box35
 \myptabboxwidth=\skip267
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 285.
+(lastpage)             ! on input line 286.
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count183
@@ -814,7 +810,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 285.
+LaTeX Info: Redefining \microtypecontext on input line 286.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -839,61 +835,41 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-\OT1/cmr/m/n/12 (+20) Disserta^^Xc~ao apre-sen-tada ^^Ra Es-cola de
- []
-
-
-Underfull \hbox (badness 1337) in paragraph at lines 318--318
-\OT1/cmr/m/n/12 (+20) Ar-tes, Ci^encias e Hu-ma-ni-da-des da Uni-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-
- []
-
-
-Underfull \hbox (badness 8056) in paragraph at lines 318--318
+Underfull \hbox (badness 8056) in paragraph at lines 319--319
 []\OT1/cmr/m/n/12 (+20) Area de con-cen-tra^^Xc~ao: Me-to-do-lo-gia e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-
+Underfull \hbox (badness 2293) in paragraph at lines 319--319
+\OT1/cmr/m/n/12 (+20) Vers~ao cor-ri-gida con-tendo as al-tera^^Xc~oes
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 318.
+(Font)              <12> on input line 319.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 318.
+(Font)              <8> on input line 319.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 318.
+(Font)              <6> on input line 319.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.318 
+l.319 
        [1
 
 
@@ -902,37 +878,37 @@ l.318
 <fig_ficha_catalografica.pdf, id=16, 597.55246pt x 845.19763pt>
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf>
-Package pdftex.def Info: fig_ficha_catalografica.pdf  used on input line 346.
+Package pdftex.def Info: fig_ficha_catalografica.pdf  used on input line 347.
 (pdftex.def)             Requested size: 597.551pt x 845.19557pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf>
-Package pdftex.def Info: fig_ficha_catalografica.pdf  used on input line 346.
+Package pdftex.def Info: fig_ficha_catalografica.pdf  used on input line 347.
 (pdftex.def)             Requested size: 597.551pt x 845.19557pt.
 <fig_ficha_catalografica.pdf, id=19, page=1, 597.55246pt x 845.19763pt>
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 346.
+ 347.
 (pdftex.def)             Requested size: 597.551pt x 845.19557pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 346.
+ 347.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 346.
+ 347.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 346.
+ 347.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
 File: fig_ficha_catalografica.pdf Graphic file (type pdf)
 <use fig_ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: fig_ficha_catalografica.pdf , page1 used on input line
- 346.
+ 347.
 (pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
  [2 <./fig_ficha_catalografica.pdf>] [3
 
@@ -970,20 +946,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 710.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 711.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 710.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 711.
  [15] [16]
 [17]
 <tipos-custo-arvore.png, id=404, 305.64188pt x 137.7647pt>
 File: tipos-custo-arvore.png Graphic file (type png)
 <use tipos-custo-arvore.png>
-Package pdftex.def Info: tipos-custo-arvore.png  used on input line 759.
+Package pdftex.def Info: tipos-custo-arvore.png  used on input line 760.
 (pdftex.def)             Requested size: 305.64111pt x 137.76434pt.
  [18
 
@@ -992,111 +968,111 @@ Package pdftex.def Info: tipos-custo-arvore.png  used on input line 759.
 File: nonconformance-costs-timeline.png Graphic file (type png)
 <use nonconformance-costs-timeline.png>
 Package pdftex.def Info: nonconformance-costs-timeline.png  used on input line 
-779.
+780.
 (pdftex.def)             Requested size: 274.02307pt x 182.18016pt.
  [19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.783 
+l.784 
        <./tipos-custo-arvore.png>] [20pdfTeX warning (ext4): destination with t
 he same identifier (name{figure.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.796 \item T
+l.797 \item T
              estes exaustivos não são possíveis. <./nonconformance-costs-tim
 eline.png>]
 <modelo-teste.png, id=474, 386.19281pt x 219.06844pt>
 File: modelo-teste.png Graphic file (type png)
 <use modelo-teste.png>
-Package pdftex.def Info: modelo-teste.png  used on input line 806.
+Package pdftex.def Info: modelo-teste.png  used on input line 807.
 (pdftex.def)             Requested size: 386.19185pt x 219.06789pt.
  [21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.814 \subsection
+l.815 \subsection
                  {\textit{Mocks}} <./modelo-teste.png>] [22] [23]
 
-Package hyperref Warning: Suppressing empty link on input line 849.
+Package hyperref Warning: Suppressing empty link on input line 850.
 
 
-Package hyperref Warning: Suppressing empty link on input line 851.
+Package hyperref Warning: Suppressing empty link on input line 852.
 
 [24
 
 ] [25]
 
-Package hyperref Warning: Suppressing empty link on input line 872.
+Package hyperref Warning: Suppressing empty link on input line 873.
 
 
-Package hyperref Warning: Suppressing empty link on input line 872.
+Package hyperref Warning: Suppressing empty link on input line 873.
 
 
-Package hyperref Warning: Suppressing empty link on input line 885.
+Package hyperref Warning: Suppressing empty link on input line 886.
 
 
-Package hyperref Warning: Suppressing empty link on input line 885.
+Package hyperref Warning: Suppressing empty link on input line 886.
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 900--901
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
 
  []
 
 [27]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 905.
+put line 906.
  [28]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 938.
+(hyperref)                removing `math shift' on input line 939.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 938.
+(hyperref)                removing `\lambda' on input line 939.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 938.
+(hyperref)                removing `math shift' on input line 939.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 938.
+(hyperref)                removing `math shift' on input line 939.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 938.
+(hyperref)                removing `\lambda' on input line 939.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 938.
+(hyperref)                removing `math shift' on input line 939.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 945.
+(hyperref)                removing `math shift' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mu' on input line 945.
+(hyperref)                removing `\mu' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 945.
+(hyperref)                removing `math shift' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 945.
+(hyperref)                removing `math shift' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 945.
+(hyperref)                removing `\lambda' on input line 946.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 945.
+(hyperref)                removing `math shift' on input line 946.
 
 [29] [30] [31] [32] [33
 
@@ -1104,46 +1080,46 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 <diagrama_diamante.png, id=780, 287.57437pt x 274.77657pt>
 File: diagrama_diamante.png Graphic file (type png)
 <use diagrama_diamante.png>
-Package pdftex.def Info: diagrama_diamante.png  used on input line 1013.
+Package pdftex.def Info: diagrama_diamante.png  used on input line 1014.
 (pdftex.def)             Requested size: 287.57367pt x 274.77588pt.
  [35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1029 \begin{equation}
+l.1030 \begin{equation}
                         <./diagrama_diamante.png>] [36] [37] [38] [39
 
 ] [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1104
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1105
 
  []
 
 [41] [42]
 
-Package hyperref Warning: Suppressing empty link on input line 1135.
+Package hyperref Warning: Suppressing empty link on input line 1136.
 
 [43
 
 ] [44] [45]
 
-Package hyperref Warning: Suppressing empty link on input line 1193.
+Package hyperref Warning: Suppressing empty link on input line 1194.
 
 [46]
 
-Package hyperref Warning: Suppressing empty link on input line 1197.
+Package hyperref Warning: Suppressing empty link on input line 1198.
 
 [47] [48pdfTeX warning (ext4): destination with the same identifier (name{table
 .6.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1249 
+l.1250 
        ] [49] [50]
 <status_projetos.png, id=1003, 886.31125pt x 551.05875pt>
 File: status_projetos.png Graphic file (type png)
 <use status_projetos.png>
-Package pdftex.def Info: status_projetos.png  used on input line 1291.
+Package pdftex.def Info: status_projetos.png  used on input line 1292.
 (pdftex.def)             Requested size: 455.0pt x 282.8945pt.
  [51
 
@@ -1151,134 +1127,136 @@ Package pdftex.def Info: status_projetos.png  used on input line 1291.
 <cobertura_evosuite.png, id=1009, 714.16812pt x 502.87875pt>
 File: cobertura_evosuite.png Graphic file (type png)
 <use cobertura_evosuite.png>
-Package pdftex.def Info: cobertura_evosuite.png  used on input line 1303.
-(pdftex.def)             Requested size: 455.0pt x 320.38336pt.
+Package pdftex.def Info: cobertura_evosuite.png  used on input line 1304.
+(pdftex.def)             Requested size: 284.52756pt x 200.3499pt.
  [52pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1307 
+l.1308 
         <./status_projetos.png>]
 
-Package hyperref Warning: Suppressing empty link on input line 1310.
+Package hyperref Warning: Suppressing empty link on input line 1311.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [53pdfTeX warning (ext4): destination with the same identifier (name{figure.7.6
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1313 
+l.1347 
         <./cobertura_evosuite.png>]
 <grafico_dif_cobertura.png, id=1027, 816.55063pt x 469.25313pt>
 File: grafico_dif_cobertura.png Graphic file (type png)
 <use grafico_dif_cobertura.png>
-Package pdftex.def Info: grafico_dif_cobertura.png  used on input line 1350.
+Package pdftex.def Info: grafico_dif_cobertura.png  used on input line 1351.
 (pdftex.def)             Requested size: 455.0pt x 261.47679pt.
  [54pdfTeX warning (ext4): destination with the same identifier (name{table.7.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1354 
-       ]
-Underfull \hbox (badness 10000) in paragraph at lines 1358--1359
+l.1358 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.7.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1358 
+        <./grafico_dif_cobertura.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
 
  []
 
-<tempo_evosuite.png, id=1034, 661.97313pt x 662.97687pt>
+<tempo_evosuite.png, id=1035, 661.97313pt x 662.97687pt>
 File: tempo_evosuite.png Graphic file (type png)
 <use tempo_evosuite.png>
-Package pdftex.def Info: tempo_evosuite.png  used on input line 1363.
-(pdftex.def)             Requested size: 455.0pt x 455.6842pt.
-[55pdfTeX warning (ext4): destination with the same identifier (name{figure.7.7
+Package pdftex.def Info: tempo_evosuite.png  used on input line 1364.
+(pdftex.def)             Requested size: 284.52756pt x 284.9531pt.
+[55pdfTeX warning (ext4): destination with the same identifier (name{figure.7.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1367 
-        <./grafico_dif_cobertura.png>] [56pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.7.8}) has been already used, duplicate igno
-red
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1371 
-        <./tempo_evosuite.png>] [57pdfTeX warning (ext4): destination with the 
+l.1372 
+        <./tempo_evosuite.png>] [56pdfTeX warning (ext4): destination with the 
 same identifier (name{table.7.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1432 
+l.1433 
        pdfTeX warning (ext4): destination with the same identifier (name{table.
 7.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1432 
-       ] [58] [59pdfTeX warning (ext4): destination with the same identifier (n
+l.1433 
+       ] [57] [58pdfTeX warning (ext4): destination with the same identifier (n
 ame{table.7.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1482 N
+l.1483 N
         o conjunto de aprendizado \textbf{CBCK}, 14 métricas de softwares o...
-] [60pdfTeX warning (ext4): destination with the same identifier (name{table.7.
+] [59pdfTeX warning (ext4): destination with the same identifier (name{table.7.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1524 \end{table}
+l.1525 \end{table}
                   ]
-Underfull \hbox (badness 10000) in paragraph at lines 1535--1536
+Underfull \hbox (badness 10000) in paragraph at lines 1536--1537
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1539--1541
+Underfull \hbox (badness 10000) in paragraph at lines 1540--1542
 
  []
 
-[61pdfTeX warning (ext4): destination with the same identifier (name{table.7.7}
+[60pdfTeX warning (ext4): destination with the same identifier (name{table.7.7}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1543 
+l.1544 
        ]
-Underfull \hbox (badness 10000) in paragraph at lines 1546--1547
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1548
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1550--1552
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1557--1558
+Underfull \hbox (badness 10000) in paragraph at lines 1558--1559
+
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1565
 
  []
 
 [62]
-Underfull \hbox (badness 10000) in paragraph at lines 1562--1564
-
- []
-
-[63]
-Overfull \hbox (0.88242pt too wide) in paragraph at lines 1582--1583
+Overfull \hbox (0.88242pt too wide) in paragraph at lines 1583--1584
 []\OT1/cmr/m/n/12 (-20) Dada a efic^^Sacia da sele^^Xc~ao do al-go-ritmo gen^^S
 etico a par-tir de m^^Setricas CK, compreende-
  []
 
-[64
+[63
 
 ] (./PPgSI-modeloQualificacaoOuDissertacaoLatex.bbl
 (./PPgSI-modeloQualificacaoOuDissertacaoLatex.brf)
 \tf@brf=\write5
 \openout5 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.brf'.
 
- [65]
+ [64]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 3.
@@ -1288,18 +1266,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\<let>-command' on input line 3.
 
 bibitemlist
-[66
+[65
 
-] [67] [68] [69] [70]) [71] 
+] [66] [67] [68] [69]) [70] 
 AED: lastpage setting LastPage
-[72
+[71
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.anexoch
 apback.1.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1703 \end{document}
+l.1704 \end{document}
                      ]
 \tf@lof=\write6
 \openout6 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.lof'.
@@ -1316,26 +1294,26 @@ l.1703 \end{document}
 \tf@toc=\write10
 \openout10 = `PPgSI-modeloQualificacaoOuDissertacaoLatex.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1703.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1703.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1704.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1704.
  (./PPgSI-modeloQualificacaoOuDissertacaoLatex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1703.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1703.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1704.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1704.
 
 Package rerunfilecheck Info: File `PPgSI-modeloQualificacaoOuDissertacaoLatex.b
 rf' has not changed.
-(rerunfilecheck)             Checksum: CA840B38460B79F8E1E27F2F53A34091;10494.
+(rerunfilecheck)             Checksum: F398D54C6930B70C024DF80A12B9083B;10494.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1703.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1704.
  ) 
 Here is how much of TeX's memory you used:
- 14625 strings out of 492649
- 220143 string characters out of 6129623
- 512226 words of memory out of 5000000
- 17903 multiletter control sequences out of 15000+600000
+ 14588 strings out of 492649
+ 219679 string characters out of 6129623
+ 504775 words of memory out of 5000000
+ 17871 multiletter control sequences out of 15000+600000
  13875 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,18n,43p,1389b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1349,11 +1327,11 @@ ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (73 pages, 853
-222 bytes).
+Output written on PPgSI-modeloQualificacaoOuDissertacaoLatex.pdf (72 pages, 848
+879 bytes).
 PDF statistics:
- 1586 PDF objects out of 1728 (max. 8388607)
- 1458 compressed objects within 15 object streams
- 258 named destinations out of 1000 (max. 500000)
+ 1571 PDF objects out of 1728 (max. 8388607)
+ 1444 compressed objects within 15 object streams
+ 253 named destinations out of 1000 (max. 500000)
  13421 words of extra memory for PDF output out of 14400 (max. 10000000)
 

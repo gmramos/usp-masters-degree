@@ -17,54 +17,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--campo year vazio ou faltando em ClassPath
-Warning--campo year vazio ou faltando em Evosuite
-Warning--campo year vazio ou faltando em Junit
-Warning--campo year vazio ou faltando em Mockito
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 66 entries,
+You've used 62 entries,
             6714 wiz_defined-function locations,
-            1648 strings with 22061 characters,
-and the built_in function-call counts, 83431 in all, are:
-= -- 8596
+            1630 strings with 21721 characters,
+and the built_in function-call counts, 79542 in all, are:
+= -- 7996
 > -- 2251
 < -- 1234
-+ -- 2121
++ -- 2028
 - -- 668
-* -- 5699
-:= -- 10187
-add.period$ -- 311
-call.type$ -- 67
-change.case$ -- 767
-chr.to.int$ -- 134
-cite$ -- 67
-duplicate$ -- 6244
-empty$ -- 4593
+* -- 5534
+:= -- 9736
+add.period$ -- 299
+call.type$ -- 63
+change.case$ -- 739
+chr.to.int$ -- 130
+cite$ -- 59
+duplicate$ -- 6140
+empty$ -- 4349
 format.name$ -- 3268
-if$ -- 18690
+if$ -- 17564
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 1218
-newline$ -- 329
+missing$ -- 1154
+newline$ -- 309
 num.names$ -- 299
-pop$ -- 1451
+pop$ -- 1359
 preamble$ -- 1
-purify$ -- 271
+purify$ -- 259
 quote$ -- 0
-skip$ -- 7011
+skip$ -- 6445
 stack$ -- 1
-substring$ -- 3433
-swap$ -- 2714
+substring$ -- 3300
+swap$ -- 2678
 text.length$ -- 113
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
-warning$ -- 4
-while$ -- 495
+type$ -- 31
+warning$ -- 0
+while$ -- 487
 width$ -- 0
-write$ -- 1097
-(There were 4 warnings)
+write$ -- 1045
